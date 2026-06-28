@@ -1,0 +1,14 @@
+{
+  "id": "dnd55e-compendium",
+  "name": "D&D 5.5e Compendium",
+  "version": "0.1.0",
+  "apiVersion": 1,
+  "hostVersion": ">=1.0.0",
+  "entry": "entry.js",
+  "permissions": [
+    "ui:route",
+    "ui:sidebar"
+  ],
+  "tests": { "client": "tests/smoke.mjs" },
+  "summary": "All D&D 5.5e content (declarative mechanics + prose) plus browse pages. Provides a pure data API consumed by the rules engine; useful standalone as a rulebook browser."
+}
