@@ -187,14 +187,29 @@ export default function register(host) {
 
   function section({ kind, labelKey }) {
     const items = listKind(kind);
-    const rows = items.length
-      ? items.map((r) => `<li style="margin:0"><a href="#/compendium/${esc(kind)}:${esc(r.id)}">${esc(r.name || t('misc.unnamed'))}</a>${sublabel(r)}</li>`).join('')
-      : `<li style="color:var(--text-muted);list-style:none">${esc(_loaded ? t('misc.empty') : t('misc.loading'))}</li>`;
-    return `
-      <div style="margin-top:var(--space-4)">
-        <div style="font-size:var(--text-xs);color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em">${esc(t(labelKey))}</div>
-        <ul style="margin-top:var(--space-2);line-height:1.9;list-style:none;padding-left:0">${rows}</ul>
-      </div>`;
+    const count = items.length
+      ? `<span style="color:var(--text-muted);font-size:var(--text-xs);background:var(--bg-raised);border-radius:var(--radius-pill);padding:0 var(--space-2)">${esc(String(items.length))}</span>`
+      : '';
+    const body = items.length
+      ? `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(13rem,1fr));gap:var(--space-1)">${items.map(itemLink).join('')}</div>`
+      : `<div style="color:var(--text-muted);font-size:var(--text-sm)">${esc(_loaded ? t('misc.empty') : t('misc.loading'))}</div>`;
+    return cardSection(t(labelKey), body, count);
+  }
+
+  // A compendium browse link — name + muted sublabel, as a bordered chip.
+  function itemLink(r) {
+    return `<a href="#/compendium/${esc(r.kind)}:${esc(r.id)}" style="display:flex;align-items:baseline;gap:var(--space-1);padding:var(--space-1) var(--space-2);border:1px solid var(--border-subtle);border-radius:var(--radius-sm);color:var(--text-light);text-decoration:none">
+      <span style="color:var(--text-parchment)">${esc(r.name || t('misc.unnamed'))}</span>${sublabel(r)}</a>`;
+  }
+
+  // A titled card (gold tick + label + optional right) — the shared browse shell.
+  function cardSection(title, body, right) {
+    return `<section style="background:var(--bg-surface);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:var(--space-3) var(--space-4);margin-top:var(--space-4)">
+      <div style="display:flex;align-items:center;gap:var(--space-2);margin-bottom:var(--space-3);padding-bottom:var(--space-1);border-bottom:1px solid var(--border-subtle)">
+        <span style="width:3px;height:.9rem;border-radius:var(--radius-pill);background:var(--accent-gold);flex:none"></span>
+        <span style="font-size:var(--text-sm);font-weight:600;color:var(--text-light);letter-spacing:.04em;text-transform:uppercase">${esc(title)}</span>
+        ${right ? `<span style="margin-left:auto">${right}</span>` : ''}
+      </div>${body}</section>`;
   }
 
   // A muted hint after each browse link.
@@ -244,8 +259,8 @@ export default function register(host) {
     // `raw: true` (the two genuine-HTML cases — cross-links). New metaFor entries
     // need no escaping discipline; only an explicit `raw` opts out.
     const metaHtml = meta.length
-      ? `<div style="display:flex;flex-wrap:wrap;gap:var(--space-3) var(--space-4);margin:var(--space-3) 0">${meta.map((m) => `
-          <div><div style="color:var(--text-muted);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.05em">${esc(m.label)}</div>
+      ? `<div style="background:var(--bg-surface);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:var(--space-3) var(--space-4);margin:var(--space-3) 0;display:flex;flex-wrap:wrap;gap:var(--space-3) var(--space-5)">${meta.map((m) => `
+          <div style="min-width:8rem"><div style="color:var(--text-muted);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px">${esc(m.label)}</div>
           <div style="color:var(--text-parchment)">${m.raw ? m.value : esc(m.value)}</div></div>`).join('')}</div>`
       : '';
     return `
