@@ -1,0 +1,33 @@
+{
+  "id": "beastmaster",
+  "kind": "subclass",
+  "name": "Beastmaster",
+  "classId": "ranger",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "primal-companion",
+      "name": "Primal Companion"
+    },
+    {
+      "level": 7,
+      "id": "exceptional-training",
+      "name": "Exceptional Training"
+    },
+    {
+      "level": 11,
+      "id": "bestial-fury",
+      "name": "Bestial Fury"
+    },
+    {
+      "level": 15,
+      "id": "share-spells",
+      "name": "Share Spells"
+    }
+  ],
+  "grants": {},
+  "text": "*Bond with a Primal Beast*\n\nA Beast Master forms a mystical bond with a special animal, drawing on primal magic and a deep connection to the natural world.\n\n### Level 3: Primal Companion\n\nYou magically summon a primal beast, which draws strength from your bond with nature. Choose its stat block: **Beast of the Land**, **Beast of the Sea** or **Beast of the Sky**. You also determine the kind of animal it is, choosing a kind appropriate for the stat block. Whatever beast you choose, it bears primal markings indicating its supernatural origin.\n\n**The Beast in Combat.** In Combat, the beast acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Beast's Strike action. If you have the Incapacitated condition, the beast acts on its own and isn't limited to the dodge action.\n\n**Restoring or Replacing the Beast.** If the beast has died within the last hour, you can take a Magic action to touch it and expend a spell slot. The beast returns to life after 1 minute with all its Hit Points restored.\n\nWhenever you finish a Long Rest, you can summon a different primal beast, which appears in an unoccupied space within 5 feet of you. You choose its stat block and appearance. If you already have a beast from this feature, the old one vanishes when the new one appears.\n\n### Beast of the Land\n\n|\n Beast of the Land |\n\n|\n *Medium Beast, Neutral* |\n\n|\n **Armor Class:** 13 plus your Wisdom modifier |\n\n|\n **Hit Points:** 5 + five times your ranger level (the beast has a number of hit dice [d8s] equal to your ranger level) |\n\n|\n **Speed:** 40 ft., Climb 40 ft |\n\n|\n STR (Mod/Save) |\n DEX (Mod/Save) |\n CON (Mod/Save) |\n INT (Mod/Save) |\n WIS (Mod/Save) |\n CHA (Mod/Save) |\n\n|\n 14 (+2/+2) |\n 14 (+2/+2) |\n 15 (+2/+2) |\n 8 (−1/-1) |\n 14 (+2/+2) |\n 11 (+0/+0) |\n\n|\n **Senses:** Darkvision 60 ft., Passive Perception 12 |\n\n|\n **Languages:** Understands the languages that you know |\n\n|\n **Challenge Rating:** None (XP 0; PB equals your Proficiency Bonus) |\n\n|\n Traits |\n\n|\n **Primal Bond.** Add your Proficiency Bonus to any ability check or saving throw the beast makes. |\n\n|\n Actions |\n\n|\n **Beast's Strike.** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 2 plus your Wisdom modifier Bludgeoning, Piercing, or Slashing damage (Your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the Prone condition if it is a Large or smaller creature. |\n\n### Beast of the Sky\n\n|\n Beast of the Sky |\n\n|\n *Small Beast, Neutral* |\n\n|\n **Armor Class:** 13 plus your Wisdom modifier |\n\n|\n **Hit Points:** 4 + four times your ranger level (the beast has a number of hit dice [d6s] equal to your ranger level) |\n\n|\n **Speed:** 10 ft., Fly 60 ft |\n\n|\n STR (Mod/Save) |\n DEX (Mod/Save) |\n CON (Mod/Save) |\n INT (Mod/Save) |\n WIS (Mod/Save) |\n CHA (Mod/Save) |\n\n|\n 6 (-2/-2) |\n 16 (+3/+3) |\n 13 (+1/+1) |\n 8 (−1/-1) |\n 14 (+2/+2) |\n 11 (+0/+0) |\n\n|\n **Senses:** Darkvision 60 ft., Passive Perception 12 |\n\n|\n **Languages:** Understands the languages that you know |\n\n|\n **Challenge Rating:** None (XP 0; PB equals your Proficiency Bonus) |\n\n|\n Traits |\n\n|\n **Flyby.** The beast doesn't provoke Opportunity Attacks when it flies out of an enemy's reach. |\n\n|\n **Primal Bond.** Add your Proficiency Bonus to any ability check or saving throw the beast makes. |\n\n|\n Actions |\n\n|\n **Beast's Strike.** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d4 + 3 plus your Wisdom modifier Slashing damage. |\n\n### Beast of the Sea\n\n|\n Beast of the Sea |\n\n|\n *Medium Beast, Neutral* |\n\n|\n **Armor Class:** 13 plus your Wisdom modifier |\n\n|\n **Hit Points:** 5 + five times your ranger level (the beast has a number of hit dice [d8s] equal to your ranger level) |\n\n|\n **Speed:** 5 ft., Swim 60 ft |\n\n|\n STR (Mod/Save) |\n DEX (Mod/Save) |\n CON (Mod/Save) |\n INT (Mod/Save) |\n WIS (Mod/Save) |\n CHA (Mod/Save) |\n\n|\n 14 (+2/+2) |\n 14 (+2/+2) |\n 15 (+2/+2) |\n 8 (−1/-1) |\n 14 (+2/+2) |\n 11 (+0/+0) |\n\n|\n **Senses:** Darkvision 90 ft., Passive Perception 12 |\n\n|\n **Languages:** Understands the languages that you know |\n\n|\n **Challenge Rating:** None (XP 0; PB equals your Proficiency Bonus) |\n\n|\n Traits |\n\n|\n **Amphibious.** The beast can breathe air and water |\n\n|\n **Primal Bond.** Add your Proficiency Bonus to any ability check or saving throw the beast makes. |\n\n|\n Actions |\n\n|\n **Beast's Strike.** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage (Your choice when you summon the beast), and the target has the Grappled condition (escape DC equals your spell save DC). |\n\n### Level 7: Exceptional Training\n\nWhen you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the Dash, Disengage, Dodge, or Help action using its Bonus Action.\n\nIn addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type.\n\n### Level 11: Bestial Fury\n\nWhen you command your Primal Companion beast to take the Beast's Strike action, the beast can use it twice.\n\nIn addition, the first time each turn it hits a creature under the effect of your Hunter's Mark spell, the beast deals extra Force damage equal to the bonus damage of that spell.\n\n### Level 15: Share Spells\n\nWhen you cast a spell targeting yourself, you can also affect your Primal Companion beast with the spell if the beast is within 30 feet of you."
+}

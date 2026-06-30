@@ -1,0 +1,231 @@
+{
+  "id": "bard",
+  "kind": "class",
+  "name": "Bard",
+  "edition": "2024",
+  "hitDie": "d8",
+  "primaryAbility": [
+    "CHA"
+  ],
+  "savingThrows": [
+    "DEX",
+    "CHA"
+  ],
+  "startingProficiencies": {
+    "armor": [
+      "light"
+    ],
+    "weapons": [
+      "simple"
+    ],
+    "tools": [
+      "3 Musical Instruments"
+    ],
+    "skills": {
+      "choose": 3,
+      "from": [
+        "any"
+      ]
+    }
+  },
+  "multiclassProficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": []
+  },
+  "weaponMastery": {
+    "count": 0
+  },
+  "subclassLevel": 3,
+  "spellcasting": {
+    "ability": "CHA",
+    "type": "full",
+    "prepares": "list",
+    "prepared": false,
+    "ritual": true,
+    "startLevel": 1,
+    "preparedFormula": "CHA + level"
+  },
+  "acFormulas": [],
+  "classResources": [],
+  "progression": [
+    {
+      "level": 1,
+      "features": [
+        "Bardic Inspiration",
+        "Spellcasting"
+      ],
+      "cantripsKnown": 2,
+      "preparedSpells": 4
+    },
+    {
+      "level": 2,
+      "features": [
+        "Expertise"
+      ],
+      "cantripsKnown": 2,
+      "preparedSpells": 5
+    },
+    {
+      "level": 3,
+      "features": [
+        "Bard Subclass"
+      ],
+      "cantripsKnown": 2,
+      "preparedSpells": 6
+    },
+    {
+      "level": 4,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "cantripsKnown": 3,
+      "preparedSpells": 7
+    },
+    {
+      "level": 5,
+      "features": [
+        "Font of Inspiration",
+        "Jack of All Trades"
+      ],
+      "cantripsKnown": 3,
+      "preparedSpells": 9
+    },
+    {
+      "level": 6,
+      "features": [
+        "Subclass Feature"
+      ],
+      "cantripsKnown": 3,
+      "preparedSpells": 10
+    },
+    {
+      "level": 7,
+      "features": [
+        "Countercharm"
+      ],
+      "cantripsKnown": 3,
+      "preparedSpells": 11
+    },
+    {
+      "level": 8,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "cantripsKnown": 3,
+      "preparedSpells": 12
+    },
+    {
+      "level": 9,
+      "features": [
+        "Expertise"
+      ],
+      "cantripsKnown": 3,
+      "preparedSpells": 14
+    },
+    {
+      "level": 10,
+      "features": [
+        "Magical Secrets"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 15
+    },
+    {
+      "level": 11,
+      "features": [],
+      "cantripsKnown": 4,
+      "preparedSpells": 16
+    },
+    {
+      "level": 12,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 16
+    },
+    {
+      "level": 13,
+      "features": [],
+      "cantripsKnown": 4,
+      "preparedSpells": 17
+    },
+    {
+      "level": 14,
+      "features": [
+        "Subclass Feature"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 17
+    },
+    {
+      "level": 15,
+      "features": [],
+      "cantripsKnown": 4,
+      "preparedSpells": 18
+    },
+    {
+      "level": 16,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 18
+    },
+    {
+      "level": 17,
+      "features": [],
+      "cantripsKnown": 4,
+      "preparedSpells": 19
+    },
+    {
+      "level": 18,
+      "features": [
+        "Superior Inspiration"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 20
+    },
+    {
+      "level": 19,
+      "features": [
+        "Epic Boon"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 21
+    },
+    {
+      "level": 20,
+      "features": [
+        "Words of Creation"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 22
+    }
+  ],
+  "multiclassRequirements": {
+    "CHA": 13
+  },
+  "management": [
+    {
+      "id": "prepared",
+      "label": "Prepared Spells",
+      "type": "spell_preparation",
+      "source": "class_spell_list",
+      "max_formula": "CHA + level",
+      "changeable_on": "long_rest"
+    }
+  ],
+  "grants": {
+    "choices": [
+      {
+        "id": "skills:bard",
+        "source": "bard:1",
+        "type": "skills",
+        "count": 3
+      }
+    ]
+  },
+  "text": "Whether chanting on a battlefield or romancing a noble, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and heal wounds. Bards are masters of influence and insight, capable of turning the tide of battle with a song or speech.\n\n### Level 1: Bardic Inspiration\n\nYou can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.\n\nAs a Bonus Action, you can choose another creature within 60 feet of you who can hear or see you. That creature gains one Bardic Inspiration die, which lasts for 1 hour. Once within that hour, the creature can roll the die and add the number rolled to a d20 Test. The creature can wait until after rolling the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), but you can give a Bardic Inspiration die to a particular creature only once per turn. You regain all expended uses when you finish a Long Rest.\n\nYour Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.\n\n### Level 1: Spellcasting\n\nYou have learned to cast spells by channeling the arcane magic of creation.\n\n**Prepared Spells.** You prepare the list of Bard spells that you don't have prepared.\n\n### Level 2: Expertise\n\nChoose two of your Skill Proficiencies. You gain Expertise in the chosen skills.\n\n### Level 3: Bard Subclass\n\nYou choose a Bard College that you strive to emulate, such as the College of Dance, College of Glamour, College of Lore, or College of Valor.\n\n### Level 4: Ability Score Improvement\n\nYou gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8, 12, and 16.\n\n### Level 5: Font of Inspiration\n\nYou regain all of your expended uses of Bardic Inspiration when you finish a Short Rest or a Long Rest.\n\nIn addition, you can expend a spell slot to regain one use of Bardic Inspiration (no action required).\n\n### Level 5: Jack of All Trades\n\nYou can add half your Proficiency Bonus (rounded down) to any Ability Check you make that doesn’t already include your Proficiency Bonus.\n\n### Level 7: Countercharm\n\nYou can disrupt mind-influencing effects. If you or a creature within 30 feet of you fails a saving throw against an effect that applies the Charmed or Frightened condition, you can use your Reaction to cause a reroll of the saving throw. The creature must use the new result.\n\n### Level 10: Magical Secrets\n\nYou have collected magical knowledge from a wide spectrum of disciplines. Whenever you prepare spells for this class, you can choose spells from the Bard, Cleric, Druid, and Wizard spell lists.\n\n### Level 18: Superior Inspiration\n\nWhen you roll Initiative, you regain expended uses of Bardic Inspiration until you have two uses.\n\n### Level 20: Words of Creation\n\nYou have mastered two of the Words of Creation: the Word of Life and the Word of Death. You always have the *Power Word Heal* and *Power Word Kill* spells prepared.\n\nWhen you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target."
+}

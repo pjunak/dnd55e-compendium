@@ -1,0 +1,38 @@
+{
+  "id": "steam_mephit",
+  "kind": "monster",
+  "name": "Steam Mephit",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Elemental",
+  "size": "Small",
+  "type": "Small Elemental",
+  "alignment": "Neutral Evil",
+  "ac": "10",
+  "hp": "17 (5d6)",
+  "speed": "30 ft., Fly 30 ft.",
+  "stats": {
+    "STR": 5,
+    "DEX": 11,
+    "CON": 10,
+    "INT": 11,
+    "WIS": 10,
+    "CHA": 12
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Fire, Poison; Exhaustion, Poisoned"
+    },
+    {
+      "name": "Blurred Form",
+      "text": "Attack rolls against the mephit are made with Disadvantage unless the mephit has the Incapacitated condition."
+    },
+    {
+      "name": "Death Burst",
+      "text": "The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Fire damage. Success: Half damage."
+    }
+  ],
+  "text": "# Steam Mephit\n\n*Small Elemental, Neutral Evil*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Slashing damage plus 2 (1d4) Fire damage.\n\n**Steam Breath (Recharge 6).** Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 5 (2d4) Fire damage, and the target’s Speed decreases by 10 feet until the end of the mephit’s next turn. Success: Half damage only. Failure or Success: Being underwater doesn’t grant Resistance to this Fire damage."
+}

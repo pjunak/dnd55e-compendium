@@ -1,0 +1,27 @@
+{
+  "id": "lesser-restoration",
+  "kind": "spell",
+  "name": "Lesser Restoration",
+  "edition": "2024",
+  "level": 2,
+  "school": "Abjuration",
+  "classes": [
+    "artificer",
+    "bard",
+    "cleric",
+    "druid",
+    "paladin",
+    "ranger"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Bonus Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Lesser Restoration\n*2nd-Level Abjuration (Artificer, Bard, Cleric, Druid, Paladin, Ranger)*\n**Casting Time:** Bonus Action\n**Range:** Touch\n**Components:** V, S\n**Duration:** Instantaneous\n\nYou touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned."
+}

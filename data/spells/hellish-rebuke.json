@@ -1,0 +1,22 @@
+{
+  "id": "hellish-rebuke",
+  "kind": "spell",
+  "name": "Hellish Rebuke",
+  "edition": "2024",
+  "level": 1,
+  "school": "Evocation",
+  "classes": [
+    "warlock"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Reaction, which you take in response to taking damage from a creature that you can see within 60 feet of yourself",
+  "range": "60 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Hellish Rebuke\n*1st-Level Evocation (Warlock)*\n**Casting Time:** Reaction, which you take in response to taking damage from a creature that you can see within 60 feet of yourself\n**Range:** 60 feet\n**Components:** V, S\n**Duration:** Instantaneous\n\nThe creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking 2d10 Fire damage on a failed save or half as much damage on a successful one.\n\n**Using a Higher-Level Spell Slot.** The damage increases by 1d10 for each spell slot level above 1."
+}

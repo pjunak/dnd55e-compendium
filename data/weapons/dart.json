@@ -1,0 +1,24 @@
+{
+  "id": "dart",
+  "kind": "weapon",
+  "name": "Dart",
+  "edition": "2024",
+  "category": "simple",
+  "range": "ranged",
+  "damage": "1d4",
+  "damageType": "piercing",
+  "properties": [
+    "finesse",
+    "thrown"
+  ],
+  "versatileDamage": null,
+  "thrownRange": {
+    "normal": 20,
+    "long": 60
+  },
+  "rangeNormalLong": null,
+  "mastery": "Vex",
+  "weight": "1/4 lb.",
+  "cost": "5 CP",
+  "text": "# Dart\n\n*Weapon, Simple Ranged Weapons*\n\n**Damage:** 1d4 Piercing\n**Properties:** Finesse,Thrown(Range 20/60)\n**Mastery:** Vex\n**Weight:** 1/4 lb.\n**Cost:** 5 CP"
+}

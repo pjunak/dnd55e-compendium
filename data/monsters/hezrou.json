@@ -1,0 +1,25 @@
+{
+  "id": "hezrou",
+  "kind": "monster",
+  "name": "Hezrou",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "Giant",
+  "size": "Huge",
+  "type": "Huge Giant",
+  "alignment": "Chaotic Evil",
+  "ac": "13",
+  "hp": "105 (10d12 + 40)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 21,
+    "DEX": 8,
+    "CON": 19,
+    "INT": 5,
+    "WIS": 9,
+    "CHA": 6
+  },
+  "traits": [],
+  "text": "# Hezrou\n\n*Huge Giant, Chaotic Evil*\n\n### Actions\n\n**Tree Club.** Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.\n\n**Trash Lob.** Ranged Attack Roll: +8, range 60/240 ft. Hit: 16 (2d10 + 5) Bludgeoning damage, and the target has the Poisoned condition until the end of its next turn."
+}

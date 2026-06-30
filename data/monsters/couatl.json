@@ -1,0 +1,38 @@
+{
+  "id": "couatl",
+  "kind": "monster",
+  "name": "Couatl",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Swarm of Tiny Undead",
+  "size": "Medium",
+  "type": "Medium Swarm of Tiny Undead",
+  "alignment": "Neutral Evil",
+  "ac": "12",
+  "hp": "49 (11d8)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 14,
+    "DEX": 14,
+    "CON": 11,
+    "INT": 5,
+    "WIS": 10,
+    "CHA": 4
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Bludgeoning, Piercing, Slashing"
+    },
+    {
+      "name": "Immunities",
+      "text": "Necrotic, Poison; Charmed, Exhaustion, Frightened, Grappled, Incapacitated, Paralyzed, Petrified, Poisoned, Prone, Restrained, Stunned"
+    },
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny creature. The swarm can’t regain Hit Points or gain Temporary Hit Points."
+    }
+  ],
+  "text": "# Couatl\n\n*Medium Swarm of Tiny Undead, Neutral Evil*\n\n### Actions\n\n**Swarm of Grasping Hands.** Melee Attack Roll: +4, reach 5 ft. Hit: 20 (4d8 + 2) Necrotic damage, or 11 (2d8 + 2) Necrotic damage if the swarm is Bloodied. If the target is a Medium or smaller creature, it has the Prone condition."
+}

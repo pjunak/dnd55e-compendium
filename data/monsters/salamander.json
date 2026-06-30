@@ -1,0 +1,30 @@
+{
+  "id": "salamander",
+  "kind": "monster",
+  "name": "Salamander",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Fey",
+  "size": "Medium",
+  "type": "Medium Fey",
+  "alignment": "Chaotic Neutral",
+  "ac": "13",
+  "hp": "31 (7d8)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 12,
+    "DEX": 16,
+    "CON": 11,
+    "INT": 12,
+    "WIS": 10,
+    "CHA": 14
+  },
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The satyr has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Salamander\n\n*Medium Fey, Chaotic Neutral*\n\n### Actions\n\n**Hooves.** Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the satyr pushes the target up to 10 feet straight away from itself.\n\n**Mockery.** Wisdom Saving Throw: DC 12, one creature the satyr can see within 90 feet. Failure: 5 (1d6 + 2) Psychic damage."
+}

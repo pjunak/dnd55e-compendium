@@ -6,12 +6,21 @@
 //      enumerate content for dropdowns + look an item up by id or name.
 //   2. Browse pages (a rulebook reader) — useful on its own, no dependency.
 //
-//  Content is bundled static data shipped with the addon (data/<kind>.js,
-//  aggregated by data/index.js — see data/SCHEMA.md for the record shapes). It
-//  is NOT a host collection: read-only reference data sidesteps cross-addon
-//  collection isolation entirely. This seed is REPRESENTATIVE (exercises the
-//  hard rules cases); the full set drops into the same files via the
-//  Living-scroll migration with no downstream change.
+//  DATA LOADING. Content is a per-record JSON tree (data/<kind>/<id>.json, see
+//  data/SCHEMA.md) that the addon's SERVER half (server/index.cjs) reads off
+//  disk and serves at /api/addon/dnd55e-compendium/content. This client lazily
+//  fetches that aggregate ONCE on first access (never at register time —
+//  register() must stay side-effect-free), caches it in `_data`, then calls
+//  host.ui.rerender() so anything drawn before the data landed refreshes.
+//  Until it lands, every getter returns an empty list and the browse pages show
+//  a "loading…" state — the engine already never throws on empty input (the
+//  sheet falls back to hand-fill), and the rerender fills it all in.
+//
+//  WHY a server module (not bundled JS data): a JSON tree gives true dynamic
+//  discovery (drop a file → it's live next server load), human-navigable
+//  reviewable records, and lets us delete all migration/codegen tooling. The
+//  trade-off is that the server code activates on a server RESTART (and needs
+//  the `server:code` grant) — see README.md.
 //
 //  Localization: record display fields (name/text) are English in the base
 //  data; `localize()` is the single seam where per-locale overlay catalogs
@@ -22,10 +31,56 @@
 // ═══════════════════════════════════════════════════════════════
 
 import { t, activeLocale } from './i18n.js';
-import { BY_KIND, ALL, BROWSE_KINDS } from './data/index.js';
+
+// The addon's own server endpoint (mounted by server/index.cjs under the
+// namespaced prefix). Same-origin — no permission needed to fetch it.
+const CONTENT_URL = '/api/addon/dnd55e-compendium/content';
+
+// Kinds shown on the browse index, in display order (skills are reference data,
+// not browsed as articles). Each entry: { kind, labelKey }. Was previously in
+// the deleted data/index.js; inlined here now that there's no aggregator module.
+const BROWSE_KINDS = [
+  { kind: 'class', labelKey: 'kind.classes' },
+  { kind: 'subclass', labelKey: 'kind.subclasses' },
+  { kind: 'species', labelKey: 'kind.species' },
+  { kind: 'background', labelKey: 'kind.backgrounds' },
+  { kind: 'feat', labelKey: 'kind.feats' },
+  { kind: 'spell', labelKey: 'kind.spells' },
+  { kind: 'armor', labelKey: 'kind.armor' },
+  { kind: 'weapon', labelKey: 'kind.weapons' },
+  { kind: 'monster', labelKey: 'kind.monsters' },
+  { kind: 'rule', labelKey: 'kind.rules' },
+];
 
 export default function register(host) {
   const { esc, renderMarkdown } = host.h;
+
+  // ── Content cache + lazy load ────────────────────────────────────
+  // `_data` is `{ <kind>: [full records] }`, populated once from the server.
+  // The full record (structured fields + prose) arrives together — there's no
+  // meta/detail split anymore, so `recordsOf` is a plain cache read.
+  let _data = {};            // kind → record[]  (empty until loaded)
+  let _loaded = false;       // resolved successfully at least once
+  let _loading = null;       // in-flight promise guard (also the loadDetail await)
+
+  // Kick off the one-time fetch. Returns a promise that resolves when `_data`
+  // is populated (or on failure, so awaiters never hang). On success, re-render
+  // the current route so pre-load renders refresh.
+  const _ensureLoaded = () => {
+    if (_loaded) return Promise.resolve();
+    if (_loading) return _loading;
+    _loading = fetch(CONTENT_URL)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status))))
+      .then((data) => {
+        _data = (data && typeof data === 'object') ? data : {};
+        _loaded = true;
+        // Refresh whatever rendered before the data was here.
+        try { host.ui.rerender(); } catch (_) {}
+      })
+      .catch(() => { /* leave _data empty — getters degrade to []; pages show loading */ })
+      .then(() => { _loading = null; });
+    return _loading;
+  };
 
   // ── Localization seam (the ONLY place content is localized) ──────
   const OVERLAYS = {}; // e.g. { cs: { 'wizard.name': '…', 'wizard.text': '…' } }
@@ -38,7 +93,9 @@ export default function register(host) {
   };
 
   // ── Lookups ──────────────────────────────────────────────────────
-  const recordsOf = (kind) => BY_KIND[kind] || [];
+  // Every accessor kicks the lazy load (idempotent) and reads the cache. Before
+  // the fetch resolves they return empty / null; the rerender-on-load refreshes.
+  const recordsOf = (kind) => { _ensureLoaded(); return _data[kind] || []; };
   /** A lightweight projection for dropdowns — id + name + the few fields a
    *  consumer needs to filter/label without pulling the whole record. */
   const slim = (rec) => {
@@ -69,6 +126,9 @@ export default function register(host) {
   };
 
   // ── Data API (consumed by dnd55e-core-rules via host.use) ────────
+  // SHAPE IS STABLE — dnd55e-core-rules + the sheet consume this unchanged.
+  // `loadDetail` is preserved for back-compat: prose used to load lazily per
+  // kind, now the full records arrive together, so it just awaits the one fetch.
   host.provide({
     apiVersion: 1,
     listClasses:     () => listKind('class'),
@@ -94,7 +154,8 @@ export default function register(host) {
     getItem,
     getItemByName,
     getRecords:      (kind) => recordsOf(kind).map(localize),  // full localized records for a kind
-    kinds:           () => Object.keys(BY_KIND),
+    kinds:           () => Object.keys(_data),
+    loadDetail:      () => _ensureLoaded(),  // back-compat: await the one content fetch
   });
 
   // ── Browse UI ────────────────────────────────────────────────────
@@ -104,7 +165,9 @@ export default function register(host) {
   // [[Label|<kind>]] wiki-links resolve into the compendium detail page. The
   // returned `kind:'compendium'` is the ROUTE; `id` is our "<kind>:<id>" detail
   // param. Additive fallthrough — tried only after every built-in collection
-  // misses, so it never shadows a world entity of the same name.
+  // misses, so it never shadows a world entity of the same name. Resolves by
+  // NAME → real id (per the wiki-kind contract). Returns null until content
+  // loads (the resolver fires the lazy load via getItemByName → recordsOf).
   for (const { kind } of BROWSE_KINDS) {
     host.registerWikiKind(kind, (label) => {
       const r = getItemByName(kind, label);
@@ -113,10 +176,12 @@ export default function register(host) {
   }
 
   function renderIndex() {
+    _ensureLoaded();
     return `
       <div class="page-header"><h1>📚 ${esc(t('page.title'))}</h1></div>
       <p style="color:var(--text-muted);max-width:42rem">${esc(t('page.intro'))}</p>
       <p style="color:var(--text-muted);font-size:var(--text-sm)">${esc(t('misc.seedNote'))}</p>
+      ${!_loaded ? `<p style="color:var(--text-muted)">${esc(t('misc.loading'))}</p>` : ''}
       ${BROWSE_KINDS.map(section).join('')}`;
   }
 
@@ -124,7 +189,7 @@ export default function register(host) {
     const items = listKind(kind);
     const rows = items.length
       ? items.map((r) => `<li style="margin:0"><a href="#/compendium/${esc(kind)}:${esc(r.id)}">${esc(r.name || t('misc.unnamed'))}</a>${sublabel(r)}</li>`).join('')
-      : `<li style="color:var(--text-muted);list-style:none">${esc(t('misc.empty'))}</li>`;
+      : `<li style="color:var(--text-muted);list-style:none">${esc(_loaded ? t('misc.empty') : t('misc.loading'))}</li>`;
     return `
       <div style="margin-top:var(--space-4)">
         <div style="font-size:var(--text-xs);color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em">${esc(t(labelKey))}</div>
@@ -147,21 +212,41 @@ export default function register(host) {
     return s ? ` <span style="color:var(--text-muted);font-size:var(--text-xs)">· ${esc(s)}</span>` : '';
   }
 
+  // Shown for the frame(s) between a detail click and the content arriving.
+  function loadingItem(meta) {
+    return `
+      <div class="page-header">
+        <a href="#/compendium" style="color:var(--text-muted)">← ${esc(t('misc.back'))}</a>
+        <h1>${esc((meta && meta.name) || t('misc.loading'))}</h1>
+      </div>
+      <p style="color:var(--text-muted)">${esc(t('misc.loading'))}</p>`;
+  }
+
   function renderItem(param) {
-    // `param` is "<kind>:<id>" (legacy bare "<id>" → search across all kinds).
+    // `param` is always "<kind>:<id>" — both browse links and wiki-resolve emit
+    // the kind prefix, and ids are unique only WITHIN a kind (see data/SCHEMA.md),
+    // so a bare-id lookup across the flat ALL would resolve cross-kind collisions
+    // (e.g. spell:shield vs armor:shield) arbitrarily by insertion order. We
+    // require the prefix instead of guessing.
     let kind = '', id = String(param);
     const ci = id.indexOf(':');
     if (ci >= 0) { kind = id.slice(0, ci); id = id.slice(ci + 1); }
-    const rec = localize(kind ? recordsOf(kind).find((x) => x.id === id) : ALL.find((x) => x.id === id));
+    // Until the content fetch lands, show a brief loading state; the
+    // host.ui.rerender() on load re-renders this page with the full record.
+    if (!_loaded) { _ensureLoaded(); return loadingItem(null); }
+    const rec = kind ? localize(recordsOf(kind).find((x) => x.id === id)) : null;
     if (!rec) {
       return `<div class="page-header"><h1>${esc(t('misc.notFound'))}</h1></div>
         <p><a href="#/compendium">← ${esc(t('misc.back'))}</a></p>`;
     }
     const meta = metaFor(rec);
+    // SAFE BY DEFAULT: esc() every meta value here unless the producer flagged it
+    // `raw: true` (the two genuine-HTML cases — cross-links). New metaFor entries
+    // need no escaping discipline; only an explicit `raw` opts out.
     const metaHtml = meta.length
       ? `<div style="display:flex;flex-wrap:wrap;gap:var(--space-3) var(--space-4);margin:var(--space-3) 0">${meta.map((m) => `
           <div><div style="color:var(--text-muted);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.05em">${esc(m.label)}</div>
-          <div style="color:var(--text-parchment)">${m.value}</div></div>`).join('')}</div>`
+          <div style="color:var(--text-parchment)">${m.raw ? m.value : esc(m.value)}</div></div>`).join('')}</div>`
       : '';
     return `
       <div class="page-header">
@@ -172,10 +257,13 @@ export default function register(host) {
       ${rec.text ? `<div class="md-view">${renderMarkdown(rec.text)}</div>` : ''}`;
   }
 
-  // Per-kind detail metadata: returns [{label, value}] where value is safe HTML.
+  // Per-kind detail metadata: returns [{label, value, raw?}]. `renderItem` esc()s
+  // every value BY DEFAULT; only entries that are genuinely HTML carry `raw: true`
+  // (the cross-link cases). `txt(...)` pushes a plain string (escaped downstream);
+  // `link(...)` returns HTML and its producers must set `raw: true`.
   function metaFor(rec) {
     const out = [];
-    const txt = (label, value) => { if (value != null && value !== '' && !(Array.isArray(value) && !value.length)) out.push({ label, value: esc(Array.isArray(value) ? value.join(', ') : String(value)) }); };
+    const txt = (label, value) => { if (value != null && value !== '' && !(Array.isArray(value) && !value.length)) out.push({ label, value: Array.isArray(value) ? value.join(', ') : String(value) }); };
     const link = (kind, id) => { const r = getItem(kind, id); return r ? `<a href="#/compendium/${esc(kind)}:${esc(id)}">${esc(r.name)}</a>` : esc(id); };
     switch (rec.kind) {
       case 'class':
@@ -186,7 +274,7 @@ export default function register(host) {
         txt(t('label.subclassLevel'), rec.subclassLevel);
         break;
       case 'subclass':
-        out.push({ label: t('kindName.class'), value: link('class', rec.classId) });
+        out.push({ label: t('kindName.class'), value: link('class', rec.classId), raw: true });
         txt(t('label.subclassLevel'), rec.subclassLevel);
         if (rec.spellcasting) txt(t('label.spellcasting'), `${rec.spellcasting.ability} · ${t('cast.' + rec.spellcasting.type)}`);
         break;
@@ -199,12 +287,16 @@ export default function register(host) {
         break;
       case 'background':
         txt(t('label.abilityScores'), rec.abilityScores);
-        if (rec.originFeat) out.push({ label: t('label.originFeat'), value: link('feat', rec.originFeat) });
+        if (rec.originFeat) out.push({ label: t('label.originFeat'), value: link('feat', rec.originFeat), raw: true });
         txt(t('label.skills'), rec.skillProficiencies);
         break;
       case 'feat':
         txt(t('label.category'), rec.category ? t('feat.' + rec.category) : '');
-        if (rec.prerequisites && rec.prerequisites.level) txt(t('label.prereq'), t('label.levelN', { n: rec.prerequisites.level }));
+        // Prerequisites are stored as { text } (migrate's frontmatter prose)
+        // or { level } (structured). Render whichever is present — the migration
+        // emits `text`, so without this branch feat prerequisites never showed.
+        if (rec.prerequisites && rec.prerequisites.text) txt(t('label.prereq'), rec.prerequisites.text);
+        else if (rec.prerequisites && rec.prerequisites.level) txt(t('label.prereq'), t('label.levelN', { n: rec.prerequisites.level }));
         if (rec.repeatable) txt(t('label.repeatable'), t('misc.yes'));
         break;
       case 'spell': {
@@ -243,8 +335,9 @@ export default function register(host) {
         const mod = (s) => { const m = Math.floor((Number(s) - 10) / 2); return (m >= 0 ? '+' : '') + m; };
         const ab = rec.stats || {};
         const abStr = ['STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA'].map((a) => `${a} ${ab[a] != null ? ab[a] : 10} (${mod(ab[a])})`).join('   ');
-        out.push({ label: t('label.abilities'), value: esc(abStr) });
-        for (const tr of rec.traits || []) if (tr.name) out.push({ label: tr.name, value: esc(tr.text) });
+        // Plain text — escaped by default in renderItem (no `raw`).
+        out.push({ label: t('label.abilities'), value: abStr });
+        for (const tr of rec.traits || []) if (tr.name) out.push({ label: tr.name, value: tr.text });
         break;
       }
       case 'rule':

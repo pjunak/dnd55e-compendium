@@ -1,0 +1,30 @@
+{
+  "id": "jackal",
+  "kind": "monster",
+  "name": "Jackal",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Beast",
+  "size": "Huge",
+  "type": "Huge Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "90 (12d12 + 12)",
+  "speed": "5 ft., Swim 60 ft.",
+  "stats": {
+    "STR": 19,
+    "DEX": 14,
+    "CON": 13,
+    "INT": 3,
+    "WIS": 12,
+    "CHA": 7
+  },
+  "traits": [
+    {
+      "name": "Hold Breath",
+      "text": "The whale can hold its breath for 30 minutes."
+    }
+  ],
+  "text": "# Jackal\n\n*Huge Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 + 4) Piercing damage."
+}

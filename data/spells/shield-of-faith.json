@@ -1,0 +1,24 @@
+{
+  "id": "shield-of-faith",
+  "kind": "spell",
+  "name": "Shield of Faith",
+  "edition": "2024",
+  "level": 1,
+  "school": "Abjuration",
+  "classes": [
+    "cleric",
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Bonus Action",
+  "range": "60 feet",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a prayer scroll",
+  "duration": "Concentration, up to 10 minutes",
+  "text": "# Shield of Faith\n*1st-Level Abjuration (Cleric, Paladin)*\n**Casting Time:** Bonus Action\n**Range:** 60 feet\n**Components:** V, S, M (a prayer scroll)\n**Duration:** Concentration, up to 10 minutes\n\nA shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration."
+}

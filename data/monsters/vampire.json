@@ -1,0 +1,62 @@
+{
+  "id": "vampire",
+  "kind": "monster",
+  "name": "Vampire",
+  "edition": "2024",
+  "cr": "13 (XP 10,000, or 11,500 in lair; PB +5)",
+  "crValue": 13,
+  "creatureType": "or Small Undead",
+  "size": "Medium",
+  "type": "Medium or Small Undead",
+  "alignment": "Lawful Evil",
+  "ac": "16",
+  "hp": "195 (23d8 + 92)",
+  "speed": "40 ft., Climb 40 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 18,
+    "CON": 18,
+    "INT": 17,
+    "WIS": 15,
+    "CHA": 18
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Necrotic"
+    },
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the vampire fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Misty Escape",
+      "text": "If the vampire drops to 0 Hit Points outside its resting place, the vampire uses Shape-Shift to become mist (no action required). If it can’t use Shape-Shift, it is destroyed."
+    },
+    {
+      "name": "Spider Climb",
+      "text": "The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Vampire Weakness",
+      "text": "The vampire has these weaknesses:"
+    },
+    {
+      "name": "Forbiddance",
+      "text": "The vampire can’t enter a residence without an invitation from an occupant."
+    },
+    {
+      "name": "Running Water",
+      "text": "The vampire takes 20 Acid damage if it ends its turn in running water."
+    },
+    {
+      "name": "Stake to the Heart",
+      "text": "If a weapon that deals Piercing damage is driven into the vampire’s heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed."
+    },
+    {
+      "name": "Sunlight",
+      "text": "The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks."
+    }
+  ],
+  "text": "# Vampire\n\n*Medium or Small Undead, Lawful Evil*\n\n### Actions\n\n**Grave Strike (Vampire Form Only).** Melee Attack Roll: +9, reach 5 ft. Hit: 8 (1d8 + 4) Bludgeoning damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two hands.\n\n**Bite (Bat or Vampire Form Only).** Constitution Saving Throw: DC 17, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. Failure: 6 (1d4 + 4) Piercing damage plus 13 (3d8) Necrotic damage. The target’s Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire’s control."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "roper",
+  "kind": "monster",
+  "name": "Roper",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Monstrosity",
+  "size": "Medium",
+  "type": "Medium Monstrosity",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "33 (6d8 + 6)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 13,
+    "DEX": 12,
+    "CON": 13,
+    "INT": 2,
+    "WIS": 13,
+    "CHA": 6
+  },
+  "traits": [
+    {
+      "name": "Iron Scent",
+      "text": "The rust monster can pinpoint the location of ferrous metal within 30 feet of itself."
+    }
+  ],
+  "text": "# Roper\n\n*Medium Monstrosity, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage.\n\n**Antennae.** The rust monster targets one nonmagical metal object—armor or a weapon—worn or carried by a creature within 5 feet of itself. Dexterity Saving Throw: DC 11, the creature with the object. Failure: The object takes a −1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches −5. The penalty can be removed by casting the Mending spell on the armor or weapon."
+}

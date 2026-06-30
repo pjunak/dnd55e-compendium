@@ -1,0 +1,27 @@
+{
+  "id": "protection-from-energy",
+  "kind": "spell",
+  "name": "Protection from Energy",
+  "edition": "2024",
+  "level": 3,
+  "school": "Abjuration",
+  "classes": [
+    "artificer",
+    "cleric",
+    "druid",
+    "ranger",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 hour",
+  "text": "# Protection from Energy\n*3rd-Level Abjuration (Artificer, Cleric, Druid, Ranger, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S\n**Duration:** Concentration, up to 1 hour\n\nFor the duration, the willing creature you touch has Resistance to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder."
+}

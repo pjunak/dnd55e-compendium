@@ -1,0 +1,11 @@
+{
+  "id": "unarmed-fighting",
+  "kind": "feat",
+  "name": "Unarmed Fighting",
+  "edition": "2024",
+  "category": "fighting_style",
+  "prerequisites": {},
+  "repeatable": false,
+  "grants": {},
+  "text": "*Prerequisite: Fighting Style Feature*\n\nWhen you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d6 plus your Strength modifier instead of the normal damage of an Unarmed Strike. If you aren't holding any weapons or a Shield when you make the attack roll, the d6 becomes a d8.\n\nAt the start of each of your turns, you can deal 1d4 Bludgeoning damage to one creature Grappled by you."
+}

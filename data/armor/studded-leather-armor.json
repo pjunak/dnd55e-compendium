@@ -1,0 +1,16 @@
+{
+  "id": "studded-leather-armor",
+  "kind": "armor",
+  "name": "Studded Leather Armor",
+  "edition": "2024",
+  "armorType": "light",
+  "baseAC": 12,
+  "dexCap": null,
+  "acBonus": 0,
+  "strReq": 0,
+  "stealthDisadvantage": false,
+  "weight": "13 lb.",
+  "cost": "45 GP",
+  "_acSource": "12 + Dex modifier",
+  "text": "# Studded Leather Armor\n\n*Armor, Light Armor (1 Minute to Don or Doff)*\n\n**AC:** 12 + Dex modifier\n**Weight:** 13 lb.\n**Cost:** 45 GP"
+}

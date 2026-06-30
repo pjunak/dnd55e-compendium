@@ -1,0 +1,25 @@
+{
+  "id": "wererat",
+  "kind": "monster",
+  "name": "Wererat",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "or Small Monstrosity (Lycanthrope)",
+  "size": "Medium",
+  "type": "Medium or Small Monstrosity (Lycanthrope)",
+  "alignment": "Neutral",
+  "ac": "12",
+  "hp": "120 (16d8 + 48)",
+  "speed": "30 ft., 40 ft. (tiger form only)",
+  "stats": {
+    "STR": 17,
+    "DEX": 15,
+    "CON": 16,
+    "INT": 10,
+    "WIS": 13,
+    "CHA": 11
+  },
+  "traits": [],
+  "text": "# Wererat\n\n*Medium or Small Monstrosity (Lycanthrope), Neutral*\n\n### Actions\n\n**Bite (Tiger or Hybrid Form Only).** Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 13. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Weretiger under the DM’s control and has 10 Hit Points. Success: The target is immune to this weretiger’s curse for 24 hours.\n\n**Scratch.** Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\n**Longbow (Humanoid or Hybrid Form Only).** Ranged Attack Roll: +4, range 150/600 ft. Hit: 11 (2d8 + 2) Piercing damage."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "horned_devil",
+  "kind": "monster",
+  "name": "Horned Devil",
+  "edition": "2024",
+  "cr": "8 (XP 3,900; PB +3)",
+  "crValue": 8,
+  "creatureType": "Monstrosity",
+  "size": "Huge",
+  "type": "Huge Monstrosity",
+  "alignment": "Unaligned",
+  "ac": "15",
+  "hp": "184 (16d12 + 80)",
+  "speed": "40 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 20,
+    "DEX": 12,
+    "CON": 20,
+    "INT": 2,
+    "WIS": 10,
+    "CHA": 7
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious"
+    },
+    {
+      "name": "Hold Breath",
+      "text": "The hydra can hold its breath for 1 hour."
+    },
+    {
+      "name": "Multiple Heads",
+      "text": "The hydra has five heads. Whenever the hydra takes 25 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken Fire damage since its last turn. The hydra regains 20 Hit Points when it grows new heads."
+    },
+    {
+      "name": "Reactive Heads",
+      "text": "For each head the hydra has beyond one, it gets an extra Reaction that can be used only for Opportunity Attacks."
+    }
+  ],
+  "text": "# Horned Devil\n\n*Huge Monstrosity, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 + 5) Piercing damage."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "red_dragon_wyrmling",
+  "kind": "monster",
+  "name": "Red Dragon Wyrmling",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "Dragon (Chromatic)",
+  "size": "Medium",
+  "type": "Medium Dragon (Chromatic)",
+  "alignment": "Chaotic Evil",
+  "ac": "17",
+  "hp": "75 (10d8 + 30)",
+  "speed": "30 ft., Climb 30 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 19,
+    "DEX": 10,
+    "CON": 17,
+    "INT": 12,
+    "WIS": 11,
+    "CHA": 15
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Fire"
+    }
+  ],
+  "text": "# Red Dragon Wyrmling\n\n*Medium Dragon (Chromatic), Chaotic Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.\n\n**Fire Breath (Recharge 5–6).** Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 24 (7d6) Fire damage. Success: Half damage."
+}

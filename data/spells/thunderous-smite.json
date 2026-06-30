@@ -1,0 +1,21 @@
+{
+  "id": "thunderous-smite",
+  "kind": "spell",
+  "name": "Thunderous Smite",
+  "edition": "2024",
+  "level": 1,
+  "school": "Evocation",
+  "classes": [
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike",
+  "range": "Self",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Thunderous Smite\n*1st-Level Evocation (Paladin)*\n**Casting Time:** Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike\n**Range:** Self\n**Components:** V\n**Duration:** Instantaneous\n\nYour strike rings with thunder that is audible within 300 feet of you, and the target takes an extra 2d6 Thunder damage from the attack. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and have the Prone condition.\n\n**Using a Higher-Level Spell Slot.** The damage increases by 1d6 for each spell slot level above 1."
+}

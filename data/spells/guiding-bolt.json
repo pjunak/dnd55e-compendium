@@ -1,0 +1,22 @@
+{
+  "id": "guiding-bolt",
+  "kind": "spell",
+  "name": "Guiding Bolt",
+  "edition": "2024",
+  "level": 1,
+  "school": "Evocation",
+  "classes": [
+    "cleric"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "1 round",
+  "text": "# Guiding Bolt\n*1st-Level Evocation (Cleric)*\n**Casting Time:** Action\n**Range:** 120 feet\n**Components:** V, S\n**Duration:** 1 round\n\nYou hurl a bolt of light toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 4d6 Radiant damage, and the next attack roll made against it before the end of your next turn has Advantage.\n\n**Using a Higher-Level Spell Slot.** The damage increases by 1d6 for each spell slot level above 1."
+}

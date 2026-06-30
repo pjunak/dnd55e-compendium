@@ -1,0 +1,25 @@
+{
+  "id": "griffon",
+  "kind": "monster",
+  "name": "Griffon",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Aberration",
+  "size": "Medium",
+  "type": "Medium Aberration",
+  "alignment": "Neutral Evil",
+  "ac": "11",
+  "hp": "11 (2d8 + 2)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 12,
+    "CON": 12,
+    "INT": 9,
+    "WIS": 8,
+    "CHA": 6
+  },
+  "traits": [],
+  "text": "# Griffon\n\n*Medium Aberration, Neutral Evil*\n\n### Actions\n\n**Bone Cudgel.** Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage."
+}

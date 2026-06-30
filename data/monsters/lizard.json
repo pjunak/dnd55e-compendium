@@ -1,0 +1,25 @@
+{
+  "id": "lizard",
+  "kind": "monster",
+  "name": "Lizard",
+  "edition": "2024",
+  "cr": "6 (XP 2,300; PB +3)",
+  "crValue": 6,
+  "creatureType": "Beast",
+  "size": "Huge",
+  "type": "Huge Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "126 (11d12 + 55)",
+  "speed": "50 ft.",
+  "stats": {
+    "STR": 24,
+    "DEX": 9,
+    "CON": 21,
+    "INT": 3,
+    "WIS": 11,
+    "CHA": 6
+  },
+  "traits": [],
+  "text": "# Lizard\n\n*Huge Beast, Unaligned*\n\n### Actions\n\n**Gore.** Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\n**Trample.** Dexterity Saving Throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29 (4d10 + 7) Bludgeoning damage. Success: Half damage."
+}

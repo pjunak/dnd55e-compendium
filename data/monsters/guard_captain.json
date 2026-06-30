@@ -1,0 +1,25 @@
+{
+  "id": "guard_captain",
+  "kind": "monster",
+  "name": "Guard Captain",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "18",
+  "hp": "75 (10d8 + 30)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 14,
+    "CON": 16,
+    "INT": 12,
+    "WIS": 14,
+    "CHA": 13
+  },
+  "traits": [],
+  "text": "# Guard Captain\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Javelin.** Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 14 (3d6 + 4) Piercing damage.\n\n**Longsword.** Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Slashing damage."
+}

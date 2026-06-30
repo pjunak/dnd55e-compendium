@@ -1,0 +1,24 @@
+{
+  "id": "flame-blade",
+  "kind": "spell",
+  "name": "Flame Blade",
+  "edition": "2024",
+  "level": 2,
+  "school": "Evocation",
+  "classes": [
+    "druid",
+    "sorcerer"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Bonus Action",
+  "range": "Self",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a sumac leaf",
+  "duration": "Concentration, up to 10 minutes",
+  "text": "# Flame Blade\n*2nd-Level Evocation (Druid, Sorcerer)*\n**Casting Time:** Bonus Action\n**Range:** Self\n**Components:** V, S, M (a sumac leaf)\n**Duration:** Concentration, up to 10 minutes\n\nYou evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke it again as a Bonus Action.\n\nAs a Magic action, you can make a melee spell attack with the fiery blade. On a hit, the target takes Fire damage equal to 3d6 plus your spellcasting ability modifier.\n\nThe flaming blade sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\n**Using a Higher-Level Spell Slot.** The damage increases by 1d6 for each spell slot level above 2."
+}

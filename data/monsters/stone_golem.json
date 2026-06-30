@@ -1,0 +1,38 @@
+{
+  "id": "stone_golem",
+  "kind": "monster",
+  "name": "Stone Golem",
+  "edition": "2024",
+  "cr": "13 (XP 10,000; PB +5)",
+  "crValue": 13,
+  "creatureType": "Giant",
+  "size": "Huge",
+  "type": "Huge Giant",
+  "alignment": "Chaotic Good",
+  "ac": "16",
+  "hp": "230 (20d12 + 100)",
+  "speed": "50 ft., Fly 25 ft. (hover), Swim 50 ft.",
+  "stats": {
+    "STR": 29,
+    "DEX": 14,
+    "CON": 20,
+    "INT": 16,
+    "WIS": 20,
+    "CHA": 18
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold"
+    },
+    {
+      "name": "Immunities",
+      "text": "Lightning, Thunder"
+    },
+    {
+      "name": "Amphibious",
+      "text": "The giant can breathe air and water."
+    }
+  ],
+  "text": "# Stone Golem\n\n*Huge Giant, Chaotic Good*\n\n### Actions\n\n**Storm Sword.** Melee Attack Roll: +14, reach 10 ft. Hit: 23 (4d6 + 9) Slashing damage plus 13 (3d8) Lightning damage.\n\n**Thunderbolt.** Ranged Attack Roll: +14, range 500 ft. Hit: 22 (2d12 + 9) Lightning damage, and the target has the Blinded and Deafened conditions until the start of the giant’s next turn.\n\n**Lightning Storm (Recharge 5–6).** Dexterity Saving Throw: DC 18, each creature in a 10-foot-radius, 40-foot-high Cylinder originating from a point the giant can see within 500 feet. Failure: 55 (10d10) Lightning damage. Success: Half damage."
+}

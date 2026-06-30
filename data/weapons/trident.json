@@ -1,0 +1,24 @@
+{
+  "id": "trident",
+  "kind": "weapon",
+  "name": "Trident",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d8",
+  "damageType": "piercing",
+  "properties": [
+    "thrown",
+    "versatile"
+  ],
+  "versatileDamage": "1d10",
+  "thrownRange": {
+    "normal": 20,
+    "long": 60
+  },
+  "rangeNormalLong": null,
+  "mastery": "Topple",
+  "weight": "4 lb.",
+  "cost": "5 GP",
+  "text": "# Trident\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d8 Piercing\n**Properties:** Thrown(Range 20/60),Versatile(1d10)\n**Mastery:** Topple\n**Weight:** 4 lb.\n**Cost:** 5 GP"
+}

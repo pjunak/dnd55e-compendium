@@ -1,0 +1,30 @@
+{
+  "id": "constrictor_snake",
+  "kind": "monster",
+  "name": "Constrictor Snake",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "3 (1d4 + 1)",
+  "speed": "20 ft., Swim 20 ft.",
+  "stats": {
+    "STR": 6,
+    "DEX": 11,
+    "CON": 12,
+    "INT": 1,
+    "WIS": 8,
+    "CHA": 2
+  },
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The crab can breathe air and water."
+    }
+  ],
+  "text": "# Constrictor Snake\n\n*Tiny Beast, Unaligned*"
+}

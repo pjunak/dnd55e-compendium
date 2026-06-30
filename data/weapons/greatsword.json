@@ -1,0 +1,21 @@
+{
+  "id": "greatsword",
+  "kind": "weapon",
+  "name": "Greatsword",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "2d6",
+  "damageType": "slashing",
+  "properties": [
+    "heavy",
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Graze",
+  "weight": "6 lb.",
+  "cost": "50 GP",
+  "text": "# Greatsword\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 2d6 Slashing\n**Properties:** Heavy,Two-Handed\n**Mastery:** Graze\n**Weight:** 6 lb.\n**Cost:** 50 GP"
+}

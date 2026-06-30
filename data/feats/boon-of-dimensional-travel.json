@@ -1,0 +1,23 @@
+{
+  "id": "boon-of-dimensional-travel",
+  "kind": "feat",
+  "name": "Boon of Dimensional Travel",
+  "edition": "2024",
+  "category": "epic_boon",
+  "prerequisites": {
+    "text": "Level 19+"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "INT",
+        "WIS",
+        "CHA"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 19+*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase one ability score of your choice by 1, to a maximum of 30.\n\n**Blink Steps.** Inmediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see."
+}

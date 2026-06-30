@@ -1,0 +1,20 @@
+{
+  "id": "quarterstaff",
+  "kind": "weapon",
+  "name": "Quarterstaff",
+  "edition": "2024",
+  "category": "simple",
+  "range": "melee",
+  "damage": "1d6",
+  "damageType": "bludgeoning",
+  "properties": [
+    "versatile"
+  ],
+  "versatileDamage": "1d8",
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Topple",
+  "weight": "4 lb.",
+  "cost": "2 SP",
+  "text": "# Quarterstaff\n\n*Weapon, Simple Melee Weapons*\n\n**Damage:** 1d6 Bludgeoning\n**Properties:** Versatile(1d8)\n**Mastery:** Topple\n**Weight:** 4 lb.\n**Cost:** 2 SP"
+}

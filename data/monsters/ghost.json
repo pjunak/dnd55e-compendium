@@ -1,0 +1,30 @@
+{
+  "id": "ghost",
+  "kind": "monster",
+  "name": "Ghost",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "Undead",
+  "size": "Medium",
+  "type": "Medium Undead",
+  "alignment": "Chaotic Evil",
+  "ac": "12",
+  "hp": "22 (5d8)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 13,
+    "DEX": 15,
+    "CON": 10,
+    "INT": 7,
+    "WIS": 10,
+    "CHA": 6
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Poison; Charmed, Exhaustion, Poisoned"
+    }
+  ],
+  "text": "# Ghost\n\n*Medium Undead, Chaotic Evil*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 3 (1d6) Necrotic damage.\n\n**Claw.** Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage. If the target is a creature that isn’t an Undead or elf, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn."
+}

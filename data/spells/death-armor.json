@@ -1,0 +1,24 @@
+{
+  "id": "death-armor",
+  "kind": "spell",
+  "name": "Death Armor",
+  "edition": "2024",
+  "level": 2,
+  "school": "Necromancy",
+  "classes": [
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "C*",
+  "duration": "1 hour",
+  "text": "# Death Armor\n*2nd-Level Necromancy (Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S, M (C*)\n**Duration:** 1 hour\n\nFor the duration, an inky aura surrounds one creature you touch. The target has Advantage on Death Saving Throws, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes 2d4 Necrotic damage."
+}

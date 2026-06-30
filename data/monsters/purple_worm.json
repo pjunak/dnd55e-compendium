@@ -1,0 +1,38 @@
+{
+  "id": "purple_worm",
+  "kind": "monster",
+  "name": "Purple Worm",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "Fiend (Demon)",
+  "size": "Tiny",
+  "type": "Tiny Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "13",
+  "hp": "25 (10d4)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 5,
+    "DEX": 17,
+    "CON": 10,
+    "INT": 7,
+    "WIS": 10,
+    "CHA": 10
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold, Fire, Lightning"
+    },
+    {
+      "name": "Immunities",
+      "text": "Poison; Poisoned"
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The quasit has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Purple Worm\n\n*Tiny Fiend (Demon), Chaotic Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit’s next turn.\n\n**Scare (1/Day).** Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+}

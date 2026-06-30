@@ -1,0 +1,25 @@
+{
+  "id": "warhorse",
+  "kind": "monster",
+  "name": "Warhorse",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "1 (1d4 − 1)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 3,
+    "DEX": 16,
+    "CON": 8,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 3
+  },
+  "traits": [],
+  "text": "# Warhorse\n\n*Tiny Beast, Unaligned*"
+}

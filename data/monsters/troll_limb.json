@@ -1,0 +1,38 @@
+{
+  "id": "troll_limb",
+  "kind": "monster",
+  "name": "Troll Limb",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "Celestial",
+  "size": "Large",
+  "type": "Large Celestial",
+  "alignment": "Lawful Good",
+  "ac": "12",
+  "hp": "97 (13d10 + 26)",
+  "speed": "50 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 14,
+    "CON": 15,
+    "INT": 11,
+    "WIS": 17,
+    "CHA": 16
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Poison; Charmed, Paralyzed, Poisoned"
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": "If the unicorn fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The unicorn has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Troll Limb\n\n*Large Celestial, Lawful Good*\n\n### Actions\n\n**Hooves.** Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning damage.\n\n**Radiant Horn.** Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d10 + 4) Radiant damage."
+}

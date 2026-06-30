@@ -1,0 +1,25 @@
+{
+  "id": "musket",
+  "kind": "weapon",
+  "name": "Musket",
+  "edition": "2024",
+  "category": "martial",
+  "range": "ranged",
+  "damage": "1d12",
+  "damageType": "piercing",
+  "properties": [
+    "ammunition",
+    "loading",
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": {
+    "normal": 40,
+    "long": 120
+  },
+  "mastery": "Slow",
+  "weight": "10 lb.",
+  "cost": "500 GP",
+  "text": "# Musket\n\n*Weapon, Martial Ranged Weapons*\n\n**Damage:** 1d12 Piercing\n**Properties:** Ammunition(Range 40/120; Bullet),Loading,Two-Handed\n**Mastery:** Slow\n**Weight:** 10 lb.\n**Cost:** 500 GP"
+}

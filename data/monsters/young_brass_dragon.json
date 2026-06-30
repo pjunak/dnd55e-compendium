@@ -1,0 +1,30 @@
+{
+  "id": "young_brass_dragon",
+  "kind": "monster",
+  "name": "Young Brass Dragon",
+  "edition": "2024",
+  "cr": "6 (XP 2,300; PB +3)",
+  "crValue": 6,
+  "creatureType": "Dragon (Metallic)",
+  "size": "Large",
+  "type": "Large Dragon (Metallic)",
+  "alignment": "Chaotic Good",
+  "ac": "17",
+  "hp": "110 (13d10 + 39)",
+  "speed": "40 ft., Burrow 20 ft., Fly 80 ft.",
+  "stats": {
+    "STR": 19,
+    "DEX": 10,
+    "CON": 17,
+    "INT": 12,
+    "WIS": 11,
+    "CHA": 15
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Fire"
+    }
+  ],
+  "text": "# Young Brass Dragon\n\n*Large Dragon (Metallic), Chaotic Good*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing damage.\n\n**Fire Breath (Recharge 5–6).** Dexterity Saving Throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 38 (11d6) Fire damage. Success: Half damage.\n\n**Sleep Breath.** Constitution Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the Unconscious condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it."
+}

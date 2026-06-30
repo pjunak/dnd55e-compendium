@@ -1,0 +1,25 @@
+{
+  "id": "otyugh",
+  "kind": "monster",
+  "name": "Otyugh",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Monstrosity",
+  "size": "Large",
+  "type": "Large Monstrosity",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "59 (7d10 + 21)",
+  "speed": "40 ft., Climb 40 ft.",
+  "stats": {
+    "STR": 20,
+    "DEX": 12,
+    "CON": 17,
+    "INT": 3,
+    "WIS": 12,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Otyugh\n\n*Large Monstrosity, Unaligned*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage."
+}

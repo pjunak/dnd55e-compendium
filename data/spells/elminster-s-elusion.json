@@ -1,0 +1,22 @@
+{
+  "id": "elminster-s-elusion",
+  "kind": "spell",
+  "name": "Elminster's Elusion",
+  "edition": "2024",
+  "level": 2,
+  "school": "Abjuration",
+  "classes": [
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Bonus Action",
+  "range": "Self",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "C, up to 10 minutes",
+  "text": "# Elminster's Elusion\n*2nd-Level Abjuration (Wizard)*\n**Casting Time:** Bonus Action\n**Range:** Self\n**Components:** V, S\n**Duration:** C, up to 10 minutes\n\nArcane wards protect you against magic for the duration. You have Advantage on saving throws against spells and magical effects. Additionally, if you succeed on a saving throw against a spell or magical effect and would normally take half as much damage, you instead take no damage."
+}

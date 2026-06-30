@@ -1,0 +1,34 @@
+{
+  "id": "grimlock",
+  "kind": "monster",
+  "name": "Grimlock",
+  "edition": "2024",
+  "cr": "10 (XP 5,900; PB +4)",
+  "crValue": 10,
+  "creatureType": "Celestial",
+  "size": "Large",
+  "type": "Large Celestial",
+  "alignment": "Lawful Good",
+  "ac": "18",
+  "hp": "136 (16d10 + 48)",
+  "speed": "40 ft., Climb 40 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 19,
+    "DEX": 18,
+    "CON": 16,
+    "INT": 16,
+    "WIS": 19,
+    "CHA": 18
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Poison; Charmed, Paralyzed, Poisoned, Restrained"
+    },
+    {
+      "name": "Celestial Restoration",
+      "text": "If the naga dies, it returns to life in 1d6 days and regains all its Hit Points unless Dispel Evil and Good is cast on its remains."
+    }
+  ],
+  "text": "# Grimlock\n\n*Large Celestial, Lawful Good*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +8, reach 10 ft. Hit: 17 (2d12 + 4) Piercing damage plus 22 (4d10) Poison damage.\n\n**Poisonous Spittle.** Constitution Saving Throw: DC 16, one creature the naga can see within 60 feet. Failure: 31 (7d8) Poison damage, and the target has the Blinded condition until the start of the naga’s next turn. Success: Half damage only."
+}

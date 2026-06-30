@@ -1,0 +1,38 @@
+{
+  "id": "spider",
+  "kind": "monster",
+  "name": "Spider",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Swarm of Tiny Beasts",
+  "size": "Large",
+  "type": "Large Swarm of Tiny Beasts",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "11 (2d10)",
+  "speed": "5 ft., Fly 30 ft.",
+  "stats": {
+    "STR": 5,
+    "DEX": 15,
+    "CON": 10,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 4
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Bludgeoning, Piercing, Slashing"
+    },
+    {
+      "name": "Immunities",
+      "text": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned"
+    },
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can’t regain Hit Points or gain Temporary Hit Points."
+    }
+  ],
+  "text": "# Spider\n\n*Large Swarm of Tiny Beasts, Unaligned*\n\n### Actions\n\n**Bites.** Melee Attack Roll: +4, reach 5 ft. Hit: 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied."
+}

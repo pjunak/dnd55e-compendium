@@ -1,0 +1,25 @@
+{
+  "id": "fog-cloud",
+  "kind": "spell",
+  "name": "Fog Cloud",
+  "edition": "2024",
+  "level": 1,
+  "school": "Conjuration",
+  "classes": [
+    "druid",
+    "ranger",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 hour",
+  "text": "# Fog Cloud\n*1st-Level Conjuration (Druid, Ranger, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** 120 feet\n**Components:** V, S\n**Duration:** Concentration, up to 1 hour\n\nYou create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is Heavily Obscured. It lasts for the duration or until a strong wind (such as one created by Gust of Wind) disperses it.\n\n**Using a Higher-Level Spell Slot.** The fog’s radius increases by 20 feet for each spell slot level above 1."
+}

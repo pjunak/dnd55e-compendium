@@ -1,0 +1,24 @@
+{
+  "id": "backlash",
+  "kind": "spell",
+  "name": "Backlash",
+  "edition": "2024",
+  "level": 4,
+  "school": "Abjuration",
+  "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Reaction",
+  "range": "60 feet",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Backlash\n*4th-Level Abjuration (Bard, Sorcerer, Warlock, Wizard)*\n**Casting Time:** Reaction\n**Range:** 60 feet\n**Components:** V\n**Duration:** Instantaneous\n\nYou ward yourself against destructive energy, reducing the damage taken by 4d6 plus your spellcasting ability modifier.\n\nIf the triggering damage was from a creature within range, you can force the creature to make a Constitution saving throw. The creature takes 4d6 Force damage on a failed save or half as much damage on a successful one.\n\n**Using a Higher-Level Spell Slot.** The damage reduction and Force damage from this spell both increase by 1d6 for every spell slot level above 4."
+}

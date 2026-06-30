@@ -1,0 +1,20 @@
+{
+  "id": "battleaxe",
+  "kind": "weapon",
+  "name": "Battleaxe",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d8",
+  "damageType": "slashing",
+  "properties": [
+    "versatile"
+  ],
+  "versatileDamage": "1d10",
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Topple",
+  "weight": "4 lb.",
+  "cost": "10 GP",
+  "text": "# Battleaxe\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d8 Slashing\n**Properties:** Versatile(1d10)\n**Mastery:** Topple\n**Weight:** 4 lb.\n**Cost:** 10 GP"
+}

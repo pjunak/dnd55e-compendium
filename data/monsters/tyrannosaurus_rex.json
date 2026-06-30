@@ -1,0 +1,25 @@
+{
+  "id": "tyrannosaurus_rex",
+  "kind": "monster",
+  "name": "Tyrannosaurus Rex",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "5 (2d4)",
+  "speed": "30 ft., Swim 30 ft.",
+  "stats": {
+    "STR": 2,
+    "DEX": 15,
+    "CON": 11,
+    "INT": 1,
+    "WIS": 10,
+    "CHA": 3
+  },
+  "traits": [],
+  "text": "# Tyrannosaurus Rex\n\n*Tiny Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage plus 3 (1d6) Poison damage."
+}

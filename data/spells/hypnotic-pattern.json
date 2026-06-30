@@ -1,0 +1,25 @@
+{
+  "id": "hypnotic-pattern",
+  "kind": "spell",
+  "name": "Hypnotic Pattern",
+  "edition": "2024",
+  "level": 3,
+  "school": "Illusion",
+  "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": [
+    "S",
+    "M"
+  ],
+  "material": "a pinch of confetti",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Hypnotic Pattern\n*3rd-Level Illusion (Bard, Sorcerer, Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** 120 feet\n**Components:** S, M (a pinch of confetti)\n**Duration:** Concentration, up to 1 minute\n\nYou create a twisting pattern of colors in a 30-foot Cube within range. The pattern appears for a moment and vanishes. Each creature in the area who can see the pattern must succeed on a Wisdom saving throw or have the Charmed condition for the duration. While Charmed, the creature has the Incapacitated condition and a Speed of 0.\n\nThe spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor."
+}

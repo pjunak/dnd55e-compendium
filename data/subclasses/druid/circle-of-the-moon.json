@@ -1,0 +1,38 @@
+{
+  "id": "circle-of-the-moon",
+  "kind": "subclass",
+  "name": "Circle of the Moon",
+  "classId": "druid",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "circle-forms",
+      "name": "Circle Forms"
+    },
+    {
+      "level": 3,
+      "id": "circle-of-the-moon-spells",
+      "name": "Circle of the Moon Spells"
+    },
+    {
+      "level": 6,
+      "id": "improved-circle-forms",
+      "name": "Improved Circle Forms"
+    },
+    {
+      "level": 10,
+      "id": "moonlight-step",
+      "name": "Moonlight Step"
+    },
+    {
+      "level": 14,
+      "id": "lunar-form",
+      "name": "Lunar Form"
+    }
+  ],
+  "grants": {},
+  "text": "*Adopt Animal Forms to Guard the Wilds*\n\nDruids of the Circle of the Moon draw on lunar magic to transform themselves. Their order gathers under the moon to share news and perform rituals.\n\nChangeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and then crash through undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid’s blood.\n\n### Level 3: Circle Forms\n\nYou can channel lunar magic when you assume a Wild Shape form, granting you the benefits below.\n\n**Challenge Rating.** The maximum Challenge Rating for the form equals your Druid level divided by 3 (round down).\n\n**Armor Class.** Until you leave the form, your AC equals 13 plus your Wisdom modifier if that total is higher than the Beast’s AC.\n\n**Temporary Hit Points.** You gain a number of Temporary Hit Points equal to three times your Druid level.\n\n### Level 3: Circle of the Moon Spells\n\nWhen you reach a Druid level specified in the Circle of the Moon Spells table, you thereafter always have the listed spells prepared.\n\nIn addition, you can cast the spells from this feature while you’re in a Wild Shape form.\n\n##### Circle of the Moon Spells\n\n|\n Druid Level |\n Prepared Spells |\n\n|\n 3 |\n Cure Wounds, Moonbeam, Starry Wisp |\n\n|\n 5 |\n Conjure Animals |\n\n|\n 7 |\n Fount of Moonlight |\n\n|\n 9 |\n Mass Cure Wounds |\n\n### Level 6: Improved Circle Forms\n\nWhile in a Wild Shape form, you gain the following benefits.\n\n**Lunar Radiance.** Each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks.\n\n**Increased Toughness.** You can add your Wisdom modifier to your Constitution saving throws.\n\n### Level 10: Moonlight Step\n\nYou magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have Advantage on the next attack roll you make before the end of this turn.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You can also regain uses by expending a level 2+ spell slot for each use you want to restore (no action required).\n\n### Level 14: Lunar Form\n\nThe power of the moon suffuses you, granting you the following benefits.\n\n**Improved Lunar Radiance.** Once per turn, you can deal an extra 2d10 Radiant damage to a target you hit with a Wild Shape form’s attack.\n\n**Shared Moonlight.** Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ankylosaurus",
+  "kind": "monster",
+  "name": "Ankylosaurus",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "19 (3d8 + 6)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 14,
+    "CON": 14,
+    "INT": 6,
+    "WIS": 12,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Ankylosaurus\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Fist.** Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage.\n\n**Rock (Recharge 6).** Ranged Attack Roll: +5, range 25/50 ft. Hit: 10 (2d6 + 3) Bludgeoning damage."
+}

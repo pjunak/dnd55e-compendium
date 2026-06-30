@@ -1,0 +1,25 @@
+{
+  "id": "giant_seahorse",
+  "kind": "monster",
+  "name": "Giant Seahorse",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "15",
+  "hp": "52 (7d10 + 14)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 13,
+    "CON": 15,
+    "INT": 1,
+    "WIS": 9,
+    "CHA": 3
+  },
+  "traits": [],
+  "text": "# Giant Seahorse\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.\n\n**Sting.** Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 11 (2d10) Poison damage."
+}

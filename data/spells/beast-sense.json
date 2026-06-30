@@ -1,0 +1,22 @@
+{
+  "id": "beast-sense",
+  "kind": "spell",
+  "name": "Beast Sense",
+  "edition": "2024",
+  "level": 2,
+  "school": "Divination",
+  "classes": [
+    "druid",
+    "ranger"
+  ],
+  "ritual": true,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 hour",
+  "text": "# Beast Sense\n*2nd-Level Divination (Druid, Ranger)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** S\n**Duration:** Concentration, up to 1 hour\n\nYou touch a willing Beast. For the duration, you can perceive through the Beast’s senses as well as your own. When perceiving through the Beast’s senses, you benefit from any special senses it has."
+}

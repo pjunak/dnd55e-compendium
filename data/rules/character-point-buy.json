@@ -1,0 +1,15 @@
+{
+  "id": "character-point-buy",
+  "kind": "rule",
+  "name": "Point Buy",
+  "edition": "2024",
+  "category": "character",
+  "tags": [
+    "character",
+    "creation",
+    "ability-scores",
+    "point-buy"
+  ],
+  "source": "",
+  "text": "# Ability Score Point Cost\n\nEach ability score costs a certain number of points.\n\n| Score | Cost |\n|-------|------|\n| 8     | 0    |\n| 9     | 1    |\n| 10    | 2    |\n| 11    | 3    |\n| 12    | 4    |\n| 13    | 5    |\n| 14    | 7    |\n| 15    | 9    |"
+}

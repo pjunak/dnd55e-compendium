@@ -1,0 +1,30 @@
+{
+  "id": "djinni",
+  "kind": "monster",
+  "name": "Djinni",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Monstrosity",
+  "size": "Medium",
+  "type": "Medium Monstrosity",
+  "alignment": "Neutral",
+  "ac": "14",
+  "hp": "52 (8d8 + 16)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 11,
+    "DEX": 18,
+    "CON": 14,
+    "INT": 11,
+    "WIS": 12,
+    "CHA": 14
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Charmed"
+    }
+  ],
+  "text": "# Djinni\n\n*Medium Monstrosity, Neutral*\n\n### Actions\n\n**Slam.** Melee Attack Roll: +6 (with Advantage during the first round of each combat), reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning damage.\n\n**Unsettling Visage (Recharge 6).** Wisdom Saving Throw: DC 12, each creature in a 15-foot Emanation originating from the doppelganger that can see the doppelganger. Failure: The target has the Frightened condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+}

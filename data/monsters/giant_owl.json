@@ -1,0 +1,30 @@
+{
+  "id": "giant_owl",
+  "kind": "monster",
+  "name": "Giant Owl",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "Beast",
+  "size": "Small",
+  "type": "Small Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "7 (2d6)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 7,
+    "DEX": 16,
+    "CON": 11,
+    "INT": 2,
+    "WIS": 10,
+    "CHA": 4
+  },
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The rat has Advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition."
+    }
+  ],
+  "text": "# Giant Owl\n\n*Small Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "bat",
+  "kind": "monster",
+  "name": "Bat",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "19 (3d8 + 6)",
+  "speed": "30 ft., Climb 30 ft., Swim 30 ft.",
+  "stats": {
+    "STR": 15,
+    "DEX": 12,
+    "CON": 14,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Bat\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage."
+}

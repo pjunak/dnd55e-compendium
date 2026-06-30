@@ -1,0 +1,74 @@
+{
+  "id": "life-domain",
+  "kind": "subclass",
+  "name": "Life Domain",
+  "classId": "cleric",
+  "subclassLevel": 3,
+  "spells": [
+    {
+      "level": 3,
+      "ids": [
+        "aid",
+        "bless",
+        "cure-wounds",
+        "lesser-restoration"
+      ],
+      "alwaysPrepared": true
+    },
+    {
+      "level": 5,
+      "ids": [
+        "beacon-of-hope",
+        "mass-healing-word",
+        "revivify"
+      ],
+      "alwaysPrepared": true
+    },
+    {
+      "level": 7,
+      "ids": [
+        "aura-of-life",
+        "death-ward"
+      ],
+      "alwaysPrepared": true
+    },
+    {
+      "level": 9,
+      "ids": [
+        "greater-restoration",
+        "mass-cure-wounds"
+      ],
+      "alwaysPrepared": true
+    }
+  ],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "disciple-of-life",
+      "name": "Disciple of Life"
+    },
+    {
+      "level": 3,
+      "id": "domain-spells",
+      "name": "Domain Spells"
+    },
+    {
+      "level": 3,
+      "id": "preserve-life",
+      "name": "Preserve Life"
+    },
+    {
+      "level": 6,
+      "id": "blessed-healer",
+      "name": "Blessed Healer"
+    },
+    {
+      "level": 17,
+      "id": "supreme-healing",
+      "name": "Supreme Healing"
+    }
+  ],
+  "grants": {},
+  "text": "The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath.\n\n### Level 3: Disciple of Life\n\nWhen you cast a spell with a spell slot that restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.\n\n### Level 3: Domain Spells\n\nYour connection to this divine domain ensures you always have certain spells prepared. When you obtain a Cleric level, you gain the prepared spells listed for that level.\n\n| Cleric Level | Spells |\n|:---:|:---|\n| 3rd | *Aid*, *Bless*, *Cure Wounds*, *Lesser Restoration* |\n| 5th | *Beacon of Hope*, *Mass Healing Word*, *Revivify* |\n| 7th | *Aura of Life*, *Death Ward* |\n| 9th | *Greater Restoration*, *Mass Cure Wounds* |\n\n### Level 3: Preserve Life\n\nAs a Magic action, you can use your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to 5 times your Cleric level. Choose any number of Bloodied creatures within 30 feet of you, and divide those Hit Points among them. This feature can restore a creature to no more than half of its Hit Point maximum.\n\n### Level 6: Blessed Healer\n\nWhen you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you can regain Hit Points equal to 2 plus the spell slot's level.\n\n### Level 17: Supreme Healing\n\nWhen you would roll one or more dice to restore Hit Points with a spell, you instead use the highest number possible for each die."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "rust_monster",
+  "kind": "monster",
+  "name": "Rust Monster",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Fiend",
+  "size": "Medium",
+  "type": "Medium Fiend",
+  "alignment": "Lawful Evil",
+  "ac": "12",
+  "hp": "22 (4d8 + 4)",
+  "speed": "30 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 13,
+    "DEX": 11,
+    "CON": 12,
+    "INT": 12,
+    "WIS": 13,
+    "CHA": 9
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Acid, Cold"
+    },
+    {
+      "name": "Blood Frenzy",
+      "text": "The sahuagin has Advantage on attack rolls against any creature that doesn’t have all its Hit Points."
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "text": "The sahuagin can breathe air and water, but it must be submerged at least once every 4 hours to avoid suffocating outside water."
+    },
+    {
+      "name": "Shark Telepathy",
+      "text": "The sahuagin can magically control sharks within 120 feet of itself, using a special telepathy."
+    }
+  ],
+  "text": "# Rust Monster\n\n*Medium Fiend, Lawful Evil*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage."
+}

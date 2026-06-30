@@ -1,0 +1,20 @@
+{
+  "id": "sickle",
+  "kind": "weapon",
+  "name": "Sickle",
+  "edition": "2024",
+  "category": "simple",
+  "range": "melee",
+  "damage": "1d4",
+  "damageType": "slashing",
+  "properties": [
+    "light"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Nick",
+  "weight": "2 lb.",
+  "cost": "1 GP",
+  "text": "# Sickle\n\n*Weapon, Simple Melee Weapons*\n\n**Damage:** 1d4 Slashing\n**Properties:** Light\n**Mastery:** Nick\n**Weight:** 2 lb.\n**Cost:** 1 GP"
+}

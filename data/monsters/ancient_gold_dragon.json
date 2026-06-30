@@ -1,0 +1,38 @@
+{
+  "id": "ancient_gold_dragon",
+  "kind": "monster",
+  "name": "Ancient Gold Dragon",
+  "edition": "2024",
+  "cr": "24 (XP 62,000, or 75,000 in lair; PB +7)",
+  "crValue": 24,
+  "creatureType": "Dragon (Metallic)",
+  "size": "Gargantuan",
+  "type": "Gargantuan Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "ac": "22",
+  "hp": "546 (28d20 + 252)",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 30,
+    "DEX": 14,
+    "CON": 29,
+    "INT": 18,
+    "WIS": 17,
+    "CHA": 28
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Fire"
+    },
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    },
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "text": "# Ancient Gold Dragon\n\n*Gargantuan Dragon (Metallic), Lawful Good*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +17 to hit, reach 15 ft. Hit: 19 (2d8 + 10) Slashing damage plus 9 (2d8) Fire damage.\n\n**Fire Breath(Recharge 5–6).** Dexterity Saving Throw: DC 24, each creature in a 90-foot Cone. Failure: 71 (13d10) Fire damage. Success: Half damage.\n\n**Weakening Breath.** Strength Saving Throw: DC 24, each creature that isn’t currently affected by this breath in a 90-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts 5 (1d10) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\n**Banish.** Charisma Saving Throw: DC 24, one creature the dragon can see within 120 feet. Failure: 24 (7d6) Force damage, and the target has the Incapacitated condition and is transported to a harmless demiplane until the start of the dragon’s next turn, at which point it reappears in an unoccupied space of the dragon’s choice within 120 feet of the dragon. Failure or Success: The dragon can’t take this action again until the start of its next turn."
+}

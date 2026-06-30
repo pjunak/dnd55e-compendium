@@ -1,0 +1,25 @@
+{
+  "id": "reef_shark",
+  "kind": "monster",
+  "name": "Reef Shark",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "13 (2d10 + 2)",
+  "speed": "60 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 13,
+    "CON": 12,
+    "INT": 2,
+    "WIS": 11,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Reef Shark\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Hooves.** Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage."
+}

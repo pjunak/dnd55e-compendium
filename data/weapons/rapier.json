@@ -1,0 +1,20 @@
+{
+  "id": "rapier",
+  "kind": "weapon",
+  "name": "Rapier",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d8",
+  "damageType": "piercing",
+  "properties": [
+    "finesse"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Vex",
+  "weight": "2 lb.",
+  "cost": "25 GP",
+  "text": "# Rapier\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d8 Piercing\n**Properties:** Finesse\n**Mastery:** Vex\n**Weight:** 2 lb.\n**Cost:** 25 GP"
+}

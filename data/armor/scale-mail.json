@@ -1,0 +1,16 @@
+{
+  "id": "scale-mail",
+  "kind": "armor",
+  "name": "Scale Mail",
+  "edition": "2024",
+  "armorType": "medium",
+  "baseAC": 14,
+  "dexCap": 2,
+  "acBonus": 0,
+  "strReq": 0,
+  "stealthDisadvantage": true,
+  "weight": "45 lb.",
+  "cost": "50 GP",
+  "_acSource": "14 + Dex modifier (max 2)",
+  "text": "# Scale Mail\n\n*Armor, Medium Armor (5 Minutes to Don and 1 Minute to Doff)*\n\n**AC:** 14 + Dex modifier (max 2)\n**Stealth:** Disadvantage\n**Weight:** 45 lb.\n**Cost:** 50 GP"
+}

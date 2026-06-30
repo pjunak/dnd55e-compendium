@@ -1,0 +1,25 @@
+{
+  "id": "water_elemental",
+  "kind": "monster",
+  "name": "Water Elemental",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "or Small Monstrosity (Lycanthrope)",
+  "size": "Medium",
+  "type": "Medium or Small Monstrosity (Lycanthrope)",
+  "alignment": "Neutral Good",
+  "ac": "15",
+  "hp": "135 (18d8 + 54)",
+  "speed": "30 ft., 40 ft. (bear form only), Climb 30 ft. (bear form only)",
+  "stats": {
+    "STR": 19,
+    "DEX": 10,
+    "CON": 17,
+    "INT": 11,
+    "WIS": 12,
+    "CHA": 12
+  },
+  "traits": [],
+  "text": "# Water Elemental\n\n*Medium or Small Monstrosity (Lycanthrope), Neutral Good*\n\n### Actions\n\n**Bite (Bear or Hybrid Form Only).** Melee Attack Roll: +7, reach 5 ft. Hit: 17 (2d12 + 4) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werebear under the DM’s control and has 10 Hit Points. Success: The target is immune to this werebear’s curse for 24 hours.\n\n**Handaxe (Humanoid or Hybrid Form Only).** Melee or Ranged Attack Roll: +7, reach 5 ft or range 20/60 ft. Hit: 14 (3d6 + 4) Slashing damage.\n\n**Rend (Bear or Hybrid Form Only).** Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage."
+}

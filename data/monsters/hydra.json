@@ -1,0 +1,38 @@
+{
+  "id": "hydra",
+  "kind": "monster",
+  "name": "Hydra",
+  "edition": "2024",
+  "cr": "14 (XP 11,500; PB +5)",
+  "crValue": 14,
+  "creatureType": "Fiend (Devil)",
+  "size": "Large",
+  "type": "Large Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "ac": "18",
+  "hp": "228 (24d10 + 96)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 21,
+    "DEX": 14,
+    "CON": 18,
+    "INT": 18,
+    "WIS": 15,
+    "CHA": 18
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Cold, Fire, Poison; Poisoned"
+    },
+    {
+      "name": "Diabolical Restoration",
+      "text": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The devil has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Hydra\n\n*Large Fiend (Devil), Lawful Evil*\n\n### Actions\n\n**Ice Spear.** Melee or Ranged Attack Roll: +10, reach 5 ft. or range 30/120 ft. Hit: 14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the end of its next turn, the target can’t take a Bonus Action or Reaction, its Speed decreases by 10 feet, and it can move or take one action on its turn, not both. Hit or Miss: The spear magically returns to the devil’s hand immediately after a ranged attack.\n\n**Tail.** Melee Attack Roll: +10, reach 10 ft. Hit: 15 (3d6 + 5) Bludgeoning damage plus 18 (4d8) Cold damage."
+}

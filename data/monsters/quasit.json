@@ -1,0 +1,42 @@
+{
+  "id": "quasit",
+  "kind": "monster",
+  "name": "Quasit",
+  "edition": "2024",
+  "cr": "13 (XP 10,000; PB +5)",
+  "crValue": 13,
+  "creatureType": "Fiend",
+  "size": "Medium",
+  "type": "Medium Fiend",
+  "alignment": "Lawful Evil",
+  "ac": "17",
+  "hp": "221 (26d8 + 104)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 14,
+    "DEX": 17,
+    "CON": 18,
+    "INT": 13,
+    "WIS": 16,
+    "CHA": 20
+  },
+  "traits": [
+    {
+      "name": "Vulnerabilities",
+      "text": "Piercing damage from weapons wielded by creatures under the effect of a Bless spell"
+    },
+    {
+      "name": "Immunities",
+      "text": "Charmed, Frightened"
+    },
+    {
+      "name": "Greater Magic Resistance",
+      "text": "The rakshasa automatically succeeds on saving throws against spells and other magical effects, and the attack rolls of spells automatically miss it. Without the rakshasa’s permission, no spell can observe the rakshasa remotely or detect its thoughts, creature type, or alignment."
+    },
+    {
+      "name": "Fiendish Restoration",
+      "text": "If the rakshasa dies outside the Nine Hells, its body turns to ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    }
+  ],
+  "text": "# Quasit\n\n*Medium Fiend, Lawful Evil*\n\n### Actions\n\n**Cursed Touch.** Melee Attack Roll: +10, reach 5 ft. Hit: 12 (2d6 + 5) Slashing damage plus 19 (3d12) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target gains no benefit from finishing a Short or Long Rest.\n\n**Baleful Command (Recharge 5–6).** Wisdom Saving Throw: DC 18, each enemy in a 30-foot Emanation originating from the rakshasa. Failure: 28 (8d6) Psychic damage, and the target has the Frightened and Incapacitated conditions until the start of the rakshasa’s next turn."
+}

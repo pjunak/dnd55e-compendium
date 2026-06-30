@@ -1,0 +1,21 @@
+{
+  "id": "vicious-mockery",
+  "kind": "spell",
+  "name": "Vicious Mockery",
+  "edition": "2024",
+  "level": 0,
+  "school": "Enchantment",
+  "classes": [
+    "bard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Vicious Mockery\n*Enchantment Cantrip (Bard)*\n**Casting Time:** Action\n**Range:** 60 feet\n**Components:** V\n**Duration:** Instantaneous\n\nYou unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn.\n\n**Cantrip Upgrade.** The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+}

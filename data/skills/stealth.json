@@ -1,0 +1,6 @@
+{
+  "id": "stealth",
+  "kind": "skill",
+  "name": "Stealth",
+  "ability": "DEX"
+}

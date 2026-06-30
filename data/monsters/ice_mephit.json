@@ -1,0 +1,38 @@
+{
+  "id": "ice_mephit",
+  "kind": "monster",
+  "name": "Ice Mephit",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Elemental",
+  "size": "Small",
+  "type": "Small Elemental",
+  "alignment": "Neutral Evil",
+  "ac": "11",
+  "hp": "21 (6d6)",
+  "speed": "30 ft., Fly 30 ft.",
+  "stats": {
+    "STR": 7,
+    "DEX": 13,
+    "CON": 10,
+    "INT": 9,
+    "WIS": 11,
+    "CHA": 12
+  },
+  "traits": [
+    {
+      "name": "Vulnerabilities",
+      "text": "Fire"
+    },
+    {
+      "name": "Immunities",
+      "text": "Cold, Poison; Exhaustion, Poisoned"
+    },
+    {
+      "name": "Death Burst",
+      "text": "The mephit explodes when it dies. Constitution Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Cold damage. Success: Half damage."
+    }
+  ],
+  "text": "# Ice Mephit\n\n*Small Elemental, Neutral Evil*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 2 (1d4) Cold damage.\n\n**Frost Breath (Recharge 6).** Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 7 (3d4) Cold damage. Success: Half damage."
+}

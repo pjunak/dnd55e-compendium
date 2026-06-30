@@ -1,0 +1,25 @@
+{
+  "id": "wraith",
+  "kind": "monster",
+  "name": "Wraith",
+  "edition": "2024",
+  "cr": "6 (XP 2,300; PB +3)",
+  "crValue": 6,
+  "creatureType": "Dragon",
+  "size": "Large",
+  "type": "Large Dragon",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "127 (15d10 + 45)",
+  "speed": "30 ft., Fly 80 ft.",
+  "stats": {
+    "STR": 19,
+    "DEX": 10,
+    "CON": 16,
+    "INT": 5,
+    "WIS": 12,
+    "CHA": 6
+  },
+  "traits": [],
+  "text": "# Wraith\n\n*Large Dragon, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\n**Sting.** Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage plus 24 (7d6) Poison damage, and the target has the Poisoned condition until the start of the wyvern’s next turn."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "conjure-constructs",
+  "kind": "spell",
+  "name": "Conjure Constructs",
+  "edition": "2024",
+  "level": 3,
+  "school": "Conjuration",
+  "classes": [
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "",
+  "duration": "C, up to 10 minutes",
+  "text": "# Conjure Constructs\n*3rd-Level Conjuration (Wizard)*\n**Casting Time:** Action\n**Range:** 60 feet\n**Components:** V, S, M\n**Duration:** C, up to 10 minutes\n\nYou conjure a group of intangible, orderly spirits that appear as a Medium group of modrons or other Constructs in an unoccupied space you can see within range. The spirits last for the duration.\n\nWhen you cast this spell and as a Magic action on subsequent turns, you can command the spirits to target one creature or object you can see within 5 feet of the spirits and create one of the following effects:\n\n**Clockwork Force.** The target makes a Dexterity saving throw, taking 3d6 Force damage on a failed save or half as much damage on a successful one.\n\n**Orderly Ward.** The target gains Temporary Hit Points equal to 1d6 plus your spellcasting ability modifier.\n\nWhen you move on your turn, you can also move the spirits up to 30 feet to an unoccupied space you can see.\n\n**Using a Higher-Level Spell Slot.** The damage and Temporary Hit Points both increase by 1d6 for each spell slot level above 3."
+}

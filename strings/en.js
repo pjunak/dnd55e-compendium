@@ -104,6 +104,7 @@ export default {
   'misc.unnamed':      '(unnamed)',
   'misc.back':         'Compendium',
   'misc.notFound':     'Not found',
+  'misc.loading':      'Loading…',
   'misc.seedNote':     'Full 2024 ruleset — classes, species, backgrounds, feats, spells, equipment, the bestiary, and rules reference.',
   'monster.cr':        'CR {cr}',
 };

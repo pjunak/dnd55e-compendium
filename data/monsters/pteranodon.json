@@ -1,0 +1,30 @@
+{
+  "id": "pteranodon",
+  "kind": "monster",
+  "name": "Pteranodon",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "1 (1d4 − 1)",
+  "speed": "20 ft., Climb 20 ft.",
+  "stats": {
+    "STR": 2,
+    "DEX": 11,
+    "CON": 9,
+    "INT": 2,
+    "WIS": 10,
+    "CHA": 4
+  },
+  "traits": [
+    {
+      "name": "Agile",
+      "text": "The rat doesn’t provoke an Opportunity Attack when it moves out of an enemy’s reach."
+    }
+  ],
+  "text": "# Pteranodon\n\n*Tiny Beast, Unaligned*"
+}

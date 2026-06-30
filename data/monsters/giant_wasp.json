@@ -1,0 +1,25 @@
+{
+  "id": "giant_wasp",
+  "kind": "monster",
+  "name": "Giant Wasp",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "9 (2d8)",
+  "speed": "40 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 11,
+    "DEX": 17,
+    "CON": 10,
+    "INT": 4,
+    "WIS": 12,
+    "CHA": 5
+  },
+  "traits": [],
+  "text": "# Giant Wasp\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage."
+}

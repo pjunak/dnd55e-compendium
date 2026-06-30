@@ -1,0 +1,25 @@
+{
+  "id": "remorhaz",
+  "kind": "monster",
+  "name": "Remorhaz",
+  "edition": "2024",
+  "cr": "11 (XP 7,200; PB +4)",
+  "crValue": 11,
+  "creatureType": "Monstrosity",
+  "size": "Gargantuan",
+  "type": "Gargantuan Monstrosity",
+  "alignment": "Unaligned",
+  "ac": "15",
+  "hp": "248 (16d20 + 80)",
+  "speed": "20 ft., Fly 120 ft.",
+  "stats": {
+    "STR": 28,
+    "DEX": 10,
+    "CON": 20,
+    "INT": 3,
+    "WIS": 10,
+    "CHA": 9
+  },
+  "traits": [],
+  "text": "# Remorhaz\n\n*Gargantuan Monstrosity, Unaligned*\n\n### Actions\n\n**Beak.** Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 + 9) Piercing damage.\n\n**Talons.** Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 + 9) Slashing damage. If the target is a Huge or smaller creature, it has the Grappled condition (escape DC 19) from both talons, and it has the Restrained condition until the grapple ends."
+}

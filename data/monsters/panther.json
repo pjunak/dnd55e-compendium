@@ -1,0 +1,30 @@
+{
+  "id": "panther",
+  "kind": "monster",
+  "name": "Panther",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "1 (1d4 − 1)",
+  "speed": "5 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 2,
+    "DEX": 16,
+    "CON": 9,
+    "INT": 1,
+    "WIS": 7,
+    "CHA": 2
+  },
+  "traits": [
+    {
+      "name": "Water Breathing",
+      "text": "The piranha can breathe only underwater."
+    }
+  ],
+  "text": "# Panther\n\n*Tiny Beast, Unaligned*"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "magic-missile",
+  "kind": "spell",
+  "name": "Magic Missile",
+  "edition": "2024",
+  "level": 1,
+  "school": "Evocation",
+  "classes": [
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Magic Missile\n*1st-Level Evocation (Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** 120 feet\n**Components:** V, S\n**Duration:** Instantaneous\n\nYou create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals 1d4 + 1 Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.\n\n**Using a Higher-Level Spell Slot.** The spell creates one more dart for each spell slot level above 1."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "war-domain",
+  "kind": "subclass",
+  "name": "War Domain",
+  "classId": "cleric",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "guided-strike",
+      "name": "Guided Strike"
+    },
+    {
+      "level": 3,
+      "id": "war-domain-spells",
+      "name": "War Domain Spells"
+    },
+    {
+      "level": 3,
+      "id": "war-priest",
+      "name": "War Priest"
+    },
+    {
+      "level": 6,
+      "id": "war-gods-blessing",
+      "name": "War God’s Blessing"
+    },
+    {
+      "level": 17,
+      "id": "avatar-of-battle",
+      "name": "Avatar of Battle"
+    }
+  ],
+  "grants": {},
+  "text": "*Inspire Valor and Smite Foes*\n\nWar has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.\n\nGods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.\n\n### Level 3: Guided Strike\n\nWhen you or a creature within 30 feet of you misses with an attack roll, you can expend one use of your Channel Divinity and give that roll a +10 bonus, potentially causing it to hit. When you use this feature to benefit another creature’s attack roll, you must take a Reaction to do so.\n\n### Level 3: War Domain Spells\n\nYour connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the War Domain Spells table, you thereafter always have the listed spells prepared.\n\n### War Domain Spells\n\n|\n Cleric Level |\n Prepared Spells |\n\n|\n 3 |\n Guiding Bolt, Magic Weapon, Shield of Faith, Spiritual Weapon |\n\n|\n 5 |\n Crusader's Mantle, Spirit Guardians |\n\n|\n 7 |\n Fire Shield, Freedom of Movement |\n\n|\n 9 |\n Hold Monster, Steel Wind Strike |\n\n### Level 3: War Priest\n\nAs a Bonus Action, you can make one attack with a weapon or an Unarmed Strike. You can use this Bonus Action a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Short or Long Rest.\n\n### Level 6: War God’s Blessing\n\nYou can expend a use of your Channel Divinity to cast Shield of Faith or Spiritual Weapon rather than expending a spell slot. When you cast either spell in this way, the spell doesn’t require Concentration. Instead the spell lasts for 1 minute, but it ends early if you cast that spell again, have the Incapacitated condition, or die.\n\n### Level 17: Avatar of Battle\n\nYou gain Resistance to Bludgeoning, Piercing, and Slashing damage."
+}

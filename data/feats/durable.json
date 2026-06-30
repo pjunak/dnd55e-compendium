@@ -1,0 +1,21 @@
+{
+  "id": "durable",
+  "kind": "feat",
+  "name": "Durable",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "CON"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase your Constitution score by 1, to a maximum of 20.\n\n**Defy Death.** You have Advantage on Death Saving Throws.\n\n**Speedy Recovery.** As a Bonus Action, you can expend one of your Hit Point Dice, roll the die, and regain a number of Hit Points equal to the roll."
+}

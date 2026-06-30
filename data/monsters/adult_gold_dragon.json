@@ -1,0 +1,38 @@
+{
+  "id": "adult_gold_dragon",
+  "kind": "monster",
+  "name": "Adult Gold Dragon",
+  "edition": "2024",
+  "cr": "17 (XP 18,000, or 20,000 in lair; PB +6)",
+  "crValue": 17,
+  "creatureType": "Dragon (Metallic)",
+  "size": "Huge",
+  "type": "Huge Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "ac": "19",
+  "hp": "243 (18d12 + 126)",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 27,
+    "DEX": 14,
+    "CON": 25,
+    "INT": 16,
+    "WIS": 15,
+    "CHA": 24
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Fire"
+    },
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    },
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "text": "# Adult Gold Dragon\n\n*Huge Dragon (Metallic), Lawful Good*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +14, reach 10 ft. Hit: 17 (2d8 + 8) Slashing damage plus 4 (1d8) Fire damage.\n\n**Fire Breath (Recharge 5–6).** Dexterity Saving Throw: DC 21, each creature in a 60-foot Cone. Failure: 66 (12d10) Fire damage. Success: Half damage.\n\n**Weakening Breath.** Strength Saving Throw: DC 21, each creature that isn’t currently affected by this breath in a 60-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts 3 (1d6) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\n**Banish.** Charisma Saving Throw: DC 21, one creature the dragon can see within 120 feet. Failure: 10 (3d6) Force damage, and the target has the Incapacitated condition and is transported to a harmless demiplane until the start of the dragon’s next turn, at which point it reappears in an unoccupied space of the dragon’s choice within 120 feet of the dragon. Failure or Success: The dragon can’t take this action again until the start of its next turn."
+}

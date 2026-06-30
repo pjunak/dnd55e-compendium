@@ -1,0 +1,34 @@
+{
+  "id": "bullywug_bog_sage",
+  "kind": "monster",
+  "name": "Bullywug Bog Sage",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "Fey",
+  "size": "Medium",
+  "type": "Medium Fey",
+  "alignment": "Neutral",
+  "ac": "16",
+  "hp": "52 (8d8 + 16)",
+  "speed": "30 ft., Swim 30 ft.",
+  "stats": {
+    "STR": 8,
+    "DEX": 16,
+    "CON": 14,
+    "INT": 10,
+    "WIS": 16,
+    "CHA": 12
+  },
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The bullywug can breathe air and water."
+    },
+    {
+      "name": "Speak with Frogs and Toads",
+      "text": "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+    }
+  ],
+  "text": "# Bullywug Bog Sage\n\n*Medium Fey, Neutral*\n\n### Actions\n\n**Bog Staff.** Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage plus 10 (3d6) Poison damage."
+}

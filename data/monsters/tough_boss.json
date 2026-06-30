@@ -1,0 +1,30 @@
+{
+  "id": "tough_boss",
+  "kind": "monster",
+  "name": "Tough Boss",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "16",
+  "hp": "82 (11d8 + 33)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 17,
+    "DEX": 14,
+    "CON": 16,
+    "INT": 11,
+    "WIS": 10,
+    "CHA": 11
+  },
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The tough has Advantage on an attack roll against a creature if at least one of the tough’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition."
+    }
+  ],
+  "text": "# Tough Boss\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Warhammer.** Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Bludgeoning damage. If the target is a Large or smaller creature, the tough pushes the target up to 10 feet straight away from itself.\n\n**Heavy Crossbow.** Ranged Attack Roll: +4, range 100/400 ft. Hit: 13 (2d10 + 2) Piercing damage."
+}

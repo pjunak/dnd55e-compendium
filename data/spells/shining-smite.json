@@ -1,0 +1,21 @@
+{
+  "id": "shining-smite",
+  "kind": "spell",
+  "name": "Shining Smite",
+  "edition": "2024",
+  "level": 2,
+  "school": "Transmutation",
+  "classes": [
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+  "range": "Self",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Shining Smite\n*2nd-Level Transmutation (Paladin)*\n**Casting Time:** Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike\n**Range:** Self\n**Components:** V\n**Duration:** Concentration, up to 1 minute\n\nThe target hit by the strike takes an extra 2d6 Radiant damage from the attack. Until the spell ends, the target sheds Bright Light in a 5-foot radius, attack rolls against it have Advantage, and it can’t benefit from the Invisible condition.\n\n**Using a Higher-Level Spell Slot.** The damage increases by 1d6 for each spell slot level above 2."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mage",
+  "kind": "monster",
+  "name": "Mage",
+  "edition": "2024",
+  "cr": "6 (XP 2,300; PB +3)",
+  "crValue": 6,
+  "creatureType": "or Small Humanoid (Wizard)",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid (Wizard)",
+  "alignment": "Neutral",
+  "ac": "15",
+  "hp": "81 (18d8)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 9,
+    "DEX": 14,
+    "CON": 11,
+    "INT": 17,
+    "WIS": 12,
+    "CHA": 11
+  },
+  "traits": [],
+  "text": "# Mage\n\n*Medium or Small Humanoid (Wizard), Neutral*\n\n### Actions\n\n**Arcane Burst.** Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 16 (3d8 + 3) Force damage."
+}

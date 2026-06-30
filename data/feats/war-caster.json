@@ -1,0 +1,23 @@
+{
+  "id": "war-caster",
+  "kind": "feat",
+  "name": "War Caster",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+, Spellcasting or Pact Magic Feature"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "INT",
+        "WIS",
+        "CHA"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+, Spellcasting or Pact Magic Feature*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\n\n**Concentration.** You have Advantage on Constitution saving throws that you make to maintain Concentration.\n\n**Reactive Spell.** When a creature provokes an Opportunity Attack from you by leaving your reach, you can take a Reaction to cast a spell at the creature rather than making an Opportunity Attack. The spell must have a casting time of one action and must target only that creature.\n\n**Somatic Components.** You can perform the Somatic components of spells even when you have weapons or a Shield in one or both hands."
+}

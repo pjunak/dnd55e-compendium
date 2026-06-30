@@ -1,0 +1,34 @@
+{
+  "id": "ancient_brass_dragon",
+  "kind": "monster",
+  "name": "Ancient Brass Dragon",
+  "edition": "2024",
+  "cr": "20 (XP 25,000, or 33,000 in lair; PB +6)",
+  "crValue": 20,
+  "creatureType": "Dragon (Metallic)",
+  "size": "Gargantuan",
+  "type": "Gargantuan Dragon (Metallic)",
+  "alignment": "Chaotic Good",
+  "ac": "20",
+  "hp": "332 (19d20 + 133)",
+  "speed": "40 ft., Burrow 40 ft., Fly 80 ft.",
+  "stats": {
+    "STR": 27,
+    "DEX": 10,
+    "CON": 25,
+    "INT": 16,
+    "WIS": 15,
+    "CHA": 22
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Fire"
+    },
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "text": "# Ancient Brass Dragon\n\n*Gargantuan Dragon (Metallic), Chaotic Good*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +14, reach 15 ft. Hit: 19 (2d10 + 8) Slashing damage plus 7 (2d6) Fire damage.\n\n**Fire Breath (Recharge 5–6).** Dexterity Saving Throw: DC 21, each creature in a 90-foot-long, 5-foot-wide Line. Failure: 58 (13d8) Fire damage. Success: Half damage.\n\n**Sleep Breath.** Constitution Saving Throw: DC 21, each creature in a 90-foot Cone. Failure: The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the Unconscious condition for 10 minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.\n\n**Scorching Sands.** Dexterity Saving Throw: DC 20, one creature the dragon can see within 120 feet. Failure: 36 (8d8) Fire damage, and the target’s Speed is halved until the end of its next turn. Failure or Success: The dragon can’t take this action again until the start of its next turn."
+}

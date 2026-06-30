@@ -1,0 +1,6 @@
+{
+  "id": "investigation",
+  "kind": "skill",
+  "name": "Investigation",
+  "ability": "INT"
+}

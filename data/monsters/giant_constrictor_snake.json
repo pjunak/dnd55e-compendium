@@ -1,0 +1,30 @@
+{
+  "id": "giant_constrictor_snake",
+  "kind": "monster",
+  "name": "Giant Constrictor Snake",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "15",
+  "hp": "13 (3d8)",
+  "speed": "30 ft., Swim 30 ft.",
+  "stats": {
+    "STR": 13,
+    "DEX": 13,
+    "CON": 11,
+    "INT": 1,
+    "WIS": 9,
+    "CHA": 3
+  },
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The crab can breathe air and water."
+    }
+  ],
+  "text": "# Giant Constrictor Snake\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws."
+}

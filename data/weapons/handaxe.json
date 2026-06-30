@@ -1,0 +1,24 @@
+{
+  "id": "handaxe",
+  "kind": "weapon",
+  "name": "Handaxe",
+  "edition": "2024",
+  "category": "simple",
+  "range": "melee",
+  "damage": "1d6",
+  "damageType": "slashing",
+  "properties": [
+    "light",
+    "thrown"
+  ],
+  "versatileDamage": null,
+  "thrownRange": {
+    "normal": 20,
+    "long": 60
+  },
+  "rangeNormalLong": null,
+  "mastery": "Vex",
+  "weight": "2 lb.",
+  "cost": "5 GP",
+  "text": "# Handaxe\n\n*Weapon, Simple Melee Weapons*\n\n**Damage:** 1d6 Slashing\n**Properties:** Light,Thrown(Range 20/60)\n**Mastery:** Vex\n**Weight:** 2 lb.\n**Cost:** 5 GP"
+}

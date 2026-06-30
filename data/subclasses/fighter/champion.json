@@ -1,0 +1,43 @@
+{
+  "id": "champion",
+  "kind": "subclass",
+  "name": "Champion",
+  "classId": "fighter",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "improved-critical",
+      "name": "Improved Critical"
+    },
+    {
+      "level": 3,
+      "id": "remarkable-athlete",
+      "name": "Remarkable Athlete"
+    },
+    {
+      "level": 7,
+      "id": "additional-fighting-style",
+      "name": "Additional Fighting Style"
+    },
+    {
+      "level": 10,
+      "id": "heroic-warrior",
+      "name": "Heroic Warrior"
+    },
+    {
+      "level": 15,
+      "id": "superior-critical",
+      "name": "Superior Critical"
+    },
+    {
+      "level": 18,
+      "id": "survivor",
+      "name": "Survivor"
+    }
+  ],
+  "grants": {},
+  "text": "The Champion archetype focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.\n\n### Level 3: Improved Critical\n\nYour attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a d20 roll of 19 or 20.\n\n### Level 3: Remarkable Athlete\n\nThanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.\n\nIn addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.\n\n### Level 7: Additional Fighting Style\n\nYou gain another Fighting Style feat of your choice.\n\n### Level 10: Heroic Warrior\n\nThe thrill of battle drives you toward victory. During combat, if you start your turn without Heroic Inspiration, you gain Heroic Inspiration.\n\n### Level 15: Superior Critical\n\nYour attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a d20 roll of 18–20.\n\n### Level 18: Survivor\n\nYou attain the pinnacle of resilience in battle, giving you these benefits:\n\n**Defy Death.** You on have Advantage on Death Saving Throws. Moreover, when you roll an 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.\n\n**Heroic Rally.** At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point."
+}

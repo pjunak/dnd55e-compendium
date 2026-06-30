@@ -1,0 +1,30 @@
+{
+  "id": "animated_flying_sword",
+  "kind": "monster",
+  "name": "Animated Flying Sword",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Construct",
+  "size": "Small",
+  "type": "Small Construct",
+  "alignment": "Unaligned",
+  "ac": "17",
+  "hp": "14 (4d6)",
+  "speed": "5 ft., Fly 50 ft. (hover)",
+  "stats": {
+    "STR": 12,
+    "DEX": 15,
+    "CON": 11,
+    "INT": 1,
+    "WIS": 5,
+    "CHA": 1
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned"
+    }
+  ],
+  "text": "# Animated Flying Sword\n\n*Small Construct, Unaligned*\n\n### Actions\n\n**Slash.** Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "roc",
+  "kind": "monster",
+  "name": "Roc",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "Aberration",
+  "size": "Large",
+  "type": "Large Aberration",
+  "alignment": "Neutral Evil",
+  "ac": "20",
+  "hp": "93 (11d10 + 33)",
+  "speed": "10 ft., Climb 20 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 8,
+    "CON": 17,
+    "INT": 7,
+    "WIS": 16,
+    "CHA": 6
+  },
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The roper can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    }
+  ],
+  "text": "# Roc\n\n*Large Aberration, Neutral Evil*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +7, reach 5 ft. Hit: 17 (3d8 + 4) Piercing damage."
+}

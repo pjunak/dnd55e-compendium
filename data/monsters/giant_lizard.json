@@ -1,0 +1,30 @@
+{
+  "id": "giant_lizard",
+  "kind": "monster",
+  "name": "Giant Lizard",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "45 (7d10 + 7)",
+  "speed": "10 ft., Swim 60 ft.",
+  "stats": {
+    "STR": 17,
+    "DEX": 13,
+    "CON": 13,
+    "INT": 5,
+    "WIS": 10,
+    "CHA": 4
+  },
+  "traits": [
+    {
+      "name": "Water Breathing",
+      "text": "The octopus can breathe only underwater. It can hold its breath for 1 hour outside water."
+    }
+  ],
+  "text": "# Giant Lizard\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Tentacles.** Melee Attack Roll: +5, reach 10 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from all eight tentacles. While Grappled, the target has the Restrained condition."
+}

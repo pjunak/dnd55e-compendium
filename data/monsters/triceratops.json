@@ -1,0 +1,25 @@
+{
+  "id": "triceratops",
+  "kind": "monster",
+  "name": "Triceratops",
+  "edition": "2024",
+  "cr": "8 (XP 3,900; PB +3)",
+  "crValue": 8,
+  "creatureType": "Beast (Dinosaur)",
+  "size": "Huge",
+  "type": "Huge Beast (Dinosaur)",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "136 (13d12 + 52)",
+  "speed": "50 ft.",
+  "stats": {
+    "STR": 25,
+    "DEX": 10,
+    "CON": 19,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 9
+  },
+  "traits": [],
+  "text": "# Triceratops\n\n*Huge Beast (Dinosaur), Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +10, reach 10 ft. Hit: 33 (4d12 + 7) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17). While Grappled, the target has the Restrained condition and can’t be targeted by the tyrannosaurus’s Tail.\n\n**Tail.** Melee Attack Roll: +10, reach 15 ft. Hit: 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ray-of-sickness",
+  "kind": "spell",
+  "name": "Ray of Sickness",
+  "edition": "2024",
+  "level": 1,
+  "school": "Necromancy",
+  "classes": [
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Ray of Sickness\n*1st-Level Necromancy (Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** 60 feet\n**Components:** V, S\n**Duration:** Instantaneous\n\nYou shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the Poisoned condition until the end of your next turn.\n\n**Using a Higher-Level Spell Slot.** The damage increases by 1d8 for each spell slot level above 1."
+}

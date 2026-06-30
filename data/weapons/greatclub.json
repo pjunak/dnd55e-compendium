@@ -1,0 +1,20 @@
+{
+  "id": "greatclub",
+  "kind": "weapon",
+  "name": "Greatclub",
+  "edition": "2024",
+  "category": "simple",
+  "range": "melee",
+  "damage": "1d8",
+  "damageType": "bludgeoning",
+  "properties": [
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Push",
+  "weight": "10 lb.",
+  "cost": "2 SP",
+  "text": "# Greatclub\n\n*Weapon, Simple Melee Weapons*\n\n**Damage:** 1d8 Bludgeoning\n**Properties:** Two-Handed\n**Mastery:** Push\n**Weight:** 10 lb.\n**Cost:** 2 SP"
+}

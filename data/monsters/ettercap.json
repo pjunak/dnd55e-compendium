@@ -1,0 +1,30 @@
+{
+  "id": "ettercap",
+  "kind": "monster",
+  "name": "Ettercap",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "Giant",
+  "size": "Large",
+  "type": "Large Giant",
+  "alignment": "Chaotic Evil",
+  "ac": "12",
+  "hp": "85 (10d10 + 30)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 21,
+    "DEX": 8,
+    "CON": 17,
+    "INT": 6,
+    "WIS": 10,
+    "CHA": 8
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious"
+    }
+  ],
+  "text": "# Ettercap\n\n*Large Giant, Chaotic Evil*\n\n### Actions\n\n**Battleaxe.** Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\n**Morningstar.** Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage, and the target has Disadvantage on the next attack roll it makes before the end of its next turn."
+}

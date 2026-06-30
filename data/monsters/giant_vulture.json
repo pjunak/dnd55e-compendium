@@ -1,0 +1,30 @@
+{
+  "id": "giant_vulture",
+  "kind": "monster",
+  "name": "Giant Vulture",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "22 (5d8)",
+  "speed": "10 ft., Fly 50 ft.",
+  "stats": {
+    "STR": 10,
+    "DEX": 14,
+    "CON": 10,
+    "INT": 1,
+    "WIS": 10,
+    "CHA": 3
+  },
+  "traits": [
+    {
+      "name": "Flyby",
+      "text": "The wasp doesn’t provoke an Opportunity Attack when it flies out of an enemy’s reach."
+    }
+  ],
+  "text": "# Giant Vulture\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Sting.** Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage."
+}

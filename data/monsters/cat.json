@@ -1,0 +1,25 @@
+{
+  "id": "cat",
+  "kind": "monster",
+  "name": "Cat",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "13 (2d10 + 2)",
+  "speed": "30 ft., Swim 30 ft.",
+  "stats": {
+    "STR": 15,
+    "DEX": 14,
+    "CON": 12,
+    "INT": 1,
+    "WIS": 10,
+    "CHA": 3
+  },
+  "traits": [],
+  "text": "# Cat\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.\n\n**Constrict.** Strength Saving Throw: DC 12, one Medium or smaller creature the snake can see within 5 feet. Failure: 7 (3d4) Bludgeoning damage, and the target has the Grappled condition (escape DC 12)."
+}

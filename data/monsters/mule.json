@@ -1,0 +1,34 @@
+{
+  "id": "mule",
+  "kind": "monster",
+  "name": "Mule",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Small",
+  "type": "Small Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "3 (1d6)",
+  "speed": "5 ft., Swim 30 ft.",
+  "stats": {
+    "STR": 4,
+    "DEX": 15,
+    "CON": 11,
+    "INT": 3,
+    "WIS": 10,
+    "CHA": 4
+  },
+  "traits": [
+    {
+      "name": "Compression",
+      "text": "The octopus can move through a space as narrow as 1 inch without expending extra movement to do so."
+    },
+    {
+      "name": "Water Breathing",
+      "text": "The octopus can breathe only underwater."
+    }
+  ],
+  "text": "# Mule\n\n*Small Beast, Unaligned*"
+}

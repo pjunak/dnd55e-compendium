@@ -1,0 +1,30 @@
+{
+  "id": "fire_elemental",
+  "kind": "monster",
+  "name": "Fire Elemental",
+  "edition": "2024",
+  "cr": "9 (XP 5,000; PB +4)",
+  "crValue": 9,
+  "creatureType": "Giant",
+  "size": "Huge",
+  "type": "Huge Giant",
+  "alignment": "Lawful Evil",
+  "ac": "18",
+  "hp": "162 (13d12 + 78)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 25,
+    "DEX": 9,
+    "CON": 23,
+    "INT": 10,
+    "WIS": 14,
+    "CHA": 13
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Fire"
+    }
+  ],
+  "text": "# Fire Elemental\n\n*Huge Giant, Lawful Evil*\n\n### Actions\n\n**Flame Sword.** Melee Attack Roll: +11, reach 10 ft. Hit: 21 (4d6 + 7) Slashing damage plus 10 (3d6) Fire damage.\n\n**Hammer Throw.** Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn."
+}

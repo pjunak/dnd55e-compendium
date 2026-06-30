@@ -1,0 +1,46 @@
+{
+  "id": "mummy_lord",
+  "kind": "monster",
+  "name": "Mummy Lord",
+  "edition": "2024",
+  "cr": "15 (XP 13,000, or 15,000 in lair; PB +5)",
+  "crValue": 15,
+  "creatureType": "or Small Undead (Cleric)",
+  "size": "Medium",
+  "type": "Medium or Small Undead (Cleric)",
+  "alignment": "Lawful Evil",
+  "ac": "17",
+  "hp": "187 (25d8 + 75)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 10,
+    "CON": 17,
+    "INT": 11,
+    "WIS": 19,
+    "CHA": 16
+  },
+  "traits": [
+    {
+      "name": "Vulnerabilities",
+      "text": "Fire"
+    },
+    {
+      "name": "Immunities",
+      "text": "Necrotic, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Poisoned"
+    },
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the mummy fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The mummy has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Undead Restoration",
+      "text": "If destroyed, the mummy gains a new body in 24 hours if its heart is intact, reviving with all its Hit Points. The new body appears in an unoccupied space within the mummy’s lair. The heart is a Tiny object that has AC 17, HP 10, and Immunity to all damage except Fire."
+    }
+  ],
+  "text": "# Mummy Lord\n\n*Medium or Small Undead (Cleric), Lawful Evil*\n\n### Actions\n\n**Rotting Fist.** Melee Attack Roll: +9, reach 5 ft. Hit: 15 (2d10 + 4) Bludgeoning damage plus 10 (3d6) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target can’t regain Hit Points, it gains no benefit from finishing a Long Rest, and its Hit Point maximum decreases by 10 (3d6) every 24 hours that elapse. A creature dies and turns to dust if reduced to 0 Hit Points by this attack.\n\n**Channel Negative Energy.** Ranged Attack Roll: +9, range 60 ft. Hit: 25 (6d6 + 4) Necrotic damage.\n\n**Dreadful Glare.** Wisdom Saving Throw: DC 17, one creature the mummy can see within 60 feet. Failure: 25 (6d6 + 4) Psychic damage, and the target has the Paralyzed condition until the end of the mummy’s next turn."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "pegasus",
+  "kind": "monster",
+  "name": "Pegasus",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Monstrosity",
+  "size": "Large",
+  "type": "Large Monstrosity",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "45 (7d10 + 7)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 15,
+    "DEX": 16,
+    "CON": 12,
+    "INT": 6,
+    "WIS": 10,
+    "CHA": 6
+  },
+  "traits": [
+    {
+      "name": "Ethereal Sight",
+      "text": "The spider can see 60 feet into the Ethereal Plane while on the Material Plane and vice versa."
+    },
+    {
+      "name": "Spider Climb",
+      "text": "The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Web Walker",
+      "text": "The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web."
+    }
+  ],
+  "text": "# Pegasus\n\n*Large Monstrosity, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage plus 9 (2d8) Poison damage. If this damage reduces the target to 0 Hit Points, the target becomes Stable, and it has the Poisoned condition for 1 hour. While Poisoned, the target also has the Paralyzed condition."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ice_devil",
+  "kind": "monster",
+  "name": "Ice Devil",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "Fiend (Devil)",
+  "size": "Tiny",
+  "type": "Tiny Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "ac": "13",
+  "hp": "21 (6d4 + 6)",
+  "speed": "20 ft., Fly 40 ft.",
+  "stats": {
+    "STR": 6,
+    "DEX": 17,
+    "CON": 13,
+    "INT": 11,
+    "WIS": 12,
+    "CHA": 14
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold"
+    },
+    {
+      "name": "Immunities",
+      "text": "Fire, Poison; Poisoned"
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The imp has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Ice Devil\n\n*Tiny Fiend (Devil), Lawful Evil*\n\n### Actions\n\n**Sting.** Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage plus 7 (2d6) Poison damage."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "young_bronze_dragon",
+  "kind": "monster",
+  "name": "Young Bronze Dragon",
+  "edition": "2024",
+  "cr": "8 (XP 3,900; PB +3)",
+  "crValue": 8,
+  "creatureType": "Dragon (Metallic)",
+  "size": "Large",
+  "type": "Large Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "ac": "17",
+  "hp": "142 (15d10 + 60)",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 21,
+    "DEX": 10,
+    "CON": 19,
+    "INT": 14,
+    "WIS": 13,
+    "CHA": 17
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Lightning"
+    },
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    }
+  ],
+  "text": "# Young Bronze Dragon\n\n*Large Dragon (Metallic), Lawful Good*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +8, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage.\n\n**Lightning Breath (Recharge 5–6).** Dexterity Saving Throw: DC 15, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 49 (9d10) Lightning damage. Success: Half damage.\n\n**Repulsion Breath.** Strength Saving Throw: DC 15, each creature in a 30-foot Cone. Failure: The target is pushed up to 40 feet straight away from the dragon and has the Prone condition."
+}

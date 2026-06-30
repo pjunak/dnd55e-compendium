@@ -1,0 +1,25 @@
+{
+  "id": "cultists",
+  "kind": "monster",
+  "name": "Cultists",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Aberration",
+  "size": "Small",
+  "type": "Small Aberration",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "22 (5d6 + 5)",
+  "speed": "10 ft., Fly 30 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 12,
+    "CON": 13,
+    "INT": 2,
+    "WIS": 10,
+    "CHA": 5
+  },
+  "traits": [],
+  "text": "# Cultists\n\n*Small Aberration, Unaligned*\n\n### Actions\n\n**Crush.** Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage, and the darkmantle attaches to the target. If the target is a Medium or smaller creature and the darkmantle had Advantage on the attack roll, it covers the target, which has the Blinded condition and is suffocating while the darkmantle is attached in this way."
+}

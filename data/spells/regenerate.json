@@ -1,0 +1,25 @@
+{
+  "id": "regenerate",
+  "kind": "spell",
+  "name": "Regenerate",
+  "edition": "2024",
+  "level": 7,
+  "school": "Transmutation",
+  "classes": [
+    "bard",
+    "cleric",
+    "druid"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "1 minute",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a prayer wheel",
+  "duration": "1 hour",
+  "text": "# Regenerate\n*7th-Level Transmutation (Bard, Cleric, Druid)*\n**Casting Time:** 1 minute\n**Range:** Touch\n**Components:** V, S, M (a prayer wheel)\n**Duration:** 1 hour\n\nA creature you touch regains 4d8 + 15 Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes."
+}

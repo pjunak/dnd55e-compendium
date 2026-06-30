@@ -1,0 +1,23 @@
+{
+  "id": "grasping-vine",
+  "kind": "spell",
+  "name": "Grasping Vine",
+  "edition": "2024",
+  "level": 4,
+  "school": "Conjuration",
+  "classes": [
+    "druid",
+    "ranger"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Bonus Action",
+  "range": "60 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Grasping Vine\n*4th-Level Conjuration (Druid, Ranger)*\n**Casting Time:** Bonus Action\n**Range:** 60 feet\n**Components:** V, S\n**Duration:** Concentration, up to 1 minute\n\nYou conjure a vine that sprouts from a surface in an unoccupied space that you can see within range. The vine lasts for the duration.\n\nMake a melee spell attack against a creature within 30 feet of the vine. On a hit, the target takes 4d8 Bludgeoning damage and is pulled up to 30 feet toward the vine; if the target is Huge or smaller, it has the Grappled condition (escape DC equal to your spell save DC). The vine can grapple only one creature at a time, and you can cause the vine to release a Grappled creature (no action required).\n\nAs a Bonus Action on your later turns, you can repeat the attack against a creature within 30 feet of the vine.\n\n**Using a Higher-Level Spell Slot.** The number of creatures the vine can grapple increases by one for each spell slot level above 4."
+}

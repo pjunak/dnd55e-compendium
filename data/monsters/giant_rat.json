@@ -1,0 +1,30 @@
+{
+  "id": "giant_rat",
+  "kind": "monster",
+  "name": "Giant Rat",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "16 (3d10)",
+  "speed": "5 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 15,
+    "DEX": 12,
+    "CON": 11,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 5
+  },
+  "traits": [
+    {
+      "name": "Water Breathing",
+      "text": "The seahorse can breathe only underwater."
+    }
+  ],
+  "text": "# Giant Rat\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Ram.** Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Bludgeoning damage, or 11 (2d8 + 2) Bludgeoning damage if the seahorse moved 20+ feet straight toward the target immediately before the hit."
+}

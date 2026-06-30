@@ -1,0 +1,26 @@
+{
+  "id": "see-invisibility",
+  "kind": "spell",
+  "name": "See Invisibility",
+  "edition": "2024",
+  "level": 2,
+  "school": "Divination",
+  "classes": [
+    "artificer",
+    "bard",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a pinch of talc",
+  "duration": "1 hour",
+  "text": "# See Invisibility\n*2nd-Level Divination (Artificer, Bard, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V, S, M (a pinch of talc)\n**Duration:** 1 hour\n\nFor the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly."
+}

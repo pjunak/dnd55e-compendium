@@ -1,0 +1,38 @@
+{
+  "id": "assassin",
+  "kind": "subclass",
+  "name": "Assassin",
+  "classId": "rogue",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "assassinate",
+      "name": "Assassinate"
+    },
+    {
+      "level": 3,
+      "id": "assassins-tools",
+      "name": "Assassin's Tools"
+    },
+    {
+      "level": 9,
+      "id": "infiltration-expertise",
+      "name": "Infiltration Expertise"
+    },
+    {
+      "level": 13,
+      "id": "envenom-weapons",
+      "name": "Envenom Weapons"
+    },
+    {
+      "level": 17,
+      "id": "death-strike",
+      "name": "Death Strike"
+    }
+  ],
+  "grants": {},
+  "text": "*Practice the Grim Art of Death*\n\nAn Assassin's training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.\n\n### Level 3: Assassinate\n\nYou're adept at ambushing a target, granting you the following benefits.\n\n**Initiative.** You have Advantage on Initiative rolls.\n\n**Surprising Strikes.** During the first round of each combat, you have Advantage on attack rolls against any creature that hasn't taken a turn. If your Sneak Attack hits any target during that round, the target takes extra damage of the weapon's type equal to your Rogue level.\n\n### Level 3: Assassin's Tools\n\nYou gain a Disguise Kit and a Poisoner's Kit, and you have proficiency with them.\n\n### Level 9: Infiltration Expertise\n\nYou are an expert at the following techniques that aid your infiltrations.\n\n**Masterful Mimicry.** You can unerringly mimic another person's speech, handwriting or both if you have spent at least 1 hour studying them.\n\n**Roving Aim.** Your speed isn't reduced to 0 by using Steady Aim.\n\n### Level 13: Envenom Weapons\n\nWhen you use the Poison option of your Cunning Strike, the target also takes 2d6 Poison damage whenever it fails the saving throw. This damage ignores Resistance to Poison damage.\n\n### Level 17: Death Strike\n\nWhen you hit with your Sneak Attack on the first round of a combat, the target must succeed on a Constitution saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus), or the attack's damage is doubled against the target."
+}

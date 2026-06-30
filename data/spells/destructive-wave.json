@@ -1,0 +1,21 @@
+{
+  "id": "destructive-wave",
+  "kind": "spell",
+  "name": "Destructive Wave",
+  "edition": "2024",
+  "level": 5,
+  "school": "Evocation",
+  "classes": [
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Destructive Wave\n*5th-Level Evocation (Paladin)*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V\n**Duration:** Instantaneous\n\nDestructive energy ripples outward from you in a 30-foot Emanation. Each creature you choose in the Emanation makes a Constitution saving throw. On a failed save, a target takes 5d6 Thunder damage and 5d6 Radiant or Necrotic damage (your choice) and has the Prone condition. On a successful save, a target takes half as much damage only."
+}

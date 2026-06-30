@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# The compendium content is a per-record JSON tree (data/<kind>/<id>.json),
+# served at runtime by the addon's server module (server/index.cjs). These are
+# hand-editable, individually-reviewable SOURCE files — left as normal reviewable
+# files (NOT linguist-generated) so GitHub shows their diffs. Add/remove a record
+# = add/remove its JSON file; it's live on the next server load.

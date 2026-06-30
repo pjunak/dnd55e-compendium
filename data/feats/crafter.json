@@ -1,0 +1,17 @@
+{
+  "id": "crafter",
+  "kind": "feat",
+  "name": "Crafter",
+  "edition": "2024",
+  "category": "origin",
+  "prerequisites": {},
+  "repeatable": false,
+  "grants": {
+    "proficiencies": {
+      "tools": [
+        "Artisan's Tools (3)"
+      ]
+    }
+  },
+  "text": "You gain the following benefits.\n\n**Tool Proficiency**. You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table.\n\n**Discount**. Whenever you buy a nonmagical item, you receive a 20 percent discount on it.\n\n**Fast Crafting**. When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.\n\n#### Fast Crafting\n\n|\n Artisan's Tools |\n Crafted Gear |\n\n|\n Carpenter's Tools |\n Ladder, Torch |\n\n|\n Leatherworker's Tools |\n Case, Pouch |\n\n|\n Mason's Tools |\n Block and Tackle |\n\n|\n Potter's Tools |\n Jug, Lamp |\n\n|\n Smith's Tools |\n Ball Bearings, Bucket, Caltrops, Grappling Hook, Iron Pot |\n\n|\n Tinker's Tools |\n Bell, Shovel, Tinder Box |\n\n|\n Weaver's Tools |\n Basket, Rope, Net, Tent |\n\n|\n Woodcarver's Tools |\n Club, Greatclub, Quarterstaff |"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "giant_crocodile",
+  "kind": "monster",
+  "name": "Giant Crocodile",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "Celestial",
+  "size": "Large",
+  "type": "Large Celestial",
+  "alignment": "Neutral Good",
+  "ac": "13",
+  "hp": "26 (4d10 + 4)",
+  "speed": "10 ft., Fly 80 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 17,
+    "CON": 13,
+    "INT": 8,
+    "WIS": 14,
+    "CHA": 10
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Necrotic, Radiant"
+    }
+  ],
+  "text": "# Giant Crocodile\n\n*Large Celestial, Neutral Good*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 3 (1d6) Radiant damage."
+}

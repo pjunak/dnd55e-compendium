@@ -1,0 +1,30 @@
+{
+  "id": "crocodile",
+  "kind": "monster",
+  "name": "Crocodile",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "4 (1d8)",
+  "speed": "50 ft.",
+  "stats": {
+    "STR": 11,
+    "DEX": 16,
+    "CON": 11,
+    "INT": 2,
+    "WIS": 14,
+    "CHA": 5
+  },
+  "traits": [
+    {
+      "name": "Agile",
+      "text": "The deer doesn’t provoke an Opportunity Attack when it moves out of an enemy’s reach."
+    }
+  ],
+  "text": "# Crocodile\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Ram.** Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
+}

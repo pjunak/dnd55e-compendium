@@ -1,0 +1,24 @@
+{
+  "id": "spare-the-dying",
+  "kind": "spell",
+  "name": "Spare the Dying",
+  "edition": "2024",
+  "level": 0,
+  "school": "Necromancy",
+  "classes": [
+    "artificer",
+    "cleric",
+    "druid"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "15 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Spare the Dying\n*Necromancy Cantrip (Artificer, Cleric, Druid)*\n**Casting Time:** Action\n**Range:** 15 feet\n**Components:** V, S\n**Duration:** Instantaneous\n\nChoose a creature within range that has 0 Hit Points and isn’t dead. The creature becomes Stable.\n\n**Cantrip Upgrade.** The range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet)."
+}

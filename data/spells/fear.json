@@ -1,0 +1,21 @@
+{
+  "id": "fear",
+  "kind": "spell",
+  "name": "Fear",
+  "edition": "2024",
+  "level": 3,
+  "school": "Illusion",
+  "classes": [],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a white feather",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Fear\n*3rd-Level Illusion*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V, S, M (a white feather)\n**Duration:** Concentration, up to 1 minute\nLevel 3 Illusion (Bard, Sorcerer, Warlock, Wizard)\nCasting Time: Action\nRange: Self\nComponents: V, S, M (a white feather)\nDuration: Concentration, up to 1 minute\nEach creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and have the Frightened condition for the duration.\nA Frightened creature takes the Dash action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn’t have line of sight to you, the creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature."
+}

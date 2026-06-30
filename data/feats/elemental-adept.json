@@ -1,0 +1,23 @@
+{
+  "id": "elemental-adept",
+  "kind": "feat",
+  "name": "Elemental Adept",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+, Spellcasting or Pact Magic Feature"
+  },
+  "repeatable": true,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "INT",
+        "WIS",
+        "CHA"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+, Spellcasting or Pact Magic Feature*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\n\n**Energy Mastery.** Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. Spells you cast ignore Resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.\n\n**Repeatable.** You can take this feat more than once, but you must choose a different damage type each time for Energy Mastery."
+}

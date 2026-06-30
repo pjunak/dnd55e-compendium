@@ -1,0 +1,38 @@
+{
+  "id": "psi-warrior",
+  "kind": "subclass",
+  "name": "Psi Warrior",
+  "classId": "fighter",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "psionic-power",
+      "name": "Psionic Power"
+    },
+    {
+      "level": 7,
+      "id": "telekinetic-adept",
+      "name": "Telekinetic Adept"
+    },
+    {
+      "level": 10,
+      "id": "guarded-mind",
+      "name": "Guarded Mind"
+    },
+    {
+      "level": 15,
+      "id": "bulwark-of-force",
+      "name": "Bulwark of Force"
+    },
+    {
+      "level": 18,
+      "id": "telekinetic-master",
+      "name": "Telekinetic Master"
+    }
+  ],
+  "grants": {},
+  "text": "*Augment Physical Might with Psionic Power*\n\nPsi Warriors awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force.\n\n### Level 3: Psionic Power\n\nYou harbor a wellspring of psionic energy within yourself. It is represented by your Psionic Energy Dice, which fuel powers you have from this subclass. The Psi Warrior Energy Dice table shows the die size and number of these dice you have when you reach certain Fighter levels.\n\n###### Psi Warrior Energy Dice\n\n|\n Fighter Level |\n Die Size |\n Number |\n\n|\n 3 |\n D6 |\n 4 |\n\n|\n 5 |\n D8 |\n 6 |\n\n|\n 9 |\n D8 |\n 8 |\n\n|\n 11 |\n D10 |\n 8 |\n\n|\n 13 |\n D10 |\n 10 |\n\n|\n 17 |\n D12 |\n 12 |\n\nAny features in this subclass that use a Psionic Energy Die use only the dice from this subclass. Some of your powers expend the Psionic Energy Die, as specified in a power’s description, and you can’t use a power if it requires you to use a die when all your Psionic Energy Dice are expended.\n\nYou regain one of your expended Psionic Energy Dice when you finish a Short Rest, and you regain all of them when you finish a Long Rest.\n\n**Protective Field.** When you or another creature you can see within 30 feet of you takes damage, you can take a Reaction to expend one Psionic Energy Die, roll the die, and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1), as you create a momentary shield of telekinetic force.\n\n**Psionic Strike.** You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of yourself with an attack and deal damage to it with a weapon, you can expend one Psionic Energy Die, rolling it and dealing Force damage to the target equal to the number rolled plus your Intelligence modifier.\n\n**Telekinetic Movement.** You can move an object or a creature with your mind. As a Magic action, choose one target you can see within 30 feet of yourself; the target must be a loose object that is Large or smaller or one willing creature other than you. You transport the target up to 30 feet to an unoccupied space you can see. Alternatively, if the target is a Tiny object, you can transport it to or from your hand.\n\nOnce you take this action, you can’t do so again until you finish a Short or Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.\n\n### Level 7: Telekinetic Adept\n\nYou have mastered new ways to use your telekinetic abilities, detailed below.\n\n**Psi-Powered Leap.** As a Bonus Action, you gain a Fly Speed equal to twice your Speed until the end of the current turn. Once you take this Bonus Action, you can’t do so again until you finish a Short or Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.\n\n**Telekinetic Thrust.** When you deal damage to a target with your Psionic Strike, you can force the target to make a Strength saving throw (DC 8 plus your Intelligence modifier and Proficiency Bonus). On a failed save, you can give the target the Prone condition or transport it up to 10 feet horizontally.\n\n### Level 10: Guarded Mind\n\nYou have Resistance to Psychic damage. Moreover, if you start your turn with the Charmed or Frightened condition, you can expend a Psionic Energy Die (no action required) and end every effect on yourself giving you those conditions.\n\n### Level 15: Bulwark of Force\n\nYou can shield yourself and others with telekinetic force. As a Bonus Action, you can choose creatures, including yourself, within 30 feet of yourself, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures has Half Cover for 1 minute or until you have the Incapacitated condition.\n\nOnce you use this feature, you can’t do so again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.\n\n### Level 18: Telekinetic Master\n\nYou always have the telekinesis spell prepared. With this feature, you can cast it without a spell slot or components, and your spellcasting ability for it is Intelligence. On each of your turns while you maintain Concentration on it, including the turn when you cast it, you can make one attack with a weapon as a Bonus Action.\n\nOnce you cast the spell with this feature, you can’t do so in this way again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it."
+}

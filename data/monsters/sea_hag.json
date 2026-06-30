@@ -1,0 +1,46 @@
+{
+  "id": "sea_hag",
+  "kind": "monster",
+  "name": "Sea Hag",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Undead",
+  "size": "Medium",
+  "type": "Medium Undead",
+  "alignment": "Chaotic Evil",
+  "ac": "12",
+  "hp": "27 (5d8 + 5)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 6,
+    "DEX": 14,
+    "CON": 13,
+    "INT": 6,
+    "WIS": 10,
+    "CHA": 8
+  },
+  "traits": [
+    {
+      "name": "Vulnerabilities",
+      "text": "Radiant"
+    },
+    {
+      "name": "Resistances",
+      "text": "Acid, Cold, Fire, Lightning, Thunder"
+    },
+    {
+      "name": "Immunities",
+      "text": "Necrotic, Poison; Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious"
+    },
+    {
+      "name": "Amorphous",
+      "text": "The shadow can move through a space as narrow as 1 inch without expending extra movement to do so."
+    },
+    {
+      "name": "Sunlight Weakness",
+      "text": "While in sunlight, the shadow has Disadvantage on D20 Tests."
+    }
+  ],
+  "text": "# Sea Hag\n\n*Medium Undead, Chaotic Evil*\n\n### Actions\n\n**Draining Swipe.** Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Necrotic damage, and the target’s Strength score decreases by 1d4. The target dies if this reduces that score to 0. If a Humanoid is slain by this attack, a Shadow rises from the corpse 1d4 hours later."
+}

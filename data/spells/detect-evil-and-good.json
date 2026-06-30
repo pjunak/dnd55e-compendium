@@ -1,0 +1,23 @@
+{
+  "id": "detect-evil-and-good",
+  "kind": "spell",
+  "name": "Detect Evil and Good",
+  "edition": "2024",
+  "level": 1,
+  "school": "Divination",
+  "classes": [
+    "cleric",
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 10 minutes",
+  "text": "# Detect Evil and Good\n*1st-Level Divination (Cleric, Paladin)*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V, S\n**Duration:** Concentration, up to 10 minutes\n\nFor the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the Hallow spell is active there and, if so, where.\n\nThe spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "dispel-magic",
+  "kind": "spell",
+  "name": "Dispel Magic",
+  "edition": "2024",
+  "level": 3,
+  "school": "Abjuration",
+  "classes": [
+    "artificer",
+    "bard",
+    "cleric",
+    "druid",
+    "paladin",
+    "ranger",
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Dispel Magic\n*3rd-Level Abjuration (Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** 120 feet\n**Components:** V, S\n**Duration:** Instantaneous\n\nChoose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell’s level). On a successful check, the spell ends.\n\n**Using a Higher-Level Spell Slot.** You automatically end a spell on the target if the spell’s level is equal to or less than the level of the spell slot you use."
+}

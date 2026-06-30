@@ -1,0 +1,30 @@
+{
+  "id": "giant_weasel",
+  "kind": "monster",
+  "name": "Giant Weasel",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "11 (2d8 + 2)",
+  "speed": "40 ft., Climb 40 ft.",
+  "stats": {
+    "STR": 12,
+    "DEX": 16,
+    "CON": 13,
+    "INT": 3,
+    "WIS": 12,
+    "CHA": 4
+  },
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    }
+  ],
+  "text": "# Giant Weasel\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage."
+}

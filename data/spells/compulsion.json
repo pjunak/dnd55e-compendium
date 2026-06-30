@@ -1,0 +1,22 @@
+{
+  "id": "compulsion",
+  "kind": "spell",
+  "name": "Compulsion",
+  "edition": "2024",
+  "level": 4,
+  "school": "Enchantment",
+  "classes": [
+    "bard"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Compulsion\n*4th-Level Enchantment (Bard)*\n**Casting Time:** Action\n**Range:** 30 feet\n**Components:** V, S\n**Duration:** Concentration, up to 1 minute\n\nEach creature of your choice that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition until the spell ends.\n\nFor the duration, you can take a Bonus Action to designate a direction that is horizontal to you. Each Charmed target must use as much of its movement as possible to move in that direction on its next turn, taking the safest route. After moving in this way, a target repeats the save, ending the spell on itself on a success."
+}

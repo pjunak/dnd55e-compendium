@@ -1,0 +1,13 @@
+{
+  "id": "tough",
+  "kind": "feat",
+  "name": "Tough",
+  "edition": "2024",
+  "category": "origin",
+  "prerequisites": {},
+  "repeatable": false,
+  "grants": {
+    "hpPerLevel": 2
+  },
+  "text": "Your Hit Point maximum increases by an amount equal to twice your character level when you gain this feat. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points."
+}

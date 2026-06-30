@@ -1,0 +1,21 @@
+{
+  "id": "whip",
+  "kind": "weapon",
+  "name": "Whip",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d4",
+  "damageType": "slashing",
+  "properties": [
+    "finesse",
+    "reach"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Slow",
+  "weight": "3 lb.",
+  "cost": "2 GP",
+  "text": "# Whip\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d4 Slashing\n**Properties:** Finesse,Reach\n**Mastery:** Slow\n**Weight:** 3 lb.\n**Cost:** 2 GP"
+}

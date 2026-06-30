@@ -1,0 +1,25 @@
+{
+  "id": "pirate_captain",
+  "kind": "monster",
+  "name": "Pirate Captain",
+  "edition": "2024",
+  "cr": "6 (XP 2,300; PB +3)",
+  "crValue": 6,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "17",
+  "hp": "84 (13d8 + 26)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 10,
+    "DEX": 18,
+    "CON": 14,
+    "INT": 10,
+    "WIS": 14,
+    "CHA": 17
+  },
+  "traits": [],
+  "text": "# Pirate Captain\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Rapier.** Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage, and the pirate has Advantage on the next attack roll it makes before the end of this turn.\n\n**Pistol.** Ranged Attack Roll: +7, range 30/90 ft. Hit: 15 (2d10 + 4) Piercing damage.\n\n**Captain’s Charm.** Wisdom Saving Throw: DC 14, one creature the pirate can see within 30 feet. Failure: The target has the Charmed condition until the start of the pirate’s next turn."
+}

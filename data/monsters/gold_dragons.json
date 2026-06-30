@@ -1,0 +1,30 @@
+{
+  "id": "gold_dragons",
+  "kind": "monster",
+  "name": "Gold Dragons",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "Construct",
+  "size": "Large",
+  "type": "Large Construct",
+  "alignment": "Unaligned",
+  "ac": "19",
+  "hp": "114 (12d10 + 48)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 20,
+    "DEX": 11,
+    "CON": 18,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 7
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Exhaustion, Petrified"
+    }
+  ],
+  "text": "# Gold Dragons\n\n*Large Construct, Unaligned*\n\n### Actions\n\n**Gore.** Melee Attack Roll: +8, reach 5 ft. Hit: 18 (2d12 + 5) Piercing damage. If the target is a Large or smaller creature and the gorgon moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\n**Petrifying Breath (Recharge 5–6).** Constitution Saving Throw: DC 15, each creature in a 30-foot Cone. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition.\n\n**Trample.** Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 16 (2d10 + 5) Bludgeoning damage. Success: Half damage."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "pirates",
+  "kind": "monster",
+  "name": "Pirates",
+  "edition": "2024",
+  "cr": "20 (XP 25,000; PB +6)",
+  "crValue": 20,
+  "creatureType": "Fiend (Devil)",
+  "size": "Large",
+  "type": "Large Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "ac": "21",
+  "hp": "337 (27d10 + 189)",
+  "speed": "30 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 26,
+    "DEX": 14,
+    "CON": 24,
+    "INT": 22,
+    "WIS": 18,
+    "CHA": 24
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold"
+    },
+    {
+      "name": "Immunities",
+      "text": "Fire, Poison; Poisoned"
+    },
+    {
+      "name": "Diabolical Restoration",
+      "text": "If the pit fiend dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    },
+    {
+      "name": "Fear Aura",
+      "text": "The pit fiend emanates an aura in a 20-foot Emanation while it doesn’t have the Incapacitated condition. Wisdom Saving Throw: DC 21, any enemy that starts its turn in the aura. Failure: The target has the Frightened condition until the start of its next turn. Success: The target is immune to this pit fiend’s aura for 24 hours."
+    },
+    {
+      "name": "Legendary Resistance (4/Day)",
+      "text": "If the pit fiend fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The pit fiend has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Pirates\n\n*Large Fiend (Devil), Lawful Evil*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +14, reach 10 ft. Hit: 18 (3d6 + 8) Piercing damage. If the target is a creature, it must make the following saving throw. Constitution Saving Throw: DC 21. Failure: The target has the Poisoned condition. While Poisoned, the target can’t regain Hit Points and takes 21 (6d6) Poison damage at the start of each of its turns, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\n**Devilish Claw.** Melee Attack Roll: +14, reach 10 ft. Hit: 26 (4d8 + 8) Necrotic damage.\n\n**Fiery Mace.** Melee Attack Roll: +14, reach 10 ft. Hit: 22 (4d6 + 8) Force damage plus 21 (6d6) Fire damage."
+}

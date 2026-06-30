@@ -1,0 +1,24 @@
+{
+  "id": "spear",
+  "kind": "weapon",
+  "name": "Spear",
+  "edition": "2024",
+  "category": "simple",
+  "range": "melee",
+  "damage": "1d6",
+  "damageType": "piercing",
+  "properties": [
+    "thrown",
+    "versatile"
+  ],
+  "versatileDamage": "1d8",
+  "thrownRange": {
+    "normal": 20,
+    "long": 60
+  },
+  "rangeNormalLong": null,
+  "mastery": "Sap",
+  "weight": "3 lb.",
+  "cost": "1 GP",
+  "text": "# Spear\n\n*Weapon, Simple Melee Weapons*\n\n**Damage:** 1d6 Piercing\n**Properties:** Thrown(Range 20/60),Versatile(1d8)\n**Mastery:** Sap\n**Weight:** 3 lb.\n**Cost:** 1 GP"
+}

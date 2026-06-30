@@ -1,0 +1,25 @@
+{
+  "id": "sprite",
+  "kind": "monster",
+  "name": "Sprite",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "12",
+  "hp": "27 (6d8)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 10,
+    "DEX": 15,
+    "CON": 10,
+    "INT": 12,
+    "WIS": 14,
+    "CHA": 16
+  },
+  "traits": [],
+  "text": "# Sprite\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Shortsword.** Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\n**Hand Crossbow.** Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage."
+}

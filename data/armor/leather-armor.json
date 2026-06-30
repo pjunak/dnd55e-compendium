@@ -1,0 +1,16 @@
+{
+  "id": "leather-armor",
+  "kind": "armor",
+  "name": "Leather Armor",
+  "edition": "2024",
+  "armorType": "light",
+  "baseAC": 11,
+  "dexCap": null,
+  "acBonus": 0,
+  "strReq": 0,
+  "stealthDisadvantage": false,
+  "weight": "10 lb.",
+  "cost": "10 GP",
+  "_acSource": "11 + Dex modifier",
+  "text": "# Leather Armor\n\n*Armor, Light Armor (1 Minute to Don or Doff)*\n\n**AC:** 11 + Dex modifier\n**Weight:** 10 lb.\n**Cost:** 10 GP"
+}

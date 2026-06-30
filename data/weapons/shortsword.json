@@ -1,0 +1,21 @@
+{
+  "id": "shortsword",
+  "kind": "weapon",
+  "name": "Shortsword",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d6",
+  "damageType": "piercing",
+  "properties": [
+    "finesse",
+    "light"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Vex",
+  "weight": "2 lb.",
+  "cost": "10 GP",
+  "text": "# Shortsword\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d6 Piercing\n**Properties:** Finesse,Light\n**Mastery:** Vex\n**Weight:** 2 lb.\n**Cost:** 10 GP"
+}

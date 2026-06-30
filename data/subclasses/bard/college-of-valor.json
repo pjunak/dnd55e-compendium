@@ -1,0 +1,33 @@
+{
+  "id": "college-of-valor",
+  "kind": "subclass",
+  "name": "College of Valor",
+  "classId": "bard",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "combat-inspiration",
+      "name": "Combat Inspiration"
+    },
+    {
+      "level": 3,
+      "id": "martial-training",
+      "name": "Martial Training"
+    },
+    {
+      "level": 6,
+      "id": "extra-attack",
+      "name": "Extra Attack"
+    },
+    {
+      "level": 14,
+      "id": "battle-magic",
+      "name": "Battle Magic"
+    }
+  ],
+  "grants": {},
+  "text": "*Sing the Deeds of Ancient Heroes*\n\nBards of the College of Valor are daring storytellers whose tales preserve the memory of the great heroes of the past. These Bards sing the deeds of the mighty in vaulted halls or to crowds gathered around great bonfires. They travel to witness great events firsthand and to ensure that the memory of these events doesn’t pass away. With their songs, they inspire new generations to reach the same heights of accomplishment as the heroes of old.\n\n### Level 3: Combat Inspiration\n\nYou can use your wit to turn the tide of battle. A creature that has a Bardic Inspiration die from you can use it for one of the following effects.\n\n**Defense.** When the creature is hit by an attack roll, that creature can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, potentially causing the attack to miss.\n\n**Offense.** Immediately after the creature hits a target with an attack roll, the creature can roll the Bardic Inspiration die and add the number rolled to the attack’s damage against the target.\n\n### Level 3: Martial Training\n\nYou gain proficiency with Martial weapons and training with Medium armor and Shields.\n\nIn addition, you can use a Simple or Martial weapon as a Spellcasting Focus to cast spells from your Bard spell list.\n\n### Level 6: Extra Attack\n\nYou can attack twice instead of once whenever you take the Attack action on your turn.\n\nIn addition, you can cast one of your cantrips that has a casting time of an action in place of one of those attacks.\n\n### Level 14: Battle Magic\n\nAfter you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action."
+}

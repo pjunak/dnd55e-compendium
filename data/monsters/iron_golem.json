@@ -1,0 +1,30 @@
+{
+  "id": "iron_golem",
+  "kind": "monster",
+  "name": "Iron Golem",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "18",
+  "hp": "52 (8d8 + 16)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 11,
+    "CON": 14,
+    "INT": 11,
+    "WIS": 11,
+    "CHA": 15
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Frightened"
+    }
+  ],
+  "text": "# Iron Golem\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Greatsword.** Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 4 (1d8) Radiant damage.\n\n**Heavy Crossbow.** Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing damage plus 4 (1d8) Radiant damage."
+}

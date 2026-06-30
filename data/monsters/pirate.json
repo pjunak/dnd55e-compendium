@@ -1,0 +1,25 @@
+{
+  "id": "pirate",
+  "kind": "monster",
+  "name": "Pirate",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "14",
+  "hp": "33 (6d8 + 6)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 10,
+    "DEX": 16,
+    "CON": 12,
+    "INT": 8,
+    "WIS": 12,
+    "CHA": 14
+  },
+  "traits": [],
+  "text": "# Pirate\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Dagger.** Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage.\n\n**Enthralling Panache.** Wisdom Saving Throw: DC 12, one creature the pirate can see within 30 feet. Failure: The target has the Charmed condition until the start of the pirate’s next turn."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "expertise",
+  "kind": "rule",
+  "name": "Expertise",
+  "edition": "2024",
+  "category": "class_feature",
+  "tags": [],
+  "source": "",
+  "text": "# Expertise\n\nYou gain **Expertise** in two of your Skill Proficiencies of your choice. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen skills.\n\nAt higher levels, some classes gain additional uses of this feature, allowing you to choose two more skills to gain Expertise in.\n\n## Eligibility\n\nYou must have proficiency in a skill to gain Expertise in it. You cannot gain Expertise in a skill you do not have proficiency in, and you cannot gain Expertise in a skill you already have Expertise in."
+}

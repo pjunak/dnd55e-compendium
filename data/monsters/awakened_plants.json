@@ -1,0 +1,25 @@
+{
+  "id": "awakened_plants",
+  "kind": "monster",
+  "name": "Awakened Plants",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Monstrosity",
+  "size": "Large",
+  "type": "Large Monstrosity",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "19 (3d10 + 3)",
+  "speed": "50 ft.",
+  "stats": {
+    "STR": 14,
+    "DEX": 12,
+    "CON": 12,
+    "INT": 2,
+    "WIS": 10,
+    "CHA": 5
+  },
+  "traits": [],
+  "text": "# Awakened Plants\n\n*Large Monstrosity, Unaligned*\n\n### Actions\n\n**Beak.** Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage."
+}

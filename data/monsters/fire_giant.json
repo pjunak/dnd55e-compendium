@@ -1,0 +1,50 @@
+{
+  "id": "fire_giant",
+  "kind": "monster",
+  "name": "Fire Giant",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "Construct",
+  "size": "Medium",
+  "type": "Medium Construct",
+  "alignment": "Neutral",
+  "ac": "9",
+  "hp": "127 (15d8 + 60)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 19,
+    "DEX": 9,
+    "CON": 18,
+    "INT": 6,
+    "WIS": 10,
+    "CHA": 5
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Lightning, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned"
+    },
+    {
+      "name": "Aversion to Fire",
+      "text": "If the golem takes Fire damage, it has Disadvantage on attack rolls and ability checks until the end of its next turn."
+    },
+    {
+      "name": "Berserk",
+      "text": "Whenever the golem starts its turn Bloodied, roll 1d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object. Once the golem goes berserk, it remains so until it is destroyed or it is no longer Bloodied."
+    },
+    {
+      "name": "Immutable Form",
+      "text": "The golem can’t shape-shift."
+    },
+    {
+      "name": "Lightning Absorption",
+      "text": ". Whenever the golem is subjected to Lightning damage, it regains a number of Hit Points equal to the Lightning damage dealt."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The golem has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Fire Giant\n\n*Medium Construct, Neutral*\n\n### Actions\n\n**Slam.** Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage plus 4 (1d8) Lightning damage."
+}

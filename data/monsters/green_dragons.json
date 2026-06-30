@@ -1,0 +1,38 @@
+{
+  "id": "green_dragons",
+  "kind": "monster",
+  "name": "Green Dragons",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Fey",
+  "size": "Medium",
+  "type": "Medium Fey",
+  "alignment": "Neutral Evil",
+  "ac": "17",
+  "hp": "82 (11d8 + 33)",
+  "speed": "30 ft., Swim 30 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 12,
+    "CON": 16,
+    "INT": 13,
+    "WIS": 14,
+    "CHA": 14
+  },
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The hag can breathe air and water."
+    },
+    {
+      "name": "Coven Magic",
+      "text": "While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell’s normal casting time, and using Intelligence as the spellcasting ability (spell save DC 11): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen Servant. The hag must finish a Long Rest before using this trait to cast that spell again."
+    },
+    {
+      "name": "Mimicry",
+      "text": "The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful DC 14 Wisdom (Insight) check."
+    }
+  ],
+  "text": "# Green Dragons\n\n*Medium Fey, Neutral Evil*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage plus 3 (1d6) Poison damage."
+}

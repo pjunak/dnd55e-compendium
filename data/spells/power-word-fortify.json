@@ -1,0 +1,22 @@
+{
+  "id": "power-word-fortify",
+  "kind": "spell",
+  "name": "Power Word Fortify",
+  "edition": "2024",
+  "level": 7,
+  "school": "Enchantment",
+  "classes": [
+    "bard",
+    "cleric"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "60 foot",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Power Word Fortify\n*7th-Level Enchantment (Bard, Cleric)*\n**Casting Time:** Action\n**Range:** 60 foot\n**Components:** V\n**Duration:** Instantaneous\n\nYou fortify up to six creatures you can see within range. The spell bestows 120 Temporary Hit Points, which you divide among the spell’s recipients."
+}

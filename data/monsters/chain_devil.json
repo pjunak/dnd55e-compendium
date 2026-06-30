@@ -1,0 +1,25 @@
+{
+  "id": "chain_devil",
+  "kind": "monster",
+  "name": "Chain Devil",
+  "edition": "2024",
+  "cr": "6 (XP 2,300; PB +3)",
+  "crValue": 6,
+  "creatureType": "Monstrosity",
+  "size": "Large",
+  "type": "Large Monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "14",
+  "hp": "114 (12d10 + 48)",
+  "speed": "30 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 19,
+    "DEX": 11,
+    "CON": 19,
+    "INT": 3,
+    "WIS": 14,
+    "CHA": 10
+  },
+  "traits": [],
+  "text": "# Chain Devil\n\n*Large Monstrosity, Chaotic Evil*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage, or 18 (4d6 + 4) Piercing damage if the chimera had Advantage on the attack roll.\n\n**Claw.** Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Slashing damage.\n\n**Ram.** Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.\n\n**Fire Breath (Recharge 5–6).** Dexterity Saving Throw: DC 15, each creature in a 15-foot Cone. Failure: 31 (7d8) Fire damage. Success: Half damage."
+}

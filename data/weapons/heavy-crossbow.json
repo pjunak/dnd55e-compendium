@@ -1,0 +1,26 @@
+{
+  "id": "heavy-crossbow",
+  "kind": "weapon",
+  "name": "Heavy Crossbow",
+  "edition": "2024",
+  "category": "martial",
+  "range": "ranged",
+  "damage": "1d10",
+  "damageType": "piercing",
+  "properties": [
+    "ammunition",
+    "heavy",
+    "loading",
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": {
+    "normal": 100,
+    "long": 400
+  },
+  "mastery": "Push",
+  "weight": "18 lb.",
+  "cost": "50 GP",
+  "text": "# Heavy Crossbow\n\n*Weapon, Martial Ranged Weapons*\n\n**Damage:** 1d10 Piercing\n**Properties:** Ammunition(Range 100/400; Bolt),Heavy,Loading,Two-Handed\n**Mastery:** Push\n**Weight:** 18 lb.\n**Cost:** 50 GP"
+}

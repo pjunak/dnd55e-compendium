@@ -1,0 +1,25 @@
+{
+  "id": "werebear",
+  "kind": "monster",
+  "name": "Werebear",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "or Small Monstrosity (Lycanthrope)",
+  "size": "Medium",
+  "type": "Medium or Small Monstrosity (Lycanthrope)",
+  "alignment": "Neutral Evil",
+  "ac": "15",
+  "hp": "97 (15d8 + 30)",
+  "speed": "30 ft., 40 ft. (boar form only)",
+  "stats": {
+    "STR": 17,
+    "DEX": 10,
+    "CON": 15,
+    "INT": 10,
+    "WIS": 11,
+    "CHA": 8
+  },
+  "traits": [],
+  "text": "# Werebear\n\n*Medium or Small Monstrosity (Lycanthrope), Neutral Evil*\n\n### Actions\n\n**Gore (Boar or Hybrid Form Only).** Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wereboar under the DM’s control and has 10 Hit Points. Success: The target is immune to this wereboar’s curse for 24 hours.\n\n**Javelin (Humanoid or Hybrid Form Only).** Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\n**Tusk (Boar or Hybrid Form Only).** Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition."
+}

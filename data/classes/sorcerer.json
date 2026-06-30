@@ -1,0 +1,237 @@
+{
+  "id": "sorcerer",
+  "kind": "class",
+  "name": "Sorcerer",
+  "edition": "2024",
+  "hitDie": "d6",
+  "primaryAbility": [
+    "CHA"
+  ],
+  "savingThrows": [
+    "CON",
+    "CHA"
+  ],
+  "startingProficiencies": {
+    "armor": [],
+    "weapons": [
+      "dagger",
+      "dart",
+      "sling",
+      "quarterstaff",
+      "light crossbow"
+    ],
+    "tools": [],
+    "skills": {
+      "choose": 2,
+      "from": [
+        "arcana",
+        "deception",
+        "insight",
+        "intimidation",
+        "persuasion",
+        "religion"
+      ]
+    }
+  },
+  "multiclassProficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": []
+  },
+  "weaponMastery": {
+    "count": 0
+  },
+  "subclassLevel": 3,
+  "spellcasting": {
+    "ability": "CHA",
+    "type": "full",
+    "prepares": "list",
+    "prepared": false,
+    "ritual": false,
+    "startLevel": 1,
+    "preparedFormula": null
+  },
+  "acFormulas": [],
+  "classResources": [],
+  "progression": [
+    {
+      "level": 1,
+      "features": [
+        "Spellcasting",
+        "Innate Sorcery"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 2
+    },
+    {
+      "level": 2,
+      "features": [
+        "Font of Magic",
+        "Metamagic"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 4
+    },
+    {
+      "level": 3,
+      "features": [
+        "Sorcerer Subclass"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 6
+    },
+    {
+      "level": 4,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "cantripsKnown": 5,
+      "preparedSpells": 7
+    },
+    {
+      "level": 5,
+      "features": [
+        "Sorcerous Restoration"
+      ],
+      "cantripsKnown": 5,
+      "preparedSpells": 9
+    },
+    {
+      "level": 6,
+      "features": [
+        "Subclass feature"
+      ],
+      "cantripsKnown": 5,
+      "preparedSpells": 10
+    },
+    {
+      "level": 7,
+      "features": [
+        "Sorcery Incarnate"
+      ],
+      "cantripsKnown": 5,
+      "preparedSpells": 11
+    },
+    {
+      "level": 8,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "cantripsKnown": 5,
+      "preparedSpells": 12
+    },
+    {
+      "level": 9,
+      "features": [],
+      "cantripsKnown": 5,
+      "preparedSpells": 14
+    },
+    {
+      "level": 10,
+      "features": [
+        "Metamagic"
+      ],
+      "cantripsKnown": 6,
+      "preparedSpells": 15
+    },
+    {
+      "level": 11,
+      "features": [],
+      "cantripsKnown": 6,
+      "preparedSpells": 16
+    },
+    {
+      "level": 12,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "cantripsKnown": 6,
+      "preparedSpells": 16
+    },
+    {
+      "level": 13,
+      "features": [],
+      "cantripsKnown": 6,
+      "preparedSpells": 17
+    },
+    {
+      "level": 14,
+      "features": [
+        "Subclass feature"
+      ],
+      "cantripsKnown": 6,
+      "preparedSpells": 17
+    },
+    {
+      "level": 15,
+      "features": [],
+      "cantripsKnown": 6,
+      "preparedSpells": 18
+    },
+    {
+      "level": 16,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "cantripsKnown": 6,
+      "preparedSpells": 18
+    },
+    {
+      "level": 17,
+      "features": [
+        "Metamagic"
+      ],
+      "cantripsKnown": 6,
+      "preparedSpells": 19
+    },
+    {
+      "level": 18,
+      "features": [
+        "Subclass feature"
+      ],
+      "cantripsKnown": 6,
+      "preparedSpells": 20
+    },
+    {
+      "level": 19,
+      "features": [
+        "Epic Boon"
+      ],
+      "cantripsKnown": 6,
+      "preparedSpells": 21
+    },
+    {
+      "level": 20,
+      "features": [
+        "Arcane Apotheosis"
+      ],
+      "cantripsKnown": 6,
+      "preparedSpells": 22
+    }
+  ],
+  "multiclassRequirements": {
+    "CHA": 13
+  },
+  "management": [
+    {
+      "id": "known_spells",
+      "label": "Known Spells",
+      "type": "spell_known",
+      "source": "class_spell_list",
+      "max_table": "known_spells_table",
+      "swap_count": 1,
+      "changeable_on": "level_up"
+    }
+  ],
+  "grants": {
+    "choices": [
+      {
+        "id": "skills:sorcerer",
+        "source": "sorcerer:1",
+        "type": "skills",
+        "count": 2
+      }
+    ]
+  },
+  "text": "Sorcerers wield innate magic that is stamped into their being. Some Sorcerers can’t name the origin of their power, while others trace it to strange events in their personal or family history. The blessing of a dragon or a dryad at a baby’s birth or the strike of lightning from a clear sky might spark a Sorcerer’s gift. So too might the gift of a deity, exposure to the strange magic of another plane of existence, or a glimpse into the inner workings of reality. Whatever the origin, the result is an indelible mark on the Sorcerer, a churning magic that can be passed down through generations.\n\nSorcerers don’t learn magic; the raw, roiling power of magic is part of them. The essential art of a Sorcerer is learning to harness and channel that innate magic, allowing the Sorcerer to discover new and staggering ways to unleash their power. As Sorcerers master their innate magic, they grow more attuned to its origin, developing distinct powers that reflect its source.\n\nSorcerers are rare. Some family lines produce exactly one Sorcerer in every generation, but most of the time, the talents of sorcery appear as a fluke. People who have this magical power soon discover that it doesn’t like to stay quiet. A Sorcerer’s magic wants to be wielded.\n\n|\n Core Sorcerer Traits |\n\n|\n **Primary Ability** |\n Charisma |\n\n|\n **Hit Point Die** |\n D6 per Sorcerer level |\n\n|\n **Saving Throw Proficiencies** |\n Constitution and Charisma |\n\n|\n **Skill Proficiencies** |\n Choose 2: Arcana, Deception, Insight, Intimidation, Persuasion, or Religion |\n\n|\n **Weapon Proficiencies** |\n Simple weapons |\n\n|\n **Armor Training** |\n None |\n\n|\n **Starting Equipment** |\n Choose A or B: (A) Spear, 2 Daggers, Arcane Focus (crystal), Dungeoneer's Pack, and 28 GP; or (B) 50 GP |\n\n# Becoming a Sorcerer …\n\n## As a Level 1 Character\n\n- Gain all the traits in the Core Sorcerer Traits table.\n\n- Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table.\n\n## As a Multiclass Character\n\n- Gain the Hit Point Die from the Core Sorcerer Traits table.\n\n- Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table. See the multiclassing rules in multiclassing to determine your available spell slots.\n\n# Sorcerer Class Features\n\n###### Sorcerer Features\n\n|\n Level |\n Proficiency Bonus |\n Features |\n Sorcery Points |\n Cantrips |\n Prepared Spells |\n 1st |\n 2nd |\n 3rd |\n 4th |\n 5th |\n 6th |\n 7th |\n 8th |\n 9th |\n\n|\n 1 |\n +2 |\n Spellcasting, Innate Sorcery |\n - |\n 4 |\n 2 |\n 2 |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 2 |\n +2 |\n Font of Magic, Metamagic |\n 2 |\n 4 |\n 4 |\n 3 |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 3 |\n +2 |\n Sorcerer Subclass |\n 3 |\n 4 |\n 6 |\n 4 |\n 2 |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 4 |\n +2 |\n Ability Score Improvement |\n 4 |\n 5 |\n 7 |\n 4 |\n 3 |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 5 |\n +3 |\n Sorcerous Restoration |\n 5 |\n 5 |\n 9 |\n 4 |\n 3 |\n 2 |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 6 |\n +3 |\n Subclass feature |\n 6 |\n 5 |\n 10 |\n 4 |\n 3 |\n 3 |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 7 |\n +3 |\n Sorcery Incarnate |\n 7 |\n 5 |\n 11 |\n 4 |\n 3 |\n 3 |\n 1 |\n - |\n - |\n - |\n - |\n - |\n\n|\n 8 |\n +3 |\n Ability Score Improvement |\n 8 |\n 5 |\n 12 |\n 4 |\n 3 |\n 3 |\n 2 |\n - |\n - |\n - |\n - |\n - |\n\n|\n 9 |\n +4 |\n - |\n 9 |\n 5 |\n 14 |\n 4 |\n 3 |\n 3 |\n 3 |\n 1 |\n - |\n - |\n - |\n - |\n\n|\n 10 |\n +4 |\n Metamagic |\n 10 |\n 6 |\n 15 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n - |\n - |\n - |\n - |\n\n|\n 11 |\n +4 |\n - |\n 11 |\n 6 |\n 16 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n - |\n - |\n - |\n\n|\n 12 |\n +4 |\n Ability Score Improvement |\n 12 |\n 6 |\n 16 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n - |\n - |\n - |\n\n|\n 13 |\n +5 |\n - |\n 13 |\n 6 |\n 17 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n - |\n - |\n\n|\n 14 |\n +5 |\n Subclass feature |\n 14 |\n 6 |\n 17 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n - |\n - |\n\n|\n 15 |\n +5 |\n - |\n 15 |\n 6 |\n 18 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n 1 |\n - |\n\n|\n 16 |\n +5 |\n Ability Score Improvement |\n 16 |\n 6 |\n 18 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n 1 |\n - |\n\n|\n 17 |\n +6 |\n Metamagic |\n 17 |\n 6 |\n 19 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n 1 |\n 1 |\n\n|\n 18 |\n +6 |\n Subclass feature |\n 18 |\n 6 |\n 20 |\n 4 |\n 3 |\n 3 |\n 3 |\n 3 |\n 1 |\n 1 |\n 1 |\n 1 |\n\n|\n 19 |\n +6 |\n Epic Boon |\n 19 |\n 6 |\n 21 |\n 4 |\n 3 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n 1 |\n\n|\n 20 |\n +6 |\n Arcane Apotheosis |\n 20 |\n 6 |\n 22 |\n 4 |\n 3 |\n 3 |\n 3 |\n 3 |\n 2 |\n 2 |\n 1 |\n 1 |\n\nAs a Sorcerer, you gain the following class features when you reach the specified Sorcerer levels. These features are listed in the Sorcerer Features table.\n\n### Level 1: Spellcasting \n\nDrawing from your innate magic, you can cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Sorcerer spells, which appear in the Sorcerer spell list later in the class’s description.\n\n**Cantrips.** You know four Sorcerer cantrips of your choice. Light, Prestidigitation, Shocking Grasp, and Sorcerous Burst are recommended. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.\n\nWhen you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer Features table.\n\n**Spell Slots.** The Sorcerer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\n**Prepared Spells of Level 1+.** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Sorcerer spells. Burning Hands and Detect Magic are recommended.\n\nThe number of spells on your list increases as you gain Sorcerer levels, as shown in the Prepared Spells column of the Sorcerer Features table. Whenever that number increases, choose additional Sorcerer spells until the number of spells on your list matches the number in the Sorcerer Features table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 3 Sorcerer, your list of prepared spells can include six Sorcerer spells of level 1 or 2 in any combination.\n\nIf another Sorcerer feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Sorcerer spells for you.\n\n**Changing Your Prepared Spells.** Whenever you gain a Sorcerer level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots.\n\n**Spellcasting Ability.** Charisma is your spellcasting ability for your Sorcerer spells.\n\n**Spellcasting Focus.** You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.\n\n### Level 1: Innate Sorcery \n\nAn event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:\n\n- The spell save DC of your Sorcerer spells increases by 1.\n\n- You have Advantage on the attack rolls of Sorcerer spells you cast.\n\nYou can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.\n\n### Level 2: Font of Magic \n\nYou can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects.\n\nYou have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Features table. You can’t have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest.\n\nYou can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.\n\n**Converting Spell Slots to Sorcery Points.** You can expend a spell slot to gain a number of Sorcery Points equal to the slot’s level (no action required).\n\n**Creating Spell Slots.** As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.\n\nAny spell slot you create with this feature vanishes when you finish a Long Rest.\n\n##### Creating Spell Slots\n\n|\n Spell Slot Level |\n Sorcery Point Cost |\n Min. Sorcerer Level |\n\n|\n 1 |\n 2 |\n 2 |\n\n|\n 2 |\n 3 |\n 3 |\n\n|\n 3 |\n 5 |\n 5 |\n\n|\n 4 |\n 6 |\n 7 |\n\n|\n 5 |\n 7 |\n 9 |\n\n### Level 2: Metamagic \n\nBecause your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from “Metamagic Options” later in this class’s description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.\n\nYou can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.\n\nWhenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don’t know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17.\n\n### Level 3: Sorcerer Subclass \n\nYou gain a Sorcerer subclass of your choice. The Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, and Wild Magic Sorcery subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass’s features that are of your Sorcerer level or lower.\n\n##### Sorcerer Subclasses\n\n    \n\n|\n Name |\n\n|\n Aberrant Sorcery |\n\n|\n Clockwork Sorcery |\n\n|\n Draconic Sorcery |\n\n|\n Spellfire Sorcery |\n\n|\n Wild Magic Sorcery |\n\n    \n    \n    \n    \n\n### Level 4: Ability Score Improvement \n\nYou gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16.\n\n### Level 5: Sorcerous Restoration \n\nWhen you finish a Short Rest, you can regain expended Sorcery Points, but no more than a number equal to half your Sorcerer level (round down). Once you use this feature, you can’t do so again until you finish a Long Rest.\n\n### Level 7: Sorcery Incarnate \n\nIf you have no uses of Innate Sorcery left, you can use it if you spend 2 Sorcery Points when you take the Bonus Action to activate it.\n\nIn addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast.\n\n### Level 19: Epic Boon \n\nYou gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.\n\n### Level 20: Arcane Apotheosis \n\nWhile your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it."
+}

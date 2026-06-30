@@ -1,0 +1,17 @@
+{
+  "id": "orc",
+  "kind": "species",
+  "name": "Orc",
+  "edition": "2024",
+  "size": "Medium",
+  "speeds": {
+    "walk": 30
+  },
+  "senses": {
+    "darkvision": 120
+  },
+  "resistances": [],
+  "lineages": [],
+  "traits": [],
+  "text": "Orcs trace their creation to Gruumsh, a powerful god who roamed the wide open spaces of the Material Plane. Gruumsh equipped his children with gifts to help them wander great plains, vast caverns, and churning seas and to face the monsters that lurk there. Even when they turn their devotion to other gods, orcs retain Gruumsh’s gifts: endurance, determination, and the ability to see in darkness.\n\nOrcs are, on average, tall and broad. They have gray skin, ears that are sharply pointed, and prominent lower canines that resemble small tusks. Orc youths on some worlds are told about their ancestors' great travels and travails. Inspired by those tales, many of those orcs wonder when Gruumsh will call on them to match the heroic deeds of old and if they will prove worthy of his favor. Other orcs are happy to leave old tales in the past and find their own way.\n\n### Orc Traits\n\n**Creature Type:** Humanoid\n\n**Size:** Medium (about 6-7 feet tall)\n\n**Speed:** 30 feet\n\nAs an Orc, you have these special traits.\n\n**Adrenaline Rush.** You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.\n\n**Darkvision.** You have Darkvision with a range of 120 feet.\n\n**Relentless Endurance.** When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest."
+}

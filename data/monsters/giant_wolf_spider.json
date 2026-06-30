@@ -1,0 +1,25 @@
+{
+  "id": "giant_wolf_spider",
+  "kind": "monster",
+  "name": "Giant Wolf Spider",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "4 (1d8)",
+  "speed": "40 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 11,
+    "DEX": 10,
+    "CON": 11,
+    "INT": 2,
+    "WIS": 10,
+    "CHA": 5
+  },
+  "traits": [],
+  "text": "# Giant Wolf Spider\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Ram.** Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage, or 2 (1d4) Bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit."
+}

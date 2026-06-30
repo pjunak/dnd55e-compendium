@@ -1,0 +1,17 @@
+{
+  "id": "tiefling",
+  "kind": "species",
+  "name": "Tiefling",
+  "edition": "2024",
+  "size": "Medium",
+  "speeds": {
+    "walk": 30
+  },
+  "senses": {
+    "darkvision": 60
+  },
+  "resistances": [],
+  "lineages": [],
+  "traits": [],
+  "text": "Tieflings are either born in the Lower Planes or have fiendish ancestors who originated there. A tiefling (pronounced TEE-fling) is linked by blood to a devil, a demon, or some other Fiend. This connection to the Lower Planes is the tiefling's fiendish legacy, which comes with the promise of power yet has no effect on the tiefling's moral outlook.\n\nA tiefling chooses whether to embrace or lament their fiendish legacy. The three legacies are described below.\n\n##### Abyssal\n\nThe entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.\n\n##### Chthonic\n\nTieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.\n\n##### Infernal\n\nThe infernal legacy connects tieflings not only to Gehenna but also the Nine Hells and the raging battlefields of Acheron. Horns, spines, tails, golden eyes, and a faint odor of sulfur or smoke are common physical features of such tieflings, most of whom trace their ancestry to devils.\n\n### Tiefling Traits\n\n**Creature Type:** Humanoid\n\n**Size:** Medium (about 4-7 feet tall) or Small (about 3-4 feet tall), chosen when you select this species\n\n**Speed:** 30 feet\n\nAs a Tiefling, you have the following special traits.\n\n**Darkvision.** You have Darkvision with a range of 60 feet.\n\n**Fiendish Legacy.** You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).\n\n**Otherworldly Presence.** You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.\n\n##### Fiendish Legacies\n\n|\n Legacy |\n Level 1 |\n Level 3 |\n Level 5 |\n\n|\n Abyssal |\n You have Resistance to Poison damage. You also know the Poison Spray cantrip. |\n Ray of Sickness |\n Hold Person |\n\n|\n Chthonic |\n You have Resistance to Necrotic damage. You also know the Chill Touch cantrip. |\n False Life |\n Ray of Enfeeblement |\n\n|\n Infernal |\n You have Resistance to Fire damage. You also know the Fire Bolt cantrip. |\n Hellish Rebuke |\n Darkness |"
+}

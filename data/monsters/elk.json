@@ -1,0 +1,30 @@
+{
+  "id": "elk",
+  "kind": "monster",
+  "name": "Elk",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "Monstrosity",
+  "size": "Tiny",
+  "type": "Tiny Monstrosity",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "5 (2d4)",
+  "speed": "30 ft., Fly 60 ft., Swim 30 ft.",
+  "stats": {
+    "STR": 4,
+    "DEX": 15,
+    "CON": 11,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 5
+  },
+  "traits": [
+    {
+      "name": "Flyby",
+      "text": "The snake doesn’t provoke an Opportunity Attack when it flies out of an enemy’s reach."
+    }
+  ],
+  "text": "# Elk\n\n*Tiny Monstrosity, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage."
+}

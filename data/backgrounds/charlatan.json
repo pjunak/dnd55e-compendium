@@ -1,0 +1,18 @@
+{
+  "id": "charlatan",
+  "kind": "background",
+  "name": "Charlatan",
+  "edition": "2024",
+  "abilityScores": [
+    "DEX",
+    "CON",
+    "CHA"
+  ],
+  "originFeat": "skilled",
+  "skillProficiencies": [
+    "deception",
+    "sleight-of-hand"
+  ],
+  "toolProficiency": "Forgery Kit",
+  "text": "Once you were old enough to order an ale, you soon had a favorite stool in every tavern within ten miles of where you were born. As you traveled the circuit from public house to watering hole, you learned to prey on unfortunates who were in the market for a comforting lie or two—perhaps a sham potion or forged ancestry records.\n\n**Ability Scores:** Dexterity, Constitution, Charisma\n\n**Feat:** Skilled\n\n**Skill Proficiencies:** Deception and Sleight of Hand\n\n**Tool Proficiency:** Forgery Kit\n\n**Equipment:** Choose A or B: (A) Forgery Kit, Costume, Fine Clothes, 15 GP; or (B) 50 GP"
+}

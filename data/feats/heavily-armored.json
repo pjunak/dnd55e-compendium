@@ -1,0 +1,27 @@
+{
+  "id": "heavily-armored",
+  "kind": "feat",
+  "name": "Heavily Armored",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+, Medium Armor Training"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "STR",
+        "CON"
+      ]
+    },
+    "proficiencies": {
+      "armor": [
+        "Heavy"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+, Medium Armor Training*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase your Constitution or Strength score by 1, to a maximum of 20.\n\n**Armor Training.** You gain training with Heavy armor."
+}

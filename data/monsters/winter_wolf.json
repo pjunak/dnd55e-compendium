@@ -1,0 +1,25 @@
+{
+  "id": "winter_wolf",
+  "kind": "monster",
+  "name": "Winter Wolf",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Fey",
+  "size": "Large",
+  "type": "Large Fey",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "26 (4d10 + 4)",
+  "speed": "50 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 13,
+    "CON": 13,
+    "INT": 7,
+    "WIS": 11,
+    "CHA": 8
+  },
+  "traits": [],
+  "text": "# Winter Wolf\n\n*Large Fey, Neutral Evil*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg’s next turn has Advantage."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ring-mail",
+  "kind": "armor",
+  "name": "Ring Mail",
+  "edition": "2024",
+  "armorType": "heavy",
+  "baseAC": 14,
+  "dexCap": 0,
+  "acBonus": 0,
+  "strReq": 0,
+  "stealthDisadvantage": true,
+  "weight": "40 lb.",
+  "cost": "30 GP",
+  "_acSource": 14,
+  "text": "# Ring Mail\n\n*Armor, Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)*\n\n**AC:** 14\n**Stealth:** Disadvantage\n**Weight:** 40 lb.\n**Cost:** 30 GP"
+}

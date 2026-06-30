@@ -1,0 +1,25 @@
+{
+  "id": "laeral-s-silver-lance",
+  "kind": "spell",
+  "name": "Laeral's Silver Lance",
+  "edition": "2024",
+  "level": 3,
+  "school": "Evocation",
+  "classes": [
+    "cleric",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "C",
+  "duration": "Instantaneous",
+  "text": "# Laeral's Silver Lance\n*3rd-Level Evocation (Cleric, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V, S, M (C)\n**Duration:** Instantaneous\n\nSilver energy bursts out from you in a 120-foot-long, 5-foot-wide Line. Each creature of your choice in the Line makes a Strength saving throw. On a failed save, a creature takes 3d10 Force damage and has the Prone condition. On a successful save, a creature takes half as much damage only.\n\n**Using a Higher-Level Spell Slot.** The damage increases by 1d10 for every spell slot level above 3."
+}

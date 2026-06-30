@@ -1,0 +1,34 @@
+{
+  "id": "awakened_shrub",
+  "kind": "monster",
+  "name": "Awakened Shrub",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Plant",
+  "size": "Small",
+  "type": "Small Plant",
+  "alignment": "Neutral",
+  "ac": "9",
+  "hp": "10 (3d6)",
+  "speed": "20 ft.",
+  "stats": {
+    "STR": 3,
+    "DEX": 8,
+    "CON": 11,
+    "INT": 10,
+    "WIS": 10,
+    "CHA": 6
+  },
+  "traits": [
+    {
+      "name": "Vulnerabilities",
+      "text": "Fire"
+    },
+    {
+      "name": "Resistances",
+      "text": "Piercing"
+    }
+  ],
+  "text": "# Awakened Shrub\n\n*Small Plant, Neutral*"
+}

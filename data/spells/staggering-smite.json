@@ -1,0 +1,21 @@
+{
+  "id": "staggering-smite",
+  "kind": "spell",
+  "name": "Staggering Smite",
+  "edition": "2024",
+  "level": 4,
+  "school": "Enchantment",
+  "classes": [
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+  "range": "Self",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Staggering Smite\n*4th-Level Enchantment (Paladin)*\n**Casting Time:** Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike\n**Range:** Self\n**Components:** V\n**Duration:** Instantaneous\n\nThe target takes an extra 4d6 Psychic damage from the attack, and the target must succeed on a Wisdom saving throw or have the Stunned condition until the end of your next turn.\n\n**Using a Higher-Level Spell Slot.** The extra damage increases by 1d6 for each spell slot level above 4."
+}

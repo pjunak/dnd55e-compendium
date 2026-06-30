@@ -1,0 +1,15 @@
+# ── Dependencies ───────────────────────────────────────────────
+node_modules/
+
+# ── Claude Code local config ───────────────────────────────────
+.claude/
+
+# ── OS / editor noise ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# NOTE: data/ is COMMITTED source content (the per-record JSON tree the
+# server module serves) — it is intentionally NOT ignored.

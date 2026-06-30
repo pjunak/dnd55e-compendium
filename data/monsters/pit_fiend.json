@@ -1,0 +1,46 @@
+{
+  "id": "pit_fiend",
+  "kind": "monster",
+  "name": "Pit Fiend",
+  "edition": "2024",
+  "cr": "16 (XP 15,000; PB +5)",
+  "crValue": 16,
+  "creatureType": "Celestial (Angel)",
+  "size": "Large",
+  "type": "Large Celestial (Angel)",
+  "alignment": "Lawful Good",
+  "ac": "19",
+  "hp": "262 (21d10 + 147)",
+  "speed": "40 ft., Fly 120 ft. (hover)",
+  "stats": {
+    "STR": 24,
+    "DEX": 20,
+    "CON": 24,
+    "INT": 19,
+    "WIS": 22,
+    "CHA": 25
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Radiant"
+    },
+    {
+      "name": "Immunities",
+      "text": "Charmed, Exhaustion, Frightened"
+    },
+    {
+      "name": "Divine Awareness",
+      "text": "The planetar knows if it hears a lie."
+    },
+    {
+      "name": "Exalted Restoration",
+      "text": "If the planetar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The planetar has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Pit Fiend\n\n*Large Celestial (Angel), Lawful Good*\n\n### Actions\n\n**Radiant Sword.** Melee Attack Roll: +12, reach 10 ft. Hit: 14 (2d6 + 7) Slashing damage plus 18 (4d8) Radiant damage.\n\n**Holy Burst.** Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius Sphere centered on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant damage. Success: Half damage."
+}

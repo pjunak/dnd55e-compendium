@@ -1,0 +1,23 @@
+{
+  "id": "misty-step",
+  "kind": "spell",
+  "name": "Misty Step",
+  "edition": "2024",
+  "level": 2,
+  "school": "Conjuration",
+  "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Bonus Action",
+  "range": "Self",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Misty Step\n*2nd-Level Conjuration (Sorcerer, Warlock, Wizard)*\n**Casting Time:** Bonus Action\n**Range:** Self\n**Components:** V\n**Duration:** Instantaneous\n\nBriefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "camel",
+  "kind": "monster",
+  "name": "Camel",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "2 (1d4)",
+  "speed": "40 ft., Climb 40 ft.",
+  "stats": {
+    "STR": 3,
+    "DEX": 15,
+    "CON": 10,
+    "INT": 3,
+    "WIS": 12,
+    "CHA": 7
+  },
+  "traits": [
+    {
+      "name": "Jumper",
+      "text": "The cat’s jump distance is determined using its Dexterity rather than its Strength."
+    }
+  ],
+  "text": "# Camel\n\n*Tiny Beast, Unaligned*"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "scorpion",
+  "kind": "monster",
+  "name": "Scorpion",
+  "edition": "2024",
+  "cr": "0 (XP 0; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "1 (1d4 − 1)",
+  "speed": "5 ft., Swim 20 ft.",
+  "stats": {
+    "STR": 1,
+    "DEX": 12,
+    "CON": 8,
+    "INT": 1,
+    "WIS": 10,
+    "CHA": 2
+  },
+  "traits": [
+    {
+      "name": "Water Breathing",
+      "text": "The seahorse can breathe only underwater."
+    }
+  ],
+  "text": "# Scorpion\n\n*Tiny Beast, Unaligned*"
+}

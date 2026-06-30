@@ -1,0 +1,18 @@
+{
+  "id": "mace",
+  "kind": "weapon",
+  "name": "Mace",
+  "edition": "2024",
+  "category": "simple",
+  "range": "melee",
+  "damage": "1d6",
+  "damageType": "bludgeoning",
+  "properties": [],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Sap",
+  "weight": "4 lb.",
+  "cost": "5 GP",
+  "text": "# Mace\n\n*Weapon, Simple Melee Weapons*\n\n**Damage:** 1d6 Bludgeoning\n**Properties:** —\n**Mastery:** Sap\n**Weight:** 4 lb.\n**Cost:** 5 GP"
+}

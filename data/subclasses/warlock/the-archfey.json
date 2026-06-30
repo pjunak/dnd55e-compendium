@@ -1,0 +1,38 @@
+{
+  "id": "the-archfey",
+  "kind": "subclass",
+  "name": "The Archfey",
+  "classId": "warlock",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "archfey-spells",
+      "name": "Archfey Spells"
+    },
+    {
+      "level": 3,
+      "id": "steps-of-the-fey",
+      "name": "Steps of the Fey"
+    },
+    {
+      "level": 6,
+      "id": "misty-escape",
+      "name": "Misty Escape"
+    },
+    {
+      "level": 10,
+      "id": "beguiling-defenses",
+      "name": "Beguiling Defenses"
+    },
+    {
+      "level": 14,
+      "id": "bewitching-magic",
+      "name": "Bewitching Magic"
+    }
+  ],
+  "grants": {},
+  "text": "*Bargain with Whimsical Fey*\n\nYour pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical.\n\n### Level 3: Archfey Spells\n\nThe magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Archfey Spells table, you thereafter always have the listed spells prepared.\n\n### Archfey Spells\n\n|\n Warlock Level |\n Spells |\n\n|\n 3 |\n Calm Emotions, Faerie Fire, Misty Step, Phantasmal Force, Sleep |\n\n|\n 5 |\n Blink, Plant Growth |\n\n|\n 7 |\n Dominate Beast, Greater Invisibility |\n\n|\n 9 |\n Dominate Person, Seeming |\n\n### Level 3: Steps of the Fey\n\nYour patron grants you the ability to move between the boundaries of the planes. You can cast Misty Step without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\nIn addition, whenever you cast that spell, you can choose one of the following additional effects.\n\n**Refreshing Step.** Immediately after you teleport, you or one creature you can see within 10 feet of yourself gains 1d10 Temporary Hit Points.\n\n**Taunting Step.** Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.\n\n### Level 6: Misty Escape\n\nYou can cast Misty Step as a Reaction in response to taking damage.\n\nIn addition, the following effects are now among your Steps of the Fey options.\n\n**Disappearing Step.** You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.\n\n**Dreadful Step.** Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.\n\n### Level 10: Beguiling Defenses\n\nYour patron teaches you how to guard your mind and body. You are immune to the Charmed condition.\n\nIn addition, immediately after a creature you can see hits you with an attack roll, you can take a Reaction to reduce the damage you take by half (round down), and you can force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attacker takes Psychic damage equal to the damage you take. Once you use this Reaction, you can’t use it again until you finish a Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it.\n\n### Level 14: Bewitching Magic\n\nYour patron grants you the ability to weave your magic with teleportation. Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast Misty Step as part of the same action and without expending a spell slot."
+}

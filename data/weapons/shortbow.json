@@ -1,0 +1,24 @@
+{
+  "id": "shortbow",
+  "kind": "weapon",
+  "name": "Shortbow",
+  "edition": "2024",
+  "category": "simple",
+  "range": "ranged",
+  "damage": "1d6",
+  "damageType": "piercing",
+  "properties": [
+    "ammunition",
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": {
+    "normal": 80,
+    "long": 320
+  },
+  "mastery": "Vex",
+  "weight": "2 lb.",
+  "cost": "25 GP",
+  "text": "# Shortbow\n\n*Weapon, Simple Ranged Weapons*\n\n**Damage:** 1d6 Piercing\n**Properties:** Ammunition(Range 80/320; Arrow),Two-Handed\n**Mastery:** Vex\n**Weight:** 2 lb.\n**Cost:** 25 GP"
+}

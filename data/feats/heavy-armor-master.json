@@ -1,0 +1,22 @@
+{
+  "id": "heavy-armor-master",
+  "kind": "feat",
+  "name": "Heavy Armor Master",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+, Heavy Armor Training"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "STR",
+        "CON"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+, Heavy Armor Training*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase your Constitution or Strength score by 1, to a maximum of 20.\n\n**Damage Reduction.** When you're hit by an attack while you're wearing Heavy armor, any Bludgeoning, Piercing, and Slashing damage dealt to you by that attack is reduced by an amount equal to your Proficiency Bonus."
+}

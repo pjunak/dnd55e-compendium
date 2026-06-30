@@ -1,0 +1,34 @@
+{
+  "id": "seahorse",
+  "kind": "monster",
+  "name": "Seahorse",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "1 (1d4 − 1)",
+  "speed": "20 ft., Climb 20 ft.",
+  "stats": {
+    "STR": 2,
+    "DEX": 14,
+    "CON": 8,
+    "INT": 1,
+    "WIS": 10,
+    "CHA": 2
+  },
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Web Walker",
+      "text": "The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web."
+    }
+  ],
+  "text": "# Seahorse\n\n*Tiny Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 2 (1d4) Poison damage."
+}

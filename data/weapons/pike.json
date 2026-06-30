@@ -1,0 +1,22 @@
+{
+  "id": "pike",
+  "kind": "weapon",
+  "name": "Pike",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d10",
+  "damageType": "piercing",
+  "properties": [
+    "heavy",
+    "reach",
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Push",
+  "weight": "18 lb.",
+  "cost": "5 GP",
+  "text": "# Pike\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d10 Piercing\n**Properties:** Heavy,Reach,Two-Handed\n**Mastery:** Push\n**Weight:** 18 lb.\n**Cost:** 5 GP"
+}

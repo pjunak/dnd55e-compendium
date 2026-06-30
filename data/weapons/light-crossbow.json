@@ -1,0 +1,25 @@
+{
+  "id": "light-crossbow",
+  "kind": "weapon",
+  "name": "Light Crossbow",
+  "edition": "2024",
+  "category": "simple",
+  "range": "ranged",
+  "damage": "1d8",
+  "damageType": "piercing",
+  "properties": [
+    "ammunition",
+    "loading",
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": {
+    "normal": 80,
+    "long": 320
+  },
+  "mastery": "Slow",
+  "weight": "5 lb.",
+  "cost": "25 GP",
+  "text": "# Light Crossbow\n\n*Weapon, Simple Ranged Weapons*\n\n**Damage:** 1d8 Piercing\n**Properties:** Ammunition(Range 80/320; Bolt),Loading,Two-Handed\n**Mastery:** Slow\n**Weight:** 5 lb.\n**Cost:** 25 GP"
+}

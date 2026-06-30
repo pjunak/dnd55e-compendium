@@ -1,0 +1,30 @@
+{
+  "id": "cockatrice",
+  "kind": "monster",
+  "name": "Cockatrice",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "10",
+  "hp": "4 (1d8)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 10,
+    "DEX": 10,
+    "CON": 10,
+    "INT": 10,
+    "WIS": 10,
+    "CHA": 10
+  },
+  "traits": [
+    {
+      "name": "Training",
+      "text": "The commoner has proficiency in one skill of the DM’s choice and has Advantage whenever it makes an ability check using that skill."
+    }
+  ],
+  "text": "# Cockatrice\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Club.** Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
+}

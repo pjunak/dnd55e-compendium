@@ -1,0 +1,24 @@
+{
+  "id": "ice-knife",
+  "kind": "spell",
+  "name": "Ice Knife",
+  "edition": "2024",
+  "level": 1,
+  "school": "Conjuration",
+  "classes": [
+    "druid",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": [
+    "S",
+    "M"
+  ],
+  "material": "a drop of water or a piece of ice",
+  "duration": "Instantaneous",
+  "text": "# Ice Knife\n*1st-Level Conjuration (Druid, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** 60 feet\n**Components:** S, M (a drop of water or a piece of ice)\n**Duration:** Instantaneous\n\nYou create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.\n\n**Using a Higher-Level Spell Slot.** The Cold damage increases by 1d6 for each spell slot level above 1."
+}

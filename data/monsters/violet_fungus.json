@@ -1,0 +1,42 @@
+{
+  "id": "violet_fungus",
+  "kind": "monster",
+  "name": "Violet Fungus",
+  "edition": "2024",
+  "cr": "6 (XP 2,300; PB +3)",
+  "crValue": 6,
+  "creatureType": "Fiend (Demon)",
+  "size": "Large",
+  "type": "Large Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "15",
+  "hp": "152 (16d10 + 64)",
+  "speed": "40 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 17,
+    "DEX": 15,
+    "CON": 18,
+    "INT": 8,
+    "WIS": 13,
+    "CHA": 8
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold, Fire, Lightning"
+    },
+    {
+      "name": "Immunities",
+      "text": "Poison; Poisoned"
+    },
+    {
+      "name": "Demonic Restoration",
+      "text": "If the vrock dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The vrock has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Violet Fungus\n\n*Large Fiend (Demon), Chaotic Evil*\n\n### Actions\n\n**Shred.** Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage plus 10 (3d6) Poison damage.\n\n**Spores (Recharge 6).** Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock. Failure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. While Poisoned, the target takes 5 (1d10) Poison damage at the start of each of its turns. Emptying a flask of Holy Water on the target ends the effect early.\n\n**Stunning Screech (1/Day).** Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock (demons succeed automatically). Failure: 10 (3d6) Thunder damage, and the target has the Stunned condition until the end of the vrock’s next turn."
+}

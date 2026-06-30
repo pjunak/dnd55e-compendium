@@ -1,0 +1,84 @@
+{
+  "id": "oath-of-devotion",
+  "kind": "subclass",
+  "name": "Oath of Devotion",
+  "classId": "paladin",
+  "subclassLevel": 3,
+  "spells": [
+    {
+      "level": 3,
+      "ids": [
+        "aid",
+        "shield-of-faith"
+      ],
+      "alwaysPrepared": true
+    },
+    {
+      "level": 5,
+      "ids": [
+        "lesser-restoration",
+        "zone-of-truth"
+      ],
+      "alwaysPrepared": true
+    },
+    {
+      "level": 9,
+      "ids": [
+        "beacon-of-hope",
+        "dispel-magic"
+      ],
+      "alwaysPrepared": true
+    },
+    {
+      "level": 13,
+      "ids": [
+        "freedom-of-movement",
+        "guardian-of-faith"
+      ],
+      "alwaysPrepared": true
+    },
+    {
+      "level": 17,
+      "ids": [
+        "commune",
+        "flame-strike"
+      ],
+      "alwaysPrepared": true
+    }
+  ],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "oath-spells",
+      "name": "Oath Spells"
+    },
+    {
+      "level": 3,
+      "id": "sacred-weapon",
+      "name": "Sacred Weapon"
+    },
+    {
+      "level": 3,
+      "id": "turn-the-unholy",
+      "name": "Turn the Unholy"
+    },
+    {
+      "level": 7,
+      "id": "aura-of-devotion",
+      "name": "Aura of Devotion"
+    },
+    {
+      "level": 15,
+      "id": "smite-of-protection",
+      "name": "Smite of Protection"
+    },
+    {
+      "level": 20,
+      "id": "holy-nimbus",
+      "name": "Holy Nimbus"
+    }
+  ],
+  "grants": {},
+  "text": "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards.\n\n### Level 3: Oath Spells\n\nYou gain oath spells at the paladin levels listed.\n\n| Paladin Level | Spells |\n|:---:|:---|\n| 3rd | *Aid*, *Shield of Faith* |\n| 5th | *Lesser Restoration*, *Zone of Truth* |\n| 9th | *Beacon of Hope*, *Dispel Magic* |\n| 13th | *Freedom of Movement*, *Guardian of Faith* |\n| 17th | *Commune*, *Flame Strike* |\n\n### Level 3: Sacred Weapon\n\nAs a Bonus Action, you can use your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes, the weapon emits Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.\n\nYou add your Charisma modifier to attack rolls you make with the weapon (minimum bonus of +1), and you can choose to deal Radiant damage or the weapon's normal damage type with attacks. The weapon also becomes magical if it isn't already.\n\nYou can end this effect as a Bonus Action. The effect also ends if you aren't holding or carrying the weapon or if you have the Unconscious condition.\n\n### Level 3: Turn the Unholy\n\nAs a Magic action, you can use your Channel Divinity to censure Fiends and Undead. You present your holy symbol and speak a prayer censuring Fiends and Undead. Each Fiend or Undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is Turned for 1 minute or until it takes any damage.\n\n### Level 7: Aura of Devotion\n\nYou and friendly creatures within 10 feet of you can't be Charmed while you are conscious.\n\n### Level 15: Smite of Protection\n\nWhen you cast *Divine Smite*, you can choose yourself or another creature within your Aura of Protection. The chosen creature has Half Cover until the start of your next turn.\n\n### Level 20: Holy Nimbus\n\nAs a Bonus Action, you can emanate an aura of sunlight. For 10 minutes, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.\n\nWhenever an enemy creature starts its turn in the bright light, the creature takes 10 Radiant damage.\n\nIn addition, for the duration, you have Advantage on saving throws against spells cast by Fiends or Undead.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also expend a 5th-level spell slot to use the feature again."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "revivify",
+  "kind": "spell",
+  "name": "Revivify",
+  "edition": "2024",
+  "level": 3,
+  "school": "Necromancy",
+  "classes": [
+    "artificer",
+    "cleric",
+    "druid",
+    "paladin",
+    "ranger"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a diamond worth 300+ GP, which the spell consumes",
+  "duration": "Instantaneous",
+  "text": "# Revivify\n*3rd-Level Necromancy (Artificer, Cleric, Druid, Paladin, Ranger)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S, M (a diamond worth 300+ GP, which the spell consumes)\n**Duration:** Instantaneous\n\nYou touch a creature that has died within the last minute. That creature revives with 1 Hit Point. This spell can’t revive a creature that has died of old age, nor does it restore any missing body parts."
+}

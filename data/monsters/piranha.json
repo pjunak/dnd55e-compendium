@@ -1,0 +1,30 @@
+{
+  "id": "piranha",
+  "kind": "monster",
+  "name": "Piranha",
+  "edition": "2024",
+  "cr": "2 (XP 450; PB +2)",
+  "crValue": 2,
+  "creatureType": "Beast (Dinosaur)",
+  "size": "Large",
+  "type": "Large Beast (Dinosaur)",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "68 (8d10 + 24)",
+  "speed": "20 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 15,
+    "CON": 16,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 5
+  },
+  "traits": [
+    {
+      "name": "Hold Breath",
+      "text": "The plesiosaurus can hold its breath for 1 hour."
+    }
+  ],
+  "text": "# Piranha\n\n*Large Beast (Dinosaur), Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage."
+}

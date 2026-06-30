@@ -1,0 +1,16 @@
+{
+  "id": "padded-armor",
+  "kind": "armor",
+  "name": "Padded Armor",
+  "edition": "2024",
+  "armorType": "light",
+  "baseAC": 11,
+  "dexCap": null,
+  "acBonus": 0,
+  "strReq": 0,
+  "stealthDisadvantage": true,
+  "weight": "8 lb.",
+  "cost": "5 GP",
+  "_acSource": "11 + Dex modifier",
+  "text": "# Padded Armor\n\n*Armor, Light Armor (1 Minute to Don or Doff)*\n\n**AC:** 11 + Dex modifier\n**Stealth:** Disadvantage\n**Weight:** 8 lb.\n**Cost:** 5 GP"
+}

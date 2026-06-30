@@ -1,0 +1,22 @@
+{
+  "id": "speedy",
+  "kind": "feat",
+  "name": "Speedy",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+, Dexterity or Constitution 13+"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "DEX",
+        "CON"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+, Dexterity or Constitution 13+*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase your Dexterity or Constitution score by 1, to a maximum of 20.\n\n**Speed Increase.** Your Speed increases by 10 feet.\n\n**Dash over Difficult Terrain.** When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn.\n\n**Agile Movement.** Opportunity Attacks have Disadvantage against you."
+}

@@ -1,0 +1,241 @@
+{
+  "id": "druid",
+  "kind": "class",
+  "name": "Druid",
+  "edition": "2024",
+  "hitDie": "d8",
+  "primaryAbility": [
+    "WIS"
+  ],
+  "savingThrows": [
+    "INT",
+    "WIS"
+  ],
+  "startingProficiencies": {
+    "armor": [
+      "Light Armor",
+      "Medium Armor",
+      "Shields"
+    ],
+    "weapons": [
+      "Simple Weapons"
+    ],
+    "tools": [
+      "Herbalism Kit"
+    ],
+    "skills": {
+      "choose": 2,
+      "from": [
+        "arcana",
+        "animal-handling",
+        "insight",
+        "medicine",
+        "nature",
+        "perception",
+        "religion",
+        "survival"
+      ]
+    }
+  },
+  "multiclassProficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": []
+  },
+  "weaponMastery": {
+    "count": 0
+  },
+  "subclassLevel": 3,
+  "spellcasting": {
+    "ability": "WIS",
+    "type": "full",
+    "prepares": "list",
+    "prepared": true,
+    "ritual": true,
+    "startLevel": 1,
+    "preparedFormula": "WIS + level"
+  },
+  "acFormulas": [],
+  "classResources": [],
+  "progression": [
+    {
+      "level": 1,
+      "features": [
+        "Spellcasting",
+        "Druidic",
+        "Primal Order"
+      ],
+      "cantripsKnown": 2,
+      "preparedSpells": 4
+    },
+    {
+      "level": 2,
+      "features": [
+        "Wild Shape",
+        "Wild Companion",
+        "Druid Subclass"
+      ],
+      "cantripsKnown": 2,
+      "preparedSpells": 5
+    },
+    {
+      "level": 3,
+      "features": [
+        "Subclass Feature"
+      ],
+      "cantripsKnown": 2,
+      "preparedSpells": 6
+    },
+    {
+      "level": 4,
+      "features": [
+        "Ability Score Improvement",
+        "Wild Resurgence"
+      ],
+      "cantripsKnown": 3,
+      "preparedSpells": 7
+    },
+    {
+      "level": 5,
+      "features": [],
+      "cantripsKnown": 3,
+      "preparedSpells": 9
+    },
+    {
+      "level": 6,
+      "features": [
+        "Subclass Feature"
+      ],
+      "cantripsKnown": 3,
+      "preparedSpells": 10
+    },
+    {
+      "level": 7,
+      "features": [
+        "Elemental Fury"
+      ],
+      "cantripsKnown": 3,
+      "preparedSpells": 11
+    },
+    {
+      "level": 8,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "cantripsKnown": 3,
+      "preparedSpells": 12
+    },
+    {
+      "level": 9,
+      "features": [],
+      "cantripsKnown": 3,
+      "preparedSpells": 14
+    },
+    {
+      "level": 10,
+      "features": [
+        "Subclass Feature"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 15
+    },
+    {
+      "level": 11,
+      "features": [],
+      "cantripsKnown": 4,
+      "preparedSpells": 16
+    },
+    {
+      "level": 12,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 16
+    },
+    {
+      "level": 13,
+      "features": [],
+      "cantripsKnown": 4,
+      "preparedSpells": 17
+    },
+    {
+      "level": 14,
+      "features": [
+        "Subclass Feature"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 17
+    },
+    {
+      "level": 15,
+      "features": [
+        "Improved Elemental Fury"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 18
+    },
+    {
+      "level": 16,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 18
+    },
+    {
+      "level": 17,
+      "features": [],
+      "cantripsKnown": 4,
+      "preparedSpells": 19
+    },
+    {
+      "level": 18,
+      "features": [
+        "Beast Spells"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 20
+    },
+    {
+      "level": 19,
+      "features": [
+        "Epic Boon"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 21
+    },
+    {
+      "level": 20,
+      "features": [
+        "Archdruid"
+      ],
+      "cantripsKnown": 4,
+      "preparedSpells": 22
+    }
+  ],
+  "multiclassRequirements": {
+    "WIS": 13
+  },
+  "management": [
+    {
+      "id": "prepared",
+      "label": "Prepared Spells",
+      "type": "spell_preparation",
+      "source": "class_spell_list",
+      "max_formula": "WIS + level",
+      "changeable_on": "long_rest"
+    }
+  ],
+  "grants": {
+    "choices": [
+      {
+        "id": "skills:druid",
+        "source": "druid:1",
+        "type": "skills",
+        "count": 2
+      }
+    ]
+  },
+  "text": "Druids belong to ancient orders that call on the forces of nature. Harnessing the magic of animals, plants, and the four elements, Druids heal, transform into animals, and wield elemental destruction.\n\nRevering nature above all, individual Druids gain their magic from nature, a nature deity, or both, and they typically unite with other Druids to perform rites that mark the passage of the seasons and other natural cycles.\n\nDruids are concerned with the delicate ecological balance that sustains plant and animal life and with the need for people to live in harmony with nature. Druids often guard sacred sites or watch over regions of unspoiled nature, but when a significant danger arises, Druids take a more active role as adventurers who combat the threat.\n\n|\n Core Druid Traits |\n\n|\n **Primary Ability** |\n Wisdom |\n\n|\n **Hit Point Die** |\n D8 per Druid level |\n\n|\n **Saving Throw Proficiencies** |\n Intelligence and Wisdom |\n\n|\n **Skill Proficiencies** |\n Choose 2: Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, or Survival |\n\n|\n **Weapon Proficiencies** |\n Simple weapons |\n\n|\n **Tool Proficiencies** |\n Herbalism Kit |\n\n|\n **Armor Training** |\n Light armor and Shields |\n\n|\n **Starting Equipment** |\n Choose A or B: (A) Leather Armor, Shield, Sickle, Druidic Focus (Quarterstaff), Explorer's Pack, Herbalism Kit, and 9 GP; or (B) 50 GP |\n\n## As a Level 1 Druid\n\n- Gain all the traits in the Core Druid Traits table.\n\n- Gain the Druid’s level 1 features, which are listed in the Druid Features table.\n\n## As a Multiclass Druid\n\n- Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.\n\n- Gain the Druid’s level 1 features, which are listed in the Druid Features table. See the multiclassing rules in multiclassing to determine your available spell slots.\n\n# Druid Class Features\n\n###### Druid Features (Part A)\n\n|\n Level |\n Proficiency Bonus |\n Features |\n\n|\n 1 |\n +2 |\n Spellcasting, Druidic, Primal Order |\n\n|\n 2 |\n +2 |\n Wild Shape, Wild Companion |\n\n|\n 3 |\n +2 |\n Druid Subclass |\n\n|\n 4 |\n +2 |\n Ability Score Improvement |\n\n|\n 5 |\n +3 |\n Wild Resurgence |\n\n|\n 6 |\n +3 |\n Subclass Feature |\n\n|\n 7 |\n +3 |\n Elemental Fury |\n\n|\n 8 |\n +3 |\n Ability Score Improvement |\n\n|\n 9 |\n +4 |\n - |\n\n|\n 10 |\n +4 |\n Subclass Feature |\n\n|\n 11 |\n +4 |\n - |\n\n|\n 12 |\n +4 |\n Ability Score Improvement |\n\n|\n 13 |\n +5 |\n - |\n\n|\n 14 |\n +5 |\n Subclass Feature |\n\n|\n 15 |\n +5 |\n Improved Elemental Fury |\n\n|\n 16 |\n +5 |\n Ability Score Improvement |\n\n|\n 17 |\n +6 |\n - |\n\n|\n 18 |\n +6 |\n Beast Spells |\n\n|\n 19 |\n +6 |\n Epic Boon |\n\n|\n 20 |\n +6 |\n Archdruid |\n\n###### Druid Features (Part B)\n\n|\n Level |\n Wild Shape |\n Cantrips |\n Prepared Spells |\n 1st |\n 2nd |\n 3rd |\n 4th |\n 5th |\n 6th |\n 7th |\n 8th |\n 9th |\n\n|\n 1 |\n - |\n 2 |\n 4 |\n 2 |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 2 |\n 2 |\n 2 |\n 5 |\n 3 |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 3 |\n 2 |\n 2 |\n 6 |\n 4 |\n 2 |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 4 |\n 2 |\n 3 |\n 7 |\n 4 |\n 3 |\n - |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 5 |\n 2 |\n 3 |\n 9 |\n 4 |\n 3 |\n 2 |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 6 |\n 3 |\n 3 |\n 10 |\n 4 |\n 3 |\n 3 |\n - |\n - |\n - |\n - |\n - |\n - |\n\n|\n 7 |\n 3 |\n 3 |\n 11 |\n 4 |\n 3 |\n 3 |\n 1 |\n - |\n - |\n - |\n - |\n - |\n\n|\n 8 |\n 3 |\n 3 |\n 12 |\n 4 |\n 3 |\n 3 |\n 2 |\n - |\n - |\n - |\n - |\n - |\n\n|\n 9 |\n 3 |\n 3 |\n 14 |\n 4 |\n 3 |\n 3 |\n 3 |\n 1 |\n - |\n - |\n - |\n - |\n\n|\n 10 |\n 3 |\n 4 |\n 15 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n - |\n - |\n - |\n - |\n\n|\n 11 |\n 3 |\n 4 |\n 16 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n - |\n - |\n - |\n\n|\n 12 |\n 3 |\n 4 |\n 16 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n - |\n - |\n - |\n\n|\n 13 |\n 3 |\n 4 |\n 17 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n - |\n - |\n\n|\n 14 |\n 3 |\n 4 |\n 17 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n - |\n - |\n\n|\n 15 |\n 3 |\n 4 |\n 18 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n 1 |\n - |\n\n|\n 16 |\n 3 |\n 4 |\n 18 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n 1 |\n - |\n\n|\n 17 |\n 4 |\n 4 |\n 19 |\n 4 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n 1 |\n 1 |\n\n|\n 18 |\n 4 |\n 4 |\n 20 |\n 4 |\n 3 |\n 3 |\n 3 |\n 3 |\n 1 |\n 1 |\n 1 |\n 1 |\n\n|\n 19 |\n 4 |\n 4 |\n 21 |\n 4 |\n 3 |\n 3 |\n 3 |\n 3 |\n 2 |\n 1 |\n 1 |\n 1 |\n\n|\n 20 |\n 4 |\n 4 |\n 22 |\n 4 |\n 3 |\n 3 |\n 3 |\n 3 |\n 2 |\n 2 |\n 1 |\n 1 |\n\nAs a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table.\n\n### Level 1: Spellcasting \n\nYou have learned to cast spells through studying the mystical forces of nature. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Druid spells, which appear on the Druid spell list later in the class’s description.\n\n**Cantrips.** You know two cantrips of your choice from the Druid spell list. Druidcraft and Produce Flame are recommended.\n\nWhenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list.\n\nWhen you reach Druid levels 4 and 10, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the Druid Features table.\n\n**Spell Slots.** The Druid Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\n**Prepared Spells of Level 1+.** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. Animal Friendship, Cure Wounds, Faerie Fire, and Thunderwave are recommended.\n\nThe number of spells on your list increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid Features table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.\n\nIf another Druid feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Druid spells for you.\n\n**Changing Your Prepared Spells.** Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells with other Druid spells for which you have spell slots.\n\n**Spellcasting Ability.** Wisdom is your spellcasting ability for your Druid spells.\n\n**Spellcasting Focus.** You can use a Druidic Focus as a Spellcasting Focus for your Druid spells.\n\n### Level 1: Druidic \n\nYou know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the Speak with Animals spell prepared.\n\nYou can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message’s presence with a successful DC 15 Intelligence (Investigation) check but can’t decipher it without magic.\n\n### Level 1: Primal Order \n\nYou have dedicated yourself to one of the following sacred roles of your choice.\n\n**Magician.** You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).\n\n**Warden.** Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.\n\n### Level 2: Wild Shape \n\nThe power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see “Known Forms” below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.\n\n**Number of Uses.** You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nYou gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid Features table.\n\n**Known Forms.** You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed (see appendix B for stat block options). The Rat, Riding Horse, Spider, and Wolf are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.\n\nWhen you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.\n\nWhen choosing known forms, you may look in the Monster Manual or elsewhere for eligible Beasts if the Dungeon Master permits you to do so.\n\n|\n Druid Level |\n Known Forms |\n Max CR |\n Fly Speed |\n\n|\n 2 |\n 4 |\n 1/4 |\n No |\n\n|\n 4 |\n 6 |\n 1/2 |\n No |\n\n|\n 8 |\n 8 |\n 1 |\n Yes |\n\n***Rules While Shape-Shifted.*** While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:\n\n**Temporary Hit Points.** When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.\n\n**Game Statistics.** Your game statistics are replaced by the Beast’s stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast’s stat block is higher than yours, use the one in the stat block.\n\n**No Spellcasting.** You can’t cast spells, but shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast.\n\n**Objects.** Your ability to handle objects is determined by the form’s limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it’s practical for the new form to wear a piece of equipment based on the creature’s size and shape. Your equipment doesn’t change size or shape to match the new form, and any equipment that the new form can’t wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you’re in that form.\n\n### Level 2: Wild Companion \n\nYou can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the Find Familiar spell without Material components.\n\nWhen you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.\n\n### Level 3: Druid Subclass \n\nYou gain a Druid subclass of your choice. The Circle of the Land, Circle of the Moon, Circle of the Sea, and Circle of the Stars subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Druid levels. For the rest of your career, you gain each of your subclass’s features that are of your Druid level or lower.\n\n##### Druid Subclasses\n\n    \n\n|\n Name |\n\n|\n Circle of the Land |\n\n|\n Circle of the Moon |\n\n|\n Circle of the Sea |\n\n|\n Circle of the Stars |\n\n    \n    \n    \n    \n\n### Level 4: Ability Score Improvement \n\nYou gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16.\n\n### Level 5: Wild Resurgence \n\nOnce on each of your turns, if you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required).\n\nIn addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, but you can’t do so again until you finish a Long Rest.\n\n### Level 7: Elemental Fury \n\nThe might of the elements flows through you. You gain one of the following options of your choice.\n\n**Potent Spellcasting.** Add your Wisdom modifier to the damage you deal with any Druid cantrip.\n\n**Primal Strike.** Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form’s attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit).\n\n### Level 15: Improved Elemental Fury \n\nThe option you chose for Elemental Fury grows more powerful, as detailed below.\n\n**Potent Spellcasting.** When you cast a Druid cantrip with a range of 10 feet or greater, the spell’s range increases by 300 feet.\n\n**Primal Strike.** The extra damage of your Primal Strike increases to 2d8.\n\n### Level 18: Beast Spells \n\nWhile using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component.\n\n### Level 19: Epic Boon \n\nYou gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.\n\n### Level 20: Archdruid \n\nThe vitality of nature constantly blooms within you, granting you the following benefits.\n\n**Evergreen Wild Shape.** Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.\n\n**Nature Magician.** You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot. Once you use this benefit, you can’t do so again until you finish a Long Rest.\n\n**Longevity.** The primal magic that you wield causes you to age more slowly. For every ten years that pass, your body ages only one year."
+}

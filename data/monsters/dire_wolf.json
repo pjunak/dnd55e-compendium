@@ -1,0 +1,25 @@
+{
+  "id": "dire_wolf",
+  "kind": "monster",
+  "name": "Dire Wolf",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "15 (2d10 + 4)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 10,
+    "CON": 15,
+    "INT": 2,
+    "WIS": 11,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Dire Wolf\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Hooves.** Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Bludgeoning damage."
+}

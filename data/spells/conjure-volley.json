@@ -1,0 +1,23 @@
+{
+  "id": "conjure-volley",
+  "kind": "spell",
+  "name": "Conjure Volley",
+  "edition": "2024",
+  "level": 5,
+  "school": "Conjuration",
+  "classes": [
+    "ranger"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "150 feet",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a Melee or Ranged weapon worth at least 1 CP",
+  "duration": "Instantaneous",
+  "text": "# Conjure Volley\n*5th-Level Conjuration (Ranger)*\n**Casting Time:** Action\n**Range:** 150 feet\n**Components:** V, S, M (a Melee or Ranged weapon worth at least 1 CP)\n**Duration:** Instantaneous\n\nYou brandish the weapon used to cast the spell and choose a point within range. Hundreds of similar spectral weapons (or ammunition appropriate to the weapon) fall in a volley and then disappear. Each creature of your choice that you can see in a 40-foot-radius, 20-foot-high Cylinder centered on that point makes a Dexterity saving throw. A creature takes 8d8 Force damage on a failed save or half as much damage on a successful one."
+}

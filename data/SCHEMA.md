@@ -1,18 +1,27 @@
 # Compendium record schemas (D&D 5.5e / 2024)
 
 The canonical shape of every content record. `dnd55e-core-rules` consumes these via the
-`provide()` data API; the migration (`tools/`, later) emits records in exactly these shapes.
-Field choices are driven by the edge-case catalog in
+`provide()` data API. Field choices are driven by the edge-case catalog in
 [`dnd55e-sheets/docs/RULES_EDGE_CASES.md`](../../dnd55e-sheets/docs/RULES_EDGE_CASES.md) —
 each field notes the `ID` it serves.
+
+**Storage & loading.** Content is a **per-record JSON tree** — one file per record:
+`data/classes/<id>.json`, `data/spells/<id>.json`, `data/monsters/<id>.json`, … and
+`data/subclasses/<classId>/<id>.json` (nested under the owning class). Each file is the
+**full record** as pretty JSON. The addon's server module
+([`../server/index.cjs`](../server/index.cjs)) reads the tree at init (grouping by each
+record's `kind` field) and serves it under `/api/addon/dnd55e-compendium/content`; the
+client fetches that once and caches it. Adding a record = adding its JSON file (live on the
+next server load — no build step). See [`../README.md`](../README.md) for the full layout
+and the restart-to-load caveat.
 
 **Conventions.** Every record has `id` (kebab-case, **unique within its kind** — the browse
 URL carries the kind, so `spell:shield` and `armor:shield` don't collide), `kind`, `name`
 (English base; localized on read via the overlay seam), `edition: '2024'`, and an optional
-Markdown `text`. Ability ids are `STR DEX CON INT WIS CHA`. This seed is **representative,
-not complete** — it pins the shapes and exercises the hard cases; full 20-level progression
-tables + all content arrive with the Living-scroll migration. Where a table is abbreviated,
-it's filled to ~level 5 and marked.
+Markdown `text`. Ability ids are `STR DEX CON INT WIS CHA`. The records exercise the hard
+rules cases (multiclass saves, always-prepared domain spells, parsed 2024 prepared counts,
+lineage grants, half-feat ASIs, …); per-record source gaps are tracked in
+[`GAPS.md`](GAPS.md).
 
 ---
 
@@ -98,7 +107,10 @@ it's filled to ~level 5 and marked.
 {
   "id": "fey-touched", "kind": "feat", "name": "Fey Touched", "edition": "2024",
   "category": "general",                   // origin | general | fightingStyle | epicBoon   (SB-2)
-  "prerequisites": { "level": 4 },         // SB-2 ({ability:{INT:13}}, {feature}, …)
+  "prerequisites": { "text": "Level 4+" }, // SB-2 — { text } (verbatim prose) OR { level: N }
+                                           //   (structured). {} = none. The renderer shows whichever
+                                           //   is present (text wins). Future structured shapes
+                                           //   ({ability:{INT:13}}, {feature}) extend this.
   "repeatable": false,                     // SB-2 (or { "by": "ability" } / { "by": "damageType" })
   "grants": {
     "abilityScoreIncrease": { "choose": 1, "amount": 1, "from": ["INT","WIS","CHA"] },  // AB-2 half-feat
@@ -169,8 +181,8 @@ it's filled to ~level 5 and marked.
   "cr": "5 (XP 1,800; PB +3)", "crValue": 5,                 // crValue = parsed leading token (e.g. "1/4" → 0.25) for sorting
   "traits": [ { "name": "Resistances", "text": "Bludgeoning, Lightning, …" } ],  // from frontmatter (often NOT in the body)
   "text": "…prose stat block (attacks / saves / damage as readable text)…"
-  // NB: the source's machine-readable `actions` automation is intentionally NOT
-  // shipped (combat is out of scope — see GAPS); re-derivable from Living-scroll.
+  // NB: machine-readable `actions` automation is intentionally NOT shipped
+  // (combat is out of scope — see GAPS); the browse view reads the prose block.
 }
 ```
 

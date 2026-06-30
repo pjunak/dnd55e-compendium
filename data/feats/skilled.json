@@ -1,0 +1,17 @@
+{
+  "id": "skilled",
+  "kind": "feat",
+  "name": "Skilled",
+  "edition": "2024",
+  "category": "origin",
+  "prerequisites": {},
+  "repeatable": true,
+  "grants": {
+    "proficiencies": {
+      "skills": [
+        "any (3)"
+      ]
+    }
+  },
+  "text": "You gain proficiency in any combination of three skills or tools of your choice.\n\n**Repeatable.** You can take this feat more than once."
+}

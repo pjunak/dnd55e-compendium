@@ -1,0 +1,26 @@
+{
+  "id": "alustriel-s-mooncloak",
+  "kind": "spell",
+  "name": "Alustriel's Mooncloak",
+  "edition": "2024",
+  "level": 5,
+  "school": "Abjuration",
+  "classes": [
+    "bard",
+    "druid",
+    "ranger",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "C",
+  "duration": "C, up to 1 minute",
+  "text": "# Alustriel's Mooncloak\n*5th-Level Abjuration (Bard, Druid, Ranger, Wizard)*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V, S, M (C)\n**Duration:** C, up to 1 minute\n\nFor the duration, moonlight fills a 20-foot Emanation originating from you with Dim Light. While in that area, you and your allies have Half Cover and Resistance to Cold, Lightning, and Radiant damage.\n\nWhile the spell lasts, you can use one of the following options, ending the spell immediately:\n\n**Liberation.** When you fail a saving throw to avoid or end the Frightened, Grappled, or Restrained condition, you can take a Reaction to succeed on the save instead.\n\n**Respite.** As a Magic action, you or an ally within the area regains Hit Points equal to 4d10 plus your spellcasting ability modifier."
+}

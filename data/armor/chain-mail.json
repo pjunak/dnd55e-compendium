@@ -1,0 +1,16 @@
+{
+  "id": "chain-mail",
+  "kind": "armor",
+  "name": "Chain Mail",
+  "edition": "2024",
+  "armorType": "heavy",
+  "baseAC": 16,
+  "dexCap": 0,
+  "acBonus": 0,
+  "strReq": "Str 13",
+  "stealthDisadvantage": true,
+  "weight": "55 lb.",
+  "cost": "75 GP",
+  "_acSource": 16,
+  "text": "# Chain Mail\n\n*Armor, Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)*\n\n**AC:** 16\n**Strength Requirement:** Str 13\n**Stealth:** Disadvantage\n**Weight:** 55 lb.\n**Cost:** 75 GP"
+}

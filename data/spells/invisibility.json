@@ -1,0 +1,21 @@
+{
+  "id": "invisibility",
+  "kind": "spell",
+  "name": "Invisibility",
+  "edition": "2024",
+  "level": 2,
+  "school": "Illusion",
+  "classes": [],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "an eyelash in gum arabic",
+  "duration": "Concentration, up to 1 hour",
+  "text": "# Invisibility\n*2nd-Level Illusion*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S, M (an eyelash in gum arabic)\n**Duration:** Concentration, up to 1 hour\nLevel 2 Illusion (Artificer, Bard, Sorcerer, Warlock, Wizard)\nCasting Time: Action\nRange: Touch\nComponents: V, S, M (an eyelash in gum arabic)\nDuration: Concentration, up to 1 hour\nA creature you touch has the Invisible condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 2."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "entertainer",
+  "kind": "background",
+  "name": "Entertainer",
+  "edition": "2024",
+  "abilityScores": [
+    "STR",
+    "DEX",
+    "CHA"
+  ],
+  "originFeat": "musician",
+  "skillProficiencies": [
+    "acrobatics",
+    "performance"
+  ],
+  "toolProficiency": "Choose one kind of Musical Instrument",
+  "text": "You spent much of your youth following roving fairs and carnivals, performing odd jobs for musicians and acrobats in exchange for lessons. You may have learned how to walk a tightrope, how to play a lute in a distinct style, or how to recite poetry with impeccable diction. To this day, you thrive on applause and long for the stage.\n\n**Ability Scores:** Strength, Dexterity, Charisma\n\n**Feat:** Musician\n\n**Skill Proficiencies:** Acrobatics and Performance\n\n**Tool Proficiency:** Choose one kind of Musical Instrument\n\n**Equipment:** Choose A or B: (A) Musical Instrument (same as above), 2 Costumes, Mirror, Perfume, Traveler’s Clothes, 11 GP; or (B) 50 GP"
+}

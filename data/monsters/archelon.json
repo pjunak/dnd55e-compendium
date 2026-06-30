@@ -1,0 +1,30 @@
+{
+  "id": "archelon",
+  "kind": "monster",
+  "name": "Archelon",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Small",
+  "type": "Small Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "3 (1d6)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 8,
+    "DEX": 14,
+    "CON": 11,
+    "INT": 4,
+    "WIS": 12,
+    "CHA": 6
+  },
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The baboon has Advantage on an attack roll against a creature if at least one of the baboon’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition."
+    }
+  ],
+  "text": "# Archelon\n\n*Small Beast, Unaligned*"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "black_pudding",
+  "kind": "monster",
+  "name": "Black Pudding",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Fey",
+  "size": "Medium",
+  "type": "Medium Fey",
+  "alignment": "Lawful Good",
+  "ac": "13",
+  "hp": "22 (4d8 + 4)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 12,
+    "DEX": 17,
+    "CON": 12,
+    "INT": 10,
+    "WIS": 13,
+    "CHA": 11
+  },
+  "traits": [],
+  "text": "# Black Pudding\n\n*Medium Fey, Lawful Good*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "armor-of-agathys",
+  "kind": "spell",
+  "name": "Armor of Agathys",
+  "edition": "2024",
+  "level": 1,
+  "school": "Abjuration",
+  "classes": [
+    "warlock"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Bonus Action",
+  "range": "Self",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a shard of blue glass",
+  "duration": "1 Hour",
+  "text": "# Armor of Agathys\n*1st-Level Abjuration (Warlock)*\n**Casting Time:** Bonus Action\n**Range:** Self\n**Components:** V, S, M (a shard of blue glass)\n**Duration:** 1 Hour\n\nProtective magical frost surrounds you. You gain 5 Temporary Hit Points. If a creature hits you with a melee attack roll before the spell ends, the creature takes 5 Cold damage. The spell ends early if you have no Temporary Hit Points.\n\n**Using a Higher-Level Spell Slot.** The Temporary Hit Points and the Cold damage both increase by 5 for each spell slot level above 1."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "longstrider",
+  "kind": "spell",
+  "name": "Longstrider",
+  "edition": "2024",
+  "level": 1,
+  "school": "Transmutation",
+  "classes": [
+    "artificer",
+    "bard",
+    "druid",
+    "ranger",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a pinch of dirt",
+  "duration": "1 hour",
+  "text": "# Longstrider\n*1st-Level Transmutation (Artificer, Bard, Druid, Ranger, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S, M (a pinch of dirt)\n**Duration:** 1 hour\n\nYou touch a creature. The target’s Speed increases by 10 feet until the spell ends.\n\n**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 1."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "find-steed",
+  "kind": "spell",
+  "name": "Find Steed",
+  "edition": "2024",
+  "level": 2,
+  "school": "Conjuration",
+  "classes": [
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Find Steed\n*2nd-Level Conjuration (Paladin)*\n**Casting Time:** Action\n**Range:** 30 feet\n**Components:** V, S\n**Duration:** Instantaneous\n\nYou summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the **Otherworldly Steed** stat block. If you already have a steed from this spell, the steed is replaced by the new one.\n\nThe steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed’s creature type—Celestial, Fey, or Fiend—which determines certain traits in the stat block.\n\n**Combat.** The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a controlled mount while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.\n\n**Disappearance of the Steed.** The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.\n\n**Using a Higher-Level Spell Slot.** Use the spell slot’s level for the spell’s level in the stat block.\n\n|\n Otherworldly Steed |\n\n|\n *Large Celestial, Fey, or Fiend (Your Choice), Neutral* |\n\n|\n **Armor Class:** 10 + 1 per spell level |\n\n|\n **Hit Points:** 5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell’s level) |\n\n|\n **Speed:** 60 ft., Fly 60 ft. (requires level 4+ spell) |\n\n|\n STR (Mod/Save) |\n DEX (Mod/Save) |\n CON (Mod/Save) |\n INT (Mod/Save) |\n WIS (Mod/Save) |\n CHA (Mod/Save) |\n\n|\n 18 (+4/+4) |\n 12 (+1/+1) |\n 14 (+2/+2) |\n 6 (-2/-2) |\n 12 (+1/+1) |\n 8 (-1/-1) |\n\n|\n **Senses:** Passive Perception 11 |\n\n|\n **Languages:** Telepathy 1 mile (works only with you) |\n\n|\n **Challenge Rating:** None (XP 0; PB equals your Proficiency Bonus) |\n\n|\n Traits |\n\n|\n **Life Bond.** When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you’re within 5 feet of it. |\n\n|\n Actions |\n\n|\n **Otherworldly Slam.** Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 1d8 plus the spell’s level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage. |\n\n|\n Bonus Actions |\n\n|\n **Fell Glare (Fiend Only; Recharges after a Long Rest).** Wisdom Saving Throw: DC equals your spell save DC, one creature within 60 feet the steed can see. Failure: The target has the Frightened condition until the end of your next turn. |\n\n|\n **Fey Step (Fey Only; Recharges after a Long Rest).** The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself. |\n\n|\n **Healing Touch (Celestial Only; Recharges after a Long Rest).** One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 plus the spell’s level. |"
+}

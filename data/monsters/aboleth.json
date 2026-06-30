@@ -1,0 +1,38 @@
+{
+  "id": "aboleth",
+  "kind": "monster",
+  "name": "Aboleth",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "Elemental",
+  "size": "Large",
+  "type": "Large Elemental",
+  "alignment": "Neutral",
+  "ac": "15",
+  "hp": "90 (12d10 + 24)",
+  "speed": "10 ft., Fly 90 ft. (hover)",
+  "stats": {
+    "STR": 14,
+    "DEX": 20,
+    "CON": 14,
+    "INT": 6,
+    "WIS": 10,
+    "CHA": 6
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Bludgeoning, Lightning, Piercing, Slashing"
+    },
+    {
+      "name": "Immunities",
+      "text": "Poison, Thunder; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious"
+    },
+    {
+      "name": "Air Form",
+      "text": "The elemental can enter a creature’s space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so."
+    }
+  ],
+  "text": "# Aboleth\n\n*Large Elemental, Neutral*\n\n### Actions\n\n**Thunderous Slam.** Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Thunder damage.\n\n**Whirlwind (Recharge 4–6).** Strength Saving Throw: DC 13, one Medium or smaller creature in the elemental’s space. Failure: 24 (4d10 + 2) Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Success: Half damage only."
+}

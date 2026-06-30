@@ -1,0 +1,38 @@
+{
+  "id": "circle-of-the-sea",
+  "kind": "subclass",
+  "name": "Circle of the Sea",
+  "classId": "druid",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "circle-of-the-sea-spells",
+      "name": "Circle of the Sea Spells"
+    },
+    {
+      "level": 3,
+      "id": "wrath-of-the-sea",
+      "name": "Wrath of the Sea"
+    },
+    {
+      "level": 6,
+      "id": "aquatic-affinity",
+      "name": "Aquatic Affinity"
+    },
+    {
+      "level": 10,
+      "id": "stormborn",
+      "name": "Stormborn"
+    },
+    {
+      "level": 14,
+      "id": "oceanic-gift",
+      "name": "Oceanic Gift"
+    }
+  ],
+  "grants": {},
+  "text": "*Become One with Tides and Storms*\n\nDruids of the Circle of the Sea draw on the tempestuous forces of oceans and storms. Some view themselves as embodiments of nature’s wrath, seeking vengeance against those who despoil nature. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves and listening to the inscrutable whispers and roars of the winds.\n\n### Level 3: Circle of the Sea Spells\n\nWhen you reach a Druid level specified in the Circle of the Sea Spells table, you thereafter always have the listed spells prepared.\n\n##### Circle of the Sea Spells\n\n|\n Druid Level |\n Prepared Spells |\n\n|\n 3 |\n Fog Cloud, Gust of Wind, Ray of Frost, Thunderwave |\n\n|\n 5 |\n Lightning Bolt, Water Breathing |\n\n|\n 7 |\n Control Water, Ice Storm |\n\n|\n 9 |\n Conjure Elemental, Hold Monster |\n\n### Level 3: Wrath of the Sea\n\nAs a Bonus Action, you can expend a use of your Wild Shape to manifest a 5-foot Emanation that takes the form of ocean spray that surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition.\n\nWhen you manifest the Emanation and as a Bonus Action on your subsequent turns, you can choose another creature you can see in the Emanation. The target must succeed on a Constitution saving throw against your spell save DC or take Cold damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die).\n\n### Level 6: Aquatic Affinity\n\nThe size of the Emanation created by your Wrath of the Sea increases to 10 feet.\n\nIn addition, you gain a Swim Speed equal to your Speed.\n\n### Level 10: Stormborn\n\nYour Wrath of the Sea confers two more benefits while active, as detailed below.\n\n**Flight.** You gain a Fly Speed equal to your Speed.\n\n**Resistance.** You have Resistance to Cold, Lightning, and Thunder damage.\n\n### Level 14: Oceanic Gift\n\nInstead of manifesting the Emanation of Wrath of the Sea around yourself, you can manifest it around one willing creature within 60 feet of yourself. That creature gains all the benefits of the Emanation and uses your spell save DC and Wisdom modifier for it.\n\nIn addition, you can manifest the Emanation around both the other creature and yourself if you expend two uses of your Wild Shape instead of one when manifesting it."
+}

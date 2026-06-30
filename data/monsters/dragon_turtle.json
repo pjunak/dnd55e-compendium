@@ -1,0 +1,34 @@
+{
+  "id": "dragon_turtle",
+  "kind": "monster",
+  "name": "Dragon Turtle",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Fiend (Demon)",
+  "size": "Small",
+  "type": "Small Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "11",
+  "hp": "18 (4d6 + 4)",
+  "speed": "20 ft.",
+  "stats": {
+    "STR": 12,
+    "DEX": 11,
+    "CON": 12,
+    "INT": 5,
+    "WIS": 8,
+    "CHA": 3
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold, Fire, Lightning"
+    },
+    {
+      "name": "Immunities",
+      "text": "Poison; Poisoned"
+    }
+  ],
+  "text": "# Dragon Turtle\n\n*Small Fiend (Demon), Chaotic Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\n**Fetid Cloud (1/Day).** Constitution Saving Throw: DC 11, each creature in a 10-foot Emanation originating from the dretch. Failure: The target has the Poisoned condition until the end of its next turn. While Poisoned, the creature can take either an action or a Bonus Action on its turn, not both, and it can’t take Reactions."
+}

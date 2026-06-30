@@ -1,0 +1,25 @@
+{
+  "id": "cloaker",
+  "kind": "monster",
+  "name": "Cloaker",
+  "edition": "2024",
+  "cr": "9 (XP 5,000; PB +4)",
+  "crValue": 9,
+  "creatureType": "Giant",
+  "size": "Huge",
+  "type": "Huge Giant",
+  "alignment": "Neutral",
+  "ac": "14",
+  "hp": "200 (16d12 + 96)",
+  "speed": "40 ft., Fly 20 ft. (hover)",
+  "stats": {
+    "STR": 27,
+    "DEX": 10,
+    "CON": 22,
+    "INT": 12,
+    "WIS": 16,
+    "CHA": 16
+  },
+  "traits": [],
+  "text": "# Cloaker\n\n*Huge Giant, Neutral*\n\n### Actions\n\n**Thunderous Mace.** Melee Attack Roll: +12, reach 10 ft. Hit: 21 (3d8 + 8) Bludgeoning damage plus 7 (2d6) Thunder damage.\n\n**Thundercloud.** Ranged Attack Roll: +12, range 240 ft. Hit: 18 (3d6 + 8) Thunder damage, and the target has the Incapacitated condition until the end of its next turn."
+}

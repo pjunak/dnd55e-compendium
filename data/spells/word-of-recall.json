@@ -1,0 +1,21 @@
+{
+  "id": "word-of-recall",
+  "kind": "spell",
+  "name": "Word of Recall",
+  "edition": "2024",
+  "level": 6,
+  "school": "Conjuration",
+  "classes": [
+    "cleric"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "5 feet",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Word of Recall\n*6th-Level Conjuration (Cleric)*\n**Casting Time:** Action\n**Range:** 5 feet\n**Components:** V\n**Duration:** Instantaneous\n\nYou and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect.\n\nYou must designate a location, such as a temple, as a sanctuary by casting this spell there."
+}

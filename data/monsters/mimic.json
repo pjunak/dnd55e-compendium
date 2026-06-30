@@ -1,0 +1,25 @@
+{
+  "id": "mimic",
+  "kind": "monster",
+  "name": "Mimic",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Monstrosity",
+  "size": "Large",
+  "type": "Large Monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "14",
+  "hp": "85 (10d10 + 30)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 11,
+    "CON": 16,
+    "INT": 6,
+    "WIS": 16,
+    "CHA": 9
+  },
+  "traits": [],
+  "text": "# Mimic\n\n*Large Monstrosity, Chaotic Evil*\n\n### Actions\n\n**Abyssal Glaive.** Melee Attack Roll: +6, reach 10 ft. Hit: 10 (1d12 + 4) Slashing damage plus 10 (3d6) Necrotic damage.\n\n**Gore (Recharge 5–6).** Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved 10+ feet straight toward it immediately before the hit, the target takes an extra 10 (3d6) Piercing damage and has the Prone condition."
+}

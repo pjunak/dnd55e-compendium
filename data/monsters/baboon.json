@@ -1,0 +1,30 @@
+{
+  "id": "baboon",
+  "kind": "monster",
+  "name": "Baboon",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "5 (1d4 + 3)",
+  "speed": "20 ft., Burrow 5 ft.",
+  "stats": {
+    "STR": 10,
+    "DEX": 11,
+    "CON": 16,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 5
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Poison"
+    }
+  ],
+  "text": "# Baboon\n\n*Tiny Beast, Unaligned*"
+}

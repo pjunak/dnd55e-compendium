@@ -1,0 +1,25 @@
+{
+  "id": "spirit_naga",
+  "kind": "monster",
+  "name": "Spirit Naga",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Fey",
+  "size": "Tiny",
+  "type": "Tiny Fey",
+  "alignment": "Neutral Good",
+  "ac": "15",
+  "hp": "10 (4d4)",
+  "speed": "10 ft., Fly 40 ft.",
+  "stats": {
+    "STR": 3,
+    "DEX": 18,
+    "CON": 10,
+    "INT": 14,
+    "WIS": 13,
+    "CHA": 11
+  },
+  "traits": [],
+  "text": "# Spirit Naga\n\n*Tiny Fey, Neutral Good*\n\n### Actions\n\n**Needle Sword.** Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Piercing damage.\n\n**Heart Sight.** Charisma Saving Throw: DC 10, one creature within 5 feet the sprite can see (Celestials, Fiends, and Undead automatically fail the save). Failure: The sprite knows the target’s emotions and alignment."
+}

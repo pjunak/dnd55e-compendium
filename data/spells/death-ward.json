@@ -1,0 +1,23 @@
+{
+  "id": "death-ward",
+  "kind": "spell",
+  "name": "Death Ward",
+  "edition": "2024",
+  "level": 4,
+  "school": "Abjuration",
+  "classes": [
+    "cleric",
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "8 hours",
+  "text": "# Death Ward\n*4th-Level Abjuration (Cleric, Paladin)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S\n**Duration:** 8 hours\n\nYou touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.\n\nIf the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends."
+}

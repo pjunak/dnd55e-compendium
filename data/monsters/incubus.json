@@ -1,0 +1,42 @@
+{
+  "id": "incubus",
+  "kind": "monster",
+  "name": "Incubus",
+  "edition": "2024",
+  "cr": "6 (XP 2,300; PB +3)",
+  "crValue": 6,
+  "creatureType": "Elemental",
+  "size": "Large",
+  "type": "Large Elemental",
+  "alignment": "Neutral",
+  "ac": "14",
+  "hp": "97 (13d10 + 26)",
+  "speed": "50 ft., Fly 50 ft. (hover)",
+  "stats": {
+    "STR": 16,
+    "DEX": 19,
+    "CON": 14,
+    "INT": 10,
+    "WIS": 15,
+    "CHA": 11
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Bludgeoning, Piercing, Slashing"
+    },
+    {
+      "name": "Immunities",
+      "text": "Poison; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious"
+    },
+    {
+      "name": "Air Form",
+      "text": "The stalker can enter an enemy’s space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so."
+    },
+    {
+      "name": "Invisibility",
+      "text": "The stalker has the Invisible condition."
+    }
+  ],
+  "text": "# Incubus\n\n*Large Elemental, Neutral*\n\n### Actions\n\n**Wind Swipe.** Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Force damage.\n\n**Vortex.** Constitution Saving Throw: DC 14, one Large or smaller creature in the stalker’s space. Failure: 7 (1d8 + 3) Thunder damage, and the target has the Grappled condition (escape DC 13). Until the grapple ends, the target can’t cast spells with a Verbal component and takes 7 (2d6) Thunder damage at the start of each of the stalker’s turns."
+}

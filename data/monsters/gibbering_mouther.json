@@ -1,0 +1,42 @@
+{
+  "id": "gibbering_mouther",
+  "kind": "monster",
+  "name": "Gibbering Mouther",
+  "edition": "2024",
+  "cr": "9 (XP 5,000; PB +4)",
+  "crValue": 9,
+  "creatureType": "Fiend (Demon)",
+  "size": "Large",
+  "type": "Large Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "17",
+  "hp": "189 (18d10 + 90)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 20,
+    "DEX": 15,
+    "CON": 21,
+    "INT": 19,
+    "WIS": 17,
+    "CHA": 16
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold, Fire, Lightning"
+    },
+    {
+      "name": "Immunities",
+      "text": "Poison; Poisoned"
+    },
+    {
+      "name": "Demonic Restoration",
+      "text": "If the glabrezu dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The glabrezu has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Gibbering Mouther\n\n*Large Fiend (Demon), Chaotic Evil*\n\n### Actions\n\n**Pincer.** Melee Attack Roll: +9, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 15) from one of two pincers.\n\n**Pummel.** Dexterity Saving Throw: DC 17, one creature Grappled by the glabrezu. Failure: 15 (3d6 + 5) Bludgeoning damage. Success: Half damage."
+}

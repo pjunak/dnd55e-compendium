@@ -1,0 +1,18 @@
+{
+  "id": "guard",
+  "kind": "background",
+  "name": "Guard",
+  "edition": "2024",
+  "abilityScores": [
+    "STR",
+    "INT",
+    "WIS"
+  ],
+  "originFeat": "alert",
+  "skillProficiencies": [
+    "athletics",
+    "perception"
+  ],
+  "toolProficiency": "Choose one kind of Gaming Set",
+  "text": "Your feet ache when you remember the countless hours you spent at your post in the tower. You were trained to keep one eye looking outside the wall, watching for marauders sweeping from the nearby forest, and your other eye looking inside the wall, searching for cutpurses and troublemakers.\n\n**Ability Scores:** Strength, Intelligence, Wisdom\n\n**Feat:** Alert\n\n**Skill Proficiencies:** Athletics and Perception\n\n**Tool Proficiency:** Choose one kind of Gaming Set\n\n**Equipment:** Choose A or B: (A) Spear, Light Crossbow, 20 Bolts, Gaming Set (same as above), Hooded Lantern, Manacles, Quiver, Traveler’s Clothes, 12 GP; or (B) 50 GP"
+}

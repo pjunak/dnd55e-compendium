@@ -1,0 +1,25 @@
+{
+  "id": "giant_frog",
+  "kind": "monster",
+  "name": "Giant Frog",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "19 (3d10 + 3)",
+  "speed": "40 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 17,
+    "DEX": 13,
+    "CON": 12,
+    "INT": 3,
+    "WIS": 12,
+    "CHA": 6
+  },
+  "traits": [],
+  "text": "# Giant Frog\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Ram.** Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the goat moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
+}

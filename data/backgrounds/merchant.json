@@ -1,0 +1,18 @@
+{
+  "id": "merchant",
+  "kind": "background",
+  "name": "Merchant",
+  "edition": "2024",
+  "abilityScores": [
+    "CON",
+    "INT",
+    "CHA"
+  ],
+  "originFeat": "lucky",
+  "skillProficiencies": [
+    "animal-handling",
+    "persuasion"
+  ],
+  "toolProficiency": "Navigator's Tools",
+  "text": "You were apprenticed to a trader, caravan master, or shopkeeper, learning the fundamentals of commerce. You traveled broadly, and you earned a living by buying and selling the raw materials artisans need to practice their craft or finished works from such crafters. You might have transported goods from one place to another (by ship, wagon, or caravan) or bought them from traveling traders and sold them in your own shop.\n\n**Ability Scores:** Constitution, Intelligence, Charisma\n\n**Feat:** Lucky\n\n**Skill Proficiencies:** Animal Handling and Persuasion\n\n**Tool Proficiency:** Navigator's Tools\n\n**Equipment:** Choose A or B: (A) Navigator’s Tools, 2 Pouches, Traveler's Clothes, 22 GP; or (B) 50 GP"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "frog",
+  "kind": "monster",
+  "name": "Frog",
+  "edition": "2024",
+  "cr": "7 (XP 2,900; PB +3)",
+  "crValue": 7,
+  "creatureType": "Beast",
+  "size": "Huge",
+  "type": "Huge Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "168 (16d12 + 64)",
+  "speed": "40 ft., Climb 40 ft.",
+  "stats": {
+    "STR": 23,
+    "DEX": 14,
+    "CON": 18,
+    "INT": 5,
+    "WIS": 12,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Frog\n\n*Huge Beast, Unaligned*\n\n### Actions\n\n**Fist.** Melee Attack Roll: +9, reach 10 ft. Hit: 22 (3d10 + 6) Bludgeoning damage.\n\n**Boulder Toss (Recharge 6).** The ape hurls a boulder at a point it can see within 90 feet. Dexterity Saving Throw: DC 17, each creature in a 5-foot-radius Sphere centered on that point. Failure: 24 (7d6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition. Success: Half damage only."
+}

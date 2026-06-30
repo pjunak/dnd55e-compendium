@@ -1,0 +1,25 @@
+{
+  "id": "remove-curse",
+  "kind": "spell",
+  "name": "Remove Curse",
+  "edition": "2024",
+  "level": 3,
+  "school": "Abjuration",
+  "classes": [
+    "cleric",
+    "paladin",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Remove Curse\n*3rd-Level Abjuration (Cleric, Paladin, Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S\n**Duration:** Instantaneous\n\nAt your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner’s Attunement to the object so it can be removed or discarded."
+}

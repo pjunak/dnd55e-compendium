@@ -1,0 +1,20 @@
+{
+  "id": "warhammer",
+  "kind": "weapon",
+  "name": "Warhammer",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d8",
+  "damageType": "bludgeoning",
+  "properties": [
+    "versatile"
+  ],
+  "versatileDamage": "1d10",
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Push",
+  "weight": "5 lb.",
+  "cost": "15 GP",
+  "text": "# Warhammer\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d8 Bludgeoning\n**Properties:** Versatile(1d10)\n**Mastery:** Push\n**Weight:** 5 lb.\n**Cost:** 15 GP"
+}

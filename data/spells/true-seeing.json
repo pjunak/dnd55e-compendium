@@ -1,0 +1,27 @@
+{
+  "id": "true-seeing",
+  "kind": "spell",
+  "name": "True Seeing",
+  "edition": "2024",
+  "level": 6,
+  "school": "Divination",
+  "classes": [
+    "bard",
+    "cleric",
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "mushroom powder worth 25+ GP, which the spell consumes",
+  "duration": "1 hour",
+  "text": "# True Seeing\n*6th-Level Divination (Bard, Cleric, Sorcerer, Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S, M (mushroom powder worth 25+ GP, which the spell consumes)\n**Duration:** 1 hour\n\nFor the duration, the willing creature you touch has Truesight with a range of 120 feet."
+}

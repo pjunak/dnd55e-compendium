@@ -1,0 +1,20 @@
+{
+  "id": "war-pick",
+  "kind": "weapon",
+  "name": "War Pick",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d8",
+  "damageType": "piercing",
+  "properties": [
+    "versatile"
+  ],
+  "versatileDamage": "1d10",
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Sap",
+  "weight": "2 lb.",
+  "cost": "5 GP",
+  "text": "# War Pick\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d8 Piercing\n**Properties:** Versatile(1d10)\n**Mastery:** Sap\n**Weight:** 2 lb.\n**Cost:** 5 GP"
+}

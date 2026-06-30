@@ -1,0 +1,25 @@
+{
+  "id": "magmin",
+  "kind": "monster",
+  "name": "Magmin",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Monstrosity",
+  "size": "Large",
+  "type": "Large Monstrosity",
+  "alignment": "Lawful Evil",
+  "ac": "14",
+  "hp": "68 (8d10 + 24)",
+  "speed": "30 ft., Fly 50 ft.",
+  "stats": {
+    "STR": 17,
+    "DEX": 16,
+    "CON": 17,
+    "INT": 7,
+    "WIS": 12,
+    "CHA": 8
+  },
+  "traits": [],
+  "text": "# Magmin\n\n*Large Monstrosity, Lawful Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\n**Tail Spike.** Ranged Attack Roll: +5, range 100/200 ft. Hit: 7 (1d8 + 3) Piercing damage."
+}

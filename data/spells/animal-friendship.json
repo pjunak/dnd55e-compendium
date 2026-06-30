@@ -1,0 +1,25 @@
+{
+  "id": "animal-friendship",
+  "kind": "spell",
+  "name": "Animal Friendship",
+  "edition": "2024",
+  "level": 1,
+  "school": "Enchantment",
+  "classes": [
+    "bard",
+    "druid",
+    "ranger"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a morsel of food",
+  "duration": "24 hours",
+  "text": "# Animal Friendship\n*1st-Level Enchantment (Bard, Druid, Ranger)*\n**Casting Time:** Action\n**Range:** 30 feet\n**Components:** V, S, M (a morsel of food)\n**Duration:** 24 hours\n\nTarget a Beast that you can see within range. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. If you or one of your allies deals damage to the target, the spells ends.\n\n**Using a Higher-Level Spell Slot.** You can target one additional Beast for each spell slot level above 1."
+}

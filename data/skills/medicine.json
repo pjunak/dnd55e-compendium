@@ -1,0 +1,6 @@
+{
+  "id": "medicine",
+  "kind": "skill",
+  "name": "Medicine",
+  "ability": "WIS"
+}

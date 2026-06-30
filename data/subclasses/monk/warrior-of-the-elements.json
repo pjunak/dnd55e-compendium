@@ -1,0 +1,38 @@
+{
+  "id": "warrior-of-the-elements",
+  "kind": "subclass",
+  "name": "Warrior of the Elements",
+  "classId": "monk",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "elemental-attunement",
+      "name": "Elemental Attunement"
+    },
+    {
+      "level": 3,
+      "id": "manipulate-elements",
+      "name": "Manipulate Elements"
+    },
+    {
+      "level": 6,
+      "id": "elemental-burst",
+      "name": "Elemental Burst"
+    },
+    {
+      "level": 11,
+      "id": "stride-of-the-elements",
+      "name": "Stride of the Elements"
+    },
+    {
+      "level": 17,
+      "id": "elemental-epitome",
+      "name": "Elemental Epitome"
+    }
+  ],
+  "grants": {},
+  "text": "*Wield Strikes and Bursts of Elemental Power*\n\nWarriors of the Elements tap into the power of the Elemental Planes. Harnessing their supernatural focus, these Monks momentarily tame the energy of the Elemental Chaos to empower themselves in and out of battle.\n\n### Level 3: Elemental Attunement\n\nAt the start of your turn, you can expend 1 Focus Point to imbue yourself with elemental energy. The energy lasts for 10 minutes or until you have the Incapacitated condition. You gain the following benefits while this feature is active.\n\n**Reach.** When you make an Unarmed Strike, your reach is 10 feet greater than normal, as elemental energy extends from you.\n\n**Elemental Strikes.** Whenever you hit with your Unarmed Strike, you can cause it to deal your choice of Acid, Cold, Fire, Lightning, or Thunder damage rather than its normal damage type. When you deal one of these types with it, you can also force the target to make a Strength saving throw. On a failed save, you can move the target up to 10 feet toward or away from you, as elemental energy swirls around it.\n\n### Level 3: Manipulate Elements\n\nYou know the Elementalism spell. Wisdom is your spellcasting ability for it.\n\n### Level 6: Elemental Burst\n\nAs a Magic action, you can expend 2 Focus Points to cause elemental energy to burst in a 20-foot-radius Sphere centered on a point within 120 feet of yourself. Choose a damage type: Acid, Cold, Fire, Lightning, or Thunder.\n\nEach creature in the Sphere must make a Dexterity saving throw. On a failed save, a creature takes damage of the chosen type equal to three rolls of your Martial Arts die. On a successful save, a creature takes half as much damage.\n\n### Level 11: Stride of the Elements\n\nWhile your Elemental Attunement is active, you also have a Fly Speed and a Swim Speed equal to your Speed.\n\n### Level 17: Elemental Epitome\n\nWhile your Elemental Attunement is active, you also gain the following benefits.\n\n**Damage Resistance.** You gain Resistance to one of the following damage types of your choice: Acid, Cold, Fire, Lightning, or Thunder. At the start of each of your turns, you can change this choice.\n\n**Destructive Stride.** When you use your Step of the Wind, your Speed increases by 20 feet until the end of the turn. For that duration, any creature of your choice takes damage equal to one roll of your Martial Arts die when you enter a space within 5 feet of it. The damage type is your choice of Acid, Cold, Fire, Lightning, or Thunder. A creature can take this damage only once per turn.\n\n**Empowered Strikes.** Once on each of your turns, you can deal extra damage to a target equal to one roll of your Martial Arts die when you hit it with an Unarmed Strike. The extra damage is the same type dealt by that strike."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "sylune-s-viper",
+  "kind": "spell",
+  "name": "Sylune's Viper",
+  "edition": "2024",
+  "level": 3,
+  "school": "Conjuration",
+  "classes": [
+    "druid",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Bonus Action",
+  "range": "Self",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "",
+  "duration": "1 hour",
+  "text": "# Sylune's Viper\n*3rd-Level Conjuration (Druid, Wizard)*\n**Casting Time:** Bonus Action\n**Range:** Self\n**Components:** V, S, M\n**Duration:** 1 hour\n\nA shimmering, spectral snake encircles your body for the duration. You gain 15 Temporary Hit Points; the spell ends early if you have no Temporary Hit Points left.\n\nWhile the spell is active, you gain the following benefits:\n\n**Climbing.** You gain a Climb Speed equal to your Speed.\n\n**Venomous Bite.** As a Magic action, you can make a ranged spell attack using the snake against one creature within 50 feet. On a hit, the target takes 1d6 Force damage and has the Poisoned condition until the start of your next turn. While Poisoned, the target has the Incapacitated condition.\n\n**Using a Higher-Level Spell Slot.** For each spell slot level above 3, the number of Temporary Hit Points you gain from this spell increases by 5, and the damage of Venomous Bite increases by 1d6."
+}

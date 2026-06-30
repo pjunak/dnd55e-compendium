@@ -1,0 +1,25 @@
+{
+  "id": "draft_horse",
+  "kind": "monster",
+  "name": "Draft Horse",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Small",
+  "type": "Small Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "4 (1d6 + 1)",
+  "speed": "10 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 6,
+    "DEX": 15,
+    "CON": 12,
+    "INT": 2,
+    "WIS": 14,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Draft Horse\n\n*Small Beast, Unaligned*\n\n### Actions\n\n**Talons.** Melee Attack Roll: +4, reach 5 feet. Hit: 4 (1d4 + 2) Slashing damage."
+}

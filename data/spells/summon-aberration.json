@@ -1,0 +1,24 @@
+{
+  "id": "summon-aberration",
+  "kind": "spell",
+  "name": "Summon Aberration",
+  "edition": "2024",
+  "level": 4,
+  "school": "Conjuration",
+  "classes": [
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "90 feet",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a pickled tentacle and an eyeball in a platinum-inlaid vial worth 400+ GP",
+  "duration": "Concentration, up to 1 hour",
+  "text": "# Summon Aberration\n*4th-Level Conjuration (Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** 90 feet\n**Components:** V, S, M (a pickled tentacle and an eyeball in a platinum-inlaid vial worth 400+ GP)\n**Duration:** Concentration, up to 1 hour\n\nYou call forth an aberrant spirit. It manifests in an unoccupied space that you can see within range and uses the **Aberrant Spirit** stat block. When you cast the spell, choose Beholderkin, Mind Flayer, or Slaad. The creature resembles an Aberration of that kind, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.\n\nThe creature is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger.\n\n**Using a Higher-Level Spell Slot.** Use the spell slot’s level for the spell’s level in the stat block.\n\n|\n Aberrant Spirit |\n\n|\n *Medium Aberration, Neutral* |\n\n|\n **Armor Class:** 11 + the spell’s level |\n\n|\n **Hit Points:** 40 + 10 for each spell level above 4 |\n\n|\n **Speed:** 30 ft.; Fly 30 ft. (hover; Beholderkin only) |\n\n|\n STR (Mod/Save) |\n DEX (Mod/Save) |\n CON (Mod/Save) |\n INT (Mod/Save) |\n WIS (Mod/Save) |\n CHA (Mod/Save) |\n\n|\n 16 (+3/+3) |\n 10 (+0/+0) |\n 15 (+2/+2) |\n 16 (+4/+4) |\n 10 (+0/+0) |\n 6 (-2/-2) |\n\n|\n **Immunities** Psychic |\n\n|\n **Senses:** Darkvision 60 ft., Passive Perception 10 |\n\n|\n **Languages:** Deep Speech, understands the languages you know |\n\n|\n **Challenge Rating:** None (XP 0; PB equals your Proficiency Bonus) |\n\n|\n Traits |\n\n|\n **Regeneration (Slaad Only).** The spirit regains 5 Hit Points at the start of its turn if it has at least 1 Hit Point. |\n\n|\n **Whispering Aura (Mind Flayer Only).** At the start of each of the spirit’s turns, the spirit emits psionic energy if it doesn’t have the Incapacitated condition. Wisdom Saving Throw: DC equals your spell save DC, each creature (other than you) within 5 feet of the spirit. Failure: 2d6 Psychic damage. |\n\n|\n Actions |\n\n|\n **Multiattack.** The spirit makes a number of attacks equal to half this spell’s level (round down). |\n\n|\n **Claw (Slaad Only).** Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 1d10 + 3 + the spell’s level Slashing damage, and the target can’t regain Hit Points until the start of the spirit’s next turn. |\n\n|\n **Eye Ray (Beholderkin Only).** Ranged Attack Roll: Bonus equals your spell attack modifier, range 150 ft. Hit: 1d8 + 3 + the spell’s level Psychic damage. The spirit makes a number of attacks equal to half this spell’s level (round down). |\n\n|\n **Psychic Slam (Mind Flayer Only).** Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit:1d8 + 3 + the spell’s level Psychic damage. |"
+}

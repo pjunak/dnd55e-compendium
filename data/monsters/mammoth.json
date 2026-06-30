@@ -1,0 +1,25 @@
+{
+  "id": "mammoth",
+  "kind": "monster",
+  "name": "Mammoth",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "5 (1d8 + 1)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 13,
+    "DEX": 14,
+    "CON": 12,
+    "INT": 3,
+    "WIS": 12,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Mammoth\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition."
+}

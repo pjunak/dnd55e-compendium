@@ -1,0 +1,25 @@
+{
+  "id": "boar",
+  "kind": "monster",
+  "name": "Boar",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "22 (3d10 + 6)",
+  "speed": "40 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 17,
+    "DEX": 12,
+    "CON": 15,
+    "INT": 2,
+    "WIS": 13,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Boar\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage.\n\n**Claw.** Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition."
+}

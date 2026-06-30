@@ -1,0 +1,42 @@
+{
+  "id": "centaur_trooper",
+  "kind": "monster",
+  "name": "Centaur Trooper",
+  "edition": "2024",
+  "cr": "8 (XP 3,900; PB +3)",
+  "crValue": 8,
+  "creatureType": "Fiend (Devil)",
+  "size": "Medium",
+  "type": "Medium Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "ac": "15",
+  "hp": "85 (10d8 + 40)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 15,
+    "CON": 18,
+    "INT": 11,
+    "WIS": 12,
+    "CHA": 14
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Bludgeoning, Cold, Piercing, Slashing"
+    },
+    {
+      "name": "Immunities",
+      "text": "Fire, Poison; Poisoned"
+    },
+    {
+      "name": "Diabolical Restoration",
+      "text": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The devil has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Centaur Trooper\n\n*Medium Fiend (Devil), Lawful Evil*\n\n### Actions\n\n**Chain.** Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two chains, and it has the Restrained condition until the grapple ends.\n\n**Conjure Infernal Chain.** The devil conjures a fiery chain to bind a creature. Dexterity Saving Throw: DC 15, one creature the devil can see within 60 feet. Failure: 9 (2d4 + 4) Fire damage, and the target has the Restrained condition until the end of the devil’s next turn, at which point the chain disappears. If the target is Large or smaller, the devil moves the target up to 30 feet straight toward itself. Success: The chain disappears.\n\n**Unnerving Gaze.** Trigger: A creature the devil can see starts its turn within 30 feet of the devil and can see the devil. Response—Wisdom Saving Throw: DC 15, the triggering creature. Failure: The target has the Frightened condition until the end of its turn. Success: The target is immune to this devil’s Unnerving Gaze for 24 hours."
+}

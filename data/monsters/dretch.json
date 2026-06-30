@@ -1,0 +1,38 @@
+{
+  "id": "dretch",
+  "kind": "monster",
+  "name": "Dretch",
+  "edition": "2024",
+  "cr": "6 (XP 2,300; PB +3)",
+  "crValue": 6,
+  "creatureType": "Monstrosity",
+  "size": "Large",
+  "type": "Large Monstrosity",
+  "alignment": "Chaotic Evil",
+  "ac": "19",
+  "hp": "123 (13d10 + 52)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 19,
+    "CON": 18,
+    "INT": 13,
+    "WIS": 16,
+    "CHA": 12
+  },
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The drider can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the drider has Disadvantage on ability checks and attack rolls."
+    },
+    {
+      "name": "Web Walker",
+      "text": "The drider ignores movement restrictions caused by webs, and the drider knows the location of any other creature in contact with the same web."
+    }
+  ],
+  "text": "# Dretch\n\n*Large Monstrosity, Chaotic Evil*\n\n### Actions\n\n**Foreleg.** Melee Attack Roll: +7, reach 10 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\n**Poison Burst.** Ranged Attack Roll: +6, range 120 ft. Hit: 13 (3d6 + 3) Poison damage."
+}

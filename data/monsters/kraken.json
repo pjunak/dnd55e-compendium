@@ -1,0 +1,25 @@
+{
+  "id": "kraken",
+  "kind": "monster",
+  "name": "Kraken",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "Fiend",
+  "size": "Large",
+  "type": "Large Fiend",
+  "alignment": "Chaotic Evil",
+  "ac": "13",
+  "hp": "97 (13d10 + 26)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 13,
+    "CON": 15,
+    "INT": 14,
+    "WIS": 15,
+    "CHA": 16
+  },
+  "traits": [],
+  "text": "# Kraken\n\n*Large Fiend, Chaotic Evil*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 7 (2d6) Psychic damage.\n\n**Corrupting Touch.** Wisdom Saving Throw: DC 13, one creature the lamia can see within 5 feet. Failure: 13 (3d8) Psychic damage, and the target is cursed for 1 hour. Until the curse ends, the target has the Charmed and Poisoned conditions."
+}

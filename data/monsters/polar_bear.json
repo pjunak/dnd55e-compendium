@@ -1,0 +1,25 @@
+{
+  "id": "polar_bear",
+  "kind": "monster",
+  "name": "Polar Bear",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "11 (2d8 + 2)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 15,
+    "DEX": 10,
+    "CON": 13,
+    "INT": 2,
+    "WIS": 11,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Polar Bear\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Hooves.** Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage."
+}

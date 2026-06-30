@@ -1,0 +1,16 @@
+{
+  "id": "chain-shirt",
+  "kind": "armor",
+  "name": "Chain Shirt",
+  "edition": "2024",
+  "armorType": "medium",
+  "baseAC": 13,
+  "dexCap": 2,
+  "acBonus": 0,
+  "strReq": 0,
+  "stealthDisadvantage": false,
+  "weight": "20 lb.",
+  "cost": "50 GP",
+  "_acSource": "13 + Dex modifier (max 2)",
+  "text": "# Chain Shirt\n\n*Armor, Medium Armor (5 Minutes to Don and 1 Minute to Doff)*\n\n**AC:** 13 + Dex modifier (max 2)\n**Weight:** 20 lb.\n**Cost:** 50 GP"
+}

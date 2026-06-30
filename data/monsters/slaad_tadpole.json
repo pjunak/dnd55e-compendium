@@ -1,0 +1,46 @@
+{
+  "id": "slaad_tadpole",
+  "kind": "monster",
+  "name": "Slaad Tadpole",
+  "edition": "2024",
+  "cr": "21 (XP 33,000; PB +7)",
+  "crValue": 21,
+  "creatureType": "Celestial (Angel)",
+  "size": "Large",
+  "type": "Large Celestial (Angel)",
+  "alignment": "Lawful Good",
+  "ac": "21",
+  "hp": "297 (22d10 + 176)",
+  "speed": "50 ft., Fly 150 ft. (hover)",
+  "stats": {
+    "STR": 26,
+    "DEX": 22,
+    "CON": 26,
+    "INT": 25,
+    "WIS": 25,
+    "CHA": 30
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Poison, Radiant; Charmed, Exhaustion, Frightened, Poisoned"
+    },
+    {
+      "name": "Divine Awareness",
+      "text": "The solar knows if it hears a lie."
+    },
+    {
+      "name": "Exalted Restoration",
+      "text": "If the solar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia."
+    },
+    {
+      "name": "Legendary Resistance (4/Day)",
+      "text": "If the solar fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The solar has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Slaad Tadpole\n\n*Large Celestial (Angel), Lawful Good*\n\n### Actions\n\n**Flying Sword.** Melee or Ranged Attack Roll: +15, reach 10 ft. or range 120 ft. Hit: 22 (4d6 + 8) Slashing damage plus 36 (8d8) Radiant damage. Hit or Miss: The sword magically returns to the solar’s hand or hovers within 5 feet of the solar immediately after a ranged attack.\n\n**Slaying Bow.** Dexterity Saving Throw: DC 21, one creature the solar can see within 600 feet. Failure: If the creature has 100 Hit Points or fewer, it dies. It otherwise takes 24 (4d8 + 6) Piercing damage plus 36 (8d8) Radiant damage.\n\n**Blinding Gaze.** Constitution Saving Throw: DC 25, one creature the solar can see within 120 feet. Failure: The target has the Blinded condition for 1 minute. Failure or Success: The solar can’t take this action again until the start of its next turn.\n\n**Radiant Teleport.** The solar teleports up to 60 feet to an unoccupied space it can see. Dexterity Saving Throw: DC 25, each creature in a 10-foot Emanation originating from the solar at its destination space. Failure: 11 (2d10) Radiant damage. Success: Half damage."
+}

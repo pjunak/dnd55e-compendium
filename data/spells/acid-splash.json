@@ -1,0 +1,24 @@
+{
+  "id": "acid-splash",
+  "kind": "spell",
+  "name": "Acid Splash",
+  "edition": "2024",
+  "level": 0,
+  "school": "Evocation",
+  "classes": [
+    "artificer",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Acid Splash\n*Evocation Cantrip (Artificer, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** 60 feet\n**Components:** V, S\n**Duration:** Instantaneous\n\nYou create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage.\n\n**Cantrip Upgrade.** The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+}

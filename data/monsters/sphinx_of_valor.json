@@ -1,0 +1,42 @@
+{
+  "id": "sphinx_of_valor",
+  "kind": "monster",
+  "name": "Sphinx of Valor",
+  "edition": "2024",
+  "cr": "17 (XP 18,000, or 20,000 in lair; PB +6)",
+  "crValue": 17,
+  "creatureType": "Celestial",
+  "size": "Large",
+  "type": "Large Celestial",
+  "alignment": "Lawful Neutral",
+  "ac": "17",
+  "hp": "199 (19d10 + 95)",
+  "speed": "40 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 22,
+    "DEX": 10,
+    "CON": 20,
+    "INT": 16,
+    "WIS": 23,
+    "CHA": 18
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Necrotic, Radiant"
+    },
+    {
+      "name": "Immunities",
+      "text": "Psychic; Charmed, Frightened"
+    },
+    {
+      "name": "Inscrutable",
+      "text": "No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage."
+    },
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the sphinx fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "text": "# Sphinx of Valor\n\n*Large Celestial, Lawful Neutral*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +12, reach 5 ft. Hit: 20 (4d6 + 6) Slashing damage.\n\n**First Roar.** Wisdom Saving Throw: DC 20, each enemy in a 500-foot Emanation originating from the sphinx. Failure: The target has the Frightened condition for 1 minute.\n\n**Second Roar.** Wisdom Saving Throw: DC 20, each enemy in a 500-foot Emanation originating from the sphinx. Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\n**Third Roar.** Constitution Saving Throw: DC 20, each enemy in a 500-foot Emanation originating from the sphinx. Failure: 44 (8d10) Thunder damage, and the target has the Prone condition. Success: Half damage only.\n\n**Weight of Years.** Constitution Saving Throw: DC 16, one creature the sphinx can see within 120 feet. Failure: The target gains 1 Exhaustion level. While the target has any Exhaustion levels, it appears 3d10 years older. Failure or Success: The sphinx can’t take this action again until the start of its next turn."
+}

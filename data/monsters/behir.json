@@ -1,0 +1,30 @@
+{
+  "id": "behir",
+  "kind": "monster",
+  "name": "Behir",
+  "edition": "2024",
+  "cr": "2 (XP 450; PB +2)",
+  "crValue": 2,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "13",
+  "hp": "67 (9d8 + 27)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 12,
+    "CON": 17,
+    "INT": 9,
+    "WIS": 11,
+    "CHA": 9
+  },
+  "traits": [
+    {
+      "name": "Bloodied Frenzy",
+      "text": "While Bloodied, the berserker has Advantage on attack rolls and saving throws."
+    }
+  ],
+  "text": "# Behir\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Greataxe.** Melee Attack Roll: +5, reach 5 ft. Hit: 9 (1d12 + 3) Slashing damage."
+}

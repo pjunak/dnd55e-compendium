@@ -1,0 +1,16 @@
+{
+  "id": "hide-armor",
+  "kind": "armor",
+  "name": "Hide Armor",
+  "edition": "2024",
+  "armorType": "medium",
+  "baseAC": 12,
+  "dexCap": 2,
+  "acBonus": 0,
+  "strReq": 0,
+  "stealthDisadvantage": false,
+  "weight": "12 lb.",
+  "cost": "10 GP",
+  "_acSource": "12 + Dex modifier (max 2)",
+  "text": "# Hide Armor\n\n*Armor, Medium Armor (5 Minutes to Don and 1 Minute to Doff)*\n\n**AC:** 12 + Dex modifier (max 2)\n**Weight:** 12 lb.\n**Cost:** 10 GP"
+}

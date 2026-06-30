@@ -1,0 +1,30 @@
+{
+  "id": "giant_ape",
+  "kind": "monster",
+  "name": "Giant Ape",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "15 (2d8 + 6)",
+  "speed": "30 ft., Burrow 10 ft.",
+  "stats": {
+    "STR": 13,
+    "DEX": 10,
+    "CON": 17,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 5
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Poison"
+    }
+  ],
+  "text": "# Giant Ape\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Piercing damage."
+}

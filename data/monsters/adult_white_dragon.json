@@ -1,0 +1,38 @@
+{
+  "id": "adult_white_dragon",
+  "kind": "monster",
+  "name": "Adult White Dragon",
+  "edition": "2024",
+  "cr": "13 (XP 10,000, or 11,500 in lair; PB +5)",
+  "crValue": 13,
+  "creatureType": "Dragon (Chromatic)",
+  "size": "Huge",
+  "type": "Huge Dragon (Chromatic)",
+  "alignment": "Chaotic Evil",
+  "ac": "18",
+  "hp": "200 (16d12 + 96)",
+  "speed": "40 ft., Burrow 30 ft., Fly 80 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 22,
+    "DEX": 10,
+    "CON": 22,
+    "INT": 8,
+    "WIS": 12,
+    "CHA": 12
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Cold"
+    },
+    {
+      "name": "Ice Walk",
+      "text": "The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn’t cost it extra movement."
+    },
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "text": "# Adult White Dragon\n\n*Huge Dragon (Chromatic), Chaotic Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +11, reach 10 ft. Hit: 13 (2d6 + 6) Slashing damage plus 4 (1d8) Cold damage.\n\n**Cold Breath (Recharge 5–6).** Constitution Saving Throw: DC 19, each creature in a 60-foot Cone. Failure: 54 (12d8) Cold damage. Success: Half damage.\n\n**Freezing Burst.** Constitution Saving Throw: DC 14, each creature in a 30-foot-radius Sphere centered on a point the dragon can see within 120 feet. Failure: 7 (2d6) Cold damage, and the target’s Speed is 0 until the end of the target’s next turn. Failure or Success: The dragon can’t take this action again until the start of its next turn."
+}

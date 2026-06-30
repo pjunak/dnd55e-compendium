@@ -1,0 +1,42 @@
+{
+  "id": "blue_dragons",
+  "kind": "monster",
+  "name": "Blue Dragons",
+  "edition": "2024",
+  "cr": "9 (XP 5,000; PB +4)",
+  "crValue": 9,
+  "creatureType": "Fiend (Devil)",
+  "size": "Large",
+  "type": "Large Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "ac": "16",
+  "hp": "161 (17d10 + 68)",
+  "speed": "40 ft., Fly 40 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 16,
+    "CON": 18,
+    "INT": 13,
+    "WIS": 14,
+    "CHA": 16
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold"
+    },
+    {
+      "name": "Immunities",
+      "text": "Fire, Poison; Poisoned"
+    },
+    {
+      "name": "Diabolical Restoration",
+      "text": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The devil has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Blue Dragons\n\n*Large Fiend (Devil), Lawful Evil*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +8, reach 10 ft. Hit: 13 (2d8 + 4) Slashing damage.\n\n**Infernal Sting.** Melee Attack Roll: +8, reach 10 ft. Hit: 15 (2d10 + 4) Piercing damage plus 18 (4d8) Poison damage, and the target has the Poisoned condition until the start of the devil’s next turn. While Poisoned, the target can’t regain Hit Points."
+}

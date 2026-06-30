@@ -1,0 +1,6 @@
+{
+  "id": "religion",
+  "kind": "skill",
+  "name": "Religion",
+  "ability": "INT"
+}

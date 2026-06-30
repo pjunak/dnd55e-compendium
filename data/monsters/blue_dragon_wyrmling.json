@@ -1,0 +1,30 @@
+{
+  "id": "blue_dragon_wyrmling",
+  "kind": "monster",
+  "name": "Blue Dragon Wyrmling",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Dragon (Chromatic)",
+  "size": "Medium",
+  "type": "Medium Dragon (Chromatic)",
+  "alignment": "Lawful Evil",
+  "ac": "17",
+  "hp": "65 (10d8 + 20)",
+  "speed": "30 ft., Burrow 15 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 17,
+    "DEX": 10,
+    "CON": 15,
+    "INT": 12,
+    "WIS": 11,
+    "CHA": 15
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Lightning"
+    }
+  ],
+  "text": "# Blue Dragon Wyrmling\n\n*Medium Dragon (Chromatic), Lawful Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage plus 3 (1d6) Lightning damage.\n\n**Lightning Breath (Recharge 5–6).** Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 21 (6d6) Lightning damage. Success: Half damage."
+}

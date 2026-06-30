@@ -1,0 +1,25 @@
+{
+  "id": "creation",
+  "kind": "spell",
+  "name": "Creation",
+  "edition": "2024",
+  "level": 5,
+  "school": "Illusion",
+  "classes": [
+    "artificer",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "1 minute",
+  "range": "30 feet",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a paintbrush",
+  "duration": "Special",
+  "text": "# Creation\n*5th-Level Illusion (Artificer, Sorcerer, Wizard)*\n**Casting Time:** 1 minute\n**Range:** 30 feet\n**Components:** V, S, M (a paintbrush)\n**Duration:** Special\n\nYou pull wisps of shadow material from the Shadowfell to create an object within range. It is either an object of vegetable matter (soft goods, rope, wood, and the like) or mineral matter (stone, crystal, metal, and the like). The object must be no larger than a 5-foot Cube, and the object must be of a form and material that you have seen.\n\nThe spell’s duration depends on the object’s material, as shown in the Materials table. If the object is composed of multiple materials, use the shortest duration. Using any object created by this spell as another spell’s Material component causes the other spell to fail.\n\n##### Materials\n\n|\n Material |\n Duration |\n\n|\n Vegetable matter |\n 24 hours |\n\n|\n Stone or crystal |\n 12 hours |\n\n|\n Precious metals |\n 1 hour |\n\n|\n Gems |\n 10 minutes |\n\n|\n Adamantine or mithral |\n 1 minute |\n\n**Using a Higher-Level Spell Slot.** The Cube increases by 5 feet for each spell slot level above 5."
+}

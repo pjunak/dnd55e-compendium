@@ -1,0 +1,34 @@
+{
+  "id": "shield_guardian",
+  "kind": "monster",
+  "name": "Shield Guardian",
+  "edition": "2024",
+  "cr": "0 (XP 0; PB +2)",
+  "crValue": 0,
+  "creatureType": "Plant",
+  "size": "Medium",
+  "type": "Medium Plant",
+  "alignment": "Unaligned",
+  "ac": "5",
+  "hp": "13 (3d8)",
+  "speed": "5 ft.",
+  "stats": {
+    "STR": 1,
+    "DEX": 1,
+    "CON": 10,
+    "INT": 1,
+    "WIS": 3,
+    "CHA": 1
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Blinded, Charmed, Deafened, Frightened"
+    },
+    {
+      "name": "Shriek",
+      "text": "Trigger: A creature or a source of Bright Light moves within 30 feet of the shrieker. Response: The shrieker emits a shriek audible within 300 feet of itself for 1 minute or until the shrieker dies."
+    }
+  ],
+  "text": "# Shield Guardian\n\n*Medium Plant, Unaligned*"
+}

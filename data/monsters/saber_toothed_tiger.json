@@ -1,0 +1,25 @@
+{
+  "id": "saber_toothed_tiger",
+  "kind": "monster",
+  "name": "Saber-Toothed Tiger",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "1 (1d4 − 1)",
+  "speed": "10 ft.",
+  "stats": {
+    "STR": 2,
+    "DEX": 11,
+    "CON": 8,
+    "INT": 1,
+    "WIS": 8,
+    "CHA": 2
+  },
+  "traits": [],
+  "text": "# Saber-Toothed Tiger\n\n*Tiny Beast, Unaligned*\n\n### Actions\n\n**Sting.** Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage plus 3 (1d6) Poison damage."
+}

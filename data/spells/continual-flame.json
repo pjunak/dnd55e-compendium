@@ -1,0 +1,26 @@
+{
+  "id": "continual-flame",
+  "kind": "spell",
+  "name": "Continual Flame",
+  "edition": "2024",
+  "level": 2,
+  "school": "Evocation",
+  "classes": [
+    "artificer",
+    "cleric",
+    "druid",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "ruby dust worth 50+ GP, which the spell consumes",
+  "duration": "Until dispelled",
+  "text": "# Continual Flame\n*2nd-Level Evocation (Artificer, Cleric, Druid, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S, M (ruby dust worth 50+ GP, which the spell consumes)\n**Duration:** Until dispelled\n\nA flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched."
+}

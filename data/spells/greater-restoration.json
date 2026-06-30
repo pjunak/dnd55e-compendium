@@ -1,0 +1,28 @@
+{
+  "id": "greater-restoration",
+  "kind": "spell",
+  "name": "Greater Restoration",
+  "edition": "2024",
+  "level": 5,
+  "school": "Abjuration",
+  "classes": [
+    "artificer",
+    "bard",
+    "cleric",
+    "druid",
+    "paladin",
+    "ranger"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "diamond dust worth 100+ GP, which the spell consumes",
+  "duration": "Instantaneous",
+  "text": "# Greater Restoration\n*5th-Level Abjuration (Artificer, Bard, Cleric, Druid, Paladin, Ranger)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S, M (diamond dust worth 100+ GP, which the spell consumes)\n**Duration:** Instantaneous\n\nYou touch a creature and magically remove one of the following effects from it:\n\n- 1 Exhaustion level\n\n- The Charmed or Petrified condition\n\n- A curse, including the target’s Attunement to a cursed magic item\n\n- Any reduction to one of the target’s ability scores\n\n- Any reduction to the target’s Hit Point maximum"
+}

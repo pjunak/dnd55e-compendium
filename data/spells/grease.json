@@ -1,0 +1,25 @@
+{
+  "id": "grease",
+  "kind": "spell",
+  "name": "Grease",
+  "edition": "2024",
+  "level": 1,
+  "school": "Conjuration",
+  "classes": [
+    "artificer",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a bit of pork rind or butter",
+  "duration": "1 minute",
+  "text": "# Grease\n*1st-Level Conjuration (Artificer, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** 60 feet\n**Components:** V, S, M (a bit of pork rind or butter)\n**Duration:** 1 minute\n\nNonflammable grease covers the ground in a 10-foot square centered on a point within range and turns it into Difficult Terrain for the duration.\n\nWhen the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the Prone condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone."
+}

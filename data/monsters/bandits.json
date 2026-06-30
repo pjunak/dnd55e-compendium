@@ -1,0 +1,46 @@
+{
+  "id": "bandits",
+  "kind": "monster",
+  "name": "Bandits",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "Fiend (Devil)",
+  "size": "Medium",
+  "type": "Medium Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "ac": "15",
+  "hp": "110 (13d8 + 52)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 17,
+    "CON": 18,
+    "INT": 12,
+    "WIS": 14,
+    "CHA": 14
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold"
+    },
+    {
+      "name": "Immunities",
+      "text": "Fire, Poison; Poisoned"
+    },
+    {
+      "name": "Barbed Hide",
+      "text": "At the start of each of its turns, the devil deals 5 (1d10) Piercing damage to any creature it is grappling or any creature grappling it."
+    },
+    {
+      "name": "Diabolical Restoration",
+      "text": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The devil has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Bandits\n\n*Medium Fiend (Devil), Lawful Evil*\n\n### Actions\n\n**Claws.** Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from both claws.\n\n**Tail.** Melee Attack Roll: +6, reach 10 ft. Hit: 14 (2d10 + 3) Slashing damage.\n\n**Hurl Flame.** Ranged Attack Roll: +5, range 150 ft. Hit: 17 (5d6) Fire damage. If the target is a flammable object that isn’t being worn or carried, it starts burning."
+}

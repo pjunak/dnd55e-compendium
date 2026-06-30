@@ -1,0 +1,31 @@
+{
+  "id": "skill-expert",
+  "kind": "feat",
+  "name": "Skill Expert",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "ANY"
+      ]
+    },
+    "proficiencies": {
+      "skills": [
+        "any"
+      ]
+    },
+    "expertise": {
+      "skills": [
+        "any"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase one ability score of your choice by 1, to a maximum of 20.\n\n**Skill Proficiency.** You gain proficiency in one skill of your choice.\n\n**Expertise.** Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill."
+}

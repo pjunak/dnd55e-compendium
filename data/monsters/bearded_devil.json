@@ -1,0 +1,30 @@
+{
+  "id": "bearded_devil",
+  "kind": "monster",
+  "name": "Bearded Devil",
+  "edition": "2024",
+  "cr": "11 (XP 7,200; PB +4)",
+  "crValue": 11,
+  "creatureType": "Monstrosity",
+  "size": "Huge",
+  "type": "Huge Monstrosity",
+  "alignment": "Neutral Evil",
+  "ac": "17",
+  "hp": "168 (16d12 + 64)",
+  "speed": "50 ft., Climb 50 ft.",
+  "stats": {
+    "STR": 23,
+    "DEX": 16,
+    "CON": 18,
+    "INT": 7,
+    "WIS": 14,
+    "CHA": 12
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Lightning"
+    }
+  ],
+  "text": "# Bearded Devil\n\n*Huge Monstrosity, Neutral Evil*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +10, reach 10 ft. Hit: 19 (2d12 + 6) Piercing damage plus 11 (2d10) Lightning damage.\n\n**Constrict.** Strength Saving Throw: DC 18, one Large or smaller creature the behir can see within 5 feet. Failure: 28 (5d8 + 6) Bludgeoning damage. The target has the Grappled condition (escape DC 16), and it has the Restrained condition until the grapple ends.\n\n**Lightning Breath (Recharge 5–6).** Dexterity Saving Throw: DC 16, each creature in a 90-foot-long, 5-foot-wide Line. Failure: 66 (12d10) Lightning damage. Success: Half damage.\n\n**Swallow.** Dexterity Saving Throw: DC 18, one Large or smaller creature Grappled by the behir (the behir can have only one creature swallowed at a time). Failure: The behir swallows the target, which is no longer Grappled. While swallowed, a creature has the Blinded and Restrained conditions, has Total Cover against attacks and other effects outside the behir, and takes 21 (6d6) Acid damage at the start of each of the behir’s turns."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "riding_horse",
+  "kind": "monster",
+  "name": "Riding Horse",
+  "edition": "2024",
+  "cr": "2 (XP 450; PB +2)",
+  "crValue": 2,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "52 (7d10 + 14)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 17,
+    "CON": 15,
+    "INT": 3,
+    "WIS": 12,
+    "CHA": 8
+  },
+  "traits": [
+    {
+      "name": "Running Leap",
+      "text": "With a 10-foot running start, the tiger can Long Jump up to 25 feet."
+    }
+  ],
+  "text": "# Riding Horse\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Slashing damage."
+}

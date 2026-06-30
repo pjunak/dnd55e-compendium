@@ -1,0 +1,38 @@
+{
+  "id": "lamia",
+  "kind": "monster",
+  "name": "Lamia",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Fiend (Devil)",
+  "size": "Medium",
+  "type": "Medium Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "ac": "9",
+  "hp": "9 (2d8)",
+  "speed": "20 ft.",
+  "stats": {
+    "STR": 10,
+    "DEX": 5,
+    "CON": 11,
+    "INT": 1,
+    "WIS": 11,
+    "CHA": 3
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold"
+    },
+    {
+      "name": "Immunities",
+      "text": "Fire, Poison; Charmed, Frightened, Poisoned"
+    },
+    {
+      "name": "Hellish Restoration",
+      "text": "If the lemure dies in the Nine Hells, it revives with all its Hit Points in 1d10 days unless it is killed by a creature under the effects of a Bless spell or its remains are sprinkled with Holy Water."
+    }
+  ],
+  "text": "# Lamia\n\n*Medium Fiend (Devil), Lawful Evil*\n\n### Actions\n\n**Vile Slime.** Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Poison damage."
+}

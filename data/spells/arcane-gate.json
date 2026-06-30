@@ -1,0 +1,24 @@
+{
+  "id": "arcane-gate",
+  "kind": "spell",
+  "name": "Arcane Gate",
+  "edition": "2024",
+  "level": 6,
+  "school": "Conjuration",
+  "classes": [
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "500 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 10 minutes",
+  "text": "# Arcane Gate\n*6th-Level Conjuration (Sorcerer, Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** 500 feet\n**Components:** V, S\n**Duration:** Concentration, up to 10 minutes\n\nYou create linked teleportation portals. Choose two Large, unoccupied spaces on the ground that you can see, one space within range and the other one within 10 feet of you. A circular portal opens in each of those spaces and remains for the duration.\n\nThe portals are two-dimensional glowing rings filled with mist that blocks sight. They hover inches from the ground and are perpendicular to it.\n\nA portal is open on only one side (you choose which). Anything entering the open side of a portal exits from the open side of the other portal as if the two were adjacent to each other. As a Bonus Action, you can change the facing of the open sides."
+}

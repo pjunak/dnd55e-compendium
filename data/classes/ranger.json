@@ -1,0 +1,230 @@
+{
+  "id": "ranger",
+  "kind": "class",
+  "name": "Ranger",
+  "edition": "2024",
+  "hitDie": "d10",
+  "primaryAbility": [
+    "DEX",
+    "WIS"
+  ],
+  "savingThrows": [
+    "STR",
+    "DEX"
+  ],
+  "startingProficiencies": {
+    "armor": [
+      "light",
+      "medium",
+      "shields"
+    ],
+    "weapons": [
+      "simple",
+      "martial"
+    ],
+    "tools": [],
+    "skills": {
+      "choose": 3,
+      "from": [
+        "animal-handling",
+        "athletics",
+        "insight",
+        "investigation",
+        "nature",
+        "perception",
+        "stealth",
+        "survival"
+      ]
+    }
+  },
+  "multiclassProficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": []
+  },
+  "weaponMastery": {
+    "count": 2
+  },
+  "subclassLevel": 3,
+  "spellcasting": {
+    "ability": "WIS",
+    "type": "full",
+    "prepares": "list",
+    "prepared": false,
+    "ritual": false,
+    "startLevel": 1,
+    "preparedFormula": "WIS + level"
+  },
+  "acFormulas": [],
+  "classResources": [],
+  "progression": [
+    {
+      "level": 1,
+      "features": [
+        "Favored Enemy",
+        "Spellcasting",
+        "Weapon Mastery"
+      ],
+      "preparedSpells": 2
+    },
+    {
+      "level": 2,
+      "features": [
+        "Deft Explorer",
+        "Fighting Style"
+      ],
+      "preparedSpells": 3
+    },
+    {
+      "level": 3,
+      "features": [
+        "Ranger Archetype"
+      ],
+      "preparedSpells": 4
+    },
+    {
+      "level": 4,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "preparedSpells": 5
+    },
+    {
+      "level": 5,
+      "features": [
+        "Extra Attack"
+      ],
+      "preparedSpells": 6
+    },
+    {
+      "level": 6,
+      "features": [
+        "Roving"
+      ],
+      "preparedSpells": 6
+    },
+    {
+      "level": 7,
+      "features": [
+        "Subclass Feature"
+      ],
+      "preparedSpells": 7
+    },
+    {
+      "level": 8,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "preparedSpells": 7
+    },
+    {
+      "level": 9,
+      "features": [
+        "Expertise"
+      ],
+      "preparedSpells": 8
+    },
+    {
+      "level": 10,
+      "features": [
+        "Tireless"
+      ],
+      "preparedSpells": 8
+    },
+    {
+      "level": 11,
+      "features": [
+        "Subclass Feature"
+      ],
+      "preparedSpells": 10
+    },
+    {
+      "level": 12,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "preparedSpells": 10
+    },
+    {
+      "level": 13,
+      "features": [
+        "Relentless Hunter"
+      ],
+      "preparedSpells": 11
+    },
+    {
+      "level": 14,
+      "features": [
+        "Nature's Veil"
+      ],
+      "preparedSpells": 11
+    },
+    {
+      "level": 15,
+      "features": [
+        "Subclass Feature"
+      ],
+      "preparedSpells": 12
+    },
+    {
+      "level": 16,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "preparedSpells": 12
+    },
+    {
+      "level": 17,
+      "features": [
+        "Precise Hunter"
+      ],
+      "preparedSpells": 14
+    },
+    {
+      "level": 18,
+      "features": [
+        "Feral Senses"
+      ],
+      "preparedSpells": 14
+    },
+    {
+      "level": 19,
+      "features": [
+        "Epic Boon"
+      ],
+      "preparedSpells": 15
+    },
+    {
+      "level": 20,
+      "features": [
+        "Foe Slayer"
+      ],
+      "preparedSpells": 15
+    }
+  ],
+  "multiclassRequirements": {
+    "DEX": 13,
+    "WIS": 13
+  },
+  "management": [
+    {
+      "id": "prepared",
+      "label": "Prepared Spells",
+      "type": "spell_preparation",
+      "source": "class_spell_list",
+      "max_formula": "WIS + level",
+      "changeable_on": "long_rest"
+    }
+  ],
+  "grants": {
+    "choices": [
+      {
+        "id": "skills:ranger",
+        "source": "ranger:1",
+        "type": "skills",
+        "count": 3
+      }
+    ]
+  },
+  "text": "Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.\n\n### Level 1: Favored Enemy\n\nYou are adept at hunting your foes. You always have the *Hunter's Mark* spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses when you finish a Long Rest.\n\nThe number of times you can cast it in this way increases when you reach certain Ranger levels: 3 times at level 5, 4 times at level 9, 5 times at level 13, and 6 times at level 17.\n\n### Level 1: Spellcasting\n\nYou have learned to produce effects of primal magic.\n\n**Prepared Spells.** You prepare the list of Ranger spells that you don't have prepared.\n\n### Level 1: Weapon Mastery\n\nYour training with weapons allows you to use the mastery properties of two kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\n### Level 2: Deft Explorer\n\nYou have Advantage on Wisdom (Survival) checks to track creatures.\n\nIn addition, you have Advantage on Intelligence (Nature) checks to recall information about terrain and foes.\n\n### Level 2: Fighting Style\n\nYou gain a Fighting Style feat of your choice.\n\n### Level 3: Ranger Archetype\n\nYou choose an archetype that you strive to emulate, such as the Beast Master, Fey Wanderer, Gloom Stalker, or Hunter. The archetype you choose grants you features at level 3 and again at levels 7, 11, and 15.\n\n### Level 5: Extra Attack\n\nYou can attack twice instead of once whenever you take the Attack action on your turn.\n\n### Level 6: Roving\n\nYour Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.\n\n### Level 9: Expertise\n\nChoose two of your Skill Proficiencies. You gain Expertise in those skills.\n\n### Level 10: Tireless\n\nYou can use a Magic action to give yourself Temporary Hit Points equal to 1d8 plus your Wisdom modifier. You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\nIn addition, whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.\n\n### Level 13: Relentless Hunter\n\nTaking damage can't break your Concentration on *Hunter's Mark*.\n\n### Level 14: Nature's Veil\n\nYou invoke spirits of nature to magically hide yourself. As a Bonus Action, you can become Invisible until the start of your next turn. You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\n### Level 17: Precise Hunter\n\nYou have Advantage on attack rolls against the creature marked by your *Hunter's Mark*.\n\n### Level 18: Feral Senses\n\nWhen you attack a creature you can't see, your inability to see it doesn't impose Disadvantage on your attack roll.\n\nYou are also aware of the location of any Invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't Blinded or Deafened.\n\n### Level 20: Foe Slayer\n\nThe damage die of your *Hunter's Mark* increases to a d10."
+}

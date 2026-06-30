@@ -1,0 +1,30 @@
+{
+  "id": "hawk",
+  "kind": "monster",
+  "name": "Hawk",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "82 (11d10 + 22)",
+  "speed": "30 ft., Swim 30 ft.",
+  "stats": {
+    "STR": 21,
+    "DEX": 7,
+    "CON": 15,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 4
+  },
+  "traits": [
+    {
+      "name": "Hold Breath",
+      "text": "The hippopotamus can hold its breath for 10 minutes."
+    }
+  ],
+  "text": "# Hawk\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Piercing damage."
+}

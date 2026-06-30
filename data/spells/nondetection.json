@@ -1,0 +1,25 @@
+{
+  "id": "nondetection",
+  "kind": "spell",
+  "name": "Nondetection",
+  "edition": "2024",
+  "level": 3,
+  "school": "Abjuration",
+  "classes": [
+    "bard",
+    "ranger",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a pinch of diamond dust worth 25+ GP, which the spell consumes",
+  "duration": "8 hours",
+  "text": "# Nondetection\n*3rd-Level Abjuration (Bard, Ranger, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S, M (a pinch of diamond dust worth 25+ GP, which the spell consumes)\n**Duration:** 8 hours\n\nFor the duration, you hide a target that you touch from Divination spells. The target can be a willing creature, or it can be a place or an object no larger than 10 feet in any dimension. The target can’t be targeted by any Divination spell or perceived through magical scrying sensors."
+}

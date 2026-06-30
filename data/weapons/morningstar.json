@@ -1,0 +1,18 @@
+{
+  "id": "morningstar",
+  "kind": "weapon",
+  "name": "Morningstar",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d8",
+  "damageType": "piercing",
+  "properties": [],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Sap",
+  "weight": "4 lb.",
+  "cost": "15 GP",
+  "text": "# Morningstar\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d8 Piercing\n**Properties:** —\n**Mastery:** Sap\n**Weight:** 4 lb.\n**Cost:** 15 GP"
+}

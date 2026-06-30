@@ -1,0 +1,16 @@
+{
+  "id": "shield",
+  "kind": "armor",
+  "name": "Shield",
+  "edition": "2024",
+  "armorType": "heavy",
+  "baseAC": 2,
+  "dexCap": 0,
+  "acBonus": 0,
+  "strReq": 0,
+  "stealthDisadvantage": false,
+  "weight": "6 lb.",
+  "cost": "10 GP",
+  "_acSource": 2,
+  "text": "# Shield\n\n*Armor, Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)*\n\n**AC:** +2\n**Weight:** 6 lb.\n**Cost:** 10 GP"
+}

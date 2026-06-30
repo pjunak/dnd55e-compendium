@@ -1,0 +1,42 @@
+{
+  "id": "death_dog",
+  "kind": "monster",
+  "name": "Death Dog",
+  "edition": "2024",
+  "cr": "10 (XP 5,900; PB +4)",
+  "crValue": 10,
+  "creatureType": "Celestial (Angel)",
+  "size": "Medium",
+  "type": "Medium Celestial (Angel)",
+  "alignment": "Lawful Good",
+  "ac": "17",
+  "hp": "229 (27d8 + 108)",
+  "speed": "30 ft., Fly 90 ft. (hover)",
+  "stats": {
+    "STR": 18,
+    "DEX": 18,
+    "CON": 18,
+    "INT": 17,
+    "WIS": 20,
+    "CHA": 20
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Radiant"
+    },
+    {
+      "name": "Immunities",
+      "text": "Charmed, Exhaustion, Frightened"
+    },
+    {
+      "name": "Exalted Restoration",
+      "text": "If the deva dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The deva has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Death Dog\n\n*Medium Celestial (Angel), Lawful Good*\n\n### Actions\n\n**Holy Mace.** Melee Attack Roll: +8, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage plus 18 (4d8) Radiant damage."
+}

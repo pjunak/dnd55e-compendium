@@ -1,0 +1,24 @@
+{
+  "id": "deryan-s-helpful-homunculi",
+  "kind": "spell",
+  "name": "Deryan's Helpful Homunculi",
+  "edition": "2024",
+  "level": 2,
+  "school": "Conjuration",
+  "classes": [
+    "cleric",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action or R",
+  "range": "Self",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "C*",
+  "duration": "8 hours",
+  "text": "# Deryan's Helpful Homunculi\n*2nd-Level Conjuration (Cleric, Wizard)*\n**Casting Time:** Action or R\n**Range:** Self\n**Components:** V, S, M (C*)\n**Duration:** 8 hours\n\nYou summon a group of helpful spirits, which lasts for the duration. The spirits appear as homunculi or as another Construct of your choice but are intangible and invulnerable, and they are considered to have proficiency in the Arcana skill and with the set of Artisan’s Tools used in the spell’s casting.\n\nIf you are crafting an item, the spirits function as a single assistant for your crafting, halving the crafting time."
+}

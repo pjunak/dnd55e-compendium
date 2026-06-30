@@ -1,0 +1,11 @@
+{
+  "id": "archery",
+  "kind": "feat",
+  "name": "Archery",
+  "edition": "2024",
+  "category": "fighting_style",
+  "prerequisites": {},
+  "repeatable": false,
+  "grants": {},
+  "text": "*Prerequisite: Fighting Style Feature*\n\nYou gain a +2 bonus to attack rolls you make with Ranged weapons."
+}

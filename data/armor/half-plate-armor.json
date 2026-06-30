@@ -1,0 +1,16 @@
+{
+  "id": "half-plate-armor",
+  "kind": "armor",
+  "name": "Half Plate Armor",
+  "edition": "2024",
+  "armorType": "medium",
+  "baseAC": 15,
+  "dexCap": 2,
+  "acBonus": 0,
+  "strReq": 0,
+  "stealthDisadvantage": true,
+  "weight": "40 lb.",
+  "cost": "750 GP",
+  "_acSource": "15 + Dex modifier (max 2)",
+  "text": "# Half Plate Armor\n\n*Armor, Medium Armor (5 Minutes to Don and 1 Minute to Doff)*\n\n**AC:** 15 + Dex modifier (max 2)\n**Stealth:** Disadvantage\n**Weight:** 40 lb.\n**Cost:** 750 GP"
+}

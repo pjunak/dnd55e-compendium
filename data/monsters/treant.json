@@ -1,0 +1,34 @@
+{
+  "id": "treant",
+  "kind": "monster",
+  "name": "Treant",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "Giant",
+  "size": "Large",
+  "type": "Large Giant",
+  "alignment": "Chaotic Evil",
+  "ac": "15",
+  "hp": "94 (9d10 + 45)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 13,
+    "CON": 20,
+    "INT": 7,
+    "WIS": 9,
+    "CHA": 7
+  },
+  "traits": [
+    {
+      "name": "Loathsome Limbs (4/Day)",
+      "text": "If the troll ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the troll’s limbs is severed, falls into the troll’s space, and becomes a Troll Limb. The limb acts immediately after the troll’s turn. The troll has 1 Exhaustion level for each missing limb, and it grows replacement limbs the next time it regains Hit Points."
+    },
+    {
+      "name": "Regeneration",
+      "text": "The troll regains 15 Hit Points at the start of each of its turns. If the troll takes Acid or Fire damage, this trait doesn’t function on the troll’s next turn. The troll dies only if it starts its turn with 0 Hit Points and doesn’t regenerate."
+    }
+  ],
+  "text": "# Treant\n\n*Large Giant, Chaotic Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage."
+}

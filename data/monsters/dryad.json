@@ -1,0 +1,42 @@
+{
+  "id": "dryad",
+  "kind": "monster",
+  "name": "Dryad",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "Elemental",
+  "size": "Large",
+  "type": "Large Elemental",
+  "alignment": "Neutral",
+  "ac": "17",
+  "hp": "147 (14d10 + 70)",
+  "speed": "30 ft., Burrow 30 ft.",
+  "stats": {
+    "STR": 20,
+    "DEX": 8,
+    "CON": 20,
+    "INT": 5,
+    "WIS": 10,
+    "CHA": 5
+  },
+  "traits": [
+    {
+      "name": "Vulnerabilities",
+      "text": "Thunder"
+    },
+    {
+      "name": "Immunities",
+      "text": "Poison; Exhaustion, Paralyzed, Petrified, Poisoned, Unconscious"
+    },
+    {
+      "name": "Earth Glide",
+      "text": "The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn’t disturb the material it moves through."
+    },
+    {
+      "name": "Siege Monster",
+      "text": "The elemental deals double damage to objects and structures."
+    }
+  ],
+  "text": "# Dryad\n\n*Large Elemental, Neutral*\n\n### Actions\n\n**Slam.** Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning damage.\n\n**Rock Launch.** Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+}

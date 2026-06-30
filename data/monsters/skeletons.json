@@ -1,0 +1,34 @@
+{
+  "id": "skeletons",
+  "kind": "monster",
+  "name": "Skeletons",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "Aberration",
+  "size": "Tiny",
+  "type": "Tiny Aberration",
+  "alignment": "Chaotic Neutral",
+  "ac": "12",
+  "hp": "7 (3d4)",
+  "speed": "30 ft., Burrow 10 ft.",
+  "stats": {
+    "STR": 7,
+    "DEX": 15,
+    "CON": 10,
+    "INT": 3,
+    "WIS": 5,
+    "CHA": 3
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Acid, Cold, Fire, Lightning, Thunder"
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The slaad has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Skeletons\n\n*Tiny Aberration, Chaotic Neutral*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage."
+}

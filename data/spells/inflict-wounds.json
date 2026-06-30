@@ -1,0 +1,22 @@
+{
+  "id": "inflict-wounds",
+  "kind": "spell",
+  "name": "Inflict Wounds",
+  "edition": "2024",
+  "level": 1,
+  "school": "Necromancy",
+  "classes": [
+    "cleric"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Inflict Wounds\n*1st-Level Necromancy (Cleric)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S\n**Duration:** Instantaneous\n\nA creature you touch makes a Constitution saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one.\n\n**Using a Higher-Level Spell Slot.** The damage increases by 1d10 for each spell slot level above 1."
+}

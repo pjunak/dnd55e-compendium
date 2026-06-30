@@ -1,0 +1,23 @@
+{
+  "id": "blur",
+  "kind": "spell",
+  "name": "Blur",
+  "edition": "2024",
+  "level": 2,
+  "school": "Illusion",
+  "classes": [
+    "artificer",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Blur\n*2nd-Level Illusion (Artificer, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V\n**Duration:** Concentration, up to 1 minute\n\nYour body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight."
+}

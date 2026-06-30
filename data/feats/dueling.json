@@ -1,0 +1,11 @@
+{
+  "id": "dueling",
+  "kind": "feat",
+  "name": "Dueling",
+  "edition": "2024",
+  "category": "fighting_style",
+  "prerequisites": {},
+  "repeatable": false,
+  "grants": {},
+  "text": "*Prerequisite: Fighting Style Feature*\n\nWhen you're holding a Melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+}

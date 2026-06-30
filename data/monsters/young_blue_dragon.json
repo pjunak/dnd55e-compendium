@@ -1,0 +1,30 @@
+{
+  "id": "young_blue_dragon",
+  "kind": "monster",
+  "name": "Young Blue Dragon",
+  "edition": "2024",
+  "cr": "9 (XP 5,000; PB +4)",
+  "crValue": 9,
+  "creatureType": "Dragon (Chromatic)",
+  "size": "Large",
+  "type": "Large Dragon (Chromatic)",
+  "alignment": "Lawful Evil",
+  "ac": "18",
+  "hp": "152 (16d10 + 64)",
+  "speed": "40 ft., Burrow 20 ft., Fly 80 ft.",
+  "stats": {
+    "STR": 21,
+    "DEX": 10,
+    "CON": 19,
+    "INT": 14,
+    "WIS": 13,
+    "CHA": 17
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Lightning"
+    }
+  ],
+  "text": "# Young Blue Dragon\n\n*Large Dragon (Chromatic), Lawful Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage plus 5 (1d10) Lightning damage.\n\n**Lightning Breath (Recharge 5–6).** Dexterity Saving Throw: DC 16, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "athlete",
+  "kind": "feat",
+  "name": "Athlete",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+, Strength or Dexterity 13+"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "STR",
+        "DEX"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+, Strength or Dexterity 13+*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\n**Climb Speed.** You gain a Climb Speed equal to your Speed.\n\n**Hop Up.** When you have the Prone condition, you can right yourself with only 5 feet of movement.\n\n**Jumping.** You can make a running Long or High Jump after moving only 5 feet."
+}

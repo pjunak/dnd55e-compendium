@@ -1,0 +1,30 @@
+{
+  "id": "priest",
+  "kind": "monster",
+  "name": "Priest",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Dragon",
+  "size": "Tiny",
+  "type": "Tiny Dragon",
+  "alignment": "Neutral Good",
+  "ac": "14",
+  "hp": "10 (3d4 + 3)",
+  "speed": "15 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 6,
+    "DEX": 15,
+    "CON": 13,
+    "INT": 10,
+    "WIS": 12,
+    "CHA": 10
+  },
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The pseudodragon has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Priest\n\n*Tiny Dragon, Neutral Good*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage.\n\n**Sting.** Constitution Saving Throw: DC 12, one creature the pseudodragon can see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour. While Poisoned, the target also has the Unconscious condition, which ends early if the target takes damage or a creature within 5 feet of it takes an action to wake it."
+}

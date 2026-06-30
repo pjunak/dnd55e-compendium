@@ -1,0 +1,38 @@
+{
+  "id": "night_hag",
+  "kind": "monster",
+  "name": "Night Hag",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Fiend",
+  "size": "Large",
+  "type": "Large Fiend",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "68 (8d10 + 24)",
+  "speed": "60 ft., Fly 90 ft. (hover)",
+  "stats": {
+    "STR": 18,
+    "DEX": 15,
+    "CON": 16,
+    "INT": 10,
+    "WIS": 13,
+    "CHA": 15
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Fire"
+    },
+    {
+      "name": "Confer Fire Resistance",
+      "text": "The nightmare can grant Resistance to Fire damage to a rider while it is on the nightmare."
+    },
+    {
+      "name": "Illumination",
+      "text": "The nightmare sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet."
+    }
+  ],
+  "text": "# Night Hag\n\n*Large Fiend, Neutral Evil*\n\n### Actions\n\n**Hooves.** Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage plus 10 (3d6) Fire damage."
+}

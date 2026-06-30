@@ -1,0 +1,34 @@
+{
+  "id": "flying_snake",
+  "kind": "monster",
+  "name": "Flying Snake",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "1 (1d4 − 1)",
+  "speed": "20 ft., Swim 20 ft.",
+  "stats": {
+    "STR": 1,
+    "DEX": 13,
+    "CON": 8,
+    "INT": 1,
+    "WIS": 8,
+    "CHA": 3
+  },
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The frog can breathe air and water."
+    },
+    {
+      "name": "Standing Leap",
+      "text": "The frog’s Long Jump is up to 10 feet and its High Jump is up to 5 feet with or without a running start."
+    }
+  ],
+  "text": "# Flying Snake\n\n*Tiny Beast, Unaligned*"
+}

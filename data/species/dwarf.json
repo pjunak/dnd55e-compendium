@@ -1,0 +1,55 @@
+{
+  "id": "dwarf",
+  "kind": "species",
+  "name": "Dwarf",
+  "edition": "2024",
+  "size": "Medium",
+  "speeds": {
+    "walk": 30
+  },
+  "senses": {
+    "darkvision": 120
+  },
+  "resistances": [],
+  "lineages": [
+    {
+      "id": "hill-dwarf",
+      "name": "Hill Dwarf",
+      "grants": {
+        "hp_per_level": 1,
+        "unquantifiable_modifiers": [
+          "Dwarven Toughness: Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+        ],
+        "hpPerLevel": 1
+      }
+    },
+    {
+      "id": "mountain-dwarf",
+      "name": "Mountain Dwarf",
+      "grants": {
+        "unquantifiable_modifiers": [
+          "Armor Training: You have proficiency with Light and Medium armor."
+        ]
+      }
+    }
+  ],
+  "traits": [
+    {
+      "name": "Darkvision",
+      "text": "You can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light."
+    },
+    {
+      "name": "Dwarven Resilience",
+      "text": "You have advantage on saving throws against poison, and you have resistance to poison damage."
+    },
+    {
+      "name": "Stonecunning",
+      "text": "You gain Tremorsense out to 10 feet when both you and the target are in contact with the same stone surface."
+    },
+    {
+      "name": "Tool Proficiency",
+      "text": "Gain proficiency with one set of artisan's tools of your choice."
+    }
+  ],
+  "text": "Dwarves were raised from the earth in the elder days by a deity of the forge. Called by various names on different worlds - Moradin, Reorx, and others - that god gave dwarves an affinity for stone and metal and for living underground. The god also made them resilient like the mountains, with a life span of about 350 years.\n\nSquat and often bearded, the original dwarves carved cities and strongholds into mountainsides and under the earth. Their oldest legends tell of conflicts with the monsters of mountaintops and the Underdark, whether those monsters were towering giants or subterranean horrors. Inspired by those tales, dwarves of any culture often sing of valorous deeds - especially of the little overcoming the mighty.\n\nOn some worlds in the multiverse, the first settlements of dwarves were built in hills or mountains, and the families who trace their ancestry to those settlements call themselves hill dwarves or mountain dwarves, respectively. The Greyhawk and Dragonlance settings have such communities.\n\n### Dwarf Traits\n\n**Creature Type:** Humanoid\n\n**Size:** Medium (about 4-5 feet tall)\n\n**Speed:** 30 feet\n\nAs a Dwarf, you have these special traits.\n\n**Darkvision.** You have Darkvision with a range of 120 feet.\n\n**Dwarven Resilience.** You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.\n\n**Dwarven Toughness.** Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.\n\n**Stonecunning.** As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.\n\nYou can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all\n\nexpended uses when you finish a Long Rest."
+}

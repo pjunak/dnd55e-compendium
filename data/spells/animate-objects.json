@@ -1,0 +1,25 @@
+{
+  "id": "animate-objects",
+  "kind": "spell",
+  "name": "Animate Objects",
+  "edition": "2024",
+  "level": 5,
+  "school": "Transmutation",
+  "classes": [
+    "artificer",
+    "bard",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Animate Objects\n*5th-Level Transmutation (Artificer, Bard, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** 120 feet\n**Components:** V, S\n**Duration:** Concentration, up to 1 minute\n\nObjects animate at your command. Choose a number of nonmagical objects within range that aren’t being worn or carried, aren’t fixed to a surface, and aren’t Gargantuan. The maximum number of objects is equal to your spellcasting ability modifier; for this number, a Medium or smaller target counts as one object, a Large target counts as two, and a Huge target counts as three.\n\nEach target animates, sprouts legs, and becomes a Construct that uses the Animated Object stat block; this creature is under your control until the spell ends or until it is reduced to 0 Hit Points. Each creature you make with this spell is an ally to you and your allies. In combat, it shares your Initiative count and takes its turn immediately after yours.\n\nUntil the spell ends, you can take a Bonus Action to mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to each one). If you issue no commands, the creature takes the Dodge action and moves only to avoid harm. When the creature drops to 0 Hit Points, it reverts to its object form, and any remaining damage carries over to that form.\n\n**Using a Higher-Level Spell Slot.** The creature’s Slam damage increases by 1d4 (Medium or smaller), 1d6 (Large), or 1d12 (Huge) for each spell slot level above 5.\n\n|\n Animated Object |\n\n|\n *Huge or Smaller Construct, Unaligned* |\n\n|\n **Armor Class:** 15 |\n\n|\n **Hit Points:** 10 (Medium or smaller), 20 (Large), 40 (Huge) |\n\n|\n **Speed:** 30 ft. |\n\n|\n STR (Mod/Save) |\n DEX (Mod/Save) |\n CON (Mod/Save) |\n INT (Mod/Save) |\n WIS (Mod/Save) |\n CHA (Mod/Save) |\n\n|\n 16 (+3/+3) |\n 10 (+0/+0) |\n 10 (+0/+0) |\n 3 (−4/-4) |\n 3 (-4/-4) |\n 1 (-1/-1) |\n\n|\n **Immunities:** Poison, Psychic, Charmed, Exhaustion, Frightened, Paralyzed, Poisoned |\n\n|\n **Senses:** Blindsight 30 ft., Passive Perception 6 |\n\n|\n **Languages:** Understands the languages that you know |\n\n|\n **Challenge Rating:** None (XP 0; PB equals your Proficiency Bonus) |\n\n|\n Actions |\n\n|\n **Slam.** Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: Force damage equal to 1d4 + 3 (Medium or smaller), 2d6 + 3 + your spellcasting ability modifier (Large), or 2d12 + 3 + your spellcasting ability modifier (Huge). |"
+}

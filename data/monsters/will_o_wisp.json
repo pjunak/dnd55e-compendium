@@ -1,0 +1,34 @@
+{
+  "id": "will_o_wisp",
+  "kind": "monster",
+  "name": "Will-o’-Wisp",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "Monstrosity",
+  "size": "Large",
+  "type": "Large Monstrosity",
+  "alignment": "Neutral Evil",
+  "ac": "13",
+  "hp": "75 (10d10 + 20)",
+  "speed": "50 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 13,
+    "CON": 14,
+    "INT": 7,
+    "WIS": 12,
+    "CHA": 8
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Cold"
+    },
+    {
+      "name": "Pack Tactics",
+      "text": "The wolf has Advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition."
+    }
+  ],
+  "text": "# Will-o’-Wisp\n\n*Large Monstrosity, Neutral Evil*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\n**Cold Breath (Recharge 5–6).** Constitution Saving Throw: DC 12, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "splint-armor",
+  "kind": "armor",
+  "name": "Splint Armor",
+  "edition": "2024",
+  "armorType": "heavy",
+  "baseAC": 17,
+  "dexCap": 0,
+  "acBonus": 0,
+  "strReq": "Str 15",
+  "stealthDisadvantage": true,
+  "weight": "60 lb.",
+  "cost": "200 GP",
+  "_acSource": 17,
+  "text": "# Splint Armor\n\n*Armor, Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)*\n\n**AC:** 17\n**Strength Requirement:** Str 15\n**Stealth:** Disadvantage\n**Weight:** 60 lb.\n**Cost:** 200 GP"
+}

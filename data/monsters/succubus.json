@@ -1,0 +1,50 @@
+{
+  "id": "succubus",
+  "kind": "monster",
+  "name": "Succubus",
+  "edition": "2024",
+  "cr": "30 (XP 155,000; PB +9)",
+  "crValue": 30,
+  "creatureType": "Monstrosity (Titan)",
+  "size": "Gargantuan",
+  "type": "Gargantuan Monstrosity (Titan)",
+  "alignment": "Unaligned",
+  "ac": "25",
+  "hp": "697 (34d20 + 340)",
+  "speed": "60 ft., Burrow 40 ft., Climb 60 ft.",
+  "stats": {
+    "STR": 30,
+    "DEX": 11,
+    "CON": 30,
+    "INT": 3,
+    "WIS": 11,
+    "CHA": 11
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Bludgeoning, Piercing, Slashing"
+    },
+    {
+      "name": "Immunities",
+      "text": "Fire, Poison; Charmed, Deafened, Frightened, Paralyzed, Poisoned"
+    },
+    {
+      "name": "Legendary Resistance (6/Day)",
+      "text": "If the tarrasque fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The tarrasque has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Reflective Carapace",
+      "text": "If the tarrasque is targeted by a Magic Missile spell or a spell that requires a ranged attack roll, roll 1d6. On a 1–5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected and reflects the spell, turning the caster into the target."
+    },
+    {
+      "name": "Siege Monster",
+      "text": "The tarrasque deals double damage to objects and structures."
+    }
+  ],
+  "text": "# Succubus\n\n*Gargantuan Monstrosity (Titan), Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +19, reach 15 ft. Hit: 36 (4d12 + 10) Piercing damage, and the target has the Grappled condition (escape DC 20). Until the grapple ends, the target has the Restrained condition and can’t teleport.\n\n**Claw.** Melee Attack Roll: +19, reach 15 ft. Hit: 28 (4d8 + 10) Slashing damage.\n\n**Tail.** Melee Attack Roll: +19, reach 30 ft. Hit: 23 (3d8 + 10) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.\n\n**Thunderous Bellow (Recharge 5–6).** Constitution Saving Throw: DC 27, each creature and each object that isn’t being worn or carried in a 150-foot Cone. Failure: 78 (12d12) Thunder damage, and the target has the Deafened and Frightened conditions until the end of its next turn. Success: Half damage only.\n\n**Swallow.** Strength Saving Throw: DC 27, one Large or smaller creature Grappled by the tarrasque (it can have up to six creatures swallowed at a time). Failure: The target is swallowed, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions and can’t teleport, it has Total Cover against attacks and other effects outside the tarrasque, and it takes 56 (16d6) Acid damage at the start of each of the tarrasque’s turns."
+}

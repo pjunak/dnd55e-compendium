@@ -1,0 +1,38 @@
+{
+  "id": "dust_mephit",
+  "kind": "monster",
+  "name": "Dust Mephit",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Elemental",
+  "size": "Small",
+  "type": "Small Elemental",
+  "alignment": "Neutral Evil",
+  "ac": "12",
+  "hp": "17 (5d6)",
+  "speed": "30 ft., Fly 30 ft.",
+  "stats": {
+    "STR": 5,
+    "DEX": 14,
+    "CON": 10,
+    "INT": 9,
+    "WIS": 11,
+    "CHA": 10
+  },
+  "traits": [
+    {
+      "name": "Vulnerabilities",
+      "text": "Fire"
+    },
+    {
+      "name": "Immunities",
+      "text": "Poison; Exhaustion, Poisoned"
+    },
+    {
+      "name": "Death Burst",
+      "text": "The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Bludgeoning damage. Success: Half damage."
+    }
+  ],
+  "text": "# Dust Mephit\n\n*Small Elemental, Neutral Evil*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage.\n\n**Blinding Breath (Recharge 6).** Dexterity Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: The target has the Blinded condition until the end of the mephit’s next turn."
+}

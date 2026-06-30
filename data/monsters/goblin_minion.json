@@ -1,0 +1,25 @@
+{
+  "id": "goblin_minion",
+  "kind": "monster",
+  "name": "Goblin Minion",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "Fey (Goblinoid)",
+  "size": "Small",
+  "type": "Small Fey (Goblinoid)",
+  "alignment": "Chaotic Neutral",
+  "ac": "12",
+  "hp": "7 (2d6)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 8,
+    "DEX": 15,
+    "CON": 10,
+    "INT": 10,
+    "WIS": 8,
+    "CHA": 8
+  },
+  "traits": [],
+  "text": "# Goblin Minion\n\n*Small Fey (Goblinoid), Chaotic Neutral*\n\n### Actions\n\n**Dagger.** Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage."
+}

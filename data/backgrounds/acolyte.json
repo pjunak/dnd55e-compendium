@@ -1,0 +1,18 @@
+{
+  "id": "acolyte",
+  "kind": "background",
+  "name": "Acolyte",
+  "edition": "2024",
+  "abilityScores": [
+    "INT",
+    "WIS",
+    "CHA"
+  ],
+  "originFeat": "magic-initiate",
+  "skillProficiencies": [
+    "insight",
+    "religion"
+  ],
+  "toolProficiency": "Calligrapher's Supplies",
+  "text": "You devoted yourself to service in a temple, either nestled in a town or secluded in a sacred grove. There you performed rites in honor of a god or pantheon. You served under a priest and studied religion. Thanks to your priest's instruction and your own devotion, you also learned how to channel a modicum of divine power in service to your place of worship and the people who prayed there.\n\n**Ability Scores:** Intelligence, Wisdom, Charisma\n\n**Feat:** Magic Initiate (Cleric)\n\n**Skill Proficiencies:** Insight and Religion\n\n**Tool Proficiency:** Calligrapher's Supplies\n\n**Equipment:** Choose A or B: (A) Calligrapher’s Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP"
+}

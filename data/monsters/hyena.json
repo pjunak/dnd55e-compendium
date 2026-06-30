@@ -1,0 +1,25 @@
+{
+  "id": "hyena",
+  "kind": "monster",
+  "name": "Hyena",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Small",
+  "type": "Small Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "3 (1d6)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 8,
+    "DEX": 15,
+    "CON": 11,
+    "INT": 3,
+    "WIS": 12,
+    "CHA": 6
+  },
+  "traits": [],
+  "text": "# Hyena\n\n*Small Beast, Unaligned*"
+}

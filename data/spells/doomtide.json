@@ -1,0 +1,25 @@
+{
+  "id": "doomtide",
+  "kind": "spell",
+  "name": "Doomtide",
+  "edition": "2024",
+  "level": 4,
+  "school": "Conjuration",
+  "classes": [
+    "bard",
+    "cleric",
+    "warlock"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "",
+  "duration": "C, up to 1 minute",
+  "text": "# Doomtide\n*4th-Level Conjuration (Bard, Cleric, Warlock)*\n**Casting Time:** Action\n**Range:** 120 feet\n**Components:** V, S, M\n**Duration:** C, up to 1 minute\n\nYou create a 20-foot-radius Sphere of inky fog within range. The fog is magical Darkness and lasts for the duration or until a strong wind (such as the one created by the Gust of Wind spell) disperses it, ending the spell.\n\nEach creature in the Sphere when it appears makes a Wisdom saving throw. On a failed save, a creature takes 5d6 Psychic damage and subtracts 1d6 from its saving throws until the end of its next turn. On a successful save, a creature takes half as much damage only. A creature also makes this save when the Sphere moves into its space, when it enters the Sphere, or when it ends its turn inside the Sphere. A creature makes this save only once per turn.\n\nThe Sphere moves 10 feet away from you at the start of each of your turns.\n\n**Casting as a Circle Spell.** Casting this as a Circle spell requires a minimum of five secondary casters. In addition to the spell’s usual components, you must provide a special component (a string of three black pearls from Pandemonium), which the spell consumes. The spell’s range increases to 1 mile, and its duration increases to until dispelled (no Concentration required). The spell ends early if any caster who participated in this casting contributes to another casting of Doomtide as a Circle spell.\n\nWhen the spell is cast, each secondary caster must expend a level 3+ spell slot; otherwise, the spell fails."
+}

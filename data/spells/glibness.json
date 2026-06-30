@@ -1,0 +1,22 @@
+{
+  "id": "glibness",
+  "kind": "spell",
+  "name": "Glibness",
+  "edition": "2024",
+  "level": 8,
+  "school": "Enchantment",
+  "classes": [
+    "bard",
+    "warlock"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "1 hour",
+  "text": "# Glibness\n*8th-Level Enchantment (Bard, Warlock)*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V\n**Duration:** 1 hour\n\nUntil the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful."
+}

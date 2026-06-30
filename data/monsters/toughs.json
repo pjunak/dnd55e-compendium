@@ -1,0 +1,38 @@
+{
+  "id": "toughs",
+  "kind": "monster",
+  "name": "Toughs",
+  "edition": "2024",
+  "cr": "9 (XP 5,000; PB +4)",
+  "crValue": 9,
+  "creatureType": "Plant",
+  "size": "Huge",
+  "type": "Huge Plant",
+  "alignment": "Chaotic Good",
+  "ac": "16",
+  "hp": "138 (12d12 + 60)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 23,
+    "DEX": 8,
+    "CON": 21,
+    "INT": 12,
+    "WIS": 16,
+    "CHA": 12
+  },
+  "traits": [
+    {
+      "name": "Vulnerabilities",
+      "text": "Fire"
+    },
+    {
+      "name": "Resistances",
+      "text": "Bludgeoning, Piercing"
+    },
+    {
+      "name": "Siege Monster",
+      "text": "The treant deals double damage to objects and structures."
+    }
+  ],
+  "text": "# Toughs\n\n*Huge Plant, Chaotic Good*\n\n### Actions\n\n**Slam.** Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage.\n\n**Hail of Bark.** Ranged Attack Roll: +10, range 180 ft. Hit: 28 (4d10 + 6) Piercing damage."
+}

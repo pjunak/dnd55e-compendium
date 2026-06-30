@@ -1,0 +1,25 @@
+{
+  "id": "noble",
+  "kind": "monster",
+  "name": "Noble",
+  "edition": "2024",
+  "cr": "2 (XP 450; PB +2)",
+  "crValue": 2,
+  "creatureType": "Aberration",
+  "size": "Medium",
+  "type": "Medium Aberration",
+  "alignment": "Neutral Evil",
+  "ac": "15",
+  "hp": "45 (6d8 + 18)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 14,
+    "DEX": 16,
+    "CON": 16,
+    "INT": 13,
+    "WIS": 10,
+    "CHA": 8
+  },
+  "traits": [],
+  "text": "# Noble\n\n*Medium Aberration, Neutral Evil*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage.\n\n**Rotting Gaze.** Constitution Saving Throw: DC 13, one creature the nothic can see within 120 feet. Failure: 17 (5d6) Necrotic damage. Success: Half damage.\n\n**Weird Insight (Recharge 6).** Wisdom Saving Throw: DC 14, one creature the nothic can see within 120 feet. Failure: The nothic magically learns one fact or secret about the target."
+}

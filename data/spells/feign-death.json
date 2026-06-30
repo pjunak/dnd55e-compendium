@@ -1,0 +1,21 @@
+{
+  "id": "feign-death",
+  "kind": "spell",
+  "name": "Feign Death",
+  "edition": "2024",
+  "level": 3,
+  "school": "Necromancy",
+  "classes": [],
+  "ritual": true,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a pinch of graveyard dirt",
+  "duration": "1 hour",
+  "text": "# Feign Death\n*3rd-Level Necromancy*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S, M (a pinch of graveyard dirt)\n**Duration:** 1 hour\nLevel 3 Necromancy (Bard, Cleric, Druid, Wizard)\nCasting Time: Action or Ritual\nRange: Touch\nComponents: V, S, M (a pinch of graveyard dirt)\nDuration: 1 hour\nYou touch a willing creature and put it into a cataleptic state that is indistinguishable from death.\nFor the duration, the target appears dead to outward inspection and to spells used to determine the target’s status. The target has the Blinded and Incapacitated conditions, and its Speed is 0.\nThe target also has Resistance to all damage except Psychic damage, and it has Immunity to the Poisoned condition."
+}

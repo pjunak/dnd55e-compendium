@@ -1,0 +1,11 @@
+{
+  "id": "defense",
+  "kind": "feat",
+  "name": "Defense",
+  "edition": "2024",
+  "category": "fighting_style",
+  "prerequisites": {},
+  "repeatable": false,
+  "grants": {},
+  "text": "*Prerequisite: Fighting Style Feature*\n\nWhile you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class."
+}

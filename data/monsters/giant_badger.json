@@ -1,0 +1,25 @@
+{
+  "id": "giant_badger",
+  "kind": "monster",
+  "name": "Giant Badger",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "22 (4d10)",
+  "speed": "10 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 15,
+    "DEX": 16,
+    "CON": 11,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 6
+  },
+  "traits": [],
+  "text": "# Giant Badger\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage."
+}

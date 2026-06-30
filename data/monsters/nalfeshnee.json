@@ -1,0 +1,46 @@
+{
+  "id": "nalfeshnee",
+  "kind": "monster",
+  "name": "Nalfeshnee",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "Fiend",
+  "size": "Medium",
+  "type": "Medium Fiend",
+  "alignment": "Neutral Evil",
+  "ac": "17",
+  "hp": "112 (15d8 + 45)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 15,
+    "CON": 16,
+    "INT": 16,
+    "WIS": 14,
+    "CHA": 16
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold, Fire"
+    },
+    {
+      "name": "Immunities",
+      "text": "Charmed"
+    },
+    {
+      "name": "Coven Magic",
+      "text": "While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell’s normal casting time, and using Intelligence as the spellcasting ability (spell save DC 14): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen Servant. The hag must finish a Long Rest before using this trait to cast that spell again."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The hag has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Soul Bag",
+      "text": "The hag has a soul bag. While holding or carrying the bag, the hag can use its Nightmare Haunting action."
+    }
+  ],
+  "text": "# Nalfeshnee\n\n*Medium Fiend, Neutral Evil*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage."
+}

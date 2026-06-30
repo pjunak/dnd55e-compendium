@@ -1,0 +1,38 @@
+{
+  "id": "stone_giant",
+  "kind": "monster",
+  "name": "Stone Giant",
+  "edition": "2024",
+  "cr": "10 (XP 5,900; PB +4)",
+  "crValue": 10,
+  "creatureType": "Construct",
+  "size": "Large",
+  "type": "Large Construct",
+  "alignment": "Unaligned",
+  "ac": "18",
+  "hp": "220 (21d10 + 105)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 22,
+    "DEX": 9,
+    "CON": 20,
+    "INT": 3,
+    "WIS": 11,
+    "CHA": 1
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned"
+    },
+    {
+      "name": "Immutable Form",
+      "text": "The golem can’t shape-shift."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The golem has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Stone Giant\n\n*Large Construct, Unaligned*\n\n### Actions\n\n**Slam.** Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Bludgeoning damage plus 9 (2d8) Force damage.\n\n**Force Bolt.** Ranged Attack Roll: +9, range 120 ft. Hit: 22 (4d10) Force damage."
+}

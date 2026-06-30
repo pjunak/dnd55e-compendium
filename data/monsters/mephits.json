@@ -1,0 +1,30 @@
+{
+  "id": "mephits",
+  "kind": "monster",
+  "name": "Mephits",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "Elemental",
+  "size": "Medium",
+  "type": "Medium Elemental",
+  "alignment": "Neutral",
+  "ac": "11",
+  "hp": "11 (2d8 + 2)",
+  "speed": "10 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 10,
+    "DEX": 13,
+    "CON": 12,
+    "INT": 11,
+    "WIS": 14,
+    "CHA": 12
+  },
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The merfolk can breathe air and water."
+    }
+  ],
+  "text": "# Mephits\n\n*Medium Elemental, Neutral*\n\n### Actions\n\n**Ocean Spear.** Melee or Ranged Attack Roll: +2, reach 5 ft. or range 20/60 ft. Hit: 3 (1d6) Piercing damage plus 2 (1d4) Cold damage. If the target is a creature, its Speed decreases by 10 feet until the end of its next turn. Hit or Miss: The spear magically returns to the merfolk’s hand immediately after a ranged attack."
+}

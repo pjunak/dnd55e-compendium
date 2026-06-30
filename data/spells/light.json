@@ -1,0 +1,26 @@
+{
+  "id": "light",
+  "kind": "spell",
+  "name": "Light",
+  "edition": "2024",
+  "level": 0,
+  "school": "Evocation",
+  "classes": [
+    "artificer",
+    "bard",
+    "cleric",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "M"
+  ],
+  "material": "a firefly or phosphorescent moss",
+  "duration": "1 hour",
+  "text": "# Light\n*Evocation Cantrip (Artificer, Bard, Cleric, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, M (a firefly or phosphorescent moss)\n**Duration:** 1 hour\n\nYou touch one Large or smaller object that isn’t being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like.\n\nCovering the object with something opaque blocks the light. The spell ends if you cast it again."
+}

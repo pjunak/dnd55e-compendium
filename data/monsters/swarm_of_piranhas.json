@@ -1,0 +1,38 @@
+{
+  "id": "swarm_of_piranhas",
+  "kind": "monster",
+  "name": "Swarm of Piranhas",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Swarm of Tiny Beasts",
+  "size": "Medium",
+  "type": "Medium Swarm of Tiny Beasts",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "14 (4d8 − 4)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 9,
+    "DEX": 11,
+    "CON": 9,
+    "INT": 2,
+    "WIS": 10,
+    "CHA": 3
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Bludgeoning, Piercing, Slashing"
+    },
+    {
+      "name": "Immunities",
+      "text": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned"
+    },
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can’t regain Hit Points or gain Temporary Hit Points."
+    }
+  ],
+  "text": "# Swarm of Piranhas\n\n*Medium Swarm of Tiny Beasts, Unaligned*\n\n### Actions\n\n**Bites.** Melee Attack Roll: +2, reach 5 ft. Hit: 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied."
+}

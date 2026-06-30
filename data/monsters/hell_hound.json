@@ -1,0 +1,46 @@
+{
+  "id": "hell_hound",
+  "kind": "monster",
+  "name": "Hell Hound",
+  "edition": "2024",
+  "cr": "8 (XP 3,900; PB +3)",
+  "crValue": 8,
+  "creatureType": "Fiend (Demon)",
+  "size": "Large",
+  "type": "Large Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "ac": "18",
+  "hp": "157 (15d10 + 75)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 19,
+    "DEX": 17,
+    "CON": 20,
+    "INT": 5,
+    "WIS": 12,
+    "CHA": 13
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold, Fire, Lightning"
+    },
+    {
+      "name": "Immunities",
+      "text": "Poison; Poisoned"
+    },
+    {
+      "name": "Demonic Restoration",
+      "text": "If the hezrou dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The hezrou has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Stench",
+      "text": "Constitution Saving Throw: DC 16, any creature that starts its turn in a 10-foot Emanation originating from the hezrou. Failure: The target has the Poisoned condition until the start of its next turn."
+    }
+  ],
+  "text": "# Hell Hound\n\n*Large Fiend (Demon), Chaotic Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +7, reach 5 ft. Hit: 6 (1d4 + 4) Slashing damage plus 9 (2d8) Poison damage."
+}

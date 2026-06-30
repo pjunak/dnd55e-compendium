@@ -1,0 +1,25 @@
+{
+  "id": "giant_boar",
+  "kind": "monster",
+  "name": "Giant Boar",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Beast",
+  "size": "Small",
+  "type": "Small Beast",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "9 (2d6 + 2)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 5,
+    "DEX": 14,
+    "CON": 12,
+    "INT": 1,
+    "WIS": 7,
+    "CHA": 3
+  },
+  "traits": [],
+  "text": "# Giant Boar\n\n*Small Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede’s next turn."
+}

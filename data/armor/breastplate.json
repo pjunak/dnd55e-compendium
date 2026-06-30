@@ -1,0 +1,16 @@
+{
+  "id": "breastplate",
+  "kind": "armor",
+  "name": "Breastplate",
+  "edition": "2024",
+  "armorType": "medium",
+  "baseAC": 14,
+  "dexCap": 2,
+  "acBonus": 0,
+  "strReq": 0,
+  "stealthDisadvantage": false,
+  "weight": "20 lb.",
+  "cost": "400 GP",
+  "_acSource": "14 + Dex modifier (max 2)",
+  "text": "# Breastplate\n\n*Armor, Medium Armor (5 Minutes to Don and 1 Minute to Doff)*\n\n**AC:** 14 + Dex modifier (max 2)\n**Weight:** 20 lb.\n**Cost:** 400 GP"
+}

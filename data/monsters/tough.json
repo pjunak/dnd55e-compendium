@@ -1,0 +1,30 @@
+{
+  "id": "tough",
+  "kind": "monster",
+  "name": "Tough",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "12",
+  "hp": "32 (5d8 + 10)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 15,
+    "DEX": 12,
+    "CON": 14,
+    "INT": 10,
+    "WIS": 10,
+    "CHA": 11
+  },
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The tough has Advantage on an attack roll against a creature if at least one of the tough’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition."
+    }
+  ],
+  "text": "# Tough\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Mace.** Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.\n\n**Heavy Crossbow.** Ranged Attack Roll: +3, range 100/400 ft. Hit: 6 (1d10 + 1) Piercing damage."
+}

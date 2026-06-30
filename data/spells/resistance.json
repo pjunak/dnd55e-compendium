@@ -1,0 +1,24 @@
+{
+  "id": "resistance",
+  "kind": "spell",
+  "name": "Resistance",
+  "edition": "2024",
+  "level": 0,
+  "school": "Abjuration",
+  "classes": [
+    "artificer",
+    "cleric",
+    "druid"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Resistance\n*Abjuration Cantrip (Artificer, Cleric, Druid)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S\n**Duration:** Concentration, up to 1 minute\n\nYou touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn."
+}

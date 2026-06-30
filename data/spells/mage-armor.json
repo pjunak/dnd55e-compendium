@@ -1,0 +1,24 @@
+{
+  "id": "mage-armor",
+  "kind": "spell",
+  "name": "Mage Armor",
+  "edition": "2024",
+  "level": 1,
+  "school": "Abjuration",
+  "classes": [
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a piece of cured leather",
+  "duration": "8 hours",
+  "text": "# Mage Armor\n*1st-Level Abjuration (Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S, M (a piece of cured leather)\n**Duration:** 8 hours\n\nYou touch a willing creature who isn’t wearing armor. Until the spell ends, the target’s base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor."
+}

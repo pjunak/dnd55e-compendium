@@ -1,0 +1,34 @@
+{
+  "id": "adult_blue_dragon",
+  "kind": "monster",
+  "name": "Adult Blue Dragon",
+  "edition": "2024",
+  "cr": "16 (XP 15,000, or 18,000 in lair; PB +5)",
+  "crValue": 16,
+  "creatureType": "Dragon (Chromatic)",
+  "size": "Huge",
+  "type": "Huge Dragon (Chromatic)",
+  "alignment": "Lawful Evil",
+  "ac": "19",
+  "hp": "212 (17d12 + 102)",
+  "speed": "40 ft., Burrow 30 ft., Fly 80 ft.",
+  "stats": {
+    "STR": 25,
+    "DEX": 10,
+    "CON": 23,
+    "INT": 16,
+    "WIS": 15,
+    "CHA": 20
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Lightning"
+    },
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "text": "# Adult Blue Dragon\n\n*Huge Dragon (Chromatic), Lawful Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +12, reach 10 ft. Hit: 16 (2d8 + 7) Slashing damage plus 5 (1d10) Lightning damage.\n\n**Lightning Breath (Recharge 5–6).** Dexterity Saving Throw: DC 19, each creature in a 90-foot-long, 5-foot-wide Line. Failure: 60 (11d10) Lightning damage. Success: Half damage."
+}

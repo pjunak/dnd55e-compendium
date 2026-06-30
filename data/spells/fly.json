@@ -1,0 +1,26 @@
+{
+  "id": "fly",
+  "kind": "spell",
+  "name": "Fly",
+  "edition": "2024",
+  "level": 3,
+  "school": "Transmutation",
+  "classes": [
+    "artificer",
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a feather",
+  "duration": "Concentration, up to 10 minutes",
+  "text": "# Fly\n*3rd-Level Transmutation (Artificer, Sorcerer, Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S, M (a feather)\n**Duration:** Concentration, up to 10 minutes\n\nYou touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When the spell ends, the target falls if it is still aloft unless it can stop the fall.\n\n**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 3."
+}

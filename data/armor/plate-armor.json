@@ -1,0 +1,16 @@
+{
+  "id": "plate-armor",
+  "kind": "armor",
+  "name": "Plate Armor",
+  "edition": "2024",
+  "armorType": "heavy",
+  "baseAC": 18,
+  "dexCap": 0,
+  "acBonus": 0,
+  "strReq": "Str 15",
+  "stealthDisadvantage": true,
+  "weight": "65 lb.",
+  "cost": "1,500 GP",
+  "_acSource": 18,
+  "text": "# Plate Armor\n\n*Armor, Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)*\n\n**AC:** 18\n**Strength Requirement:** Str 15\n**Stealth:** Disadvantage\n**Weight:** 65 lb.\n**Cost:** 1,500 GP"
+}

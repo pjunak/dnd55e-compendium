@@ -1,0 +1,30 @@
+{
+  "id": "hunter_shark",
+  "kind": "monster",
+  "name": "Hunter Shark",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Medium",
+  "type": "Medium Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "5 (1d8 + 1)",
+  "speed": "50 ft.",
+  "stats": {
+    "STR": 11,
+    "DEX": 13,
+    "CON": 12,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 5
+  },
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The hyena has Advantage on an attack roll against a creature if at least one of the hyena’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition."
+    }
+  ],
+  "text": "# Hunter Shark\n\n*Medium Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +2, reach 5 ft. Hit: 3 (1d6) Piercing damage."
+}

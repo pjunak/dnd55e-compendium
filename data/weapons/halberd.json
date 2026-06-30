@@ -1,0 +1,22 @@
+{
+  "id": "halberd",
+  "kind": "weapon",
+  "name": "Halberd",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d10",
+  "damageType": "slashing",
+  "properties": [
+    "heavy",
+    "reach",
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Cleave",
+  "weight": "6 lb.",
+  "cost": "20 GP",
+  "text": "# Halberd\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d10 Slashing\n**Properties:** Heavy,Reach,Two-Handed\n**Mastery:** Cleave\n**Weight:** 6 lb.\n**Cost:** 20 GP"
+}

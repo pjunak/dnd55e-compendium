@@ -1,0 +1,25 @@
+{
+  "id": "guard",
+  "kind": "monster",
+  "name": "Guard",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "16",
+  "hp": "11 (2d8 + 2)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 13,
+    "DEX": 12,
+    "CON": 12,
+    "INT": 10,
+    "WIS": 11,
+    "CHA": 10
+  },
+  "traits": [],
+  "text": "# Guard\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Spear.** Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage."
+}

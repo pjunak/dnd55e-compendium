@@ -1,0 +1,42 @@
+{
+  "id": "nothic",
+  "kind": "monster",
+  "name": "Nothic",
+  "edition": "2024",
+  "cr": "2 (XP 450; PB +2)",
+  "crValue": 2,
+  "creatureType": "Ooze",
+  "size": "Large",
+  "type": "Large Ooze",
+  "alignment": "Unaligned",
+  "ac": "8",
+  "hp": "52 (7d10 + 14)",
+  "speed": "20 ft., Climb 20 ft.",
+  "stats": {
+    "STR": 15,
+    "DEX": 6,
+    "CON": 14,
+    "INT": 2,
+    "WIS": 6,
+    "CHA": 1
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Acid"
+    },
+    {
+      "name": "Immunities",
+      "text": "Lightning, Slashing; Charmed, Deafened, Exhaustion, Frightened, Grappled, Prone, Restrained"
+    },
+    {
+      "name": "Amorphous",
+      "text": "The jelly can move through a space as narrow as 1 inch without expending extra movement to do so."
+    },
+    {
+      "name": "Spider Climb",
+      "text": "The jelly can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    }
+  ],
+  "text": "# Nothic\n\n*Large Ooze, Unaligned*\n\n### Actions\n\n**Pseudopod.** Melee Attack Roll: +4, reach 5 ft. Hit: 12 (3d6 + 2) Acid damage."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "blade-ward",
+  "kind": "spell",
+  "name": "Blade Ward",
+  "edition": "2024",
+  "level": 0,
+  "school": "Abjuration",
+  "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Blade Ward\n*Abjuration Cantrip (Bard, Sorcerer, Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V, S\n**Duration:** Concentration, up to 1 minute\n\nWhenever a creature makes an attack roll against you before the spell ends, the attacker subtracts 1d4 from the attack roll."
+}

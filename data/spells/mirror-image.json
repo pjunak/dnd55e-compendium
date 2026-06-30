@@ -1,0 +1,25 @@
+{
+  "id": "mirror-image",
+  "kind": "spell",
+  "name": "Mirror Image",
+  "edition": "2024",
+  "level": 2,
+  "school": "Illusion",
+  "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "1 minute",
+  "text": "# Mirror Image\n*2nd-Level Illusion (Bard, Sorcerer, Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V, S\n**Duration:** 1 minute\n\nThree illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it’s impossible to track which image is real.\n\nEach time a creature hits you with an attack roll during the spell’s duration, roll a d6 for each of your remaining duplicates. If any of the d6s rolls a 3 or higher, one of the duplicates is hit instead of you, and the duplicate is destroyed. The duplicates otherwise ignore all other damage and effects. The spell ends when all three duplicates are destroyed.\n\nA creature is unaffected by this spell if it has the Blinded condition, Blindsight, or Truesight."
+}

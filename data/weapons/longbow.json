@@ -1,0 +1,25 @@
+{
+  "id": "longbow",
+  "kind": "weapon",
+  "name": "Longbow",
+  "edition": "2024",
+  "category": "martial",
+  "range": "ranged",
+  "damage": "1d8",
+  "damageType": "piercing",
+  "properties": [
+    "ammunition",
+    "heavy",
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": {
+    "normal": 150,
+    "long": 600
+  },
+  "mastery": "Slow",
+  "weight": "2 lb.",
+  "cost": "50 GP",
+  "text": "# Longbow\n\n*Weapon, Martial Ranged Weapons*\n\n**Damage:** 1d8 Piercing\n**Properties:** Ammunition(Range 150/600; Arrow),Heavy,Two-Handed\n**Mastery:** Slow\n**Weight:** 2 lb.\n**Cost:** 50 GP"
+}

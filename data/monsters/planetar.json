@@ -1,0 +1,25 @@
+{
+  "id": "planetar",
+  "kind": "monster",
+  "name": "Planetar",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "or Small Humanoid (Cleric)",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid (Cleric)",
+  "alignment": "Neutral",
+  "ac": "13",
+  "hp": "11 (2d8 + 2)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 14,
+    "DEX": 10,
+    "CON": 12,
+    "INT": 10,
+    "WIS": 14,
+    "CHA": 11
+  },
+  "traits": [],
+  "text": "# Planetar\n\n*Medium or Small Humanoid (Cleric), Neutral*\n\n### Actions\n\n**Mace.** Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.\n\n**Radiant Flame.** Ranged Attack Roll: +4, range 60 ft. Hit: 7 (2d6) Radiant damage."
+}

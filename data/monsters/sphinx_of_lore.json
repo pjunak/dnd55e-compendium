@@ -1,0 +1,42 @@
+{
+  "id": "sphinx_of_lore",
+  "kind": "monster",
+  "name": "Sphinx of Lore",
+  "edition": "2024",
+  "cr": "11 (XP 7,200, or 8,400 in lair; PB +4)",
+  "crValue": 11,
+  "creatureType": "Celestial",
+  "size": "Large",
+  "type": "Large Celestial",
+  "alignment": "Lawful Neutral",
+  "ac": "17",
+  "hp": "170 (20d10 + 60)",
+  "speed": "40 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 15,
+    "CON": 16,
+    "INT": 18,
+    "WIS": 18,
+    "CHA": 18
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Necrotic, Radiant"
+    },
+    {
+      "name": "Immunities",
+      "text": "Psychic; Charmed, Frightened"
+    },
+    {
+      "name": "Inscrutable",
+      "text": "No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage."
+    },
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the sphinx fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "text": "# Sphinx of Lore\n\n*Large Celestial, Lawful Neutral*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +8, reach 5 ft. Hit: 14 (3d6 + 4) Slashing damage.\n\n**Mind-Rending Roar (Recharge 5–6).** Wisdom Saving Throw: DC 16, each enemy in a 300-foot Emanation originating from the sphinx. Failure: 35 (10d6) Psychic damage, and the target has the Incapacitated condition until the start of the sphinx’s next turn.\n\n**Weight of Years.** Constitution Saving Throw: DC 16, one creature the sphinx can see within 120 feet. Failure: The target gains 1 Exhaustion level. While the target has any Exhaustion levels, it appears 3d10 years older. Failure or Success: The sphinx can’t take this action again until the start of its next turn."
+}

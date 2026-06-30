@@ -1,0 +1,18 @@
+{
+  "id": "criminal",
+  "kind": "background",
+  "name": "Criminal",
+  "edition": "2024",
+  "abilityScores": [
+    "DEX",
+    "CON",
+    "INT"
+  ],
+  "originFeat": "alert",
+  "skillProficiencies": [
+    "sleight-of-hand",
+    "stealth"
+  ],
+  "toolProficiency": "Thieves' Tools",
+  "text": "You eked out a living in dark alleyways, cutting purses or burgling shops. Perhaps you were part of a small gang of like-minded wrongdoers who looked out for each other. Or maybe you were a lone wolf, fending for yourself against the local thieves' guild and more fearsome lawbreakers.\n\n**Ability Scores:** Dexterity, Constitution, Intelligence\n\n**Feat:** Alert\n\n**Skill Proficiencies:** Sleight of Hand and Stealth\n\n**Tool Proficiency:** Thieves' Tools\n\n**Equipment:** Choose A or B: (A) 2 Daggers, Thieves' Tools, Crowbar, 2 Pouches, Traveler's Clothes, 16 GP; or (B) 50 GP"
+}

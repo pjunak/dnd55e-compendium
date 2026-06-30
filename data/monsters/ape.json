@@ -1,0 +1,30 @@
+{
+  "id": "ape",
+  "kind": "monster",
+  "name": "Ape",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "Beast (Dinosaur)",
+  "size": "Huge",
+  "type": "Huge Beast (Dinosaur)",
+  "alignment": "Unaligned",
+  "ac": "17",
+  "hp": "90 (12d12 + 12)",
+  "speed": "20 ft., Swim 80 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 16,
+    "CON": 13,
+    "INT": 4,
+    "WIS": 14,
+    "CHA": 6
+  },
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The archelon can breathe air and water."
+    }
+  ],
+  "text": "# Ape\n\n*Huge Beast (Dinosaur), Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage."
+}

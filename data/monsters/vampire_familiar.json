@@ -1,0 +1,38 @@
+{
+  "id": "vampire_familiar",
+  "kind": "monster",
+  "name": "Vampire Familiar",
+  "edition": "2024",
+  "cr": "3 (XP 700; PB +2)",
+  "crValue": 3,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral Evil",
+  "ac": "15",
+  "hp": "65 (10d8 + 20)",
+  "speed": "30 ft., Climb 30 ft.",
+  "stats": {
+    "STR": 17,
+    "DEX": 16,
+    "CON": 15,
+    "INT": 10,
+    "WIS": 10,
+    "CHA": 14
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Necrotic"
+    },
+    {
+      "name": "Immunities",
+      "text": "Charmed (except from its vampire master)"
+    },
+    {
+      "name": "Vampiric Connection",
+      "text": "While the familiar and its vampire master are on the same plane of existence, the vampire can communicate with the familiar telepathically, and the vampire can perceive through the familiar’s senses."
+    }
+  ],
+  "text": "# Vampire Familiar\n\n*Medium or Small Humanoid, Neutral Evil*\n\n### Actions\n\n**Umbral Dagger.** Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage plus 7 (3d4) Necrotic damage. If the target is reduced to 0 Hit Points by this attack, the target becomes Stable but has the Poisoned condition for 1 hour. While it has the Poisoned condition, the target has the Paralyzed condition."
+}

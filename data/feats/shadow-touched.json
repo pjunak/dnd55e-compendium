@@ -1,0 +1,46 @@
+{
+  "id": "shadow-touched",
+  "kind": "feat",
+  "name": "Shadow Touched",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "INT",
+        "WIS",
+        "CHA"
+      ]
+    },
+    "spells": [
+      {
+        "level": 1,
+        "ids": [
+          "invisibility"
+        ],
+        "alwaysPrepared": true,
+        "free": "1/long"
+      },
+      {
+        "id": "shadow-pick",
+        "choose": 1,
+        "spellLevel": 1,
+        "from": {
+          "school": [
+            "illusion",
+            "necromancy"
+          ]
+        },
+        "alwaysPrepared": true,
+        "free": "1/long"
+      }
+    ]
+  },
+  "text": "*Prerequisite: Level 4+*\n\nYour exposure to the Shadowfell's magic grants you the following benefits.\n\n**Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\n\n**Shadow Magic.** Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the Invisibility spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat."
+}

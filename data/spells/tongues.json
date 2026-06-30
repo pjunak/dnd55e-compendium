@@ -1,0 +1,26 @@
+{
+  "id": "tongues",
+  "kind": "spell",
+  "name": "Tongues",
+  "edition": "2024",
+  "level": 3,
+  "school": "Divination",
+  "classes": [
+    "bard",
+    "cleric",
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "M"
+  ],
+  "material": "a miniature ziggurat",
+  "duration": "1 hour",
+  "text": "# Tongues\n*3rd-Level Divination (Bard, Cleric, Sorcerer, Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, M (a miniature ziggurat)\n**Duration:** 1 hour\n\nThis spell grants the creature you touch the ability to understand any spoken or signed language that it hears or sees. Moreover, when the target communicates by speaking or signing, any creature that knows at least one language can understand it if that creature can hear the speech or see the signing."
+}

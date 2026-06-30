@@ -1,0 +1,23 @@
+{
+  "id": "javelin",
+  "kind": "weapon",
+  "name": "Javelin",
+  "edition": "2024",
+  "category": "simple",
+  "range": "melee",
+  "damage": "1d6",
+  "damageType": "piercing",
+  "properties": [
+    "thrown"
+  ],
+  "versatileDamage": null,
+  "thrownRange": {
+    "normal": 30,
+    "long": 120
+  },
+  "rangeNormalLong": null,
+  "mastery": "Slow",
+  "weight": "2 lb.",
+  "cost": "5 SP",
+  "text": "# Javelin\n\n*Weapon, Simple Melee Weapons*\n\n**Damage:** 1d6 Piercing\n**Properties:** Thrown(Range 30/120)\n**Mastery:** Slow\n**Weight:** 2 lb.\n**Cost:** 5 SP"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "maul",
+  "kind": "weapon",
+  "name": "Maul",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "2d6",
+  "damageType": "bludgeoning",
+  "properties": [
+    "heavy",
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Topple",
+  "weight": "10 lb.",
+  "cost": "10 GP",
+  "text": "# Maul\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 2d6 Bludgeoning\n**Properties:** Heavy,Two-Handed\n**Mastery:** Topple\n**Weight:** 10 lb.\n**Cost:** 10 GP"
+}

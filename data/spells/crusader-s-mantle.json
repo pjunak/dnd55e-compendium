@@ -1,0 +1,21 @@
+{
+  "id": "crusader-s-mantle",
+  "kind": "spell",
+  "name": "Crusader's Mantle",
+  "edition": "2024",
+  "level": 3,
+  "school": "Evocation",
+  "classes": [
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Crusader's Mantle\n*3rd-Level Evocation (Paladin)*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V\n**Duration:** Concentration, up to 1 minute\n\nYou radiate a magical aura in a 30-foot Emanation. While in the aura, you and your allies each deal an extra 1d4 Radiant damage when hitting with a weapon or an Unarmed Strike."
+}

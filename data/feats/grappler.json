@@ -1,0 +1,22 @@
+{
+  "id": "grappler",
+  "kind": "feat",
+  "name": "Grappler",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+, Strength or Dexterity 13+"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "STR",
+        "DEX"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+, Strength or Dexterity 13+*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\n**Punch and Grab.** When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.\n\n**Attack Advantage.** You have Advantage on attack rolls against a creature Grappled by you.\n\n**Fast Wrestler.** You don’t have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller."
+}

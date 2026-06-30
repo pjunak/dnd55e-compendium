@@ -1,0 +1,38 @@
+{
+  "id": "ancient_green_dragon",
+  "kind": "monster",
+  "name": "Ancient Green Dragon",
+  "edition": "2024",
+  "cr": "22 (XP 41,000, or 50,000 in lair; PB +7)",
+  "crValue": 22,
+  "creatureType": "Dragon (Chromatic)",
+  "size": "Gargantuan",
+  "type": "Gargantuan Dragon (Chromatic)",
+  "alignment": "Lawful Evil",
+  "ac": "21",
+  "hp": "402 (23d20 + 161)",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 27,
+    "DEX": 12,
+    "CON": 25,
+    "INT": 20,
+    "WIS": 17,
+    "CHA": 22
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Poison; Poisoned"
+    },
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    },
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "text": "# Ancient Green Dragon\n\n*Gargantuan Dragon (Chromatic), Lawful Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +15, reach 15 ft. Hit: 17 (2d8 + 8) Slashing damage plus 10 (3d6) Poison damage.\n\n**Poison Breath (Recharge 5–6).** Constitution Saving Throw: DC 22, each creature in a 90-foot Cone. Failure: 77 (22d6) Poison damage. Success: Half damage.\n\n**Noxious Miasma.** Constitution Saving Throw: DC 21, each creature in a 30-foot-radius Sphere centered on a point the dragon can see within 90 feet. Failure: 17 (5d6) Poison damage, and the target takes a −2 penalty to AC until the end of its next turn. Failure or Success: The dragon can’t take this action again until the start of its next turn."
+}

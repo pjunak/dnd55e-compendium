@@ -1,0 +1,25 @@
+{
+  "id": "swarm_of_venomous_snakes",
+  "kind": "monster",
+  "name": "Swarm of Venomous Snakes",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "30 (4d10 + 8)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 17,
+    "DEX": 16,
+    "CON": 14,
+    "INT": 3,
+    "WIS": 12,
+    "CHA": 8
+  },
+  "traits": [],
+  "text": "# Swarm of Venomous Snakes\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "path-of-the-berserker",
+  "kind": "subclass",
+  "name": "Path of the Berserker",
+  "classId": "barbarian",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "frenzy",
+      "name": "Frenzy"
+    },
+    {
+      "level": 6,
+      "id": "mindless-rage",
+      "name": "Mindless Rage"
+    },
+    {
+      "level": 10,
+      "id": "retaliation",
+      "name": "Retaliation"
+    },
+    {
+      "level": 14,
+      "id": "intimidating-presence",
+      "name": "Intimidating Presence"
+    }
+  ],
+  "grants": {},
+  "text": "Barbarians who walk the Path of the Berserker believe that their anger is a source of power to be cultivated and unleashed. In battle, they lose themselves in a frenzy of bloodshed. Even outside combat, they are often on edge, their rage simmering just beneath the surface.\n\n### Level 3: Frenzy\n\nIf you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.\n\n### Level 6: Mindless Rage\n\nYou have Immunity to the Charmed and Frightened conditions while your Rage is active.\n\n### Level 10: Retaliation\n\nWhen you take damage from a creature that is within 5 feet of you, you can use your Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.\n\n### Level 14: Intimidating Presence\n\n As a Bonus Action, you can strike terror into others. Choose a number of creatures equal to your Strength modifier within 30 feet of you. Each of them must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute.\n \n At the end of each of the Frightened creature's turns, the creature repeats the saving throw, ending the effect on itself on a success.\n \n Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage to restore it."
+}

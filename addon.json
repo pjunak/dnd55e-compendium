@@ -5,11 +5,13 @@
   "apiVersion": 1,
   "hostVersion": ">=1.0.0",
   "entry": "entry.js",
+  "server": "server/index.cjs",
   "permissions": [
     "ui:route",
     "ui:sidebar",
-    "wiki:kind"
+    "wiki:kind",
+    "server:code"
   ],
-  "tests": { "client": "tests/smoke.mjs" },
-  "summary": "All D&D 5.5e content (declarative mechanics + prose) plus browse pages. Provides a pure data API consumed by the rules engine; useful standalone as a rulebook browser."
+  "tests": { "client": "tests/smoke.mjs", "server": "tests/server.cjs" },
+  "summary": "All D&D 5.5e content (declarative mechanics + prose) plus browse pages. A server module serves a per-record JSON tree; provides a pure data API consumed by the rules engine, useful standalone as a rulebook browser. Requires server:code + a server restart to load."
 }

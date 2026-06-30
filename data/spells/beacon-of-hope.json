@@ -1,0 +1,22 @@
+{
+  "id": "beacon-of-hope",
+  "kind": "spell",
+  "name": "Beacon Of Hope",
+  "edition": "2024",
+  "level": 3,
+  "school": "Abjuration",
+  "classes": [
+    "cleric"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Beacon Of Hope\n*3rd-Level Abjuration (Cleric)*\n**Casting Time:** Action\n**Range:** 30 feet\n**Components:** V, S\n**Duration:** Concentration, up to 1 minute\n\nChoose any number of creatures within range. For the duration, each target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing."
+}

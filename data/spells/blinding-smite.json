@@ -1,0 +1,21 @@
+{
+  "id": "blinding-smite",
+  "kind": "spell",
+  "name": "Blinding Smite",
+  "edition": "2024",
+  "level": 3,
+  "school": "Evocation",
+  "classes": [
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+  "range": "Self",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "1 minute",
+  "text": "# Blinding Smite\n*3rd-Level Evocation (Paladin)*\n**Casting Time:** Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike\n**Range:** Self\n**Components:** V\n**Duration:** 1 minute\n\nThe target hit by the strike takes an extra 3d8 Radiant damage from the attack, and the target has the Blinded condition until the spell ends. At the end of each of its turns, the Blinded target makes a Constitution saving throw, ending the spell on itself on a success.\n\n**Using a Higher-Level Spell Slot.** The extra damage increases by 1d8 for each spell slot level above 3."
+}

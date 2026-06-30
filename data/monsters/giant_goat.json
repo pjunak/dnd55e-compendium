@@ -1,0 +1,25 @@
+{
+  "id": "giant_goat",
+  "kind": "monster",
+  "name": "Giant Goat",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "45 (6d10 + 12)",
+  "speed": "50 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 14,
+    "CON": 14,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Giant Goat\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage."
+}

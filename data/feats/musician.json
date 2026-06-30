@@ -1,0 +1,17 @@
+{
+  "id": "musician",
+  "kind": "feat",
+  "name": "Musician",
+  "edition": "2024",
+  "category": "origin",
+  "prerequisites": {},
+  "repeatable": false,
+  "grants": {
+    "proficiencies": {
+      "tools": [
+        "Musical Instrument (3)"
+      ]
+    }
+  },
+  "text": "You gain the following benefits.\n\n**Instrument Training.** You gain proficiency with three Musical Instruments of your choice.\n\n**Encouraging Song.** As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus."
+}

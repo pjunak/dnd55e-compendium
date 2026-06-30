@@ -1,0 +1,23 @@
+{
+  "id": "aura-of-vitality",
+  "kind": "spell",
+  "name": "Aura of Vitality",
+  "edition": "2024",
+  "level": 3,
+  "school": "Abjuration",
+  "classes": [
+    "cleric",
+    "druid",
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Self",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Aura of Vitality\n*3rd-Level Abjuration (Cleric, Druid, Paladin)*\n**Casting Time:** Action\n**Range:** Self\n**Components:** V\n**Duration:** Concentration, up to 1 minute\n\nAn aura radiates from you in a 30-foot Emanation for the duration. When you create the aura and at the start of each of your turns while it persists, you can restore 2d6 Hit Points to one creature in it."
+}

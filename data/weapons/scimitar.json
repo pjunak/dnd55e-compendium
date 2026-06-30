@@ -1,0 +1,21 @@
+{
+  "id": "scimitar",
+  "kind": "weapon",
+  "name": "Scimitar",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d6",
+  "damageType": "slashing",
+  "properties": [
+    "finesse",
+    "light"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Nick",
+  "weight": "3 lb.",
+  "cost": "25 GP",
+  "text": "# Scimitar\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d6 Slashing\n**Properties:** Finesse,Light\n**Mastery:** Nick\n**Weight:** 3 lb.\n**Cost:** 25 GP"
+}

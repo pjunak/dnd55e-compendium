@@ -1,0 +1,27 @@
+{
+  "id": "water-breathing",
+  "kind": "spell",
+  "name": "Water Breathing",
+  "edition": "2024",
+  "level": 3,
+  "school": "Transmutation",
+  "classes": [
+    "artificer",
+    "druid",
+    "ranger",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": true,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "a short reed",
+  "duration": "24 hours",
+  "text": "# Water Breathing\n*3rd-Level Transmutation (Artificer, Druid, Ranger, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** 30 feet\n**Components:** V, S, M (a short reed)\n**Duration:** 24 hours\n\nThis spell grants up to ten willing creatures of your choice within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration."
+}

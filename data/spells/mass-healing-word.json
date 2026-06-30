@@ -1,0 +1,22 @@
+{
+  "id": "mass-healing-word",
+  "kind": "spell",
+  "name": "Mass Healing Word",
+  "edition": "2024",
+  "level": 3,
+  "school": "Abjuration",
+  "classes": [
+    "bard",
+    "cleric"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Bonus Action",
+  "range": "60 feet",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Mass Healing Word\n*3rd-Level Abjuration (Bard, Cleric)*\n**Casting Time:** Bonus Action\n**Range:** 60 feet\n**Components:** V\n**Duration:** Instantaneous\n\nUp to six creatures of your choice that you can see within range regain Hit Points equal to 2d4 plus your spellcasting ability modifier.\n\n**Using a Higher-Level Spell Slot.** The healing increases by 1d4 for each spell slot level above 3."
+}

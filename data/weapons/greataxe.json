@@ -1,0 +1,21 @@
+{
+  "id": "greataxe",
+  "kind": "weapon",
+  "name": "Greataxe",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d12",
+  "damageType": "slashing",
+  "properties": [
+    "heavy",
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Cleave",
+  "weight": "7 lb.",
+  "cost": "30 GP",
+  "text": "# Greataxe\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d12 Slashing\n**Properties:** Heavy,Two-Handed\n**Mastery:** Cleave\n**Weight:** 7 lb.\n**Cost:** 30 GP"
+}

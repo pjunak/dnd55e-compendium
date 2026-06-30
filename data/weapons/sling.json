@@ -1,0 +1,23 @@
+{
+  "id": "sling",
+  "kind": "weapon",
+  "name": "Sling",
+  "edition": "2024",
+  "category": "simple",
+  "range": "ranged",
+  "damage": "1d4",
+  "damageType": "bludgeoning",
+  "properties": [
+    "ammunition"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": {
+    "normal": 30,
+    "long": 120
+  },
+  "mastery": "Slow",
+  "weight": "—",
+  "cost": "1 SP",
+  "text": "# Sling\n\n*Weapon, Simple Ranged Weapons*\n\n**Damage:** 1d4 Bludgeoning\n**Properties:** Ammunition(Range 30/120; Bullet)\n**Mastery:** Slow\n**Weight:** —\n**Cost:** 1 SP"
+}

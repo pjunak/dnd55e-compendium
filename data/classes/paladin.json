@@ -1,0 +1,227 @@
+{
+  "id": "paladin",
+  "kind": "class",
+  "name": "Paladin",
+  "edition": "2024",
+  "hitDie": "d10",
+  "primaryAbility": [
+    "STR",
+    "CHA"
+  ],
+  "savingThrows": [
+    "WIS",
+    "CHA"
+  ],
+  "startingProficiencies": {
+    "armor": [
+      "light",
+      "medium",
+      "heavy",
+      "shields"
+    ],
+    "weapons": [
+      "simple",
+      "martial"
+    ],
+    "tools": [],
+    "skills": {
+      "choose": 2,
+      "from": [
+        "athletics",
+        "insight",
+        "intimidation",
+        "medicine",
+        "persuasion",
+        "religion"
+      ]
+    }
+  },
+  "multiclassProficiencies": {
+    "armor": [],
+    "weapons": [],
+    "tools": []
+  },
+  "weaponMastery": {
+    "count": 2
+  },
+  "subclassLevel": 3,
+  "spellcasting": {
+    "ability": "CHA",
+    "type": "full",
+    "prepares": "list",
+    "prepared": false,
+    "ritual": false,
+    "startLevel": 1,
+    "preparedFormula": "CHA + level"
+  },
+  "acFormulas": [],
+  "classResources": [],
+  "progression": [
+    {
+      "level": 1,
+      "features": [
+        "Lay on Hands",
+        "Spellcasting",
+        "Weapon Mastery"
+      ],
+      "preparedSpells": 2
+    },
+    {
+      "level": 2,
+      "features": [
+        "Fighting Style",
+        "Paladin's Smite"
+      ],
+      "preparedSpells": 3
+    },
+    {
+      "level": 3,
+      "features": [
+        "Channel Divinity",
+        "Sacred Oath"
+      ],
+      "preparedSpells": 4
+    },
+    {
+      "level": 4,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "preparedSpells": 5
+    },
+    {
+      "level": 5,
+      "features": [
+        "Extra Attack",
+        "Faithful Steed"
+      ],
+      "preparedSpells": 6
+    },
+    {
+      "level": 6,
+      "features": [
+        "Aura of Protection"
+      ],
+      "preparedSpells": 6
+    },
+    {
+      "level": 7,
+      "features": [
+        "Subclass Feature"
+      ],
+      "preparedSpells": 7
+    },
+    {
+      "level": 8,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "preparedSpells": 7
+    },
+    {
+      "level": 9,
+      "features": [
+        "Abjure Foes"
+      ],
+      "preparedSpells": 8
+    },
+    {
+      "level": 10,
+      "features": [
+        "Aura of Courage"
+      ],
+      "preparedSpells": 8
+    },
+    {
+      "level": 11,
+      "features": [
+        "Radiant Strikes"
+      ],
+      "preparedSpells": 10
+    },
+    {
+      "level": 12,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "preparedSpells": 10
+    },
+    {
+      "level": 13,
+      "features": [],
+      "preparedSpells": 11
+    },
+    {
+      "level": 14,
+      "features": [
+        "Restoring Touch"
+      ],
+      "preparedSpells": 11
+    },
+    {
+      "level": 15,
+      "features": [
+        "Subclass Feature"
+      ],
+      "preparedSpells": 12
+    },
+    {
+      "level": 16,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "preparedSpells": 12
+    },
+    {
+      "level": 17,
+      "features": [],
+      "preparedSpells": 14
+    },
+    {
+      "level": 18,
+      "features": [
+        "Aura Expansion"
+      ],
+      "preparedSpells": 14
+    },
+    {
+      "level": 19,
+      "features": [
+        "Epic Boon"
+      ],
+      "preparedSpells": 15
+    },
+    {
+      "level": 20,
+      "features": [
+        "Subclass Feature"
+      ],
+      "preparedSpells": 15
+    }
+  ],
+  "multiclassRequirements": {
+    "STR": 13,
+    "CHA": 13
+  },
+  "management": [
+    {
+      "id": "prepared",
+      "label": "Prepared Spells",
+      "type": "spell_preparation",
+      "source": "class_spell_list",
+      "max_formula": "CHA + level",
+      "changeable_on": "long_rest"
+    }
+  ],
+  "grants": {
+    "choices": [
+      {
+        "id": "skills:paladin",
+        "source": "paladin:1",
+        "type": "skills",
+        "count": 2
+      }
+    ]
+  },
+  "text": "Paladins are united by their oaths to stand against the forces of evil. Whether sworn before a god's altar and the witness of a priest, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witness, a paladin's oath is a powerful bond.\n\n### Level 1: Lay on Hands\n\nYour blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a Long Rest. With that pool, you can restore a total number of Hit Points equal to your Paladin level x 5.\n\nAs a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.\n\nYou can also expend 5 Hit Points from your pool of healing power to remove the Poisoned condition from the creature. You can remove the Poisoned condition and restore Hit Points at the same time, deducting the cost of both from the pool.\n\n### Level 1: Spellcasting\n\nYou have learned to draw on divine magic through meditation and prayer to cast spells as a Cleric does.\n\n**Cantrips.** You know two cantrips of your choice from the Paladin spell list if you don't choose a Fighting Style at level 2.\n\n**Prepared Spells.** You prepare the list of Paladin spells that you don't have prepared.\n\n### Level 1: Weapon Mastery\n\nYour training with weapons allows you to use the mastery properties of two kinds of Simple or Martial weapons of your choice, such as Longswords and Mauls. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\n### Level 2: Fighting Style\n\nYou gain a Fighting Style feat of your choice. Instead of a Fighting Style feat, you can choose to learn two Cleric cantrips.\n\n### Level 2: Paladin's Smite\n\nYou have the ability to smite enemies with divine power. You always have the *Divine Smite* spell prepared.\n\nIn addition, once per Long Rest, you can cast *Divine Smite* without expending a spell slot.\n\n### Level 3: Channel Divinity\n\nYou can channel divine energy directly from the outer planes, using that energy to fuel magical effects. You start with two uses of Channel Divinity. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nYou gain the Divine Sense Channel Divinity option.\n\n**Divine Sense.** As a Bonus Action, you can open your awareness to detect strong evil and powerful good. For the next 10 minutes, you know the location of any Celestial, Fiend, or Undead within 60 feet of you that is not behind total cover.\n\n### Level 3: Sacred Oath\n\nYou take a sacred oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose an oath, such as the Oath of Devotion.\n\n### Level 5: Extra Attack\n\nYou can attack twice instead of once whenever you take the Attack action on your turn.\n\n### Level 5: Faithful Steed\n\nYou can call a steed from the celestial realms to serve you. You always have the *Find Steed* spell prepared, and you can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest.\n\n### Level 6: Aura of Protection\n\nWhenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.\n\n### Level 9: Abjure Foes\n\nAs a Magic action, you can use your Channel Divinity to overwhelm foes with awe. You present your holy symbol or a weapon and target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of you. Each target must succeed on a Wisdom saving throw or acquire the Frightened condition for 1 minute or until it takes any damage.\n\n### Level 10: Aura of Courage\n\nYou and friendly creatures within 10 feet of you can't be Frightened while you are conscious.\n\n### Level 11: Radiant Strikes\n\nYou are so suffused with holy power that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 Radiant damage.\n\n### Level 14: Restoring Touch\n\nYou can use your Lay on Hands to remove the Charmed, Frightened, Paralyzed, or Stunned condition. You must expend 5 Hit Points from the healing pool of Lay on Hands for each condition removed.\n\n### Level 18: Aura Expansion\n\nThe range of your Auras increases to 30 feet.\n\n### Level 19: Epic Boon\n\nYou gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Truesight is recommended.\n\n### Level 20: Sacred Survivor\n\nYou are a paragon of your oath. You gain a subclass feature at this level."
+}

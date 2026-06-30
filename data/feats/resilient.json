@@ -1,0 +1,21 @@
+{
+  "id": "resilient",
+  "kind": "feat",
+  "name": "Resilient",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "ANY"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Choose one ability in which you lack saving throw proficiency. Increase the chosen ability score by 1, to a maximum of 20.\n\n**Saving Throw Proficiency.** You gain saving throw proficiency with the chosen ability."
+}

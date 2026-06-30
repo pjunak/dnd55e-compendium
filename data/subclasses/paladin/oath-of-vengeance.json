@@ -1,0 +1,38 @@
+{
+  "id": "oath-of-vengeance",
+  "kind": "subclass",
+  "name": "Oath of Vengeance",
+  "classId": "paladin",
+  "subclassLevel": 3,
+  "spells": [],
+  "spellcasting": null,
+  "features": [
+    {
+      "level": 3,
+      "id": "oath-of-vengeance-spells",
+      "name": "Oath of Vengeance Spells"
+    },
+    {
+      "level": 3,
+      "id": "vow-of-enmity",
+      "name": "Vow of Enmity"
+    },
+    {
+      "level": 7,
+      "id": "relentless-avenger",
+      "name": "Relentless Avenger"
+    },
+    {
+      "level": 15,
+      "id": "soul-of-vengeance",
+      "name": "Soul of Vengeance"
+    },
+    {
+      "level": 20,
+      "id": "avenging-angel",
+      "name": "Avenging Angel"
+    }
+  ],
+  "grants": {},
+  "text": "*Punish Evildoers at Any Cost*\n\nThe Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves' guild grows too violent, when a dragon rampages though the countryside - at times like these, Paladins arise and swear the Oath of Vengeance to set right what has gone wrong.\n\nThese Paladins share the following tenets:\n\n- Show the wicked no mercy.\n\n- Fight injustice and its causes.\n\n- Aid those harmed by injustice.\n\n### Level 3: Oath of Vengeance Spells\n\nThe magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Vengeance Spells table, you thereafter always have the listed spells prepared.\n\n### Oath of Vengeance Spells\n\n|\n Paladin Level |\n Spells |\n\n|\n 3 |\n Bane, Hunter's Mark |\n\n|\n 5 |\n Hold Person, Misty Step |\n\n|\n 9 |\n Haste, Protection from Energy |\n\n|\n 13 |\n Banishment, Dimension Door |\n\n|\n 17 |\n Hold Monster, Scrying |\n\n### Level 3: Vow of Enmity\n\nWhen you take the Attack action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You have Advantage on attack rolls against the creature for 1 minute or until you use this feature again.\n\nIf the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required).\n\n### Level 7: Relentless Avenger\n\nYour supernatural focus helps you close off a foe's retreat. When you hit a creature with an Opportunity Attack, you can reduce the creature's Speed to 0 until the end of the current turn. You can then move up to half your Speed as part of the same Reaction. This movement doesn't provoke Opportunity Attacks.\n\n### Level 15: Soul of Vengeance\n\nImmediately after a creature under the effect of your Vow of Enmity hits or misses with an attack roll, you can take a Reaction to make a melee attack against that creature if it's within range.\n\n### Level 20: Avenging Angel\n\nAs a Bonus Action, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).\n\n**Flight.** You sprout spectral wings on your back and have a Fly Speed of 60 feet, and can hover.\n\n**Frightful Aura.** Whenever an enemy starts its turn in your Aura of Protection, that creature must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. Attack rolls against the Frightened creature have Advantage."
+}

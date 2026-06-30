@@ -1,0 +1,30 @@
+{
+  "id": "rat",
+  "kind": "monster",
+  "name": "Rat",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "2 (1d4)",
+  "speed": "10 ft., Fly 50 ft.",
+  "stats": {
+    "STR": 2,
+    "DEX": 14,
+    "CON": 10,
+    "INT": 5,
+    "WIS": 13,
+    "CHA": 6
+  },
+  "traits": [
+    {
+      "name": "Mimicry",
+      "text": "The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful DC 10 Wisdom (Insight) check."
+    }
+  ],
+  "text": "# Rat\n\n*Tiny Beast, Unaligned*"
+}

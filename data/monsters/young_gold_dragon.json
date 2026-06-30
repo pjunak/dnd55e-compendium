@@ -1,0 +1,34 @@
+{
+  "id": "young_gold_dragon",
+  "kind": "monster",
+  "name": "Young Gold Dragon",
+  "edition": "2024",
+  "cr": "10 (XP 5,900; PB +4)",
+  "crValue": 10,
+  "creatureType": "Dragon (Metallic)",
+  "size": "Large",
+  "type": "Large Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "ac": "18",
+  "hp": "178 (17d10 + 85)",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 23,
+    "DEX": 14,
+    "CON": 21,
+    "INT": 16,
+    "WIS": 13,
+    "CHA": 20
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Fire"
+    },
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    }
+  ],
+  "text": "# Young Gold Dragon\n\n*Large Dragon (Metallic), Lawful Good*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +10, reach 10 ft. Hit: 17 (2d10 + 6) Slashing damage.\n\n**Fire Breath (Recharge 5–6).** Dexterity Saving Throw: DC 17, each creature in a 30-foot Cone. Failure: 55 (10d10) Fire damage. Success: Half damage.\n\n**Weakening Breath.** Strength Saving Throw: DC 17, each creature that isn’t currently affected by this breath in a 30-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts 3 (1d6) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+}

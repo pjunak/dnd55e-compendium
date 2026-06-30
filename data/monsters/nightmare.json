@@ -1,0 +1,25 @@
+{
+  "id": "nightmare",
+  "kind": "monster",
+  "name": "Nightmare",
+  "edition": "2024",
+  "cr": "1/8 (XP 25; PB +2)",
+  "crValue": 0.125,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "15",
+  "hp": "9 (2d8)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 11,
+    "DEX": 12,
+    "CON": 11,
+    "INT": 12,
+    "WIS": 14,
+    "CHA": 16
+  },
+  "traits": [],
+  "text": "# Nightmare\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Rapier.** Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage."
+}

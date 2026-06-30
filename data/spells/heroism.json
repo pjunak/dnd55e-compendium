@@ -1,0 +1,23 @@
+{
+  "id": "heroism",
+  "kind": "spell",
+  "name": "Heroism",
+  "edition": "2024",
+  "level": 1,
+  "school": "Enchantment",
+  "classes": [
+    "bard",
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Heroism\n*1st-Level Enchantment (Bard, Paladin)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S\n**Duration:** Concentration, up to 1 minute\n\nA willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to the Frightened condition and gains Temporary Hit Points equal to your spellcasting ability modifier at the start of each of its turns.\n\n**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 1."
+}

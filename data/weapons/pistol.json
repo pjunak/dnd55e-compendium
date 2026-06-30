@@ -1,0 +1,24 @@
+{
+  "id": "pistol",
+  "kind": "weapon",
+  "name": "Pistol",
+  "edition": "2024",
+  "category": "martial",
+  "range": "ranged",
+  "damage": "1d10",
+  "damageType": "piercing",
+  "properties": [
+    "ammunition",
+    "loading"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": {
+    "normal": 30,
+    "long": 90
+  },
+  "mastery": "Vex",
+  "weight": "3 lb.",
+  "cost": "250 GP",
+  "text": "# Pistol\n\n*Weapon, Martial Ranged Weapons*\n\n**Damage:** 1d10 Piercing\n**Properties:** Ammunition(Range 30/90; Bullet),Loading\n**Mastery:** Vex\n**Weight:** 3 lb.\n**Cost:** 250 GP"
+}

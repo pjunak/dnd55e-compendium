@@ -1,0 +1,24 @@
+{
+  "id": "blowgun",
+  "kind": "weapon",
+  "name": "Blowgun",
+  "edition": "2024",
+  "category": "martial",
+  "range": "ranged",
+  "damage": "",
+  "damageType": "",
+  "properties": [
+    "ammunition",
+    "loading"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": {
+    "normal": 25,
+    "long": 100
+  },
+  "mastery": "Vex",
+  "weight": "1 lb.",
+  "cost": "10 GP",
+  "text": "# Blowgun\n\n*Weapon, Martial Ranged Weapons*\n\n**Damage:** 1 Piercing\n**Properties:** Ammunition(Range 25/100; Needle),Loading\n**Mastery:** Vex\n**Weight:** 1 lb.\n**Cost:** 10 GP"
+}

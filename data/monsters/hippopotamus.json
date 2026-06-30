@@ -1,0 +1,30 @@
+{
+  "id": "hippopotamus",
+  "kind": "monster",
+  "name": "Hippopotamus",
+  "edition": "2024",
+  "cr": "2 (XP 450; PB +2)",
+  "crValue": 2,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "45 (6d10 + 12)",
+  "speed": "5 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 14,
+    "CON": 15,
+    "INT": 1,
+    "WIS": 10,
+    "CHA": 4
+  },
+  "traits": [
+    {
+      "name": "Water Breathing",
+      "text": "The shark can breathe only underwater."
+    }
+  ],
+  "text": "# Hippopotamus\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +6 (with Advantage if the target doesn’t have all its Hit Points), reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage."
+}

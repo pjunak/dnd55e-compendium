@@ -1,0 +1,24 @@
+{
+  "id": "zone-of-truth",
+  "kind": "spell",
+  "name": "Zone of Truth",
+  "edition": "2024",
+  "level": 2,
+  "school": "Enchantment",
+  "classes": [
+    "bard",
+    "cleric",
+    "paladin"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "10 minutes",
+  "text": "# Zone of Truth\n*2nd-Level Enchantment (Bard, Cleric, Paladin)*\n**Casting Time:** Action\n**Range:** 60 feet\n**Components:** V, S\n**Duration:** 10 minutes\n\nYou create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell’s area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.\n\nAn affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful."
+}

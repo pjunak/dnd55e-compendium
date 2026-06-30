@@ -1,0 +1,23 @@
+{
+  "id": "heal",
+  "kind": "spell",
+  "name": "Heal",
+  "edition": "2024",
+  "level": 6,
+  "school": "Abjuration",
+  "classes": [
+    "cleric",
+    "druid"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Heal\n*6th-Level Abjuration (Cleric, Druid)*\n**Casting Time:** Action\n**Range:** 60 feet\n**Components:** V, S\n**Duration:** Instantaneous\n\nChoose a creature that you can see within range. Positive energy washes through the target, restoring 70 Hit Points. This spell also ends the Blinded, Deafened, and Poisoned conditions on the target.\n\n**Using a Higher-Level Spell Slot.** The healing increases by 10 for each spell slot level above 6."
+}

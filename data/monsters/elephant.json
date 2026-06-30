@@ -1,0 +1,25 @@
+{
+  "id": "elephant",
+  "kind": "monster",
+  "name": "Elephant",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "11 (2d10)",
+  "speed": "50 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 10,
+    "CON": 11,
+    "INT": 2,
+    "WIS": 10,
+    "CHA": 6
+  },
+  "traits": [],
+  "text": "# Elephant\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Ram.** Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition."
+}

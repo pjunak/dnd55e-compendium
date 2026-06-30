@@ -1,0 +1,30 @@
+{
+  "id": "giant_scorpion",
+  "kind": "monster",
+  "name": "Giant Scorpion",
+  "edition": "2024",
+  "cr": "5 (XP 1,800; PB +3)",
+  "crValue": 5,
+  "creatureType": "Beast",
+  "size": "Huge",
+  "type": "Huge Beast",
+  "alignment": "Unaligned",
+  "ac": "13",
+  "hp": "92 (8d12 + 40)",
+  "speed": "5 ft., Swim 60 ft.",
+  "stats": {
+    "STR": 23,
+    "DEX": 11,
+    "CON": 21,
+    "INT": 1,
+    "WIS": 10,
+    "CHA": 5
+  },
+  "traits": [
+    {
+      "name": "Water Breathing",
+      "text": "The shark can breathe only underwater."
+    }
+  ],
+  "text": "# Giant Scorpion\n\n*Huge Beast, Unaligned*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +9 (with Advantage if the target doesn’t have all its Hit Points), reach 5 ft. Hit: 22 (3d10 + 6) Piercing damage."
+}

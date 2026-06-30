@@ -1,0 +1,30 @@
+{
+  "id": "bugbear_warrior",
+  "kind": "monster",
+  "name": "Bugbear Warrior",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "Fey (Goblinoid)",
+  "size": "Medium",
+  "type": "Medium Fey (Goblinoid)",
+  "alignment": "Chaotic Evil",
+  "ac": "14",
+  "hp": "33 (6d8 + 6)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 15,
+    "DEX": 14,
+    "CON": 13,
+    "INT": 8,
+    "WIS": 11,
+    "CHA": 9
+  },
+  "traits": [
+    {
+      "name": "Abduct",
+      "text": "The bugbear needn’t spend extra movement to move a creature it is grappling."
+    }
+  ],
+  "text": "# Bugbear Warrior\n\n*Medium Fey (Goblinoid), Chaotic Evil*\n\n### Actions\n\n**Grab.** Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12).\n\n**Light Hammer.** Melee or Ranged Attack Roll: +4 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. or range 20/60 ft. Hit: 9 (3d4 + 2) Bludgeoning damage."
+}

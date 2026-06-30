@@ -1,0 +1,21 @@
+{
+  "id": "great-weapon-master",
+  "kind": "feat",
+  "name": "Great Weapon Master",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+, Strength 13+"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "STR"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+, Strength 13+*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase your Strength score by 1, to a maximum of 20.\n\n**Heavy Weapon Mastery.** When you hit a creature with a weapon that has the Heavy property as part of the Attack action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your Proficiency Bonus.\n\n**Hew.** Immediately after you score a Critical Hit with a Melee weapon or reduce a creature to 0 Hit Points with one, you can make one attack with the same weapon as a Bonus Action."
+}

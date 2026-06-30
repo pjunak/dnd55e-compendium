@@ -1,0 +1,25 @@
+{
+  "id": "blight",
+  "kind": "spell",
+  "name": "Blight",
+  "edition": "2024",
+  "level": 4,
+  "school": "Necromancy",
+  "classes": [
+    "druid",
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Blight\n*4th-Level Necromancy (Druid, Sorcerer, Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** 30 feet\n**Components:** V, S\n**Duration:** Instantaneous\n\nA creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.\n\nAlternatively, target a nonmagical plant that isn’t a creature, such as a tree or shrub. It doesn’t make a save; it simply withers and dies.\n\n**Using a Higher-Level Spell Slot.** The damage increases by 1d8 for each spell slot level above 4."
+}

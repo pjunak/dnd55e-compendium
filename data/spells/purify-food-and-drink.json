@@ -1,0 +1,25 @@
+{
+  "id": "purify-food-and-drink",
+  "kind": "spell",
+  "name": "Purify Food and Drink",
+  "edition": "2024",
+  "level": 1,
+  "school": "Transmutation",
+  "classes": [
+    "artificer",
+    "cleric",
+    "druid",
+    "paladin"
+  ],
+  "ritual": true,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "10 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Purify Food and Drink\n*1st-Level Transmutation (Artificer, Cleric, Druid, Paladin)*\n**Casting Time:** Action\n**Range:** 10 feet\n**Components:** V, S\n**Duration:** Instantaneous\n\nYou remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range."
+}

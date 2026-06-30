@@ -1,0 +1,25 @@
+{
+  "id": "badger",
+  "kind": "monster",
+  "name": "Badger",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "1 (1d4 − 1)",
+  "speed": "5 ft., Fly 30 ft.",
+  "stats": {
+    "STR": 2,
+    "DEX": 15,
+    "CON": 8,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 4
+  },
+  "traits": [],
+  "text": "# Badger\n\n*Tiny Beast, Unaligned*"
+}

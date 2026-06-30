@@ -1,0 +1,34 @@
+{
+  "id": "sphinx_of_wonder",
+  "kind": "monster",
+  "name": "Sphinx of Wonder",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "Celestial",
+  "size": "Tiny",
+  "type": "Tiny Celestial",
+  "alignment": "Lawful Good",
+  "ac": "13",
+  "hp": "24 (7d4 + 7)",
+  "speed": "20 ft., Fly 40 ft.",
+  "stats": {
+    "STR": 6,
+    "DEX": 17,
+    "CON": 13,
+    "INT": 15,
+    "WIS": 12,
+    "CHA": 11
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Necrotic, Psychic, Radiant"
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The sphinx has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Sphinx of Wonder\n\n*Tiny Celestial, Lawful Good*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 7 (2d6) Radiant damage."
+}

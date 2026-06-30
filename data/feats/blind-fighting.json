@@ -1,0 +1,11 @@
+{
+  "id": "blind-fighting",
+  "kind": "feat",
+  "name": "Blind Fighting",
+  "edition": "2024",
+  "category": "fighting_style",
+  "prerequisites": {},
+  "repeatable": false,
+  "grants": {},
+  "text": "*Prerequisite: Fighting Style Feature*\n\nYou have Blindsight with a range of 10 feet."
+}

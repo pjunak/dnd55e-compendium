@@ -1,0 +1,30 @@
+{
+  "id": "lion",
+  "kind": "monster",
+  "name": "Lion",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "10",
+  "hp": "2 (1d4)",
+  "speed": "20 ft., Climb 20 ft.",
+  "stats": {
+    "STR": 2,
+    "DEX": 11,
+    "CON": 10,
+    "INT": 1,
+    "WIS": 8,
+    "CHA": 3
+  },
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    }
+  ],
+  "text": "# Lion\n\n*Tiny Beast, Unaligned*"
+}

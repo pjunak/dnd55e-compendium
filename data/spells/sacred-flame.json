@@ -1,0 +1,22 @@
+{
+  "id": "sacred-flame",
+  "kind": "spell",
+  "name": "Sacred Flame",
+  "edition": "2024",
+  "level": 0,
+  "school": "Evocation",
+  "classes": [
+    "cleric"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Sacred Flame\n*Evocation Cantrip (Cleric)*\n**Casting Time:** Action\n**Range:** 60 feet\n**Components:** V, S\n**Duration:** Instantaneous\n\nFlame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save.\n\n**Cantrip Upgrade.** The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+}

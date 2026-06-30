@@ -1,0 +1,42 @@
+{
+  "id": "invisible_stalker",
+  "kind": "monster",
+  "name": "Invisible Stalker",
+  "edition": "2024",
+  "cr": "16 (XP 15,000; PB +5)",
+  "crValue": 16,
+  "creatureType": "Construct",
+  "size": "Large",
+  "type": "Large Construct",
+  "alignment": "Unaligned",
+  "ac": "20",
+  "hp": "252 (24d10 + 120)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 24,
+    "DEX": 9,
+    "CON": 20,
+    "INT": 3,
+    "WIS": 11,
+    "CHA": 1
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Fire, Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned"
+    },
+    {
+      "name": "Fire Absorption",
+      "text": "Whenever the golem is subjected to Fire damage, it regains a number of Hit Points equal to the Fire damage dealt."
+    },
+    {
+      "name": "Immutable Form",
+      "text": "The golem can’t shape-shift."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The golem has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "text": "# Invisible Stalker\n\n*Large Construct, Unaligned*\n\n### Actions\n\n**Bladed Arm.** Melee Attack Roll: +12, reach 10 ft. Hit: 20 (3d8 + 7) Slashing damage plus 10 (3d6) Fire damage.\n\n**Fiery Bolt.** Ranged Attack Roll: +10, range 120 ft. Hit: 36 (8d8) Fire damage.\n\n**Poison Breath (Recharge 6).** Constitution Saving Throw: DC 18, each creature in a 60-foot Cone. Failure: 55 (10d10) Poison damage. Success: Half damage."
+}

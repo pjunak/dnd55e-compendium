@@ -1,0 +1,34 @@
+{
+  "id": "sphinxes",
+  "kind": "monster",
+  "name": "Sphinxes",
+  "edition": "2024",
+  "cr": "8 (XP 3,900; PB +3)",
+  "crValue": 8,
+  "creatureType": "Fiend",
+  "size": "Large",
+  "type": "Large Fiend",
+  "alignment": "Chaotic Evil",
+  "ac": "17",
+  "hp": "135 (18d10 + 36)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 17,
+    "CON": 14,
+    "INT": 16,
+    "WIS": 15,
+    "CHA": 16
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Poison; Charmed, Poisoned"
+    },
+    {
+      "name": "Fiendish Restoration",
+      "text": "If it dies, the naga returns to life in 1d6 days and regains all its Hit Points. Only a Wish spell can prevent this trait from functioning."
+    }
+  ],
+  "text": "# Sphinxes\n\n*Large Fiend, Chaotic Evil*\n\n### Actions\n\n**Bite.** Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Piercing damage plus 14 (4d6) Poison damage.\n\n**Necrotic Ray.** Ranged Attack Roll: +6, range 60 ft. Hit: 21 (6d6) Necrotic damage."
+}

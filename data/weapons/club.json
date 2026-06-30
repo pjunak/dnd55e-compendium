@@ -1,0 +1,20 @@
+{
+  "id": "club",
+  "kind": "weapon",
+  "name": "Club",
+  "edition": "2024",
+  "category": "simple",
+  "range": "melee",
+  "damage": "1d4",
+  "damageType": "bludgeoning",
+  "properties": [
+    "light"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Slow",
+  "weight": "2 lb.",
+  "cost": "1 SP",
+  "text": "# Club\n\n*Weapon, Simple Melee Weapons*\n\n**Damage:** 1d4 Bludgeoning\n**Properties:** Light\n**Mastery:** Slow\n**Weight:** 2 lb.\n**Cost:** 1 SP"
+}

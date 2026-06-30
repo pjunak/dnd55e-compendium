@@ -1,0 +1,30 @@
+{
+  "id": "young_silver_dragon",
+  "kind": "monster",
+  "name": "Young Silver Dragon",
+  "edition": "2024",
+  "cr": "9 (XP 5,000; PB +4)",
+  "crValue": 9,
+  "creatureType": "Dragon (Metallic)",
+  "size": "Large",
+  "type": "Large Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "ac": "18",
+  "hp": "168 (16d10 + 80)",
+  "speed": "40 ft., Fly 80 ft.",
+  "stats": {
+    "STR": 23,
+    "DEX": 10,
+    "CON": 21,
+    "INT": 14,
+    "WIS": 11,
+    "CHA": 19
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Cold"
+    }
+  ],
+  "text": "# Young Silver Dragon\n\n*Large Dragon (Metallic), Lawful Good*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Slashing damage.\n\n**Cold Breath (Recharge 5–6).** Constitution Saving Throw: DC 17, each creature in a 30-foot Cone. Failure: 49 (11d8) Cold damage. Success: Half damage.\n\n**Paralyzing Breath.** Constitution Saving Throw: DC 17, each creature in a 30-foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+}

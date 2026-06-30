@@ -1,0 +1,25 @@
+{
+  "id": "eagle",
+  "kind": "monster",
+  "name": "Eagle",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "Beast",
+  "size": "Huge",
+  "type": "Huge Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "76 (8d12 + 24)",
+  "speed": "40 ft.",
+  "stats": {
+    "STR": 22,
+    "DEX": 9,
+    "CON": 17,
+    "INT": 3,
+    "WIS": 11,
+    "CHA": 6
+  },
+  "traits": [],
+  "text": "# Eagle\n\n*Huge Beast, Unaligned*\n\n### Actions\n\n**Gore.** Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\n**Trample.** Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage."
+}

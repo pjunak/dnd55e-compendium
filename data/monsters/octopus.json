@@ -1,0 +1,30 @@
+{
+  "id": "octopus",
+  "kind": "monster",
+  "name": "Octopus",
+  "edition": "2024",
+  "cr": "0 (XP 10; PB +2)",
+  "crValue": 0,
+  "creatureType": "Beast",
+  "size": "Tiny",
+  "type": "Tiny Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "1 (1d4 − 1)",
+  "speed": "5 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 3,
+    "DEX": 13,
+    "CON": 8,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 7
+  },
+  "traits": [
+    {
+      "name": "Flyby",
+      "text": "The owl doesn’t provoke an Opportunity Attack when it flies out of an enemy’s reach."
+    }
+  ],
+  "text": "# Octopus\n\n*Tiny Beast, Unaligned*"
+}

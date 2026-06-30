@@ -1,0 +1,34 @@
+{
+  "id": "killer_whale",
+  "kind": "monster",
+  "name": "Killer Whale",
+  "edition": "2024",
+  "cr": "1 (XP 200; PB +2)",
+  "crValue": 1,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "12",
+  "hp": "22 (4d10)",
+  "speed": "50 ft.",
+  "stats": {
+    "STR": 17,
+    "DEX": 15,
+    "CON": 11,
+    "INT": 3,
+    "WIS": 12,
+    "CHA": 8
+  },
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The lion has Advantage on an attack roll against a creature if at least one of the lion’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition."
+    },
+    {
+      "name": "Running Leap",
+      "text": "With a 10-foot running start, the lion can Long Jump up to 25 feet."
+    }
+  ],
+  "text": "# Killer Whale\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\n**Roar.** Wisdom Saving Throw: DC 11, one creature within 15 feet. Failure: The target has the Frightened condition until the start of the lion’s next turn."
+}

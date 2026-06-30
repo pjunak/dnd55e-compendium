@@ -1,0 +1,25 @@
+{
+  "id": "dagger",
+  "kind": "weapon",
+  "name": "Dagger",
+  "edition": "2024",
+  "category": "simple",
+  "range": "melee",
+  "damage": "1d4",
+  "damageType": "piercing",
+  "properties": [
+    "finesse",
+    "light",
+    "thrown"
+  ],
+  "versatileDamage": null,
+  "thrownRange": {
+    "normal": 20,
+    "long": 60
+  },
+  "rangeNormalLong": null,
+  "mastery": "Nick",
+  "weight": "1 lb.",
+  "cost": "2 GP",
+  "text": "# Dagger\n\n*Weapon, Simple Melee Weapons*\n\n**Damage:** 1d4 Piercing\n**Properties:** Finesse,Light,Thrown(Range 20/60)\n**Mastery:** Nick\n**Weight:** 1 lb.\n**Cost:** 2 GP"
+}

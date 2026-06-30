@@ -1,0 +1,38 @@
+{
+  "id": "swarm_of_ravens",
+  "kind": "monster",
+  "name": "Swarm of Ravens",
+  "edition": "2024",
+  "cr": "2 (XP 450; PB +2)",
+  "crValue": 2,
+  "creatureType": "Swarm of Tiny Beasts",
+  "size": "Medium",
+  "type": "Medium Swarm of Tiny Beasts",
+  "alignment": "Unaligned",
+  "ac": "14",
+  "hp": "36 (8d8)",
+  "speed": "30 ft., Swim 30 ft.",
+  "stats": {
+    "STR": 8,
+    "DEX": 18,
+    "CON": 11,
+    "INT": 1,
+    "WIS": 10,
+    "CHA": 3
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Bludgeoning, Piercing, Slashing"
+    },
+    {
+      "name": "Immunities",
+      "text": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned"
+    },
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can’t regain Hit Points or gain Temporary Hit Points."
+    }
+  ],
+  "text": "# Swarm of Ravens\n\n*Medium Swarm of Tiny Beasts, Unaligned*\n\n### Actions\n\n**Bites.** Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage—or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied—plus 10 (3d6) Poison damage."
+}

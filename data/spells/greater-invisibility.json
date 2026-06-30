@@ -1,0 +1,24 @@
+{
+  "id": "greater-invisibility",
+  "kind": "spell",
+  "name": "Greater Invisibility",
+  "edition": "2024",
+  "level": 4,
+  "school": "Illusion",
+  "classes": [
+    "bard",
+    "sorcerer",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": true,
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S"
+  ],
+  "material": "",
+  "duration": "Concentration, up to 1 minute",
+  "text": "# Greater Invisibility\n*4th-Level Illusion (Bard, Sorcerer, Wizard)*\n**Casting Time:** Action\n**Range:** Touch\n**Components:** V, S\n**Duration:** Concentration, up to 1 minute\n\nA creature you touch has the Invisible condition until the spell ends."
+}

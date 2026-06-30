@@ -1,0 +1,34 @@
+{
+  "id": "imp",
+  "kind": "monster",
+  "name": "Imp",
+  "edition": "2024",
+  "cr": "4 (XP 1,100; PB +2)",
+  "crValue": 4,
+  "creatureType": "Fiend",
+  "size": "Medium",
+  "type": "Medium Fiend",
+  "alignment": "Neutral Evil",
+  "ac": "15",
+  "hp": "66 (12d8 + 12)",
+  "speed": "30 ft., Fly 60 ft.",
+  "stats": {
+    "STR": 8,
+    "DEX": 17,
+    "CON": 13,
+    "INT": 15,
+    "WIS": 12,
+    "CHA": 20
+  },
+  "traits": [
+    {
+      "name": "Resistances",
+      "text": "Cold, Fire, Poison, Psychic"
+    },
+    {
+      "name": "Succubus Form",
+      "text": "When the incubus finishes a Long Rest, it can shape-shift into a Succubus, using that stat block instead of this one. Any equipment it is wearing or carrying isn’t transformed."
+    }
+  ],
+  "text": "# Imp\n\n*Medium Fiend, Neutral Evil*\n\n### Actions\n\n**Restless Touch.** Melee Attack Roll: +7, reach 5 ft. Hit: 15 (3d6 + 5) Psychic damage, and the target is cursed for 24 hours or until the incubus dies. Until the curse ends, the target gains no benefit from finishing Short Rests.\n\n**Nightmare (Recharge 6).** Wisdom Saving Throw: DC 15, one creature the incubus can see within 60 feet. Failure: If the target has 20 Hit Points or fewer, it has the Unconscious condition for 1 hour, until it takes damage, or until a creature within 5 feet of it takes an action to wake it. Otherwise, the target takes 18 (4d8) Psychic damage."
+}

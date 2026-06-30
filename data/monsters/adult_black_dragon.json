@@ -1,0 +1,38 @@
+{
+  "id": "adult_black_dragon",
+  "kind": "monster",
+  "name": "Adult Black Dragon",
+  "edition": "2024",
+  "cr": "14 (XP 11,500, or 13,000 in lair; PB +5)",
+  "crValue": 14,
+  "creatureType": "Dragon (Chromatic)",
+  "size": "Huge",
+  "type": "Huge Dragon (Chromatic)",
+  "alignment": "Chaotic Evil",
+  "ac": "19",
+  "hp": "195 (17d12 + 85)",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 23,
+    "DEX": 14,
+    "CON": 21,
+    "INT": 14,
+    "WIS": 13,
+    "CHA": 19
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Acid"
+    },
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    },
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "text": "# Adult Black Dragon\n\n*Huge Dragon (Chromatic), Chaotic Evil*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +11, reach 10 ft. Hit: 13 (2d6 + 6) Slashing damage plus 4 (1d8) Acid damage.\n\n**Acid Breath (Recharge 5–6).** Dexterity Saving Throw: DC 18, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 54 (12d8) Acid damage. Success: Half damage.\n\n**Cloud of Insects.** Dexterity Saving Throw: DC 17, one creature the dragon can see within 120 feet. Failure: 22 (4d10) Poison damage, and the target has Disadvantage on saving throws to maintain Concentration until the end of its next turn. Failure or Success: The dragon can’t take this action again until the start of its next turn."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ancient_silver_dragon",
+  "kind": "monster",
+  "name": "Ancient Silver Dragon",
+  "edition": "2024",
+  "cr": "23 (XP 50,000, or 62,000 in lair; PB +7)",
+  "crValue": 23,
+  "creatureType": "Dragon (Metallic)",
+  "size": "Gargantuan",
+  "type": "Gargantuan Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "ac": "22",
+  "hp": "468 (24d20 + 216)",
+  "speed": "40 ft., Fly 80 ft.",
+  "stats": {
+    "STR": 30,
+    "DEX": 10,
+    "CON": 29,
+    "INT": 18,
+    "WIS": 15,
+    "CHA": 26
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Cold"
+    },
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "text": "# Ancient Silver Dragon\n\n*Gargantuan Dragon (Metallic), Lawful Good*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +17, reach 15 ft. Hit: 19 (2d8 + 10) Slashing damage plus 9 (2d8) Cold damage.\n\n**Cold Breath (Recharge 5–6).** Constitution Saving Throw: DC 24, each creature in a 90-foot Cone. Failure: 67 (15d8) Cold damage. Success: Half damage.\n\n**Paralyzing Breath.** Constitution Saving Throw: DC 24, each creature in a 90-foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\n**Cold Gale.** Dexterity Saving Throw: DC 23, each creature in a 60-foot-long, 10-foot-wide Line. Failure: 14 (4d6) Cold damage, and the target is pushed up to 30 feet straight away from the dragon. Success: Half damage only. Failure or Success: The dragon can’t take this action again until the start of its next turn."
+}

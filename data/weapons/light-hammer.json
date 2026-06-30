@@ -1,0 +1,24 @@
+{
+  "id": "light-hammer",
+  "kind": "weapon",
+  "name": "Light Hammer",
+  "edition": "2024",
+  "category": "simple",
+  "range": "melee",
+  "damage": "1d4",
+  "damageType": "bludgeoning",
+  "properties": [
+    "light",
+    "thrown"
+  ],
+  "versatileDamage": null,
+  "thrownRange": {
+    "normal": 20,
+    "long": 60
+  },
+  "rangeNormalLong": null,
+  "mastery": "Nick",
+  "weight": "2 lb.",
+  "cost": "2 GP",
+  "text": "# Light Hammer\n\n*Weapon, Simple Melee Weapons*\n\n**Damage:** 1d4 Bludgeoning\n**Properties:** Light,Thrown(Range 20/60)\n**Mastery:** Nick\n**Weight:** 2 lb.\n**Cost:** 2 GP"
+}

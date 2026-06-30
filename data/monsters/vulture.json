@@ -1,0 +1,25 @@
+{
+  "id": "vulture",
+  "kind": "monster",
+  "name": "Vulture",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "Beast",
+  "size": "Large",
+  "type": "Large Beast",
+  "alignment": "Unaligned",
+  "ac": "11",
+  "hp": "19 (3d10 + 3)",
+  "speed": "60 ft.",
+  "stats": {
+    "STR": 18,
+    "DEX": 12,
+    "CON": 13,
+    "INT": 2,
+    "WIS": 12,
+    "CHA": 7
+  },
+  "traits": [],
+  "text": "# Vulture\n\n*Large Beast, Unaligned*\n\n### Actions\n\n**Hooves.** Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
+}

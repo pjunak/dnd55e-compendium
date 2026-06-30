@@ -1,0 +1,23 @@
+{
+  "id": "reincarnate",
+  "kind": "spell",
+  "name": "Reincarnate",
+  "edition": "2024",
+  "level": 5,
+  "school": "Necromancy",
+  "classes": [
+    "druid"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "1 hour",
+  "range": "Touch",
+  "components": [
+    "V",
+    "S",
+    "M"
+  ],
+  "material": "rare oils worth 1,000+ GP, which the spell consumes",
+  "duration": "Instantaneous",
+  "text": "# Reincarnate\n*5th-Level Necromancy (Druid)*\n**Casting Time:** 1 hour\n**Range:** Touch\n**Components:** V, S, M (rare oils worth 1,000+ GP, which the spell consumes)\n**Duration:** Instantaneous\n\nYou touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll 1d10 and consult the table below to determine the body’s species, or the DM chooses another playable species.\n\n|\n 1d10 |\n Species |\n\n|\n 1 |\n Aasimar |\n\n|\n 2 |\n Dragonborn |\n\n|\n 3 |\n Dwarf |\n\n|\n 4 |\n Elf |\n\n|\n 5 |\n Gnome |\n\n|\n 6 |\n Goliath |\n\n|\n 7 |\n Halfling |\n\n|\n 8 |\n Human |\n\n|\n 9 |\n Orc |\n\n|\n 10 |\n Tiefling |\n\nThe reincarnated creature makes any choices that a species’ description offers, and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one."
+}

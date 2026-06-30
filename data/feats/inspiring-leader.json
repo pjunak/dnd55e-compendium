@@ -1,0 +1,22 @@
+{
+  "id": "inspiring-leader",
+  "kind": "feat",
+  "name": "Inspiring Leader",
+  "edition": "2024",
+  "category": "general",
+  "prerequisites": {
+    "text": "Level 4+, Wisdom or Charisma 13+"
+  },
+  "repeatable": false,
+  "grants": {
+    "abilityScoreIncrease": {
+      "choose": 1,
+      "amount": 1,
+      "from": [
+        "WIS",
+        "CHA"
+      ]
+    }
+  },
+  "text": "*Prerequisite: Level 4+, Wisdom or Charisma 13+*\n\nYou gain the following benefits.\n\n**Ability Score Increase.** Increase your Wisdom or Charisma score by 1, to a maximum of 20.\n\n**Bolstering Performance.** When you finish a Short or Long Rest, you can give an inspiring performance: a speech, song, or dance. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself who witness the performance. The chosen creatures each gain Temporary Hit Points equal to your character level plus the modifier of the ability you increased with this feat."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "scout",
+  "kind": "monster",
+  "name": "Scout",
+  "edition": "2024",
+  "cr": "2 (XP 450; PB +2)",
+  "crValue": 2,
+  "creatureType": "Fey",
+  "size": "Medium",
+  "type": "Medium Fey",
+  "alignment": "Chaotic Evil",
+  "ac": "14",
+  "hp": "52 (7d8 + 21)",
+  "speed": "30 ft., Swim 40 ft.",
+  "stats": {
+    "STR": 16,
+    "DEX": 13,
+    "CON": 16,
+    "INT": 12,
+    "WIS": 12,
+    "CHA": 13
+  },
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The hag can breathe air and water."
+    },
+    {
+      "name": "Coven Magic",
+      "text": "While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell’s normal casting time, and using Intelligence as the spellcasting ability (spell save DC 11): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen Servant. The hag must finish a Long Rest before using this trait to cast that spell again."
+    },
+    {
+      "name": "Vile Appearance",
+      "text": "Wisdom Saving Throw: DC 11, any Beast or Humanoid that starts its turn within 30 feet of the hag and can see the hag’s true form. Failure: The target has the Frightened condition until the start of its next turn. Success: The target is immune to this hag’s Vile Appearance for 24 hours."
+    }
+  ],
+  "text": "# Scout\n\n*Medium Fey, Chaotic Evil*\n\n### Actions\n\n**Claw.** Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\n**Death Glare (Recharge 5–6).** Wisdom Saving Throw: DC 11, one Frightened creature the hag can see within 30 feet. Failure: If the target has 20 Hit Points or fewer, it drops to 0 Hit Points. Otherwise, the target takes 13 (3d8) Psychic damage."
+}

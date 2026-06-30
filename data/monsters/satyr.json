@@ -1,0 +1,25 @@
+{
+  "id": "satyr",
+  "kind": "monster",
+  "name": "Satyr",
+  "edition": "2024",
+  "cr": "1/2 (XP 100; PB +2)",
+  "crValue": 0.5,
+  "creatureType": "or Small Humanoid",
+  "size": "Medium",
+  "type": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "ac": "13",
+  "hp": "16 (3d8 + 3)",
+  "speed": "30 ft.",
+  "stats": {
+    "STR": 11,
+    "DEX": 14,
+    "CON": 12,
+    "INT": 11,
+    "WIS": 13,
+    "CHA": 11
+  },
+  "traits": [],
+  "text": "# Satyr\n\n*Medium or Small Humanoid, Neutral*\n\n### Actions\n\n**Shortsword.** Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.\n\n**Longbow.** Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ancient_copper_dragon",
+  "kind": "monster",
+  "name": "Ancient Copper Dragon",
+  "edition": "2024",
+  "cr": "21 (XP 33,000, or 41,000 in lair; PB +7)",
+  "crValue": 21,
+  "creatureType": "Dragon (Metallic)",
+  "size": "Gargantuan",
+  "type": "Gargantuan Dragon (Metallic)",
+  "alignment": "Chaotic Good",
+  "ac": "21",
+  "hp": "367 (21d20 + 147)",
+  "speed": "40 ft., Climb 40 ft., Fly 80 ft.",
+  "stats": {
+    "STR": 27,
+    "DEX": 12,
+    "CON": 25,
+    "INT": 20,
+    "WIS": 17,
+    "CHA": 22
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Acid"
+    },
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "text": "# Ancient Copper Dragon\n\n*Gargantuan Dragon (Metallic), Chaotic Good*\n\n### Actions\n\n**Rend.** Melee Attack Roll: +15, reach 15 ft. Hit: 19 (2d10 + 8) Slashing damage plus 9 (2d8) Acid damage.\n\n**Acid Breath (Recharge 5–6).** Dexterity Saving Throw: DC 22, each creature in an 90-foot-long, 10-foot-wide Line. Failure: 63 (14d8) Acid damage. Success: Half damage.\n\n**Slowing Breath.** Constitution Saving Throw: DC 22, each creature in a 90-foot Cone. Failure: The target can’t take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn.\n\n**Giggling Magic.** Charisma Saving Throw: DC 21, one creature the dragon can see within 120 feet. Failure: 31 (9d6) Psychic damage. Until the end of its next turn, the target rolls 1d8 whenever it makes an ability check or attack roll and subtracts the number rolled from the D20 Test. Failure or Success: The dragon can’t take this action again until the start of its next turn."
+}

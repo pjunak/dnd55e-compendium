@@ -1,0 +1,22 @@
+{
+  "id": "lance",
+  "kind": "weapon",
+  "name": "Lance",
+  "edition": "2024",
+  "category": "martial",
+  "range": "melee",
+  "damage": "1d10",
+  "damageType": "piercing",
+  "properties": [
+    "heavy",
+    "reach",
+    "two-handed"
+  ],
+  "versatileDamage": null,
+  "thrownRange": null,
+  "rangeNormalLong": null,
+  "mastery": "Topple",
+  "weight": "6 lb.",
+  "cost": "10 GP",
+  "text": "# Lance\n\n*Weapon, Martial Melee Weapons*\n\n**Damage:** 1d10 Piercing\n**Properties:** Heavy,Reach,Two-Handed(unless mounted)\n**Mastery:** Topple\n**Weight:** 6 lb.\n**Cost:** 10 GP"
+}

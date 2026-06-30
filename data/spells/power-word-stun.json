@@ -1,0 +1,24 @@
+{
+  "id": "power-word-stun",
+  "kind": "spell",
+  "name": "Power Word Stun",
+  "edition": "2024",
+  "level": 8,
+  "school": "Enchantment",
+  "classes": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard"
+  ],
+  "ritual": false,
+  "concentration": false,
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": [
+    "V"
+  ],
+  "material": "",
+  "duration": "Instantaneous",
+  "text": "# Power Word Stun\n*8th-Level Enchantment (Bard, Sorcerer, Warlock, Wizard)*\n**Casting Time:** Action\n**Range:** 60 feet\n**Components:** V\n**Duration:** Instantaneous\n\nYou overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.\n\nThe Stunned target makes a Constitution saving throw at the end of each of its turns, ending the condition on itself on a success."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "vampires",
+  "kind": "monster",
+  "name": "Vampires",
+  "edition": "2024",
+  "cr": "1/4 (XP 50; PB +2)",
+  "crValue": 0.25,
+  "creatureType": "Plant",
+  "size": "Medium",
+  "type": "Medium Plant",
+  "alignment": "Unaligned",
+  "ac": "5",
+  "hp": "18 (4d8)",
+  "speed": "5 ft.",
+  "stats": {
+    "STR": 3,
+    "DEX": 1,
+    "CON": 10,
+    "INT": 1,
+    "WIS": 3,
+    "CHA": 1
+  },
+  "traits": [
+    {
+      "name": "Immunities",
+      "text": "Blinded, Charmed, Deafened, Frightened"
+    }
+  ],
+  "text": "# Vampires\n\n*Medium Plant, Unaligned*\n\n### Actions\n\n**Rotting Touch.** Melee Attack Roll: +2, reach 10 ft. Hit: 4 (1d8) Necrotic damage."
+}
