@@ -7,7 +7,8 @@
   "entry": "entry.js",
   "permissions": [
     "ui:route",
-    "ui:sidebar"
+    "ui:sidebar",
+    "wiki:kind"
   ],
   "tests": { "client": "tests/smoke.mjs" },
   "summary": "All D&D 5.5e content (declarative mechanics + prose) plus browse pages. Provides a pure data API consumed by the rules engine; useful standalone as a rulebook browser."
