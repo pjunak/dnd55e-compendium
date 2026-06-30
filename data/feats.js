@@ -651,6 +651,19 @@ export const FEATS = [
           ],
           "alwaysPrepared": true,
           "free": "1/long"
+        },
+        {
+          "id": "fey-pick",
+          "choose": 1,
+          "spellLevel": 1,
+          "from": {
+            "school": [
+              "divination",
+              "enchantment"
+            ]
+          },
+          "alwaysPrepared": true,
+          "free": "1/long"
         }
       ]
     },
@@ -1127,6 +1140,19 @@ export const FEATS = [
           ],
           "alwaysPrepared": true,
           "free": "1/long"
+        },
+        {
+          "id": "shadow-pick",
+          "choose": 1,
+          "spellLevel": 1,
+          "from": {
+            "school": [
+              "illusion",
+              "necromancy"
+            ]
+          },
+          "alwaysPrepared": true,
+          "free": "1/long"
         }
       ]
     },
@@ -1448,7 +1474,37 @@ export const FEATS = [
     "category": "origin",
     "prerequisites": {},
     "repeatable": true,
-    "grants": {},
+    "grants": {
+      "spells": [
+        {
+          "id": "mi-cantrips",
+          "choose": 2,
+          "spellLevel": 0,
+          "from": {
+            "class": [
+              "cleric",
+              "druid",
+              "wizard"
+            ]
+          },
+          "alwaysPrepared": true
+        },
+        {
+          "id": "mi-spell",
+          "choose": 1,
+          "spellLevel": 1,
+          "from": {
+            "class": [
+              "cleric",
+              "druid",
+              "wizard"
+            ]
+          },
+          "alwaysPrepared": true,
+          "free": "1/long"
+        }
+      ]
+    },
     "text": "You gain the following benefits.\n\n**Two Cantrips.** You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).\n\n**Level 1 Spell.** Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.\n\n**Spell Change.** Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.\n\n**Repeatable.** You can take this feat more than once, but you must choose a different spell list each time."
   },
   {

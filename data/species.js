@@ -112,12 +112,18 @@ export const SPECIES = [
           "unquantifiable_modifiers": [
             "High Elf lineage: You know one Wizard cantrip of your choice."
           ],
-          "cantrips": {
-            "from": "wizard",
-            "count": 1,
-            "swappable": true
-          },
           "spells": [
+            {
+              "id": "he-cantrip",
+              "choose": 1,
+              "spellLevel": 0,
+              "from": {
+                "class": [
+                  "wizard"
+                ]
+              },
+              "alwaysPrepared": true
+            },
             {
               "level": 3,
               "ids": [

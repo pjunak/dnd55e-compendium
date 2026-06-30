@@ -12,6 +12,8 @@ import { SPELLS } from './spells.js';
 import { ARMOR } from './armor.js';
 import { WEAPONS } from './weapons.js';
 import { SKILLS } from './skills.js';
+import { MONSTERS } from './monsters.js';
+import { RULES } from './rules.js';
 
 /** kind → record array. The `kind` field on each record matches its key here. */
 export const BY_KIND = {
@@ -24,6 +26,8 @@ export const BY_KIND = {
   armor: ARMOR,
   weapon: WEAPONS,
   skill: SKILLS,
+  monster: MONSTERS,
+  rule: RULES,
 };
 
 /** Flat list of every record across all kinds. */
@@ -40,4 +44,6 @@ export const BROWSE_KINDS = [
   { kind: 'spell', labelKey: 'kind.spells' },
   { kind: 'armor', labelKey: 'kind.armor' },
   { kind: 'weapon', labelKey: 'kind.weapons' },
+  { kind: 'monster', labelKey: 'kind.monsters' },
+  { kind: 'rule', labelKey: 'kind.rules' },
 ];

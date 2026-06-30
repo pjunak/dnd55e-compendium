@@ -20,6 +20,8 @@ export default {
   'kind.armor':       'Armor',
   'kind.weapons':     'Weapons',
   'kind.equipment':   'Equipment',
+  'kind.monsters':    'Bestiary',
+  'kind.rules':       'Rules',
 
   // ── Kind labels (singular — detail-page tag next to the title) ───
   'kindName.class':      'Class',
@@ -30,6 +32,8 @@ export default {
   'kindName.spell':      'Spell',
   'kindName.armor':      'Armor',
   'kindName.weapon':     'Weapon',
+  'kindName.monster':    'Monster',
+  'kindName.rule':       'Rule',
 
   // ── Detail-metadata labels ───────────────────────────────────────
   'label.hitDie':        'Hit Die',
@@ -64,6 +68,12 @@ export default {
   'label.stealth':       'Stealth',
   'label.damage':        'Damage',
   'label.properties':    'Properties',
+  'label.ac':            'Armor Class',
+  'label.hp':            'Hit Points',
+  'label.cr':            'Challenge Rating',
+  'label.alignment':     'Alignment',
+  'label.creatureType':  'Type',
+  'label.abilities':     'Ability Scores',
 
   // ── Value vocab ──────────────────────────────────────────────────
   'cast.full':   'full caster',
@@ -94,5 +104,6 @@ export default {
   'misc.unnamed':      '(unnamed)',
   'misc.back':         'Compendium',
   'misc.notFound':     'Not found',
-  'misc.seedNote':     'Representative sample content — the full compendium is migrated in a later milestone.',
+  'misc.seedNote':     'Full 2024 ruleset — classes, species, backgrounds, feats, spells, equipment, the bestiary, and rules reference.',
+  'monster.cr':        'CR {cr}',
 };

@@ -52,6 +52,8 @@ export default function register(host) {
       case 'weapon':   return { ...b, category: rec.category, mastery: rec.mastery };
       case 'species':  return { ...b, size: rec.size };
       case 'skill':    return { ...b, ability: rec.ability };
+      case 'monster':  return { ...b, cr: rec.cr, crValue: rec.crValue, creatureType: rec.creatureType };
+      case 'rule':     return { ...b, category: rec.category };
       default:         return b;
     }
   };
@@ -140,6 +142,8 @@ export default function register(host) {
     else if (r.kind === 'subclass') { const c = getItem('class', r.classId); s = c ? c.name : r.classId; }
     else if (r.kind === 'feat') s = t('feat.' + r.category);
     else if (r.kind === 'species') s = r.size;
+    else if (r.kind === 'monster') s = r.cr ? t('monster.cr', { cr: String(r.cr).split(' ')[0] }) : (r.creatureType || '');
+    else if (r.kind === 'rule') s = r.category;
     return s ? ` <span style="color:var(--text-muted);font-size:var(--text-xs)">· ${esc(s)}</span>` : '';
   }
 
@@ -229,6 +233,23 @@ export default function register(host) {
         txt(t('label.damage'), `${rec.damage} ${rec.damageType}${rec.versatileDamage ? ' (' + rec.versatileDamage + ')' : ''}`);
         txt(t('label.properties'), rec.properties);
         txt(t('label.mastery'), rec.mastery);
+        break;
+      case 'monster': {
+        txt(t('label.creatureType'), [rec.type, rec.alignment].filter(Boolean).join(', '));
+        txt(t('label.ac'), rec.ac);
+        txt(t('label.hp'), rec.hp);
+        txt(t('label.speed'), rec.speed);
+        txt(t('label.cr'), rec.cr);
+        const mod = (s) => { const m = Math.floor((Number(s) - 10) / 2); return (m >= 0 ? '+' : '') + m; };
+        const ab = rec.stats || {};
+        const abStr = ['STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA'].map((a) => `${a} ${ab[a] != null ? ab[a] : 10} (${mod(ab[a])})`).join('   ');
+        out.push({ label: t('label.abilities'), value: esc(abStr) });
+        for (const tr of rec.traits || []) if (tr.name) out.push({ label: tr.name, value: esc(tr.text) });
+        break;
+      }
+      case 'rule':
+        txt(t('label.category'), rec.category);
+        txt(t('label.tags'), rec.tags);
         break;
       default:
         break;

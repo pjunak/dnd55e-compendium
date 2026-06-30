@@ -157,3 +157,31 @@ it's filled to ~level 5 and marked.
 ```jsonc
 { "id": "stealth", "kind": "skill", "name": "Stealth", "ability": "DEX" }
 ```
+
+## `monster`  (reference stat block — browse only; the engine never reads it)
+```jsonc
+{
+  "id": "aboleth", "kind": "monster", "name": "Aboleth", "edition": "2024",
+  "size": "Large", "type": "Large Elemental", "creatureType": "Elemental",  // type = source "<Size> <CreatureType>"; creatureType is the derived tail
+  "alignment": "Neutral",
+  "ac": "15", "hp": "90 (12d10 + 24)", "speed": "10 ft., Fly 90 ft. (hover)",  // kept as display strings
+  "stats": { "STR": 14, "DEX": 20, "CON": 14, "INT": 6, "WIS": 10, "CHA": 6 },
+  "cr": "5 (XP 1,800; PB +3)", "crValue": 5,                 // crValue = parsed leading token (e.g. "1/4" → 0.25) for sorting
+  "traits": [ { "name": "Resistances", "text": "Bludgeoning, Lightning, …" } ],  // from frontmatter (often NOT in the body)
+  "text": "…prose stat block (attacks / saves / damage as readable text)…"
+  // NB: the source's machine-readable `actions` automation is intentionally NOT
+  // shipped (combat is out of scope — see GAPS); re-derivable from Living-scroll.
+}
+```
+
+## `rule`  (reference prose — browse only)
+```jsonc
+{
+  "id": "conditions-grappled", "kind": "rule", "name": "Grappled", "edition": "2024",
+  "category": "conditions",            // the rules topic subdir (or frontmatter category)
+  "tags": ["rule", "condition"],
+  "source": "https://…",               // upstream reference url (frontmatter)
+  "text": "…markdown prose…"
+  // id is PATH-SCOPED (rules nest in topic subdirs) to avoid cross-topic collisions.
+}
+```

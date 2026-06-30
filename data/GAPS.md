@@ -52,8 +52,11 @@ core-rules needs work to act on it.
 ## class (3)
 - no Features table in source markdown — per-level cantrips/prepared come from the curated 2024 fallback (SPELL_PROGRESSION_FALLBACK) — 3 record(s): bard, paladin, ranger
 
-## feat (4)
-- spell grants are in prose — not structured (fixed grants need FEAT_MECHANICS; choose-grants deferred) — 4 record(s): ritual-caster, telekinetic, telepathic, magic-initiate
+## feat (3)
+- spell grants are in prose — not structured (fixed grants need FEAT_MECHANICS; choose-grants deferred) — 3 record(s): ritual-caster, telekinetic, telepathic
+
+## monster (1)
+- machine-readable action automation (damage/save) intentionally NOT shipped — the compendium browses the prose stat block; re-derivable from source for a future combat addon — 1 record(s): (all)
 
 ## spell (1)
 - empty `classes` list in the source — listSpells({class}) cannot class-filter these; the class spell lists are not in the spell frontmatter — 1 record(s): (6 spells)

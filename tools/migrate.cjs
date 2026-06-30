@@ -253,8 +253,10 @@ const SPELL_PROGRESSION_FALLBACK = {
 // `cantrips` (deferred picker, like feat choose-grants).
 const SPECIES_LINEAGE_GRANTS = {
   elf: {
-    'high-elf': { cantrips: { from: 'wizard', count: 1, swappable: true },
-      spells: [{ level: 3, ids: ['detect-magic'], alwaysPrepared: true, free: '1/long' }, { level: 5, ids: ['misty-step'], alwaysPrepared: true, free: '1/long' }] },
+    'high-elf': { spells: [
+      { id: 'he-cantrip', choose: 1, spellLevel: 0, from: { class: ['wizard'] }, alwaysPrepared: true },
+      { level: 3, ids: ['detect-magic'], alwaysPrepared: true, free: '1/long' },
+      { level: 5, ids: ['misty-step'], alwaysPrepared: true, free: '1/long' }] },
     'wood-elf': { speedBonus: 5,
       spells: [{ level: 0, ids: ['druidcraft'], alwaysPrepared: true }, { level: 3, ids: ['longstrider'], alwaysPrepared: true, free: '1/long' }, { level: 5, ids: ['pass-without-trace'], alwaysPrepared: true, free: '1/long' }] },
     'drow': { senses: { darkvision: 120 },
@@ -279,8 +281,23 @@ const SPECIES_LINEAGE_GRANTS = {
 // Initiate "pick 2 cantrips") stay deferred. Ability increases are mapped
 // generically from frontmatter `attribute_increase` (see featGrants).
 const FEAT_MECHANICS = {
-  'fey-touched': { spells: [{ level: 1, ids: ['misty-step'], alwaysPrepared: true, free: '1/long' }] },
-  'shadow-touched': { spells: [{ level: 1, ids: ['invisibility'], alwaysPrepared: true, free: '1/long' }] },
+  // A FIXED grant + a CHOOSE-1 (school-filtered). The picker resolves the choice;
+  // the engine grants whatever the player picks (`grantChoices` keyed by the id).
+  'fey-touched': { spells: [
+    { level: 1, ids: ['misty-step'], alwaysPrepared: true, free: '1/long' },
+    { id: 'fey-pick', choose: 1, spellLevel: 1, from: { school: ['divination', 'enchantment'] }, alwaysPrepared: true, free: '1/long' },
+  ] },
+  'shadow-touched': { spells: [
+    { level: 1, ids: ['invisibility'], alwaysPrepared: true, free: '1/long' },
+    { id: 'shadow-pick', choose: 1, spellLevel: 1, from: { school: ['illusion', 'necromancy'] }, alwaysPrepared: true, free: '1/long' },
+  ] },
+  // Magic Initiate (2024 generic): 2 cantrips + 1 level-1 spell from the Cleric,
+  // Druid, OR Wizard list. Modeled as the union (the class-choice sub-step is
+  // collapsed into one combined pool — a reasonable simplification).
+  'magic-initiate': { spells: [
+    { id: 'mi-cantrips', choose: 2, spellLevel: 0, from: { class: ['cleric', 'druid', 'wizard'] }, alwaysPrepared: true },
+    { id: 'mi-spell', choose: 1, spellLevel: 1, from: { class: ['cleric', 'druid', 'wizard'] }, alwaysPrepared: true, free: '1/long' },
+  ] },
 };
 
 // Merge frontmatter features + parsed/curated spell counts into a per-level
@@ -478,6 +495,49 @@ function mapSubclass(file, classId) {
   };
 }
 
+// Leading CR token → number for sorting ("1/4 (XP 50)" → 0.25, "5 (XP …)" → 5).
+function parseCrValue(cr) {
+  const s = String(cr || '').trim();
+  const frac = s.match(/^(\d+)\s*\/\s*(\d+)/);
+  if (frac) return +frac[1] / +frac[2];
+  const whole = s.match(/^(\d+(?:\.\d+)?)/);
+  return whole ? +whole[1] : null;
+}
+function mapMonster(file) {
+  const { fm, body } = parseFile(file);
+  const id = baseId(file, fm.id);
+  const stats = fm.stats || {};
+  const statsOut = {};
+  for (const a of ['str', 'dex', 'con', 'int', 'wis', 'cha']) statsOut[a.toUpperCase()] = num(stats[a], 10);
+  const size = String(fm.size || '').trim();
+  const typeRaw = String(fm.type || '').trim();   // source `type` is "<Size> <CreatureType>" (e.g. "Large Elemental")
+  const creatureType = (size && typeRaw.toLowerCase().startsWith(size.toLowerCase())) ? typeRaw.slice(size.length).trim() : typeRaw;
+  return {
+    id, kind: 'monster', name: fm.name || id, edition: '2024',
+    size, type: typeRaw, creatureType, alignment: String(fm.alignment || ''),
+    ac: String(fm.ac || ''), hp: String(fm.hp || ''), speed: String(fm.speed || ''),
+    stats: statsOut, cr: String(fm.cr || ''), crValue: parseCrValue(fm.cr),
+    traits: (fm.traits || []).map((tr) => ({ name: tr.name || '', text: tr.description || '' })),
+    // The compendium is a REFERENCE browser, not a combat engine: the prose body
+    // already carries the human-readable stat block (attacks, saves, damage), so
+    // the source's machine-readable `actions` automation is intentionally NOT
+    // shipped (it bloats boot data for a feature that may never exist). It stays
+    // in Living-scroll and is re-derivable in one line if a combat addon is built.
+    text: body,
+  };
+}
+function mapRule(file, subdir) {
+  const { fm, body } = parseFile(file);
+  const base = path.basename(file, '.md');
+  const title = fm.title || fm.name || base.replace(/[_-]+/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+  return {
+    id: slug((subdir ? subdir + '-' : '') + base),   // path-scoped id (rules nest in topic subdirs) — avoids collisions
+    kind: 'rule', name: title, edition: '2024',
+    category: String(fm.category || subdir || ''), tags: Array.isArray(fm.tags) ? fm.tags : [],
+    source: String(fm.source || ''), text: body,
+  };
+}
+
 // ── run ──────────────────────────────────────────────────────────
 function write(name, constName, records) {
   const header = `// GENERATED by tools/migrate.cjs from Living-scroll — do not hand-edit.\n`
@@ -519,6 +579,17 @@ function main() {
   }
   counts.classes = write('classes.js', 'CLASSES', classes);
   counts.subclasses = write('subclasses.js', 'SUBCLASSES', subclasses);
+
+  // Bestiary + rules — reference CONTENT (browse only; the engine never reads them).
+  const monsterRecs = listFiles(path.join(phb, 'monsters')).map(mapMonster);
+  counts.monsters = write('monsters.js', 'MONSTERS', monsterRecs);
+  gap('monster', '(all)', 'machine-readable action automation (damage/save) intentionally NOT shipped — the compendium browses the prose stat block; re-derivable from source for a future combat addon');
+  const rulesRoot = path.join(phb, 'rules');
+  const ruleRecs = listFiles(rulesRoot).map((f) => {
+    const dir = path.dirname(path.relative(rulesRoot, f));
+    return mapRule(f, dir === '.' ? '' : dir.split(/[\\/]/)[0]);
+  });
+  counts.rules = write('rules.js', 'RULES', ruleRecs);
 
   // GAPS report
   const byKind = {};

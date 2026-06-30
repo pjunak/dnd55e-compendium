@@ -77,13 +77,16 @@ test('compendium: per-level spellcasting + species/lineage/feat grants are struc
   // Lineage grants structured (spells + senses override).
   const lineages = api.getItem('species', 'elf').lineages || [];
   const he = lineages.find((l) => l.id === 'high-elf');
-  assert.ok(he && he.grants.spells && he.grants.spells.some((s) => s.ids.includes('misty-step')), 'high-elf lineage grants spells');
+  assert.ok(he && he.grants.spells && he.grants.spells.some((s) => s.ids && s.ids.includes('misty-step')), 'high-elf lineage grants spells');
+  assert.ok(he.grants.spells.some((s) => s.id === 'he-cantrip' && s.choose === 1), 'high-elf wizard-cantrip choose-grant');
   assert.equal((lineages.find((l) => l.id === 'drow').grants.senses || {}).darkvision, 120, 'drow lineage darkvision');
   assert.equal(api.getItem('species', 'dwarf').lineages.find((l) => l.id === 'hill-dwarf').grants.hpPerLevel, 1, 'Dwarven Toughness hpPerLevel');
   // Feat grants structured (ability + fixed spell + hpPerLevel).
   const fey = api.getItem('feat', 'fey-touched');
   assert.deepEqual(fey.grants.abilityScoreIncrease.from, ['INT', 'WIS', 'CHA'], 'fey-touched half-feat abilities');
-  assert.ok(fey.grants.spells.some((s) => s.ids.includes('misty-step')), 'fey-touched grants Misty Step');
+  assert.ok(fey.grants.spells.some((s) => s.ids && s.ids.includes('misty-step')), 'fey-touched grants Misty Step (fixed)');
+  assert.ok(fey.grants.spells.some((s) => s.choose === 1 && s.from && s.from.school), 'fey-touched also has a choose-1 school grant');
+  assert.ok(api.getItem('feat', 'magic-initiate').grants.spells.some((s) => s.id === 'mi-cantrips' && s.choose === 2), 'magic-initiate choose-grants structured');
   assert.equal(api.getItem('feat', 'tough').grants.hpPerLevel, 2, 'Tough hpPerLevel');
   // Subclass feature headings parsed into a structured list.
   assert.ok((api.getItem('subclass', 'life-domain').features || []).length >= 1, 'subclass features parsed');
@@ -113,6 +116,38 @@ test('compendium: spell queries filter by level and class', () => {
   // works for spells the source tagged — fireball is [sorcerer, wizard].
   assert.ok(api.listSpells({ class: 'wizard' }).some(s => s.id === 'fireball'), 'filter by class (where tagged)');
   assert.ok(api.listSubclasses('cleric').some(s => s.id === 'life-domain'), 'subclasses by class');
+});
+
+test('compendium: bestiary + rules migrated as browsable reference content', () => {
+  const { rec } = dryRunRegister(register, META);
+  const api = rec.provided;
+  assert.ok((api.getRecords('monster') || []).length >= 300, 'bestiary migrated (333 creatures)');
+  assert.ok((api.getRecords('rule') || []).length >= 20, 'rules migrated');
+  // A monster: structured stat-block header + ability scores + preserved prose.
+  const ab = api.getItem('monster', 'aboleth');
+  assert.ok(ab, 'aboleth resolves');
+  assert.equal(ab.stats.STR, 14, 'ability scores structured');
+  assert.ok(ab.ac && ab.hp && ab.cr, 'AC / HP / CR present');
+  assert.equal(ab.crValue, 5, 'CR parsed to a sortable number');
+  assert.ok(/Thunderous Slam/i.test(ab.text || ''), 'prose stat block (attacks) preserved');
+  assert.equal(ab.actions, undefined, 'machine-readable combat automation intentionally NOT shipped');
+  assert.ok((ab.traits || []).some((tr) => /Resistance|Immunit/i.test(tr.name)), 'frontmatter traits structured');
+  // A rule (path-scoped id; prose preserved).
+  const gl = api.getItem('rule', 'glossary');
+  assert.ok(gl && /Glossary/i.test(gl.name), 'rules glossary resolves by id');
+  assert.ok(gl.text && gl.text.length > 100, 'rule prose preserved');
+  // Browse + wiki-kinds for both new kinds.
+  assert.ok(rec.wikiKinds.some((w) => w.scope === 'monster'), '[[…|monster]] wiki kind');
+  assert.ok(rec.wikiKinds.some((w) => w.scope === 'rule'), '[[…|rule]] wiki kind');
+  assert.deepEqual(rec.wikiKinds.find((w) => w.scope === 'monster').resolve('Aboleth'), { kind: 'compendium', id: 'monster:aboleth' });
+});
+
+test('compendium: a monster detail page renders a stat block', () => {
+  const { rec } = dryRunRegister(register, META);
+  const html = rec.routes.find((r) => r.segment === 'compendium').render('monster:aboleth');
+  assert.match(html, /Aboleth/, 'name');
+  assert.match(html, /Armor Class|Hit Points|Challenge Rating/, 'stat-block labels');
+  assert.match(html, /STR 14/, 'ability scores with values');
 });
 
 test('compendium: a [[Name|spell]] wiki kind resolves to a compendium detail link', () => {
