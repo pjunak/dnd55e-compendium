@@ -58,7 +58,15 @@
       }
     }
   ],
-  "classResources": [],
+  "classResources": [
+    {
+      "key": "focus-points",
+      "name": "Focus Points",
+      "recharge": [{ "on": "short", "amount": "full" }],
+      "minLevel": 2,
+      "perLevel": 1
+    }
+  ],
   "progression": [
     {
       "level": 1,

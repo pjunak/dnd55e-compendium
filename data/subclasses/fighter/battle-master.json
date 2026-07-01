@@ -6,6 +6,18 @@
   "subclassLevel": 3,
   "spells": [],
   "spellcasting": null,
+  "classResources": [
+    {
+      "key": "superiority-dice",
+      "name": "Superiority Dice",
+      "recharge": [{ "on": "short", "amount": "full" }],
+      "progression": [
+        { "level": 3, "max": 4 },
+        { "level": 7, "max": 5 },
+        { "level": 15, "max": 6 }
+      ]
+    }
+  ],
   "features": [
     {
       "level": 3,

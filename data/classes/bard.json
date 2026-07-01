@@ -47,7 +47,15 @@
     "preparedFormula": "CHA + level"
   },
   "acFormulas": [],
-  "classResources": [],
+  "classResources": [
+    {
+      "key": "bardic-inspiration",
+      "name": "Bardic Inspiration",
+      "recharge": [{ "on": "long", "amount": "full" }],
+      "abilityMod": "CHA",
+      "min": 1
+    }
+  ],
   "progression": [
     {
       "level": 1,

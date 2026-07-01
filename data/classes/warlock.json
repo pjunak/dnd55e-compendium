@@ -51,7 +51,23 @@
     "preparedFormula": null
   },
   "acFormulas": [],
-  "classResources": [],
+  "classResources": [
+    {
+      "key": "pact-slots",
+      "name": "Pact Magic Slots",
+      "recharge": [{ "on": "short", "amount": "full" }],
+      "progression": [
+        { "level": 1, "max": 1 },
+        { "level": 2, "max": 2 },
+        { "level": 11, "max": 3 },
+        { "level": 17, "max": 4 }
+      ]
+    },
+    { "key": "mystic-arcanum-6", "name": "Mystic Arcanum (6th)", "minLevel": 11, "fixed": 1, "recharge": [{ "on": "long", "amount": "full" }] },
+    { "key": "mystic-arcanum-7", "name": "Mystic Arcanum (7th)", "minLevel": 13, "fixed": 1, "recharge": [{ "on": "long", "amount": "full" }] },
+    { "key": "mystic-arcanum-8", "name": "Mystic Arcanum (8th)", "minLevel": 15, "fixed": 1, "recharge": [{ "on": "long", "amount": "full" }] },
+    { "key": "mystic-arcanum-9", "name": "Mystic Arcanum (9th)", "minLevel": 17, "fixed": 1, "recharge": [{ "on": "long", "amount": "full" }] }
+  ],
   "progression": [
     {
       "level": 1,

@@ -6,6 +6,17 @@
   "subclassLevel": 3,
   "spells": [],
   "spellcasting": null,
+  "classResources": [
+    {
+      "key": "portent",
+      "name": "Portent",
+      "recharge": [{ "on": "long", "amount": "full" }],
+      "progression": [
+        { "level": 3, "max": 2 },
+        { "level": 14, "max": 3 }
+      ]
+    }
+  ],
   "features": [
     {
       "level": 3,

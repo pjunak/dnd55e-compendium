@@ -56,7 +56,19 @@
     "preparedFormula": "WIS + level"
   },
   "acFormulas": [],
-  "classResources": [],
+  "classResources": [
+    {
+      "key": "wild-shape",
+      "name": "Wild Shape",
+      "recharge": [{ "on": "short", "amount": "full" }],
+      "minLevel": 2,
+      "progression": [
+        { "level": 2, "max": 2 },
+        { "level": 6, "max": 3 },
+        { "level": 17, "max": 4 }
+      ]
+    }
+  ],
   "progression": [
     {
       "level": 1,

@@ -6,6 +6,20 @@
   "subclassLevel": 3,
   "spells": [],
   "spellcasting": null,
+  "classResources": [
+    {
+      "key": "psionic-energy",
+      "name": "Psionic Energy Dice",
+      "recharge": [{ "on": "short", "amount": 1 }, { "on": "long", "amount": "full" }],
+      "progression": [
+        { "level": 3, "max": 4 },
+        { "level": 5, "max": 6 },
+        { "level": 9, "max": 8 },
+        { "level": 13, "max": 10 },
+        { "level": 17, "max": 12 }
+      ]
+    }
+  ],
   "features": [
     {
       "level": 3,

@@ -52,7 +52,9 @@
     "preparedFormula": "INT + level"
   },
   "acFormulas": [],
-  "classResources": [],
+  "classResources": [
+    { "key": "arcane-recovery", "name": "Arcane Recovery", "fixed": 1, "recharge": [{ "on": "long", "amount": "full" }] }
+  ],
   "progression": [
     {
       "level": 1,

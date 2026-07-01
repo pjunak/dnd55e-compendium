@@ -52,7 +52,15 @@
     "preparedFormula": null
   },
   "acFormulas": [],
-  "classResources": [],
+  "classResources": [
+    {
+      "key": "sorcery-points",
+      "name": "Sorcery Points",
+      "recharge": [{ "on": "long", "amount": "full" }],
+      "minLevel": 2,
+      "perLevel": 1
+    }
+  ],
   "progression": [
     {
       "level": 1,

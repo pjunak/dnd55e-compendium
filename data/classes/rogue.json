@@ -49,7 +49,9 @@
   "subclassLevel": 3,
   "spellcasting": null,
   "acFormulas": [],
-  "classResources": [],
+  "classResources": [
+    { "key": "stroke-of-luck", "name": "Stroke of Luck", "minLevel": 20, "fixed": 1, "recharge": [{ "on": "short", "amount": "full" }] }
+  ],
   "progression": [
     {
       "level": 1,
